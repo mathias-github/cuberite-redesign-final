@@ -484,10 +484,11 @@ a.post-title:hover, a.post-title:focus {
 }
 /* Pagination */
 #pagination {
-	padding: 20px 0 20px 0;
+	padding: 30px 0 10px 0;
 }
 #pagination a {
 	color: rgba(255,255,255,0.7);
+	padding: 0 10px 0 10px;
 }
 #pagination a:hover, #pagination a:focus {
 	color: rgba(255,255,255,0.9);
@@ -495,7 +496,12 @@ a.post-title:hover, a.post-title:focus {
 #pagination em {
 	background: #fff;
 	color: #111010;
+	text-shadow: none;
 	padding: 7px 14px 7px 14px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
 }
 /* Footer */
 #footer {
