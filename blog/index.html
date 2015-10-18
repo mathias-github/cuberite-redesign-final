@@ -8,7 +8,7 @@ icon: blog
 <h2 id="{{ page.icon }}">{{ page.title }}</h2>
 {% for post in paginator.posts %}
 <div class="post">
-<h3 class="main"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+<h3 class="main"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 {{ post.content }}
 <div class="postfooter">
 Written on {{ post.date | date: "%B %e, %Y" }}
