@@ -482,6 +482,17 @@ a.post-title:hover, a.post-title:focus {
 	font-size: 0.875em;
 	color: rgba(255,255,255,0.6);
 }
+/* Pagination */
+#pagination a {
+	color: rgba(255,255,255,0.7);
+}
+#pagination a:hover, #pagination a:focus {
+	color: rgba(255,255,255,0.9);
+}
+#pagination em {
+	background: #fff;
+	padding: 7px;
+}
 /* Footer */
 #footer {
 	background-color: rgba(0,0,0,.6);
