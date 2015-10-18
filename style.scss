@@ -168,7 +168,7 @@ h2 {
 	text-align: center;
 	font-size: 1.500em;
 }
-h3, .post-title {
+h3 {
 	font-size: 1.125em;
 	margin: 0 0 15px 0;
 }
@@ -455,7 +455,8 @@ a, input, #dropdownmenu label, button {
 }
 .post-title {
 	color: rgba(255,255,255,0.7);
-	padding: 0.625em 0 0 0;
+	font-size: 1.125em;
+	padding: 0.625em 0 0.938em 0;
 	text-transform: uppercase;
 	font-style: normal;
 	font-weight: normal;
