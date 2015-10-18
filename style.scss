@@ -317,7 +317,7 @@ a, input, #dropdownmenu label, button {
 	vertical-align: middle;
 	position: relative;
 }
-#blog:before, #contribute:before, #license:before, #newsletter:before, #notfound:before, #plugin:before {
+#blog:before, #contribute:before, #newsletter:before, #notfound:before, #plugin:before {
 	margin-right: 1.5%;
 }
 #blog:before {
@@ -331,6 +331,7 @@ a, input, #dropdownmenu label, button {
 #license:before {
 	content: "\f0e3";
 	top: -1px;
+	margin-right: 1.4%;
 }
 #newsletter:before {
 	content: "\f1d8";
