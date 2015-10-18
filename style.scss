@@ -456,11 +456,14 @@ a, input, #dropdownmenu label, button {
 .post-title {
 	color: rgba(255,255,255,0.7);
 	padding: 0.625em 0 0 0;
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: normal;
 }
-.post-title a {
+a.post-title {
 	color: rgba(255,255,255,0.7);
 }
-.post-title a:hover, .post-title a:focus {
+a.post-title:hover, a.post-title:focus {
 	color: rgba(255,255,255,0.9);
 }
 .post:first-of-type {
