@@ -351,7 +351,7 @@ a, input, #dropdownmenu label, button {
 }
 #row1 a:hover, #row1 a:focus, #row2 a:hover, #row2 a:focus, button:hover, button:focus {
 	background-color: rgba(255,255,255,.75);
-	color: #101010;
+	color: #111010;
 }
 #source {
 	display: block;
@@ -371,7 +371,7 @@ a, input, #dropdownmenu label, button {
 	width: 100%;
 }
 #row1 a, #row2 a {
-	color: #101010;
+	color: #111010;
 	background: #fff;
 	font-size: 1.125em;
 	-moz-border-radius: 5px;
@@ -483,6 +483,9 @@ a.post-title:hover, a.post-title:focus {
 	color: rgba(255,255,255,0.6);
 }
 /* Pagination */
+#pagination {
+	padding: 20px 0 20px 0;
+}
 #pagination a {
 	color: rgba(255,255,255,0.7);
 }
@@ -491,7 +494,8 @@ a.post-title:hover, a.post-title:focus {
 }
 #pagination em {
 	background: #fff;
-	padding: 7px;
+	color: #111010;
+	padding: 7px 14px 7px 14px;
 }
 /* Footer */
 #footer {
