@@ -12,7 +12,7 @@ icon: blog
 {{ post.content }}
 <div class="postfooter">Written on {{ post.date | date: "%B %e, %Y" }}</div>
 </div>{% endfor %}{% if paginator.total_pages != 1 %}{% if paginator.total_pages < 7 %}
-<div class="pagination">{% if paginator.total_pages >= 10 %}{% if paginator.previous_page %}
+<div id="pagination">{% if paginator.total_pages >= 10 %}{% if paginator.previous_page %}
 <a href="/blog/">&laquo;&laquo;</a>{% endif %}{% endif %}{% if paginator.previous_page %}{% if paginator.previous_page == 1 %}
 <a href="/blog/">&laquo;</a>{% else %}
 <a href="/blog/page/{{paginator.previous_page}}">&laquo;</a>{% endif %}{% endif %}{% if paginator.page == 1 %}
