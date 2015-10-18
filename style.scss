@@ -168,15 +168,9 @@ h2 {
 	text-align: center;
 	font-size: 1.500em;
 }
-h3 {
+h3, .post-title {
 	font-size: 1.125em;
 	margin: 0 0 15px 0;
-}
-h3 a {
-	color: rgba(255,255,255,0.7);
-}
-h3 a:hover, h3 a:focus {
-	color: rgba(255,255,255,0.9);
 }
 p {
 	line-height: 1.6;
@@ -459,16 +453,22 @@ a, input, #dropdownmenu label, button {
 	padding: 2.500em 0 2.375em 0;
 	border-bottom: 1px dashed rgba(255,255,255,.08);
 }
+.post-title {
+	color: rgba(255,255,255,0.7);
+	padding: 0.625em 0 0 0;
+}
+.post-title a {
+	color: rgba(255,255,255,0.7);
+}
+.post-title a:hover, .post-title a:focus {
+	color: rgba(255,255,255,0.9);
+}
 .post:first-of-type {
 	padding: 0.625em 0 2.375em 0;
 }
 .post:last-child {
 	padding: 2.500em 0 0 0;
 	border: 0;
-}
-.post-title {
-	color: rgba(255,255,255,0.7);
-	padding: 0.625em 0 0 0;
 }
 .postfooter {
 	font-size: 0.875em;
