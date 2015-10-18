@@ -313,11 +313,11 @@ a, input, #dropdownmenu label, button {
 #main-body {
 	padding: 6% 10% 6% 10%;
 }
-#blog:before, #contribute:before, #license, #newsletter:before, #notfound:before, #plugin:before, #support:before {
+#blog:before, #contribute:before, #license:before, #newsletter:before, #notfound:before, #plugin:before, #support:before {
 	vertical-align: middle;
 	position: relative;
 }
-#blog:before, #contribute:before, #license, #newsletter:before, #notfound:before, #plugin:before {
+#blog:before, #contribute:before, #license:before, #newsletter:before, #notfound:before, #plugin:before {
 	margin-right: 1.5%;
 }
 #blog:before {
@@ -330,7 +330,7 @@ a, input, #dropdownmenu label, button {
 }
 #license:before {
 	content: "\f0e3";
-	top: -2px;
+	top: -1px;
 }
 #newsletter:before {
 	content: "\f1d8";
