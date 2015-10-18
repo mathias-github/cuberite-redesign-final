@@ -269,7 +269,7 @@ a, input, #dropdownmenu label, button {
 	display: block;
 	position: fixed;
 }
-#dropdown {
+#dropdown, #fdropdown {
 	background: rgba(0,0,0,0.9);
 	right: 0;
 	width: 100%;
@@ -282,7 +282,7 @@ a, input, #dropdownmenu label, button {
 	display: block;
 	font-size: 0.938em;
 }
-#dropdown a:hover {
+#dropdown a:hover, #fdropdown a:hover {
 	background: rgba(0,0,0,1);
 }
 /* Intro */
