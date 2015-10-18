@@ -1,4 +1,4 @@
-baseurl: "/cuberite-redesign"
+baseurl: "/"
 markdown: redcarpet
 highlighter: pygments
 permalink: /blog/:title/
