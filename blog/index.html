@@ -20,34 +20,34 @@ Written on {{ post.date | date: "%B %e, %Y" }}
 <div class="pagination">
 {% if paginator.total_pages >= 10 %} 
 {% if paginator.previous_page %}
-<a href="/">&laquo;&laquo;</a>
+<a href="/blog/">&laquo;&laquo;</a>
 {% endif %}
 {% endif %}
 {% if paginator.previous_page %}
 {% if paginator.previous_page == 1 %}
-<a href="/">&laquo;</a>
+<a href="/blog/">&laquo;</a>
 {% else %}
-<a href="/page/{{paginator.previous_page}}">&laquo;</a>
+<a href="/blog/page/{{paginator.previous_page}}">&laquo;</a>
 {% endif %}
 {% endif %}
 {% if paginator.page == 1 %}
 <em>1</em>
 {% else %}
-<a href="/">1</a>
+<a href="/blog/">1</a>
 {% endif %}
 {% for count in (2..paginator.total_pages) %}
 {% if count == paginator.page %}
 <em>{{count}}</em>
 {% else %}
-<a href="/page/{{count}}">{{count}}</a>
+<a href="/blog/page/{{count}}">{{count}}</a>
 {% endif %}
 {% endfor %}
 {% if paginator.next_page %}
-<a href="/page/{{paginator.next_page}}">&raquo;</a>
+<a href="/blog/page/{{paginator.next_page}}">&raquo;</a>
 {% endif %}
 {% if paginator.total_pages >= 10 %} 
 {% if paginator.next_page %}
-<a href="/page/{{paginator.total_pages}}">&raquo;&raquo;</a>
+<a href="/blog/page/{{paginator.total_pages}}">&raquo;&raquo;</a>
 {% endif %}
 {% endif %}
 </div>
@@ -69,14 +69,14 @@ Written on {{ post.date | date: "%B %e, %Y" }}
 <div class="pagination">
 {% if paginator.total_pages > 5 %} 
 {% if paginator.previous_page %}
-<a href="/">&laquo;&laquo;</a>
+<a href="/blog/">&laquo;&laquo;</a>
 {% endif %}
 {% endif %}
 {% if paginator.previous_page %}
 {% if paginator.previous_page == 1 %}
-<a href="/">&laquo;</a>
+<a href="/blog/">&laquo;</a>
 {% else %}
-<a href="/page/{{paginator.previous_page}}">&laquo;</a>
+<a href="/blog/page/{{paginator.previous_page}}">&laquo;</a>
 {% endif %}
 {% endif %}
 {% if page_start == 1 %}
@@ -85,22 +85,22 @@ Written on {{ post.date | date: "%B %e, %Y" }}
 {% if paginator.page == 1 %}
 <em>1</em>
 {% else %}
-<a href="/">1</a>
+<a href="/blog/">1</a>
 {% endif %}
 {% endif %}
 {% for count in (page_start..page_end) %}
 {% if count == paginator.page %}
 <em>{{count}}</em>
 {% else %}
-<a href="/page/{{count}}">{{count}}</a>
+<a href="/blog/page/{{count}}">{{count}}</a>
 {% endif %}
 {% endfor %}
 {% if paginator.next_page %}
-<a href="/page/{{paginator.next_page}}">&raquo;</a>
+<a href="/blog/page/{{paginator.next_page}}">&raquo;</a>
 {% endif %}
 {% if paginator.total_pages > 5 %} 
 {% if paginator.next_page %}
-<a href="/page/{{paginator.total_pages}}">&raquo;&raquo;</a>
+<a href="/blog/page/{{paginator.total_pages}}">&raquo;&raquo;</a>
 {% endif %}
 {% endif %}
 </ul>
