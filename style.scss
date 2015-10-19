@@ -636,6 +636,9 @@ h1 {
 	margin-top: 2.1em;
 	font-size: 88%;
 }
+#row1 h2 {
+	font-size: 140%;
+}
 #row1 a, #row2 a {
 	padding: 8px 24px 8px 12px;
 	font-size: 104%;
@@ -663,6 +666,9 @@ h1 {
 @media (max-width:667px){
 h1 {
 	font-size: 240%;
+}
+#row1 h2 {
+	font-size: 130%;
 }
 }
 @media (max-width:567px){
