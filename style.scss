@@ -540,7 +540,7 @@ a.post-title:hover, a.post-title:focus {
 /* Inputs */
 button {
 	border: none;
-	background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.2);
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
@@ -553,7 +553,7 @@ button {
 	font-family: montserratregular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 button:hover, button:focus {
-	background: #000;
+	background: rgba(0,0,0,0.3);
 	outline: none;
 }
 input {
