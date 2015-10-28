@@ -367,6 +367,7 @@ a, input, #dropdownmenu label, button {
 }
 #row1 h2 {
 	margin-bottom: 1.175em;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
 #row1 a, #row2 a {
 	color: #2F4D13;
@@ -447,7 +448,7 @@ a, input, #dropdownmenu label, button {
 /* Blog */
 .post {
 	padding: 2.500em 0 2.375em 0;
-	border-bottom: 1px dashed rgba(255,255,255,.08);
+	border-bottom: 1px dashed rgba(255,255,255,.15);
 }
 .post-title {
 	color: rgba(255,255,255,0.7);
