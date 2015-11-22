@@ -1,8 +1,8 @@
 markdown: redcarpet
 highlighter: pygments
-permalink: /blog/:title/
+permalink: /news/:title/
 paginate: 5
-paginate_path: "/blog/page/:num/"
+paginate_path: "/news/page/:num/"
 sass:
   style: :compressed
 gems:
