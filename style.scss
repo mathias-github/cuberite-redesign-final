@@ -193,7 +193,7 @@ a, input, #dropdownmenu label, button {
 	display: table-row;
 	height: 1px;
 }
-#logo a:before, #dropdownmenu label:before, #speed, #foss, #plugins, #blog:before, #contribute:before, #discuss:before, #license:before, #newsletter:before, #notfound:before, #plugin:before, #support:before, #footer span:before, #fdropdownmenu label:before {
+#logo a:before, #dropdownmenu label:before, #speed, #foss, #plugins, #blog:before, #contribute:before, #irc:before, #license:before, #newsletter:before, #notfound:before, #plugin:before, #support:before, #footer span:before, #fdropdownmenu label:before {
 	font-family: 'icons';
 	font-style: normal;
 	font-weight: normal;
@@ -307,11 +307,11 @@ a, input, #dropdownmenu label, button {
 #main-body {
 	padding: 6% 10% 6% 10%;
 }
-#blog:before, #contribute:before, #discuss:before, #license:before, #newsletter:before, #notfound:before, #plugin:before, #support:before {
+#blog:before, #contribute:before, #irc:before, #license:before, #newsletter:before, #notfound:before, #plugin:before, #support:before {
 	vertical-align: middle;
 	position: relative;
 }
-#blog:before, #contribute:before, #discuss:before, #newsletter:before, #notfound:before, #plugin:before {
+#blog:before, #contribute:before, #irc:before, #newsletter:before, #notfound:before, #plugin:before {
 	margin-right: 1.5%;
 }
 #blog:before {
@@ -322,7 +322,7 @@ a, input, #dropdownmenu label, button {
 	content: "\f009";
 	top: -2px;
 }
-#discuss:before {
+#irc:before {
 	content: "\f04f";
 	top: -1px;
 	font-size: 1.220em;
