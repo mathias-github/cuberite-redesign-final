@@ -193,7 +193,7 @@ a, input, #dropdownmenu label, button {
 	display: table-row;
 	height: 1px;
 }
-#logo a:before, #dropdownmenu label:before, #speed, #foss, #plugins, #blog:before, #contribute:before, #irc:before, #license:before, #newsletter:before, #notfound:before, #plugin:before, #support:before, #footer span:before, #fdropdownmenu label:before {
+#logo a:before, #dropdownmenu label:before, #speed, #foss, #plugins, #contribute:before, #irc:before, #license:before, #news:before, #notfound:before, #plugin:before, #support:before, #footer span:before, #fdropdownmenu label:before {
 	font-family: 'icons';
 	font-style: normal;
 	font-weight: normal;
@@ -307,16 +307,12 @@ a, input, #dropdownmenu label, button {
 #main-body {
 	padding: 6% 10% 6% 10%;
 }
-#blog:before, #contribute:before, #irc:before, #license:before, #newsletter:before, #notfound:before, #plugin:before, #support:before {
+#contribute:before, #irc:before, #license:before, #news:before, #notfound:before, #plugin:before, #support:before {
 	vertical-align: middle;
 	position: relative;
 }
-#blog:before, #contribute:before, #irc:before, #newsletter:before, #notfound:before, #plugin:before {
+#contribute:before, #irc:before, #news:before, #notfound:before, #plugin:before {
 	margin-right: 1.5%;
-}
-#blog:before {
-	content: "\f0a1";
-	top: -2px;
 }
 #contribute:before {
 	content: "\f009";
@@ -332,8 +328,8 @@ a, input, #dropdownmenu label, button {
 	top: -1px;
 	margin-right: 1.4%;
 }
-#newsletter:before {
-	content: "\f1d8";
+#news:before {
+	content: "\f0a1";
 	top: -2px;
 }
 #notfound:before {
@@ -645,7 +641,7 @@ h1 {
 #dropdownmenu, #fdropdownmenu {
 	display: block;
 }
-#contribute:before, #newsletter:before, #notfound:before {
+#contribute:before, #notfound:before {
 	margin-right: 10px;
 }
 #support:before {
