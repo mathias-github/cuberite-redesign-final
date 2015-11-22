@@ -362,15 +362,17 @@ a, input, #dropdownmenu label, button {
 }
 #source a {
 	color: rgba(255,255,255,.7);
+	margin-right: 10px;
+	margin-left: 10px;
 }
 #source a:hover, #source a:focus {
 	color: #fff;
 }
 #source a:first-child {
-	margin-right: 16px;
+	margin-left: 0;
 }
 #source a:last-child {
-	margin-left: 15px;
+	margin-right: 0;
 }
 /* Download Buttons */
 #row1 {
