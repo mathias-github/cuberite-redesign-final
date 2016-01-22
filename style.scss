@@ -499,6 +499,11 @@ input:focus {
 	html { font-size: 86%; }
 }
 @media (max-width: 900px) {
+	.downloadbutton {
+		display: block;
+		width: auto;
+		margin: 0.5em 0 0.5em 0;
+	}
 	#links {
 		float: none;
 	}
