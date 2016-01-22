@@ -56,6 +56,12 @@
 	from { opacity: 0; }
 	to { opacity: 1; }
 }
+@-webkit-keyframes slide {
+    100% { top: 0; }
+}
+@keyframes slide {
+    100% { top: 0; }
+}
 /* Main */
 html, body, div, span, h1, h2, p, a, s, small, strike, strong, sub, b, u, i, ul, li, form {
 	margin: 0;
@@ -161,7 +167,7 @@ a, input, #dropdownmenu label, button {
 	font-size: 1.500em;
 	text-transform: uppercase;
 	display: inline-block;
-	padding: 1.125em 1em 1.125em 1em;
+	padding: 1.313em 1em 1.313em 1em;
 }
 #logo a:before {
 	content: '\e600';
@@ -176,7 +182,7 @@ a, input, #dropdownmenu label, button {
 #links a {
 	color: #fff;
 	display: inline-block;
-	padding: 2.000em;
+	padding: 2.250em 2.000em 2.250em 2.000em;
 }
 #links a:hover, #links a:focus, #logo a:hover, #logo a:focus {
 	background: rgba(0,0,0,.8);
@@ -376,27 +382,6 @@ a.post-title:hover, a.post-title:focus {
 	color: rgba(255,255,255,.6);
 	padding: 0.625em 0 0 0;
 }
-/* Pagination */
-#pagination {
-	padding: 30px 0 10px 0;
-}
-#pagination a {
-	color: rgba(255,255,255,0.7);
-	padding: 0 10px 0 10px;
-}
-#pagination a:hover, #pagination a:focus {
-	color: rgba(255,255,255,0.9);
-}
-#pagination em {
-	background: #fff;
-	color: #111010;
-	text-shadow: none;
-	padding: 7px 14px 7px 14px;
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
-	-o-border-radius: 2px;
-	border-radius: 2px;
-}
 /* Footer */
 #footer {
 	background: rgba(0,0,0,.6);
@@ -485,19 +470,28 @@ input:focus {
 	html { font-size: 86%; }
 }
 @media (max-width: 900px) {
-	#footer a {
+	#links {
+		float: none;
+	}
+	#links a, #footer a {
 		color: #fff;
-		padding: 2em;
+		padding: 2.000em;
 		display: block;
+	}
+	#links a:hover, #footer a:hover, #links a:focus, #footer a:focus {
+		background: rgba(0,0,0,1);
+	}
+	#mobilemenu-first, #mobilemenu-second {
+		position: relative;
 	}
 	#mobilemenu-first label, #mobilemenu-second label {
 		color: #fff;
 		cursor: pointer;
 		font-size: 2.000em;
-		display: inline-block;
 	}
 	#mobilemenu-first label {
-		padding: 1.000em 1.000em 0.938em 1.000em;
+		float: right;
+		padding: 1.188em 1.000em 1.000em 1.000em;
 	}
 	#mobilemenu-second label {
 		float: right;
@@ -517,19 +511,22 @@ input:focus {
 	}
 	#mobilemenu-button-first:checked + #mobilemenu-first .mobilemenu-content, #mobilemenu-button-second:checked + #mobilemenu-second .mobilemenu-content {
 		display: block;
-		position: fixed;
+		-moz-animation: fadein .3s;
+		-webkit-animation: fadein .3s;
+		-o-animation: fadein .3s;
+		animation: fadein .3s;
 	}
 	.mobilemenu-content {
 		background: rgba(0,0,0,0.9);
 		width: 100%;
-		left: 0;
+		position: absolute;
 		text-align: left;
 	}
-	#mobilemenu-second .mobilemenu-content {
-		bottom: 30px;
+	#mobilemenu-first .mobilemenu-content {
+		top: 4.438em;
 	}
-	.mobilemenu-content a:hover {
-		background: rgba(0,0,0,1);
+	#mobilemenu-second .mobilemenu-content {
+		bottom: 0;
 	}
 }
 @media (min-width: 600px) {
