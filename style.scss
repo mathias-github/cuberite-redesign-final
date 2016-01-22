@@ -538,7 +538,7 @@ input:focus {
 	#mobilemenu-button-first, #mobilemenu-button-second, .mobilemenu-content {
 		display: none;
 	}
-	#mobilemenu-button-first:checked + #mobilemenu-first .mobilemenu-content, #mobilemenu-button-second:checked + #mobilemenu-second .mobilemenu-content {
+	#mobilemenu-button-first:checked + #mobilemenu-first .mobilemenu-content, #mobilemenu-button-second:checked + #mobilemenu-second .mobilemenu-content, #downloadbutton-linux-mobile:checked + #downloadbutton-linux .downloadmenu {
 		display: block;
 		-moz-animation: fadein .3s;
 		-webkit-animation: fadein .3s;
@@ -556,6 +556,9 @@ input:focus {
 	}
 	#mobilemenu-second .mobilemenu-content {
 		bottom: 0;
+	}
+	#downloadbutton-linux:hover #downloadmenu-linux, #downloadbutton-windows:hover #downloadmenu-windows, #downloadbutton-freebsd:hover #downloadmenu-freebsd, #downloadbutton-osx:hover #downloadmenu-osx {
+	display: none;
 	}
 }
 @media (min-width: 600px) {
