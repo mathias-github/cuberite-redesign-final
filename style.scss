@@ -217,6 +217,9 @@ a, input, #dropdownmenu label, button {
 #intro h2 {
 	margin-bottom: 1.175em;
 }
+#intro input {
+	display: none;
+}
 #contribute:before, #irc:before, #license:before, #news:before, #notfound:before, #plugin:before, #support:before {
 	margin: 0 0.563em 0 0;
 }
@@ -499,11 +502,7 @@ input:focus {
 	html { font-size: 86%; }
 }
 @media (max-width: 900px) {
-	.downloadbutton {
-		display: block;
-		width: auto;
-		margin: 0.5em 0 0.5em 0;
-	}
+	/* Navigation Buttons */
 	#links {
 		float: none;
 	}
@@ -543,7 +542,7 @@ input:focus {
 	#mobilemenu-button-first, #mobilemenu-button-second, .mobilemenu-content {
 		display: none;
 	}
-	#mobilemenu-button-first:checked + #mobilemenu-first .mobilemenu-content, #mobilemenu-button-second:checked + #mobilemenu-second .mobilemenu-content, #downloadbutton-linux-mobile:checked + #downloadbutton-linux .downloadmenu {
+	#mobilemenu-button-first:checked + #mobilemenu-first .mobilemenu-content, #mobilemenu-button-second:checked + #mobilemenu-second .mobilemenu-content, #downloadbutton-linux-mobile:checked + #downloadbutton-linux .downloadmenu, #downloadbutton-windows-mobile:checked + #downloadbutton-windows .downloadmenu, #downloadbutton-freebsd-mobile:checked + #downloadbutton-freebsd .downloadmenu, #downloadbutton-osx-mobile:checked + #downloadbutton-osx .downloadmenu {
 		display: block;
 		-moz-animation: fadein .3s;
 		-webkit-animation: fadein .3s;
@@ -561,6 +560,27 @@ input:focus {
 	}
 	#mobilemenu-second .mobilemenu-content {
 		bottom: 0;
+	}
+	/* Download Buttons */
+	.downloadbutton {
+		display: block;
+		width: auto;
+		margin: 0.5em 0 0.5em 0;
+	}
+	.downloadbutton:hover, .downloadbutton:focus {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
+	}
+	.downloadmenu {
+		position: static;
+		background: none;
+		margin: 0.750em -0.750em -0.750em -0.750em;
+		width: auto;
+	}
+	.downloadmenu a {
+		background: none;
 	}
 	#downloadbutton-linux:hover #downloadmenu-linux, #downloadbutton-windows:hover #downloadmenu-windows, #downloadbutton-freebsd:hover #downloadmenu-freebsd, #downloadbutton-osx:hover #downloadmenu-osx {
 	display: none;
