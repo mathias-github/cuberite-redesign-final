@@ -197,10 +197,10 @@ a, input, #dropdownmenu label, button {
 	height: 100%;
 	color: #fff;
 }
-#intro a, #main a {
+#main a {
 	color: rgba(255,255,255,.4);
 }
-#intro a:hover, #intro a:focus, #main a:hover, #main a:focus {
+#main a:hover, #main a:focus {
 	color: rgba(255,255,255,.6);
 }
 #intro-body, #main-body {
@@ -213,6 +213,9 @@ a, input, #dropdownmenu label, button {
 }
 #main-body {
 	padding: 6% 10% 6% 10%;
+}
+#intro h2 {
+	margin-bottom: 1.175em;
 }
 #contribute:before, #irc:before, #license:before, #news:before, #notfound:before, #plugin:before, #support:before {
 	margin: 0 0.563em 0 0;
