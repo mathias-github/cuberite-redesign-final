@@ -259,13 +259,9 @@ a, input, #dropdownmenu label, button {
 	margin-left: 0.750em;
 }
 /* Download Buttons */
-#intro h2 {
-	margin-bottom: 1.175em;
-}
-#downloads a, #downloads a:hover, #downloads a:focus {
+.downloadbutton {
 	color: #101010;
-}
-#linux, #windows, #osx, #freebsd {
+	cursor: pointer;
 	width: 8.125em;
 	background: #fff;
 	font-size: 1.125em;
@@ -281,34 +277,64 @@ a, input, #dropdownmenu label, button {
 	-webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.15);
 	box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.15);
 	line-height: 30px;
-
+	position: relative;
 }
-#linux:hover, #windows:hover, #osx:hover, #freebsd:hover, #linux:focus, #windows:focus, #osx:focus, #freebsd:focus {
+.downloadbutton:hover, .downloadbutton:focus {
 	background: rgba(255,255,255,.75);
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	-o-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
 }
-#linux:before, #windows:before, #osx:before, #freebsd:before {
+.downloadbutton:before {
 	font-family: 'icons';
 	font-size: 1.563em;
 	float: left;
 }
-#linux:before {
+#downloadbutton-linux:before {
 	content: '\f17c';
 }
-#windows:before {
+#downloadbutton-windows:before {
 	content: '\f17a';
 }
-#osx:before {
-	content: '\f179';
-}
-#freebsd:before {
+#downloadbutton-freebsd:before {
 	content: '\e900';
 }
-#downloadmenu-linux, #downloadmenu-windows, #downloadmenu-freebsd, #downloadmenu-osx {
-	background: #000;
-	display: none;
+#downloadbutton-osx:before {
+	content: '\f179';
 }
-#linux:hover #downloadmenu-linux {
-	display: inline-block;
+.downloadmenu {
+	display: none;
+	position: absolute;
+	width: 100%;
+	margin: 0.750em 0 0 -0.750em;
+	background: rgba(255,255,255,.75);
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-o-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+}
+.downloadmenu a {
+	color: #101010;
+	display: block;
+	padding: 0.5em;
+	-moz-transition: none;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+.downloadmenu a:hover, .downloadmenu a:focus {
+	color: #101010;
+	background: #fff;
+}
+.downloadmenu a:last-child:hover, .downloadmenu a:last-child:focus {
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-o-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+}
+#downloadbutton-linux:hover #downloadmenu-linux, #downloadbutton-windows:hover #downloadmenu-windows, #downloadbutton-freebsd:hover #downloadmenu-freebsd, #downloadbutton-osx:hover #downloadmenu-osx {
+	display: block;
 }
 /* Advantages-box */
 #advantages {
@@ -347,7 +373,7 @@ a, input, #dropdownmenu label, button {
 #leftcolumn, #centercolumn {
 	margin-right: 2.188em;
 }
-/* Blog */
+/* News */
 .post {
 	padding: 1.250em 0 1.250em 0;
 	border-bottom: 1px dashed rgba(255,255,255,.08);
