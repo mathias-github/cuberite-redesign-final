@@ -107,7 +107,7 @@ h1, h2, h3 {
 }
 h1 {
 	font-size: 2.875em;
-	margin: 0 0 4% 0;
+	margin: 0 0 0.938em 0;
 	line-height: 1.4em;
 	text-shadow: 0px 2px 1px rgba(0,0,0,0.2);
 }
@@ -117,7 +117,7 @@ h2 {
 }
 h3 {
 	font-size: 1.125em;
-	margin: 0 0 15px 0;
+	margin: 0 0 0.938em 0;
 }
 p {
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -208,7 +208,7 @@ a, input, #dropdownmenu label, button {
 #main-body {
 	padding: 6% 10% 6% 10%;
 }
-#contribute:before, #irc:before, #news:before, #notfound:before, #plugin:before {
+#contribute:before, #irc:before, #license:before, #news:before, #notfound:before, #plugin:before, #support:before {
 	margin: 0 0.563em 0 0;
 }
 #contribute:before {
@@ -251,10 +251,10 @@ a, input, #dropdownmenu label, button {
 	color: #fff;
 }
 #source a:first-child {
-	margin-right: 10px;
+	margin-right: 0.750em;
 }
 #source a:last-child {
-	margin-left: 10px;
+	margin-left: 0.750em;
 }
 /* Download Buttons */
 #row1 {
@@ -303,23 +303,20 @@ a, input, #dropdownmenu label, button {
 }
 /* Advantages-box */
 #advantages {
+	background: rgba(0,0,0,.3);
 	width: 100%;
-	height: auto;
-	color: #fff;
-	background-color: rgba(0,0,0,.3);
-	text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+	text-shadow: 0px 2px 0px rgba(0,0,0,.1);
 }
 #advantages-body {
-	padding: 5% 5% 3% 5%;
+	padding: 3.125em 3.125em 1.875em 3.125em;
 	text-align: center;
 }
 #advantages-body h3 {
-	margin: 20px 0 15px 0;
+	margin: 1.250em 0 0.938em 0;
 }
 #speed:before, #foss:before, #plugins:before {
 	font-family: 'icons';
 	font-size: 5.000em;
-	position: relative;
 }
 #speed:before {
 	content: '\f033';
@@ -336,12 +333,10 @@ a, input, #dropdownmenu label, button {
 #leftcolumn, #centercolumn, #rightcolumn {
 	display: inline-block;
 	width: 29%;
-	margin-top: 0;
-	margin-bottom: 0;
 	vertical-align: top;
 }
 #leftcolumn, #centercolumn {
-	margin-right: 4%;
+	margin-right: 2.188em;
 }
 /* Blog */
 .post {
@@ -468,6 +463,16 @@ input:focus {
 }
 @media (min-width: 300px) {
 	html { font-size: 82%; }
+}
+@media (max-width: 800px) {
+	#leftcolumn, #centercolumn, #rightcolumn {
+		display: block;
+		width: 100%;
+		vertical-align: top;
+	}
+	#leftcolumn, #centercolumn {
+		margin: 0 0 4.063em 0;
+	}
 }
 @media (min-width: 400px) {
 	html { font-size: 84%; }
