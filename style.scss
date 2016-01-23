@@ -186,7 +186,7 @@ a, input, #dropdownmenu label, button {
 	display: inline-block;
 	padding: 2.250em 2.000em 2.250em 2.000em;
 }
-#links a:hover, #links a:focus, #logo a:hover, #logo a:focus {
+#logo a:hover, #logo a:focus, #links a:hover, #links a:focus, #active {
 	background: rgba(0,0,0,.8);
 }
 #links input {
