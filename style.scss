@@ -381,9 +381,12 @@ a:hover, a:focus {
 	padding: 0 0 1.875em 0;
 }
 .post-footer {
-	color: #fff;
+	color: rgba(255,255,255,.7);
 	font-size: 0.875em;
 	padding: 0.625em 0 0 0;
+}
+.post .post-footer {
+	color: #fff;
 }
 /* Footer */
 #footer {
