@@ -362,7 +362,7 @@ a:hover, a:focus {
 }
 /* News */
 .post {
-	padding: 0 0 1.688em 0;
+	padding: 0 0 1.938em 0;
 }
 .post a {
 	color: rgba(255,255,255,.6);
@@ -375,7 +375,7 @@ a:hover, a:focus {
 	text-transform: uppercase;
 }
 .post:first-of-type {
-	padding: 0.438em 0 1.688em 0;
+	padding: 0.438em 0 1.938em 0;
 }
 .post:last-of-type {
 	padding: 0 0 1.875em 0;
@@ -383,11 +383,12 @@ a:hover, a:focus {
 .post-footer {
 	color: rgba(255,255,255,.7);
 	font-size: 0.875em;
-	padding: 0.500em 0 0 0;
+	padding: 0.375em 0 0 0;
 }
 .post .post-footer {
 	color: #fff;
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding: 0.688em 0 0 0;
 }
 /* Footer */
 #footer {
