@@ -224,6 +224,7 @@ a, input, #dropdownmenu label, button {
 }
 #contribute:before, #irc:before, #license:before, #news:before, #notfound:before, #plugin:before, #support:before {
 	margin: 0 0.563em 0 0;
+	vertical-align: top;
 }
 #contribute:before {
 	content: "\26d8";
