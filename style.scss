@@ -171,7 +171,7 @@ a, input, #dropdownmenu label, button {
 	margin: 0 0 0 1.000em;
 }
 #logo a:before {
-	content: '\e600';
+	content: '\25a0';
 	font-size: 1.125em;
 	margin-right: 0.500em;
 	vertical-align: top;
@@ -226,25 +226,25 @@ a, input, #dropdownmenu label, button {
 	margin: 0 0.563em 0 0;
 }
 #contribute:before {
-	content: "\f009";
+	content: "\26d8";
 }
 #irc:before {
-	content: "\f04f";
+	content: "\1f4ac";
 }
 #license:before {
-	content: "\f0e3";
+	content: "\1f528";
 }
 #news:before {
-	content: "\f0a1";
+	content: "\1f56b";
 }
 #notfound:before {
-	content: "\f02d";
+	content: "\26a0";
 }
 #plugin:before {
-	content: '\f0c0';
+	content: '\1f50c';
 }
 #support:before {
-	content: "\f059";
+	content: "\3f";
 	font-size: 1.100em;
 }
 #source {
@@ -299,16 +299,16 @@ a, input, #dropdownmenu label, button {
 	float: left;
 }
 #downloadbutton-linux:before {
-	content: '\f17c';
+	content: '\1f427';
 }
 #downloadbutton-windows:before {
-	content: '\f17a';
+	content: '\1f5d4';
 }
 #downloadbutton-freebsd:before {
-	content: '\e900';
+	content: '\1f608';
 }
 #downloadbutton-osx:before {
-	content: '\f179';
+	content: '\1f34e';
 }
 .downloadmenu {
 	display: none;
@@ -361,15 +361,15 @@ a, input, #dropdownmenu label, button {
 	font-size: 5.000em;
 }
 #speed:before {
-	content: '\f033';
+	content: '\1f680';
 	color: #A3983B;
 }
 #foss:before {
-	content: '\f009';
+	content: '\26d8';
 	color: #9E3A3A;
 }
 #plugins:before {
-	content: '\f0c0';
+	content: '\1f50c';
 	color: #51A838;
 }
 #leftcolumn, #centercolumn, #rightcolumn {
@@ -547,10 +547,10 @@ input:focus {
 		padding: 0.813em 1.000em 00.750em 1.000em;
 	}
 	#mobilemenu-first label:before {
-		content: '\f05e';
+		content: '\2261';
 	}
 	#mobilemenu-second label:before {
-		content: '\f141';
+		content: '\2026';
 	}
 	#mobilemenu-first label:hover, #mobilemenu-first label:focus, #mobilemenu-second label:hover, #mobilemenu-second label:focus {
 		background: rgba(0,0,0,.9);
