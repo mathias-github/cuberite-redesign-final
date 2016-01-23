@@ -230,7 +230,6 @@ a, input, #dropdownmenu label, button {
 }
 #irc:before {
 	content: "\f04f";
-	font-size: 1.220em;
 }
 #license:before {
 	content: "\f0e3";
@@ -487,6 +486,21 @@ input:focus {
 @media (min-width: 300px) {
 	html { font-size: 82%; }
 }
+@media (min-width: 400px) {
+	html { font-size: 84%; }
+}
+@media (min-width: 500px) {
+	html { font-size: 86%; }
+}
+@media (min-width: 600px) {
+	html { font-size: 88%; }
+}
+@media (min-width: 700px) {
+	html { font-size: 90%; }
+}
+@media (min-width: 800px) {
+	html { font-size: 92%; }
+}
 @media (max-width: 800px) {
 	#leftcolumn, #centercolumn, #rightcolumn {
 		display: block;
@@ -497,11 +511,8 @@ input:focus {
 		margin: 0 0 4.063em 0;
 	}
 }
-@media (min-width: 400px) {
-	html { font-size: 84%; }
-}
-@media (min-width: 500px) {
-	html { font-size: 86%; }
+@media (min-width: 900px) {
+	html { font-size: 94%; }
 }
 @media (max-width: 900px) {
 	/* Navigation Buttons */
@@ -590,18 +601,6 @@ input:focus {
 	#downloadbutton-linux:hover #downloadmenu-linux, #downloadbutton-windows:hover #downloadmenu-windows, #downloadbutton-freebsd:hover #downloadmenu-freebsd, #downloadbutton-osx:hover #downloadmenu-osx {
 	display: none;
 	}
-}
-@media (min-width: 600px) {
-	html { font-size: 88%; }
-}
-@media (min-width: 700px) {
-	html { font-size: 90%; }
-}
-@media (min-width: 800px) {
-	html { font-size: 92%; }
-}
-@media (min-width: 900px) {
-	html { font-size: 94%; }
 }
 @media (min-width: 1000px) {
 	html { font-size: 96%; }
