@@ -128,12 +128,6 @@ a {
 	text-decoration: none;
 }
 /* Combined Rules */
-a, input, #dropdownmenu label, button {
-	-moz-transition: all .05s ease-in-out;
-	-webkit-transition: all .05s ease-in-out;
-	-o-transition: all .05s ease-in-out;
-	transition: all .05s ease-in-out;
-}
 #intro-body, #main-body, #advantages-body {
 	-moz-animation: fadein 1.5s;
 	-webkit-animation: fadein 1.5s;
@@ -144,7 +138,7 @@ a, input, #dropdownmenu label, button {
 	display: table-row;
 	height: 0;
 }
-#logo a:before, #mobilemenu-first label:before, .downloadbutton:before, #speed, #foss, #plugins, #contribute:before, #irc:before, #license:before, #news:before, #notfound:before, #plugin:before, #support:before, #mobilemenu-second label:before {
+#logo a:before, #mobilemenu-navigation label:before, .downloadbutton:before, #speed, #foss, #plugins, #contribute:before, #irc:before, #license:before, #news:before, #notfound:before, #plugin:before, #support:before, #mobilemenu-footer label:before {
 	font-family: 'icons';
 }
 /* Navigation Bar */
@@ -318,10 +312,6 @@ a, input, #dropdownmenu label, button {
 	color: #101010;
 	display: block;
 	padding: 0.5em;
-	-moz-transition: none;
-	-webkit-transition: none;
-	-o-transition: none;
-	transition: none;
 }
 .downloadmenu a:hover, .downloadmenu a:focus {
 	background: #fff;
@@ -374,8 +364,7 @@ a, input, #dropdownmenu label, button {
 }
 /* News */
 .post {
-	padding: 1.250em 0 1.250em 0;
-	border-bottom: 1px dashed rgba(255,255,255,.08);
+	padding: 0 0 1.688em 0;
 }
 .post-title {
 	color: rgba(255,255,255,.7);
@@ -391,11 +380,10 @@ a.post-title:hover, a.post-title:focus {
 	color: rgba(255,255,255,.9);
 }
 .post:first-of-type {
-	padding: 0.625em 0 1.250em 0;
+	padding: 0.625em 0 1.688em 0;
 }
 .post:last-of-type {
-	padding: 1.250em 0 1.250em 0;
-	margin: 0 0 1.250em 0;
+	padding: 0 0 1.875em 0;
 }
 .post-footer {
 	font-size: 0.875em;
