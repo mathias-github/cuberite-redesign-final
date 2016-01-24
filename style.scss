@@ -541,10 +541,10 @@ input:focus {
 	}
 	#mobilemenu-button-navigation:checked + #mobilemenu-navigation .mobilemenu-content, #mobilemenu-button-footer:checked + #mobilemenu-footer .mobilemenu-content, #downloadbutton-linux-mobile:checked + #downloadbutton-linux .downloadmenu, #downloadbutton-windows-mobile:checked + #downloadbutton-windows .downloadmenu, #downloadbutton-freebsd-mobile:checked + #downloadbutton-freebsd .downloadmenu, #downloadbutton-osx-mobile:checked + #downloadbutton-osx .downloadmenu {
 		display: block;
-		-moz-animation: fadein .3s;
-		-webkit-animation: fadein .3s;
-		-o-animation: fadein .3s;
-		animation: fadein .3s;
+		-moz-animation: fadein .2s;
+		-webkit-animation: fadein .2s;
+		-o-animation: fadein .2s;
+		animation: fadein .2s;
 	}
 	.mobilemenu-content {
 		background: rgba(0,0,0,.9);
