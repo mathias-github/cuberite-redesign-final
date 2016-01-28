@@ -10,8 +10,7 @@ icon: news
 <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
 <div class="post-footer">{{ post.date | date: "%B %e, %Y" }}</div>
 </div>
-{% endfor %}
-<form id="newsletter" action="https://newsletter.cuberite.org/subscribe.php" method="POST">
+{% endfor %}<form id="newsletter" action="https://newsletter.cuberite.org/subscribe.php" method="POST">
 <input type="email" name="email" placeholder="email@example.com">
 <button type="submit">Subscribe</button>
 </form>
