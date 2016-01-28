@@ -238,6 +238,12 @@ a:hover, a:focus {
 	font-size: 0.875em;
 	padding: 0.375em 0 0 0;
 }
+#main-footer a {
+	color: rgba(255,255,255,.5);
+}
+#main-footer a:hover, #main-footer a:focus {
+	color: rgba(255,255,255,.7);
+}
 #main-footer span, #download-footer span {
 	margin: 0 0.750em 0 0.750em;
 }
