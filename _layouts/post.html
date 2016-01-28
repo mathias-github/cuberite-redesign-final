@@ -6,7 +6,7 @@ layout: default
 <h2 id="news">{{ page.title }}</h2>
 {{ content }}
 <div class="post-footer">
-Written on {{ page.date | date: "%B %e, %Y" }}{% if page.forumlink %} <span>&bull;</span> <a href="{{ page.forumlink }}">Discuss this post</a>{% endif %}
+{{ page.date | date: "%B %e, %Y" }}{% if page.forumlink %} <span>&bull;</span> <a href="{{ page.forumlink }}">Discuss this post</a>{% endif %}
 </div>
 </div>
 </div>
