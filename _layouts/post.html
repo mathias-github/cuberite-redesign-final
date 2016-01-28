@@ -8,6 +8,7 @@ layout: default
 <div class="post-footer">
 Written on {{ page.date | date: "%B %e, %Y" }}
 </div>
-{% if page.forumlink %}<h3><a href="{{ page.forumlink }}">Leave a comment</a></h3>{% endif %}
+{% if page.forumlink %}<h3>Comments</h3>
+<p>Discuss this article on the <a href="{{ page.forumlink }}">forum</a></p>{% endif %}
 </div>
 </div>
