@@ -4,9 +4,9 @@ title: Manual
 ---
 <h3>0 - Introduction</h3>
 <ul>
-{% for page in site.pages reversed %}
+{% for page in site.pages %}
 {% if page.path contains '0-Introduction' %}
-<li><a href="#{{ page.url | downcase | replace:' ','-' }}">0.{{ page.url }}</a></li>
+<li><a href="#{{ page.title | downcase | replace:' ','-' }}">0.{{ page.title }}</a></li>
 {% endif %}
 {% endfor %}
 </ul>
