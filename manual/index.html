@@ -6,7 +6,7 @@ title: Manual
 <ul>
 {% for page in site.pages reversed %}
 {% if page.path contains '0-Introduction' %}
-<li><a href="#{{ page.title | downcase | replace:' ','-' }}">0.{{ page.title }}</a></li>
+<li><a href="#{{ page.url | downcase | replace:' ','-' }}">0.{{ page.url }}</a></li>
 {% endif %}
 {% endfor %}
 </ul>
