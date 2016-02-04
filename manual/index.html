@@ -33,7 +33,27 @@ title: Manual
 {% endfor %}
 </ul>
 <h2>0 - Introduction</h2>
-{% for post in site.posts reversed %}{% if post.layout contains 'post' %}{% else %}
+{% for post in site.categories.0-Introduction reversed %}
 <h3 id="{{ post.title | downcase | replace:' ','-' }}">{{ post.title }}</h3>
 {{ post.content }}
-{% endif %}{% endfor %}
+{% endfor %}
+<h2>1 - Installing</h2>
+{% for post in site.categories.1-Installing reversed %}
+<h3 id="{{ post.title | downcase | replace:' ','-' }}">{{ post.title }}</h3>
+{{ post.content }}
+{% endfor %}
+<h2>2 - Configuration Basics</h2>
+{% for post in site.categories.2-Configuration-Basics reversed %}
+<h3 id="{{ post.title | downcase | replace:' ','-' }}">{{ post.title }}</h3>
+{{ post.content }}
+{% endfor %}
+<h2>3 - Configuring world.ini</h2>
+{% for post in site.categories.3-Configuring-world-ini reversed %}
+<h3 id="{{ post.title | downcase | replace:' ','-' }}">{{ post.title }}</h3>
+{{ post.content }}
+{% endfor %}
+<h2>4 - MultiWorlds</h2>
+{% for post in site.categories.4-MultiWorlds reversed %}
+<h3 id="{{ post.title | downcase | replace:' ','-' }}">{{ post.title }}</h3>
+{{ post.content }}
+{% endfor %}
