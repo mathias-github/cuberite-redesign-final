@@ -1,4 +1,3 @@
-
 ---
 title: '2 - What is Cuberite?'
 ---
