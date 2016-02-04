@@ -3,15 +3,17 @@ layout: page
 title: Manual
 ---
 <h3>0 - Introduction</h3>
-{% for post in site.posts reversed %}{% if post.category == '1' %}<div class="post">
+{% for post in site.posts reversed %}
+{% if post.category == '1' %}
 <a href="#{{ post.title | downcase | replace:' ','-' }}">0.{{ post.title }}</a>
-</div>
-{% endif %}{% endfor %}
+{% endif %}
+{% endfor %}
 <h3>1 - Installing</h3>
-{% for post in site.posts reversed %}{% if post.layout contains 'post' %}{% else %}<div class="post">
+{% for post in site.posts reversed %}
+{% if post.layout contains 'post' %}{% else %}
 <a href="#{{ post.title | downcase | replace:' ','-' }}">0.{{ post.title }}</a>
-</div>
-{% endif %}{% endfor %}
+{% endif %}
+{% endfor %}
 {% for post in site.posts reversed %}{% if post.layout contains 'post' %}{% else %}
 <h3 id="{{ post.title | downcase | replace:' ','-' }}">{{ post.title }}</h3>
 {{ post.content }}
