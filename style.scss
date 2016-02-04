@@ -121,9 +121,11 @@ h3 {
 }
 p {
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	text-align: justify;
 	line-height: 1.6em;
 	margin: 0 0 0.938em 0;
+	text-align: justify;
+	-moz-text-align-last: center;
+	text-align-last: center;
 }
 a {
 	color: rgba(255,255,255,.4);
