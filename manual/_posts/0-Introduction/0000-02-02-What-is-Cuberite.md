@@ -1,0 +1,7 @@
+
+---
+title: '2 - What is Cuberite?'
+---
+Cuberite is a Free and Open Source (FOSS) Minecraft-compatible Game Server. Cuberite is designed with performance, configurability, and extensibility in mind, and also aims to accurately recreate most vanilla features. Cuberite is written in C++, and there is an extensive plugin system that allows for the user to write their own plugins with Lua. In fact, many of the built in commands are implemented by the Core plugin, which has its own <a href="https://github.com/cuberite/Core">GitHub repository</a> and developer community. For more information on the plugin system and how to use it, as well as how to develop for it, please see {{2.4 - Plugins}}.
+
+Cuberite today is maintained by a large team of <a href="https://github.com/cuberite/cuberite/blob/master/CONTRIBUTORS">contributors</a> and plugin developers. If you want to reward the developers for their work, you should set up a donation on <a href="https://salt.bountysource.com/teams/cuberite">Bountysource</a> with a credit card, bitcoin or other currency.
