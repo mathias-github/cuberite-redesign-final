@@ -45,27 +45,27 @@ title: Manual
 <h2 id="0">0 - Introduction</h2>
 {% for page in site.pages %}
 {% if page.path contains '0-Introduction' %}
-<h3 id="#0.{{ page.title | truncatewords: 1, '' }}">{{ page.title }}</h3>
+<h3 id="0.{{ page.title | truncatewords: 1, '' }}">{{ page.title }}</h3>
 {{ page.content }}
 {% endif %}
 {% endfor %}
 <h2 id="1">1 - Installing</h2>
 {% for post in site.categories.1-Installing reversed %}
-<h3 id="{{ post.title | downcase | replace:' ','' }}">{{ post.title }}</h3>
+<h3 id="1.{{ page.title | truncatewords: 1, '' }}">{{ post.title }}</h3>
 {{ post.content }}
 {% endfor %}
 <h2 id="2">2 - Configuration Basics</h2>
 {% for post in site.categories.2-Configuration-Basics reversed %}
-<h3 id="{{ post.title | downcase | replace:' ','' }}">{{ post.title }}</h3>
+<h3 id="2.{{ page.title | truncatewords: 1, '' }}">{{ post.title }}</h3>
 {{ post.content }}
 {% endfor %}
 <h2 id="3">3 - Configuring world.ini</h2>
 {% for post in site.categories.3-Configuring-world-ini reversed %}
-<h3 id="{{ post.title | downcase | replace:' ','' }}">{{ post.title }}</h3>
+<h3 id="3.{{ page.title | truncatewords: 1, '' }}">{{ post.title }}</h3>
 {{ post.content }}
 {% endfor %}
 <h2 id="4">4 - MultiWorlds</h2>
 {% for post in site.categories.4-MultiWorlds reversed %}
-<h3 id="{{ post.title | downcase | replace:' ','' }}">{{ post.title }}</h3>
+<h3 id="4.{{ page.title | truncatewords: 1, '' }}">{{ post.title }}</h3>
 {{ post.content }}
 {% endfor %}
