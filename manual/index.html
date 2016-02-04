@@ -2,11 +2,11 @@
 layout: page
 title: Manual
 ---
-{% for post in site.posts %}{% if post.layout contains 'post' %}{% else %}<div class="post">
+{% for post in site.posts reversed %}{% if post.layout contains 'post' %}{% else %}<div class="post">
 <a href="#{{ post.title | downcase | replace:' ','-' }}">{{ post.title }}</a>
 </div>
 {% endif %}{% endfor %}
-{% for post in site.posts %}{% if post.layout contains 'post' %}{% else %}
+{% for post in site.posts reversed %}{% if post.layout contains 'post' %}{% else %}
 <h3 id="{{ post.title | downcase | replace:' ','-' }}">{{ post.title }}</h3>
 {{ post.content }}
 {% endif %}{% endfor %}
