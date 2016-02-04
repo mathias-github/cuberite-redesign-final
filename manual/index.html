@@ -3,10 +3,8 @@ layout: page
 title: Manual
 ---
 <h3>0 - Introduction</h3>
-{% for post in site.posts reversed %}
-{% if post.category == '1' %}
+{% for post in site.categories.0-Introduction reversed %}
 <a href="#{{ post.title | downcase | replace:' ','-' }}">0.{{ post.title }}</a>
-{% endif %}
 {% endfor %}
 <h3>1 - Installing</h3>
 {% for post in site.posts reversed %}
