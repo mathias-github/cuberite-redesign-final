@@ -16,7 +16,7 @@ contribute yourself or file an issue if you find an error or ommission on the
 If you're using a printed version, note that the latest version of this
 manual is always available [online](/manual/).
 
-### Resources
+#### Resources
 - [Cuberite Homepage](http://cuberite.org/)
 - [Forum](https://forum.cuberite.org/)
 - [Plugin Repository](https://forum.cuberite.org/forum-2.html)
@@ -24,9 +24,7 @@ manual is always available [online](/manual/).
 - [Development Progress](https://forum.cuberite.org/thread-2146.html)
 - [Support E-mail Address](mailto:support@cuberite.org)
 
-### Developer Resources
-<ul>
-	<li><a href="http://api-docs.cuberite.org/Writing-a-Cuberite-plugin.html">Writing your First Plugin</a></li>
-	<li><a href="http://api-docs.cuberite.org/">Plugin API Documentation</a></li>
-	<li><a href="https://github.com/cuberite/cuberite">GitHub Repository</a></li>
-</ul>
+#### Developer Resources
+- [Writing your First Plugin](http://api-docs.cuberite.org/Writing-a-Cuberite-plugin.html)
+- [Plugin API Documentation](http://api-docs.cuberite.org/)
+- [GitHub Repository](https://github.com/cuberite/cuberite)
