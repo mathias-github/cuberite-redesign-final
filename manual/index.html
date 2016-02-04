@@ -4,6 +4,10 @@ title: Manual
 ---
 {% for post in site.posts %}{% if page.path contains 'manual' %}<div class="post">
 <a href="{{ post.url }}">{{ post.title }}</a>
-<span>{{ post.date | date: "%B %e, %Y" }}</span>
+</div>
+{% endif %}{% endfor %}
+{% for post in site.posts %}{% if page.path contains 'manual' %}<div class="post">
+<h3>{{ post.title }}</h3>
+{{ content }}
 </div>
 {% endif %}{% endfor %}
