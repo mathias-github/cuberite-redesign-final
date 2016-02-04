@@ -11,49 +11,49 @@ title: Manual
 <h3>1 - Installing</h3>
 <ul>
 {% for post in site.categories.1-Installing reversed %}
-<li><a href="#{{ post.title | downcase | replace:' ','-' }}">0.{{ post.title }}</a></li>
+<li><a href="#{{ post.title | downcase | replace:' ','' }}">0.{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 <h3>2 - Configuration Basics</h3>
 <ul>
 {% for post in site.categories.2-Configuration-Basics reversed %}
-<li><a href="#{{ post.title | downcase | replace:' ','-' }}">0.{{ post.title }}</a></li>
+<li><a href="#{{ post.title | downcase | replace:' ','' }}">0.{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 <h3>3 - Configuring world.ini</h3>
 <ul>
 {% for post in site.categories.3-Configuring-world-ini reversed %}
-<li><a href="#{{ post.title | downcase | replace:' ','-' }}">0.{{ post.title }}</a></li>
+<li><a href="#{{ post.title | downcase | replace:' ','' }}">0.{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 <h3>4 - MultiWorlds</h3>
 <ul>
 {% for post in site.categories.4-MultiWorlds reversed %}
-<li><a href="#{{ post.title | downcase | replace:' ','-' }}">0.{{ post.title }}</a></li>
+<li><a href="#{{ post.title | downcase | replace:' ','' }}">0.{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 <h2>0 - Introduction</h2>
 {% for post in site.categories.0-Introduction reversed %}
-<h3 id="{{ post.title | downcase | replace:' ','-' }}">{{ post.title }}</h3>
+<h3 id="{{ post.title | downcase | replace:' ','' }}">{{ post.title }}</h3>
 {{ post.content }}
 {% endfor %}
 <h2>1 - Installing</h2>
 {% for post in site.categories.1-Installing reversed %}
-<h3 id="{{ post.title | downcase | replace:' ','-' }}">{{ post.title }}</h3>
+<h3 id="{{ post.title | downcase | replace:' ','' }}">{{ post.title }}</h3>
 {{ post.content }}
 {% endfor %}
 <h2>2 - Configuration Basics</h2>
 {% for post in site.categories.2-Configuration-Basics reversed %}
-<h3 id="{{ post.title | downcase | replace:' ','-' }}">{{ post.title }}</h3>
+<h3 id="{{ post.title | downcase | replace:' ','' }}">{{ post.title }}</h3>
 {{ post.content }}
 {% endfor %}
 <h2>3 - Configuring world.ini</h2>
 {% for post in site.categories.3-Configuring-world-ini reversed %}
-<h3 id="{{ post.title | downcase | replace:' ','-' }}">{{ post.title }}</h3>
+<h3 id="{{ post.title | downcase | replace:' ','' }}">{{ post.title }}</h3>
 {{ post.content }}
 {% endfor %}
 <h2>4 - MultiWorlds</h2>
 {% for post in site.categories.4-MultiWorlds reversed %}
-<h3 id="{{ post.title | downcase | replace:' ','-' }}">{{ post.title }}</h3>
+<h3 id="{{ post.title | downcase | replace:' ','' }}">{{ post.title }}</h3>
 {{ post.content }}
 {% endfor %}
