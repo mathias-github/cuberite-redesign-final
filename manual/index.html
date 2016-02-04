@@ -12,32 +12,42 @@ title: Manual
 </ul>
 <h3>1 - Installing</h3>
 <ul>
-{% for post in site.categories.1-Installing reversed %}
+{% for page in site.pages %}
+{% if page.path contains '1-Installing' %}
 <li><a href="#{{ post.title | downcase | replace:' ','' }}">1.{{ post.title }}</a></li>
+{% endif %}
 {% endfor %}
 </ul>
 <h3>2 - Configuration Basics</h3>
 <ul>
-{% for post in site.categories.2-Configuration-Basics reversed %}
-<li><a href="#{{ post.title | downcase | replace:' ','' }}">2.{{ post.title }}</a></li>
+{% for page in site.pages %}
+{% if page.path contains '2-Configuration-Basics' %}
+<li><a href="#{{ post.title | downcase | replace:' ','' }}">1.{{ post.title }}</a></li>
+{% endif %}
 {% endfor %}
 </ul>
 <h3>3 - Configuring world.ini</h3>
 <ul>
-{% for post in site.categories.3-Configuring-world-ini reversed %}
-<li><a href="#{{ post.title | downcase | replace:' ','' }}">3.{{ post.title }}</a></li>
+{% for page in site.pages %}
+{% if page.path contains '3-Configuring-world-ini' %}
+<li><a href="#{{ post.title | downcase | replace:' ','' }}">1.{{ post.title }}</a></li>
+{% endif %}
 {% endfor %}
 </ul>
 <h3>4 - MultiWorlds</h3>
 <ul>
-{% for post in site.categories.4-MultiWorlds reversed %}
-<li><a href="#{{ post.title | downcase | replace:' ','' }}">4.{{ post.title }}</a></li>
+{% for page in site.pages %}
+{% if page.path contains '4-MultiWorlds' %}
+<li><a href="#{{ post.title | downcase | replace:' ','' }}">1.{{ post.title }}</a></li>
+{% endif %}
 {% endfor %}
 </ul>
 <h2>0 - Introduction</h2>
-{% for post in site.categories.0-Introduction reversed %}
-<h3 id="{{ post.title | downcase | replace:' ','' }}">{{ post.title }}</h3>
-{{ post.content }}
+{% for page in site.pages %}
+{% if page.path contains '0-Introduction' %}
+<h3 id="{{ page.title | downcase | replace:' ','' }}">{{ page.title }}</h3>
+{{ page.content }}
+{% endif %}
 {% endfor %}
 <h2>1 - Installing</h2>
 {% for post in site.categories.1-Installing reversed %}
