@@ -1,3 +1,4 @@
+permalink: /:category/:title/
 sass:
   style: :compressed
 gems:
