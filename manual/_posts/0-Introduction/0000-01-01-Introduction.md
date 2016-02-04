@@ -1,3 +1,6 @@
+---
+title: '1 - Introduction'
+---
 This is the Cuberite User's Manual. It is intended as a guide on how to
 operate the basics of Cuberite, as well as an introduction to some advanced
 features. It is organised into major sections as well as more detailed
