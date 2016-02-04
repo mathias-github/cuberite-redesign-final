@@ -10,10 +10,26 @@ title: Manual
 </ul>
 <h3>1 - Installing</h3>
 <ul>
-{% for post in site.posts reversed %}
-{% if post.layout contains 'post' %}{% else %}
+{% for post in site.categories.1-Installing reversed %}
 <li><a href="#{{ post.title | downcase | replace:' ','-' }}">0.{{ post.title }}</a></li>
-{% endif %}
+{% endfor %}
+</ul>
+<h3>2 - Configuration Basics</h3>
+<ul>
+{% for post in site.categories.2-Configuration-Basics reversed %}
+<li><a href="#{{ post.title | downcase | replace:' ','-' }}">0.{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+<h3>3 - Configuring world.ini</h3>
+<ul>
+{% for post in site.categories.3-Configuring-world-ini reversed %}
+<li><a href="#{{ post.title | downcase | replace:' ','-' }}">0.{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+<h3>4 - MultiWorlds</h3>
+<ul>
+{% for post in site.categories.4-MultiWorlds reversed %}
+<li><a href="#{{ post.title | downcase | replace:' ','-' }}">0.{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 <h2>0 - Introduction</h2>
