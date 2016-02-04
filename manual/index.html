@@ -45,7 +45,7 @@ title: Manual
 <h2 id="0">0 - Introduction</h2>
 {% for page in site.pages %}
 {% if page.path contains '0-Introduction' %}
-<h3 id="{{ page.title | downcase | replace:' ','' }}">{{ page.title }}</h3>
+<h3 id="#0.{{ page.title | truncatewords: 1, '' }}">{{ page.title }}</h3>
 {{ page.content }}
 {% endif %}
 {% endfor %}
