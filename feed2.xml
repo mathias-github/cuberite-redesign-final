@@ -4,14 +4,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <link href="http://cuberite.org/feed2.xml" rel="self" type="application/atom+xml" />
 <link href="http://cuberite.org/" rel="alternate" type="text/html" />
-<id>http://cuberite.org/</id>
-{% for post in site.categories.news %}
+<id>http://cuberite.org/</id>{% for post in site.categories.news %}
 <entry>
 <title>{{ post.title | xml_escape }}</title>
 <link href="http://cuberite.org/{{ post.url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
 <published>{{ post.date | date_to_rfc822 }}</published>
 <content type="html" xml:base="http://cuberite.org/{{ post.url }}">{{ post.content | xml_escape }}</content>
 <summary>{{ post.excerpt | strip_html }}</summary>
-</entry>
-{% endfor %}
+</entry>{% endfor %}
 </feed>
