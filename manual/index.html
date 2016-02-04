@@ -3,7 +3,7 @@ layout: page
 title: Manual
 ---
 {% for post in site.posts reversed %}{% if post.layout contains 'post' %}{% else %}<div class="post">
-<a href="#{{ post.title | downcase | replace:' ','-' }}">{{ post.title }}</a>
+<a href="#{{ post.title | downcase | replace:' ','-' }}">0.{{ post.title }}</a>
 </div>
 {% endif %}{% endfor %}
 {% for post in site.posts reversed %}{% if post.layout contains 'post' %}{% else %}
