@@ -1,5 +1,5 @@
 ---
-title: '2 - Compiling Cuberite Yourself
+title: '2 - Compiling Cuberite Yourself'
 ---
 Compiling yourself takes longer and is more involved, but on modern processors can lead to a speed increase of up to 1.5 to 3x. If your operating system or hardware is not officially supported, compiling may be the only way to run Cuberite.
 
