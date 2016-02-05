@@ -1,5 +1,4 @@
 ---
-title: '1 - Configuration Overview'
 ---
 Cuberite can be configured by editing various configuration files. Below is a list of all configuration files:
 
