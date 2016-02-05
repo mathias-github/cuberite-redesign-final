@@ -2,11 +2,12 @@
 layout: page
 title: Manual
 ---
+{% assign title = page.url | replace: '/', '' | replace: '.md', '' %}
 <h3>0 - Introduction</h3>
 <ul>
 {% for page in site.pages %}
 {% if page.path contains '0 - Introduction' %}
-<li><a href="#0.{{ page.title | truncatewords: 1, '' }}">0.{{ page.title }}</a></li>
+<li><a href="#0.{{ page.title | truncatewords: 1, '' }}">0.{{ title }}</a></li>
 {% endif %}
 {% endfor %}
 </ul>
