@@ -47,7 +47,7 @@ title: Manual
 {% endif %}
 {% endfor %}
 </ul>
-<h2 id="0">0 - Introduction</h2>
+<h2>0 - Introduction</h2>
 {% for page in site.pages %}
 {% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '0 - Introduction', '' | replace: '.md', '' %}
 {% if page.path contains '0 - Introduction' %}
@@ -55,7 +55,7 @@ title: Manual
 {{ page.content }}
 {% endif %}
 {% endfor %}
-<h2 id="1">1 - Installing</h2>
+<h2>1 - Installing</h2>
 {% for page in site.pages %}
 {% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '1 - Installing', '' | replace: '.md', '' %}
 {% if page.path contains '1 - Installing' %}
@@ -63,27 +63,27 @@ title: Manual
 {{ page.content }}
 {% endif %}
 {% endfor %}
-<h2 id="2">2 - Configuration Basics</h2>
+<h2>2 - Configuration Basics</h2>
 {% for page in site.pages %}
-{% assign page.title = page.url | replace: 'manual', '' | replace: '/', '' | replace: '2 - Configuration Basics', '' | replace: '.md', '' %}
+{% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '2 - Configuration Basics', '' | replace: '.md', '' %}
 {% if page.path contains '2 - Configuration Basics' %}
-<h3 id="2.{{ page.title | truncatewords: 1, '' }}">{{ page.title }}</h3>
+<h3 id="2.{{ title | truncatewords: 1, '' }}">{{ title }}</h3>
 {{ page.content }}
 {% endif %}
 {% endfor %}
-<h2 id="3">3 - Configuring world.ini</h2>
+<h2>3 - Configuring world.ini</h2>
 {% for page in site.pages %}
-{% assign page.title = page.url | replace: 'manual', '' | replace: '/', '' | replace: '3 - Configuring world.ini', '' | replace: '.md', '' %}
-{% if page.path contains '3 Configuring world.ini' %}
-<h3 id="3.{{ page.title | truncatewords: 1, '' }}">{{ page.title }}</h3>
+{% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '3 - Configuring world.ini', '' | replace: '.md', '' %}
+{% if page.path contains '3 - Configuring world.ini' %}
+<h3 id="3.{{ title | truncatewords: 1, '' }}">{{ title }}</h3>
 {{ page.content }}
 {% endif %}
 {% endfor %}
-<h2 id="4">4 - MultiWorlds</h2>
+<h2>4 - MultiWorlds</h2>
 {% for page in site.pages %}
-{% assign page.title = page.url | replace: 'manual', '' | replace: '/', '' | replace: '4 - MultiWorlds', '' | replace: '.md', '' %}
+{% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '4 - MultiWorlds', '' | replace: '.md', '' %}
 {% if page.path contains '4 - MultiWorlds' %}
-<h3 id="4.{{ page.title | truncatewords: 1, '' }}">{{ page.title }}</h3>
+<h3 id="4.{{ title | truncatewords: 1, '' }}">{{ title }}</h3>
 {{ page.content }}
 {% endif %}
 {% endfor %}
