@@ -1,5 +1,4 @@
 ---
-title: '3 - Running Cuberite'
 ---
 Once you have a compiled copy of Cuberite, with the supporting files (in most cases these are distributed with the executable, in a directory called Server), you can run the server and generate yourself a world. It's easy to run the server, although the method varies depending on the operating system you are using.
 
