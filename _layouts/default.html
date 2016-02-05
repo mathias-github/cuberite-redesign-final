@@ -40,7 +40,7 @@
 <div class="mobilemenu-content">
 <a href="/">Home</a>
 <a href="http://forum.mc-server.org/">Forum</a>
-<a href="/manual/">Manual</a>
+<a href="/manual/"{% if page.url == "/manual/" %} id="active"{% endif %}>Manual</a>
 <a href="/support/"{% if page.url == "/support/" %} id="active"{% endif %}>Support</a>
 <a href="/plugins/"{% if page.url == "/plugins/" %} id="active"{% endif %}>Plugins</a>
 <a href="/contribute/"{% if page.url == "/contribute/" %} id="active"{% endif %}>Contribute</a>
@@ -58,7 +58,7 @@
 <a href="https://kiwiirc.com/client/irc.freenode.net/#cuberite">IRC</a>
 <a href="http://api-docs.cuberite.org/">API Docs</a>
 <a href="/license/">License</a>
-<a href="/privacy/">Privacy</a>
+<a href="/privacy/"{% if page.url == "/privacy/" %} id="active"{% endif %}>Privacy</a>
 </div>
 </div>
 <noscript><img src="https://analytics.cuberite.org/piwik.php?idsite=1&amp;rec=1" alt=""/></noscript>
