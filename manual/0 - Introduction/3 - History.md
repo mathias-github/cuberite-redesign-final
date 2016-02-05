@@ -1,3 +1,5 @@
+---
+---
 Cuberite was created in late 2010 by [FakeTruth](https://github.com/faketruth) with its original name "MCServer", as a replacement for the vanilla server, designed to be better performing and more configurable. It was soon open-sourced and developers started working.
 
 In the summer of 2013, the main MCServer repository was moved from Google Code to GitHub, and a new build system was introduced. Several new developers also joined the project around that time, and the project began to increase in members and popularity.
