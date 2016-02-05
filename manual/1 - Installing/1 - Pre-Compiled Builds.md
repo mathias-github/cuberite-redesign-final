@@ -1,6 +1,3 @@
----
-title: '1 - Pre-Compiled Builds'
----
 For Windows, Linux, Raspberry Pi or Mac builds, the main download location is the [official homepage](http://cuberite.org), with the latest builds available. For developers who want more control over the builds they download, visit the [buildserver](https://builds.cuberite.org).
 
 On Linux or Raspberry Pi, you can simply paste this command into your terminal to install Cuberite:
