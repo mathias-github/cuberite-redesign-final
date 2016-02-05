@@ -1,3 +1,5 @@
+---
+---
 Compiling yourself takes longer and is more involved, but on modern processors can lead to a speed increase of up to 1.5 to 3x. If your operating system or hardware is not officially supported, compiling may be the only way to run Cuberite.
 
 The automatic compilation script is recommended for *nix users. Windows users should see the [Other Systems](#other-systems) subsection for instructions. The automatic compilation script takes care of the compilation process for you. You only need to copy this command to your terminal:
