@@ -3,14 +3,14 @@ title: '2 - Compiling Cuberite Yourself'
 ---
 Compiling yourself takes longer and is more involved, but on modern processors can lead to a speed increase of up to 1.5 to 3x. If your operating system or hardware is not officially supported, compiling may be the only way to run Cuberite.
 
-The automatic compilation script is recommended for *nix users. Windows users should see the {{compilingother - Other Systems}} subsection for instructions. The automatic compilation script takes care of the compilation process for you. You only need to copy this command to your terminal:
+The automatic compilation script is recommended for *nix users. Windows users should see the [Other Systems](#other-systems) subsection for instructions. The automatic compilation script takes care of the compilation process for you. You only need to copy this command to your terminal:
 
     sh -c "$(wget -O - https://raw.githubusercontent.com/cuberite/cuberite/master/compile.sh)"
 
 The rest of this section is for those who prefer to manually compile.
 
 <aside class="warnbox">
-	This process requires use of the command line. If you are not familiar with it, it is recommended that you use the {{1.1 - pre-compiled builds}} instead.
+	This process requires use of the command line. If you are not familiar with it, it is recommended that you use the [pre-compiled builds](#1.1) instead.
 </aside>
 
 #### Linux/Mac/BSD
@@ -33,15 +33,15 @@ You should then run the CMake process and compile:
 </aside>
 
 <aside class="infobox">
-	For a more detailed look at Build Flags and their utility (especially if you are compiling a build on a different machine than the one your are running it on), see <a href="#buildflags">below</a>.
+	For a more detailed look at Build Flags and their utility (especially if you are compiling a build on a different machine than the one your are running it on), see [below](#build-flags).
 </aside>
 
 Once the compilation process is finished, the Cuberite executable will be placed inside the <code>Server</code> inside the repository that you downloaded. You can copy this folder anywhere you like, just make sure to copy the supporting files otherwise the server will not work properly.
 
-### Other Systems
+#### Other Systems
 For compiling on Windows or other systems, please see [COMPILING.md](https://github.com/cuberite/cuberite/blob/master/COMPILING.md) in the main repository.
 
-### Build Flags
+#### Build Flags
 Cuberite's build process supports a large number of flags for customising the builds. Use these flags by adding <code>-DFlag_name=Value</code> to the cmake configuration command. For example to enable test generation using the <code>SELF_TEST</code> flag add: <code>-DSELF_TEST=ON</code>
 
 <dl>
