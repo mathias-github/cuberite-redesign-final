@@ -5,7 +5,7 @@ title: Manual
 <h3>0 - Introduction</h3>
 <ul>
 {% for page in site.pages %}
-{% assign title = page.url | replace: '/', '' | replace: '.md', '' %}
+{% assign title = page.url | replace: '%20', '' | replace: 'manual', '' | replace: '/', '' | replace: '.md', '' %}
 {% if page.path contains '0 - Introduction' %}
 <li><a href="#0.{{ page.title | truncatewords: 1, '' }}">0.{{ title }}</a></li>
 {% endif %}
