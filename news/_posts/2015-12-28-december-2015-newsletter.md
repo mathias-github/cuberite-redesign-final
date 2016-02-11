@@ -16,3 +16,4 @@ We also have a new [donation system](https://www.bountysource.com/teams/cuberite
 TLS has been enabled on many sites, including the [newsletter](https://newsletter.cuberite.org), the [User's Manual](https://book.cuberite.org), and the [buildserver](https://builds.cuberite.org).
 
 Mac OSX and FreeBSD are now supported platforms, and builds are available from the [buildserver](https://builds.cuberite.org). Thanks to @SphinxC0re who provided the build slaves for those platforms.
+a
