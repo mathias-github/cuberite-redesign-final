@@ -4,3 +4,4 @@ sass:
 gems:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-mentions
