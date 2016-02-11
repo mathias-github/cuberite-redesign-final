@@ -8,6 +8,7 @@ Hi everyone! This is the December 2015 edition of the Cuberite newsletter.
 The Cuberite server hit a big milestone this month, when we reached the 1000 star mark on GitHub, as well as getting close to the ten-thousandth commit. This just shows how much the community has been involved in the creation of the server and
 
 Mobs have also had a lot of improvements this month, including a new system for breeding implemented by @Gargaj, and improvements to pathfinding from @LogicParrot.
+
 @LogicParrot
 
 @tigerw has refactored the redstone simulator, with improvements to speed and some bugfixes. He made a [video](https://www.youtube.com/watch?v=5q-nmkelEDI) to demonstrate the new system.
