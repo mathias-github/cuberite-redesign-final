@@ -7,9 +7,7 @@ Hi everyone! This is the December 2015 edition of the Cuberite newsletter.
 
 The Cuberite server hit a big milestone this month, when we reached the 1000 star mark on GitHub, as well as getting close to the ten-thousandth commit. This just shows how much the community has been involved in the creation of the server and
 
-Mobs have also had a lot of improvements this month, including a new system for breeding implemented by @Gargaj, and improvements to pathfinding from @LogicParrot.
-
-@LogicParrot
+Mobs have also had a lot of improvements this month, including a new system for breeding implemented by @gargaj, and improvements to pathfinding from @logicparrot.
 
 @tigerw has refactored the redstone simulator, with improvements to speed and some bugfixes. He made a [video](https://www.youtube.com/watch?v=5q-nmkelEDI) to demonstrate the new system.
 
@@ -17,5 +15,5 @@ We also have a new [donation system](https://www.bountysource.com/teams/cuberite
 
 TLS has been enabled on many sites, including the [newsletter](https://newsletter.cuberite.org), the [User's Manual](https://book.cuberite.org), and the [buildserver](https://builds.cuberite.org).
 
-Mac OSX and FreeBSD are now supported platforms, and builds are available from the [buildserver](https://builds.cuberite.org). Thanks to @SphinxC0re who provided the build slaves for those platforms.
+Mac OSX and FreeBSD are now supported platforms, and builds are available from the [buildserver](https://builds.cuberite.org). Thanks to @sphinxc0re who provided the build slaves for those platforms.
 a
