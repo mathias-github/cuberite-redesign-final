@@ -406,14 +406,13 @@ a:hover, a:focus {
 	padding: 0.688em 0 0 0;
 }
 #pagination {
-	font-size: 1.563em;
-	text-transform: uppercase;
-	margin: 1.250em 0 0 0;
+	font-size: 0.813em;
+	margin: 2.188em 0 0 0;
 }
 #pagination a, #pagination span {
 	background: rgba(0,0,0,0.6);
 	display: inline-block;
-	padding: 0.125em 0.500em 0.250em 0.500em;
+	padding: 0.875em 0.875em 0.813em 0.875em;
 	-moz-border-radius: 0.125em;
 	-webkit-border-radius: 0.125em;
 	-o-border-radius: 0.125em;
@@ -428,6 +427,12 @@ a:hover, a:focus {
 #pagination span {
 	color: rgba(255,255,255,0.6);
 	cursor: default;
+}
+#previous {
+	margin: 0 0.063em 0 0;
+}
+#next {
+	margin: 0 0 0 0.063em;
 }
 #previous:before {
 	content: '\ab';
