@@ -1,7 +1,8 @@
-permalink: /:categories/:title/
 sass:
   style: :compressed
 gems:
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-mentions
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: "/news/page:num/"
