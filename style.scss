@@ -430,10 +430,10 @@ a:hover, a:focus {
 	cursor: default;
 }
 #previous:before {
-	content: '\00ab';
+	content: '\ab';
 }
 #next:before {
-	content: '\00bb';
+	content: '\bb';
 }
 /* Footer */
 #footer {
