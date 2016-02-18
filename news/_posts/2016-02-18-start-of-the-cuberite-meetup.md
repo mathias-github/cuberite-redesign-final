@@ -7,4 +7,4 @@ Hello everyone! As mentioned in a [previous post](/news/cuberite-meetup/), the C
 
 Please note that we are not able to pay for accommodation, which means you’ll have to find a place to stay overnight yourself.
 
-Hope to see you around!
+Hope to see you at the meetup!
