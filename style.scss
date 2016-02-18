@@ -405,6 +405,29 @@ a:hover, a:focus {
 	font-size: 0.875em;
 	padding: 0.688em 0 0 0;
 }
+#pagination {
+	font-size: 0.875em;
+	text-transform: uppercase;
+}
+#pagination a, #pagination span {
+	background: rgba(0,0,0,0.6);
+	display: inline-block;
+	padding: 10px;
+	-moz-border-radius: 0.125em;
+	-webkit-border-radius: 0.125em;
+	-o-border-radius: 0.125em;
+	border-radius: 0.125em
+}
+#pagination a {
+	color: #fff;
+}
+#pagination a:hover, #pagination a:focus {
+	background: #000;
+}
+#pagination span {
+	color: rgba(255,255,255,0.6);
+	cursor: default;
+}
 /* Footer */
 #footer {
 	background: rgba(0,0,0,.6);
