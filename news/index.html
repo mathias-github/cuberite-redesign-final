@@ -12,13 +12,13 @@ title: News
 </form>
 <div id="pagination">
 {% if paginator.previous_page %}
-<a href="{{ paginator.previous_page_path }}">&#171;</a>
+<a href="{{ paginator.previous_page_path }}" id="previous" title="Previous"></a>
 {% else %}
-<span>&#171;</span>
+<span id="previous"></span>
 {% endif %}
 {% if paginator.next_page %}
-<a href="{{ paginator.next_page_path }}">&#187;</a>
+<a href="{{ paginator.next_page_path }}" id="next" title="Next"></a>
 {% else %}
-<span>&#187;</span>
+<span id="next"></span>
 {% endif %}
 </div>
