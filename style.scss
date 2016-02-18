@@ -142,7 +142,7 @@ a:hover, a:focus {
 	display: table-row;
 	height: 0;
 }
-#logo a:before, #mobilemenu-navigation label:before, .downloadbutton:before, #speed, #foss, #plugin, #contribute:before, #license:before, #manual:before, #news:before, #not-found:before, #plugins:before, #privacy:before, #support:before, #mobilemenu-footer label:before {
+#logo a:before, #mobilemenu-navigation label:before, .downloadbutton:before, #speed, #foss, #plugin, #contribute:before, #license:before, #manual:before, #news:before, #not-found:before, #plugins:before, #privacy:before, #support:before, #previous:before, #next:before, #mobilemenu-footer label:before {
 	font-family: 'icons';
 }
 /* Navigation Bar */
@@ -428,6 +428,12 @@ a:hover, a:focus {
 #pagination span {
 	color: rgba(255,255,255,0.6);
 	cursor: default;
+}
+#previous:before {
+	content: '\ab';
+}
+#next:before {
+	content: '\bb';
 }
 /* Footer */
 #footer {
