@@ -142,7 +142,7 @@ a:hover, a:focus {
 	display: table-row;
 	height: 0;
 }
-#logo a:before, #mobilemenu-navigation label:before, .downloadbutton:before, #speed, #foss, #plugin, #contribute:before, #license:before, #manual:before, #news:before, #not-found:before, #plugins:before, #privacy:before, #support:before, #previous:before, #next:before, #mobilemenu-footer label:before {
+#logo a:before, #mobilemenu-navigation label:before, .downloadbutton:before, #speed, #foss, #plugin, #contribute:before, #license:before, #manual:before, #news:before, #not-found:before, #plugins:before, #privacy:before, #support:before, #previous:before, #next:before, #mobilemenu-footer label:before, #google:before, #twitter:before, #twitch:before, #vimeo:before, #youtube:before {
 	font-family: 'icons';
 }
 /* Navigation Bar */
@@ -470,19 +470,19 @@ a:hover, a:focus {
 
 }
 #google:before {
-	content: '47';
+	content: '\47';
 }
 #twitter:before {
-	content: '1f426';
+	content: '\1f426';
 }
 #twitch:before {
-	content: '1f5e9';
+	content: '\1f5e9';
 }
 #vimeo:before {
-	content: '56';
+	content: '\56';
 }
 #youtube:before {
-	content: '25b6';
+	content: '\25b6';
 }
 /* Inputs */
 button {
