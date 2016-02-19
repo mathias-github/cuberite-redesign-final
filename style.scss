@@ -466,8 +466,13 @@ a:hover, a:focus {
 	top: -999em;
 	left: -999em;
 }
+#mobilemenu-footer {
+	float: left;
+	margin: 0 0 0 1.000em;
+}
 #social {
-
+	float: right;
+	margin: 0 1.000em 0 0;
 }
 #google:before {
 	content: '\47';
