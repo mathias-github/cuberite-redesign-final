@@ -451,11 +451,7 @@ a:hover, a:focus {
 	display: inline-block;
 }
 #footer img {
-	border: 0;
-	width: 1px;
-	position: fixed;
-	top: -999em;
-	left: -999em;
+	display: none;
 }
 #mobilemenu-footer {
 	float: left;
