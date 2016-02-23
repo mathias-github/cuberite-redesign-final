@@ -148,6 +148,9 @@ a:hover, a:focus {
 #logo a:before, #mobilemenu-navigation label:before, .downloadbutton:before, #speed, #foss, #plugin, #contribute:before, #license:before, #manual:before, #news:before, #not-found:before, #plugins:before, #privacy:before, #support:before, #previous:before, #next:before, #mobilemenu-footer label:before, #google:before, #twitter:before, #twitch:before, #vimeo:before, #youtube:before {
 	font-family: 'icons';
 }
+#advantages span, #h2:before {
+	cursor: default;
+}
 /* Navigation Bar */
 #navigation {
 	background: rgba(0,0,0,.3);
