@@ -626,9 +626,10 @@ input:focus {
 	}
 	#mobilemenu-footer {
 		float: right;
+		width: 100%;
 	}
 	#mobilemenu-footer label {
-		display: block;
+		float: right;
 		padding: 1.050em;
 	}
 	#mobilemenu-footer label:before {
