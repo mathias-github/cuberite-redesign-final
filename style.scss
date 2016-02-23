@@ -464,7 +464,7 @@ a:hover, a:focus {
 }
 #mobilemenu-footer a {
 	font-size: 0.875em;
-	padding: 2.000em;
+	padding: 1.875em;
 }
 #social {
 	float: right;
@@ -472,7 +472,7 @@ a:hover, a:focus {
 }
 #social a {
 	font-size: 1.250em;
-	padding: 1.375em;
+	padding: 1.250em;
 }
 #google:before {
 	content: '\47';
@@ -584,8 +584,11 @@ input:focus {
 	#mobilemenu-navigation label:hover, #mobilemenu-navigation label:focus, #mobilemenu-footer label:hover, #mobilemenu-footer label:focus {
 		background: rgba(0,0,0,.9);
 	}
-	#mobilemenu-button-navigation, #mobilemenu-button-footer, .mobilemenu-content {
+	.mobilemenu-content {
+		background: rgba(0,0,0,.9);
 		display: none;
+		position: absolute;
+		width: 100%;
 	}
 	#mobilemenu-button-navigation:checked + #mobilemenu-navigation .mobilemenu-content, #mobilemenu-button-footer:checked + #mobilemenu-footer .mobilemenu-content, #downloadbutton-linux-mobile:checked + #downloadbutton-linux .downloadmenu, #downloadbutton-windows-mobile:checked + #downloadbutton-windows .downloadmenu, #downloadbutton-freebsd-mobile:checked + #downloadbutton-freebsd .downloadmenu, #downloadbutton-osx-mobile:checked + #downloadbutton-osx .downloadmenu {
 		display: block;
@@ -593,11 +596,6 @@ input:focus {
 		-webkit-animation: fadein .2s;
 		-o-animation: fadein .2s;
 		animation: fadein .2s;
-	}
-	.mobilemenu-content {
-		background: rgba(0,0,0,.9);
-		width: 100%;
-		position: absolute;
 	}
 	#links a, #footer .mobilemenu-content a {
 		padding: 2.000em;
