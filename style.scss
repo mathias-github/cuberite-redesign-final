@@ -608,11 +608,11 @@ input:focus {
 		position: absolute;
 		text-align: left;
 	}
-	.mobilemenu-content a {
+	#links a, #footer .mobilemenu-content a {
 		padding: 2.000em;
 		display: block;
 	}
-	.mobilemenu-content a:hover, .mobilemenu-content a:hover {
+	#links a:hover, #links a:focus, #footer .mobilemenu-content a:hover, #footer .mobilemenu-content a:focus {
 		background: #000;
 	}
 	#mobilemenu-navigation .mobilemenu-content {
