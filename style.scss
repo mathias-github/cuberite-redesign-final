@@ -628,8 +628,8 @@ input:focus {
 		float: right;
 	}
 	#mobilemenu-footer label {
-		float: right;
-		padding: 0.813em 1.000em 00.750em 1.000em;
+		display: block;
+		padding: 1.050em;
 	}
 	#mobilemenu-footer label:before {
 		content: '\2026';
