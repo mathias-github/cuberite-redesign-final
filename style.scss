@@ -568,7 +568,7 @@ input:focus {
 }
 @media (max-width: 900px) {
 	/* Mobile Menus */
-	#logo a, #links, #social, #mobilemenu-footer {
+	#logo a, #links, #mobilemenu-footer {
 		float: none;
 		position: relative;
 		margin: 0;
@@ -602,7 +602,6 @@ input:focus {
 		background: rgba(0,0,0,.9);
 		width: 100%;
 		position: absolute;
-		text-align: left;
 	}
 	#links a, #footer .mobilemenu-content a {
 		padding: 2.000em;
@@ -613,6 +612,9 @@ input:focus {
 	}
 	#mobilemenu-navigation .mobilemenu-content {
 		top: 4.438em;
+	}
+	#social {
+		float: none;
 	}
 	#mobilemenu-footer label {
 		float: right;
