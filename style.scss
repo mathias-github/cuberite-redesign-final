@@ -111,6 +111,10 @@ h1 {
 	text-shadow: 0 0.125em 0.063em rgba(0,0,0,.2);
 	margin: 0 0 1.250em 0;
 }
+h2:before {
+	margin: 0 0.563em 0 0;
+	vertical-align: top;
+}
 h2 {
 	font-size: 1.500em;
 	margin: 0 0 0.625em 0;
@@ -145,10 +149,13 @@ a:hover, a:focus {
 	display: table-row;
 	height: 0;
 }
-#logo a:before, #mobilemenu-navigation label:before, .downloadbutton:before, #speed, #foss, #plugin, #contribute:before, #license:before, #manual:before, #news:before, #not-found:before, #plugins:before, #privacy:before, #support:before, #previous:before, #next:before, #mobilemenu-footer label:before, #google:before, #twitter:before, #twitch:before, #vimeo:before, #youtube:before {
+#logo a:before, #mobilemenu-navigation label:before, .downloadbutton:before, #advantages-body span, h2:before, #previous:before, #next:before, #mobilemenu-footer label:before, #social a:before {
 	font-family: 'icons';
 }
-#advantages span, #h2:before {
+#logo a:hover, #logo a:focus, #links a:hover, #links a:focus, #footer a:hover, #active {
+	background: rgba(0,0,0,.8);
+}
+#advantages-body span, h2:before {
 	cursor: default;
 }
 /* Navigation Bar */
@@ -184,9 +191,6 @@ a:hover, a:focus {
 	display: inline-block;
 	padding: 2.250em 2.000em 2.250em 2.000em;
 }
-#logo a:hover, #logo a:focus, #links a:hover, #links a:focus, #active {
-	background: rgba(0,0,0,.8);
-}
 /* Intro and Main */
 #intro, #main {
 	display: table-row;
@@ -207,10 +211,6 @@ a:hover, a:focus {
 }
 #intro h2 {
 	margin-bottom: 1.175em;
-}
-#contribute:before, #license:before, #manual:before, #news:before, #not-found:before, #plugins:before, #privacy:before, #support:before {
-	margin: 0 0.563em 0 0;
-	vertical-align: top;
 }
 #contribute:before {
 	content: "\26d8";
@@ -358,7 +358,7 @@ a:hover, a:focus {
 #advantages-body h3 {
 	margin: 1.250em 0 0.938em 0;
 }
-#speed:before, #foss:before, #plugin:before {
+#advantages-body span:before {
 	font-size: 5.000em;
 }
 #speed:before {
@@ -449,9 +449,6 @@ a:hover, a:focus {
 #footer a {
 	color: #fff;
 	display: inline-block;
-}
-#footer a:hover {
-	background: rgba(0,0,0,.8);
 }
 #footer img {
 	border: 0;
