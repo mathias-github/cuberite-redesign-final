@@ -577,8 +577,7 @@ input:focus {
 	#links {
 		float: none;
 	}
-	#links a, #footer a {
-		color: #fff;
+	#links a {
 		padding: 2.000em;
 		display: block;
 	}
@@ -621,6 +620,9 @@ input:focus {
 	}
 	#mobilemenu-navigation .mobilemenu-content {
 		top: 4.438em;
+	}
+	#footer a {
+		padding: 2.000em;
 	}
 	#mobilemenu-footer label {
 		float: right;
