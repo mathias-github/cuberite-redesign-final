@@ -568,11 +568,10 @@ input:focus {
 }
 @media (max-width: 900px) {
 	/* Mobile Menus */
-	#logo a, #links {
-		margin: 0;
-	}
-	#links {
+	#logo a, #links, #social, #mobilemenu-footer {
 		float: none;
+		position: relative;
+		margin: 0;
 	}
 	#mobilemenu-navigation label, #mobilemenu-footer label {
 		color: #fff;
@@ -614,13 +613,6 @@ input:focus {
 	}
 	#mobilemenu-navigation .mobilemenu-content {
 		top: 4.438em;
-	}
-	#social {
-		float: none;
-	}
-	#mobilemenu-footer {
-		float: none;
-		position: relative;
 	}
 	#mobilemenu-footer label {
 		float: right;
