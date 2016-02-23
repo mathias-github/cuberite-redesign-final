@@ -621,8 +621,8 @@ input:focus {
 	#mobilemenu-navigation .mobilemenu-content {
 		top: 4.438em;
 	}
-	#footer a {
-		padding: 2.000em;
+	#social {
+		float: left;
 	}
 	#mobilemenu-footer label {
 		float: right;
@@ -633,6 +633,10 @@ input:focus {
 	}
 	#mobilemenu-footer .mobilemenu-content {
 		bottom: 0;
+	}
+	#mobilemenu-footer .mobilemenu-content a {
+		padding: 2.000em;
+		display: block;
 	}
 	/* Download Buttons */
 	.downloadbutton {
