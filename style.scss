@@ -160,7 +160,7 @@ a:hover, a:focus {
 	text-transform: uppercase;
 	display: inline-block;
 	padding: 1.313em 1em 1.313em 1em;
-	margin: 0 0 0 1.000em;
+	margin: 0 0 0 0.625em;
 }
 #logo a:before {
 	content: '\25a0';
@@ -473,10 +473,10 @@ a:hover, a:focus {
 #social {
 	font-size: 1.250em;
 	float: right;
-	margin: 0 1.000em 0 0;
+	margin: 0 0.813em 0 0;
 }
 #social a {
-	padding:1.438em;
+	padding: 1.438em;
 }
 #google:before {
 	content: '\47';
@@ -486,9 +486,6 @@ a:hover, a:focus {
 }
 #twitch:before {
 	content: '\1f5e9';
-}
-#vimeo:before {
-	content: '\56';
 }
 #youtube:before {
 	content: '\25b6';
@@ -577,13 +574,6 @@ input:focus {
 	#links {
 		float: none;
 	}
-	#links a {
-		padding: 2.000em;
-		display: block;
-	}
-	#links a:hover, #footer a:hover, #links a:focus, #footer a:focus {
-		background: #000;
-	}
 	#mobilemenu-navigation, #mobilemenu-footer {
 		position: relative;
 	}
@@ -618,6 +608,13 @@ input:focus {
 		position: absolute;
 		text-align: left;
 	}
+	.mobilemenu-content a {
+		padding: 2.000em;
+		display: block;
+	}
+	.mobilemenu-content a:hover, .mobilemenu-content a:hover {
+		background: #000;
+	}
 	#mobilemenu-navigation .mobilemenu-content {
 		top: 4.438em;
 	}
@@ -638,10 +635,6 @@ input:focus {
 	}
 	#mobilemenu-footer .mobilemenu-content {
 		bottom: 3.250em;
-	}
-	#mobilemenu-footer .mobilemenu-content a {
-		padding: 2.000em;
-		display: block;
 	}
 	/* Download Buttons */
 	.downloadbutton {
