@@ -136,7 +136,7 @@ a:hover, a:focus {
 	color: rgba(255,255,255,.6);
 }
 /* Combined Rules */
-#links input, #intro input, #footer input, #footer img {
+#navigation input, #intro input, #footer input, #footer img {
 	display: none;
 }
 #intro-body, #main-body, #advantages-body, #banner-body {
@@ -149,13 +149,13 @@ a:hover, a:focus {
 	display: table-row;
 	height: 0;
 }
-#logo a:before, #mobilemenu-navigation label:before, .downloadbutton:before, #advantages-body span, h2:before, #previous:before, #next:before, #mobilemenu-footer label:before, #social a:before {
+#logo a:before, #navigation-links label:before, .downloadbutton:before, #advantages span, h2:before, #previous:before, #next:before, #footer-links label:before, #social a:before {
 	font-family: 'icons';
 }
-#logo a:hover, #logo a:focus, #links a:hover, #links a:focus, #footer a:hover, #active {
+#navigation a:hover, #navigation a:focus, #footer a:hover, #footer a:focus, #active {
 	background: rgba(0,0,0,.8);
 }
-#advantages-body span, h2:before {
+#advantages span, h2:before {
 	cursor: default;
 }
 /* Navigation Bar */
@@ -181,12 +181,12 @@ a:hover, a:focus {
 	margin-right: 0.500em;
 	vertical-align: top;
 }
-#links {
+#navigation-links {
 	font-size: 0.875em;
 	float: right;
 	margin: 0 1.000em 0 0;
 }
-#links a {
+#navigation-links a {
 	color: #fff;
 	display: inline-block;
 	padding: 2.250em 2.000em 2.250em 2.000em;
@@ -355,10 +355,10 @@ a:hover, a:focus {
 	padding: 3.125em 3.125em 1.875em 3.125em;
 	text-align: center;
 }
-#advantages-body h3 {
+#advantages h3 {
 	margin: 1.250em 0 0.938em 0;
 }
-#advantages-body span:before {
+#advantages span:before {
 	font-size: 5.000em;
 }
 #speed:before {
@@ -450,11 +450,11 @@ a:hover, a:focus {
 	color: #fff;
 	display: inline-block;
 }
-#mobilemenu-footer {
+#footer-links {
 	float: left;
 	margin: 0 0 0 1.000em;
 }
-#mobilemenu-footer a {
+#footer-links a {
 	font-size: 0.875em;
 	padding: 1.875em;
 }
@@ -556,61 +556,64 @@ input:focus {
 }
 @media (max-width: 900px) {
 	/* Mobile Menus */
-	#logo a, #links, #mobilemenu-footer {
+	#logo a {
+		margin: 0;
+	}
+	#navigation-links, #footer-links {
 		float: none;
 		position: relative;
 		margin: 0;
 	}
-	#mobilemenu-navigation label, #mobilemenu-footer label {
+	#navigation-links label, #footer-links label {
 		color: #fff;
 		font-size: 1.500em;
 		cursor: pointer;
 	}
-	#mobilemenu-navigation label {
+	#navigation-links label {
 		float: right;
 		padding: 1.500em 1.000em 1.438em 1.000em;
 	}
-	#mobilemenu-navigation label:before {
+	#navigation-links label:before {
 		content: '\2261';
 	}
-	#mobilemenu-navigation label:hover, #mobilemenu-navigation label:focus, #mobilemenu-footer label:hover, #mobilemenu-footer label:focus {
+	#footer-links label {
+		float: right;
+		padding: 1.000em;
+	}
+	#footer-links label:before {
+		content: '\2026';
+	}
+	#navigation-links label:hover, #navigation-links label:focus, #footer-links label:hover, #footer-links label:focus {
 		background: rgba(0,0,0,.9);
 	}
-	.mobilemenu-content {
+	#navigation-links-body, #footer-links-body {
 		background: rgba(0,0,0,.9);
 		display: none;
 		position: absolute;
 		width: 100%;
 	}
-	#mobilemenu-button-navigation:checked + #mobilemenu-navigation .mobilemenu-content, #mobilemenu-button-footer:checked + #mobilemenu-footer .mobilemenu-content, #downloadbutton-linux-mobile:checked + #downloadbutton-linux .downloadmenu, #downloadbutton-windows-mobile:checked + #downloadbutton-windows .downloadmenu, #downloadbutton-freebsd-mobile:checked + #downloadbutton-freebsd .downloadmenu, #downloadbutton-osx-mobile:checked + #downloadbutton-osx .downloadmenu {
+	#navigation-links-body {
+		top: 4.438em;
+	}
+	#footer-links-body {
+		bottom: 0;
+	}
+	#navigation-links-toggle:checked + #navigation-links #navigation-links-body, #footer-links-toggle:checked + #footer-links #footer-links-body, #downloadbutton-linux-mobile:checked + #downloadbutton-linux .downloadmenu, #downloadbutton-windows-mobile:checked + #downloadbutton-windows .downloadmenu, #downloadbutton-freebsd-mobile:checked + #downloadbutton-freebsd .downloadmenu, #downloadbutton-osx-mobile:checked + #downloadbutton-osx .downloadmenu {
 		display: block;
 		-moz-animation: fadein .2s;
 		-webkit-animation: fadein .2s;
 		-o-animation: fadein .2s;
 		animation: fadein .2s;
 	}
-	#links a, #footer .mobilemenu-content a {
+	#navigation-links-body a, #footer-links-body a {
 		padding: 2.000em 1.750em 2.000em 1.750em;
 		display: block;
 	}
-	#links a:hover, #links a:focus, #footer .mobilemenu-content a:hover, #footer .mobilemenu-content a:focus {
+	#navigation-links-body a:hover, #navigation-links-body a:focus, #footer-links-body a:hover, #footer-links-body a:focus {
 		background: #000;
-	}
-	#mobilemenu-navigation .mobilemenu-content {
-		top: 4.438em;
 	}
 	#social {
 		float: none;
-	}
-	#mobilemenu-footer label {
-		float: right;
-		padding: 1.000em;
-	}
-	#mobilemenu-footer label:before {
-		content: '\2026';
-	}
-	#mobilemenu-footer .mobilemenu-content {
-		bottom: 0;
 	}
 	/* Download Buttons */
 	.downloadbutton {
