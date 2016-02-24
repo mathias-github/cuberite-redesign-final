@@ -621,9 +621,6 @@ input:focus {
 		margin: 0.750em -0.750em -0.750em -0.750em;
 		width: auto;
 	}
-	.downloadmenu a {
-		background: none;
-	}
 	#downloadbutton-linux:hover #downloadmenu-linux, #downloadbutton-windows:hover #downloadmenu-windows, #downloadbutton-freebsd:hover #downloadmenu-freebsd, #downloadbutton-osx:hover #downloadmenu-osx {
 		display: none;
 	}
