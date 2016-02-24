@@ -374,13 +374,10 @@ a:hover, a:focus {
 }
 /* News */
 .post {
-	padding: 0 0 1.938em 0;
+	margin: 0 0 1.938em 0;
 }
 .post:first-of-type {
-	padding: 0.438em 0 1.938em 0;
-}
-.post:last-of-type {
-	padding: 0 0 1.875em 0;
+	margin: 0.438em 0 1.938em 0;
 }
 .post a {
 	color: rgba(255,255,255,.6);
@@ -394,7 +391,7 @@ a:hover, a:focus {
 	display: block;
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 0.875em;
-	padding: 0.688em 0 0 0;
+	margin: 0.688em 0 0 0;
 }
 #pagination {
 	font-size: 0.813em;
