@@ -485,7 +485,6 @@ button {
 	font-family: montserratregular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 0.875em;
 	padding: 0.500em 0.750em 0.500em 0.750em;
-	display: inline-block;
 	cursor: pointer;
 	-moz-border-radius: 0.125em;
 	-webkit-border-radius: 0.125em;
@@ -494,7 +493,6 @@ button {
 }
 button:hover, button:focus {
 	background: #000;
-	outline: none;
 }
 input {
 	background: rgba(255,255,255,.6);
@@ -509,7 +507,6 @@ input {
 }
 input:focus {
 	background: #fff;
-	outline: none;
 }
 /* Responsive Design */
 @media (min-width: 0px) {
