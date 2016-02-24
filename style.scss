@@ -145,10 +145,6 @@ a:hover, a:focus {
 	-o-animation: fadein 1.5s;
 	animation: fadein 1.5s;
 }
-#navigation, #advantages, #footer {
-	display: table-row;
-	height: 0;
-}
 #logo a:before, #navigation-links label:before, .downloadbutton:before, #advantages span, h2:before, #previous:before, #next:before, #footer-links label:before, #social a:before {
 	font-family: 'icons';
 }
@@ -161,7 +157,7 @@ a:hover, a:focus {
 /* Navigation Bar */
 #navigation {
 	background: rgba(0,0,0,.3);
-	width: 100%;
+	display: table-row;
 	line-height: 0;
 }
 #logo {
@@ -348,7 +344,7 @@ a:hover, a:focus {
 /* Advantages-box */
 #advantages {
 	background: rgba(0,0,0,.3);
-	width: 100%;
+	display: table-row;
 	text-shadow: 0 0.125em 0 rgba(0,0,0,.1);
 }
 #advantages-body {
@@ -443,6 +439,7 @@ a:hover, a:focus {
 /* Footer */
 #footer {
 	background: rgba(0,0,0,.6);
+	display: table-row;
 	line-height: 0;
 	text-align: left;
 }
