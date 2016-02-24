@@ -465,10 +465,11 @@ a:hover, a:focus {
 #social a {
 	font-size: 1.188em;
 	padding: 1.313em;
+	vertical-align: middle;
 }
-#social a#google {
-	font-size: 1.375em;
-	padding: 1.110em;
+a#google {
+	font-size: 1.563em;
+	padding: 1.000em;
 }
 #google:before {
 	content: '\47';
