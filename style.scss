@@ -57,7 +57,7 @@
 	to { opacity: 1; }
 }
 /* Main */
-html, body, div, span, h1, h2, h3, p, a, s, small, strike, strong, sub, b, u, i, ul, li, form {
+* {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -479,10 +479,8 @@ a:hover, a:focus {
 }
 /* Inputs */
 button {
-	border: none;
 	background: rgba(0,0,0,.6);
 	color: #fff;
-	font-family: montserratregular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 0.875em;
 	padding: 0.500em 0.750em 0.500em 0.750em;
 	cursor: pointer;
@@ -496,7 +494,6 @@ button:hover, button:focus {
 }
 input {
 	background: rgba(255,255,255,.6);
-	border: none;
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 0.875em;
 	padding: 0.500em 0.750em 0.500em 0.750em;
