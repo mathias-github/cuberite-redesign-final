@@ -497,6 +497,10 @@ input {
 	-webkit-border-radius: 0.125em;
 	-o-border-radius: 0.125em;
 	border-radius: 0.125em;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
 }
 input:focus {
 	background: #fff;
