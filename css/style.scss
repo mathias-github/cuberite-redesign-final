@@ -478,25 +478,22 @@ button, input {
 	-o-border-radius: 0.188em;
 	border-radius: 0.188em;
 }
+input::-moz-focus-inner, button::-moz-focus-inner { 
+	border: 0;
+	padding: 0;
+}
 input {
 	background: rgba(255,255,255,.6);
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	width: 14.375em;
 }
 input:focus {
 	background: #fff;
-}
-input::-moz-focus-inner, button::-moz-focus-inner { 
-	border: 0; 
-	padding: 0; 
-}
-input[type="email"] {
-	width: 14.375em;
 }
 button {
 	background: rgba(0,0,0,.6);
 	color: #fff;
 	cursor: pointer;
-	font-family: montserratregular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 button:hover, button:focus {
 	background: #000;
