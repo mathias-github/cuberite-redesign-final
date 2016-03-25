@@ -468,33 +468,26 @@ a:hover, a:focus {
 	content: '\25b6';
 }
 /* Inputs */
-button, input {
+input {
+	background: rgba(255,255,255,.6);
+	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 0.875em;
+	padding: 0.688em;
 	-moz-border-radius: 0.188em;
 	-webkit-border-radius: 0.188em;
 	-o-border-radius: 0.188em;
 	border-radius: 0.188em;
 }
-button {
+input:focus {
+	background: #fff;
+}
+input[type="submit"] {
 	background: rgba(0,0,0,.6);
 	color: #fff;
 	cursor: pointer;
-	padding: 0.750em;
 }
-button:hover, button:focus {
+input[type="submit"]:hover, input[type="submit"]:focus {
 	background: #000;
-}
-button::-moz-focus-inner {
-	padding: 0;
-	border: 0;
-}
-input {
-	background: rgba(255,255,255,.6);
-	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	padding: 0.688em;
-}
-input:focus {
-	background: #fff;
 }
 /* Responsive Design */
 @media (min-width: 0px) {
