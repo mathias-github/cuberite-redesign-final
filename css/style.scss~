@@ -63,7 +63,7 @@
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: middle;
+	vertical-align: top;
 }
 html, body {
 	width: 100%;
@@ -158,11 +158,14 @@ a:hover, a:focus {
 	display: table-row;
 	line-height: 0;
 }
+#logo {
+	float: left;
+}
 #logo a {
 	color: #fff;
-	float: left;
 	font-size: 1.500em;
 	text-transform: uppercase;
+	display: inline-block;
 	padding: 1.313em 1em 1.313em 1em;
 	margin: 0 0 0 0.625em;
 }
@@ -173,13 +176,13 @@ a:hover, a:focus {
 	vertical-align: top;
 }
 #navigation-links {
+	font-size: 0.875em;
 	float: right;
 	margin: 0 1.000em 0 0;
 }
 #navigation-links a {
 	color: #fff;
-	float: left;
-	font-size: 0.875em;
+	display: inline-block;
 	padding: 2.250em 2.000em 2.250em 2.000em;
 }
 /* Intro and Main */
@@ -430,12 +433,13 @@ a:hover, a:focus {
 }
 #footer a {
 	color: #fff;
+	display: inline-block;
 }
 #footer-links {
+	float: left;
 	margin: 0 0 0 1.000em;
 }
 #footer-links a {
-	float: left;
 	font-size: 0.875em;
 	padding: 1.875em;
 }
@@ -444,7 +448,6 @@ a:hover, a:focus {
 	margin: 0 1.000em 0 0;
 }
 #social a {
-	float: left;
 	font-size: 1.188em;
 	padding: 1.313em;
 }
@@ -584,7 +587,7 @@ input:focus {
 		animation: fadein .2s;
 	}
 	#navigation-links-body a, #footer-links-body a {
-		float: none;
+		display: block;
 		padding: 2.000em 1.750em 2.000em 1.750em;
 	}
 	#navigation-links-body a:hover, #navigation-links-body a:focus, #footer-links-body a:hover, #footer-links-body a:focus {
