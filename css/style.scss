@@ -472,7 +472,10 @@ input {
 	background: rgba(255,255,255,.6);
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 0.875em;
+	height: 0;
+	line-height: 0;
 	padding: 0.750em;
+	vertical-align: middle;
 	-moz-border-radius: 0.188em;
 	-webkit-border-radius: 0.188em;
 	-o-border-radius: 0.188em;
