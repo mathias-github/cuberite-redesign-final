@@ -150,7 +150,7 @@ a:hover, a:focus {
 	font-family: 'icons';
 }
 #navigation a:hover, #navigation a:focus, #footer a:hover, #footer a:focus, #active {
-	background: rgba(0,0,0,.8);
+	background: rgba(0,0,0,.5);
 }
 /* Navigation Bar */
 #navigation {
@@ -169,18 +169,18 @@ a:hover, a:focus {
 #logo a:before {
 	content: '\25a0';
 	font-size: 1.125em;
-	margin-right: 0.500em;
+	padding:0 0.500em 0 0;
 	vertical-align: top;
 }
 #navigation-links {
 	float: right;
-	margin: 0 1.000em 0 0;
+	margin: 0 0.875em 0 0;
 }
 #navigation-links a {
 	color: #fff;
 	float: left;
 	font-size: 0.875em;
-	padding: 2.250em;
+	padding: 2.250em 2.125em 2.250em 2.125em;
 }
 /* Intro and Main */
 #intro, #main {
