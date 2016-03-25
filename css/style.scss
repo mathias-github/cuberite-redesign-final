@@ -471,7 +471,6 @@ a:hover, a:focus {
 button, input {
 	font-size: 0.875em;
 	height: 2.500em;
-	line-height: 2.500em;
 	padding: 0 0.750em 0 0.750em;
 	vertical-align: top;
 	-moz-border-radius: 0.188em;
@@ -489,6 +488,9 @@ input:focus {
 input::-moz-focus-inner, button::-moz-focus-inner { 
 	border: 0; 
 	padding: 0; 
+}
+input[type="email"] {
+	width: 15.000em;
 }
 button {
 	background: rgba(0,0,0,.6);
