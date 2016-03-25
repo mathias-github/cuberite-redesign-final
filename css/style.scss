@@ -433,21 +433,23 @@ a:hover, a:focus {
 	color: #fff;
 }
 #footer-links {
-	margin: 0 0 0 1.000em;
+	margin: 0 0 0 0.813em;
 }
 #footer-links a {
 	float: left;
 	font-size: 0.875em;
 	padding: 1.875em;
+	margin: 0 0.188em 0 0.188em;
 }
 #social {
 	float: right;
-	margin: 0 1.000em 0 0;
+	margin: 0 0.813em 0 0;
 }
 #social a {
 	float: left;
 	font-size: 1.188em;
 	padding: 1.313em;
+	margin: 0 0.188em 0 0.188em;
 }
 #social a#google {
 	font-size: 1.563em;
