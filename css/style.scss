@@ -448,12 +448,12 @@ a:hover, a:focus {
 #social a {
 	float: left;
 	font-size: 1.250em;
-	padding: 1.313em;
+	padding: 1.313em 1.188em 1.313em 1.188em;
 	margin: 0 0.188em 0 0.188em;
 }
 #social a#google {
 	font-size: 1.625em;
-	padding: 1.000em;
+	padding: 1.000em 0.875em 1.000em 0.875em;
 }
 #google:before {
 	content: '\47';
