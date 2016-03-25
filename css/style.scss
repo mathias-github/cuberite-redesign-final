@@ -585,6 +585,7 @@ input:focus {
 		animation: fadein .2s;
 	}
 	#navigation-links-body a, #footer-links-body a {
+		display: block;
 		float: none;
 		padding: 2.000em 1.750em 2.000em 1.750em;
 	}
