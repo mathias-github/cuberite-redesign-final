@@ -468,9 +468,7 @@ a:hover, a:focus {
 	content: '\25b6';
 }
 /* Inputs */
-input {
-	background: rgba(255,255,255,.6);
-	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
+button, input {
 	font-size: 0.875em;
 	height: 2.500em;
 	line-height: 2.500em;
@@ -481,20 +479,24 @@ input {
 	-o-border-radius: 0.188em;
 	border-radius: 0.188em;
 }
+input {
+	background: rgba(255,255,255,.6);
+	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 input:focus {
 	background: #fff;
 }
-input::-moz-focus-inner { 
+input::-moz-focus-inner, button::-moz-focus-inner { 
 	border: 0; 
 	padding: 0; 
 }
-input[type="submit"] {
+button {
 	background: rgba(0,0,0,.6);
 	color: #fff;
 	cursor: pointer;
 	font-family: montserratregular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-input[type="submit"]:hover, input[type="submit"]:focus {
+button:hover, button:focus {
 	background: #000;
 }
 /* Responsive Design */
