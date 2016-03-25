@@ -595,7 +595,10 @@ input:focus {
 		background: #000;
 	}
 	#social {
-		float: none;
+		float: left;
+	}
+	#social a:first-child {
+		margin: 0 0.188em 0 0;
 	}
 	/* Download Buttons */
 	.downloadbutton {
