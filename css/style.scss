@@ -63,7 +63,7 @@
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: top;
 }
 html, body {
 	width: 100%;
@@ -108,8 +108,8 @@ h1, h2, h3 {
 h1 {
 	font-size: 2.875em;
 	line-height: 1.4em;
-	text-shadow: 0 0.125em 0.063em rgba(0,0,0,.2);
 	margin: 0 0 1.250em 0;
+	text-shadow: 0 0.125em 0.063em rgba(0,0,0,.2);
 }
 h2:before {
 	cursor: default;
@@ -209,9 +209,6 @@ a:hover, a:focus {
 }
 #license:before {
 	content: "\1f528";
-}
-#manual:before {
-	content: "\1f4d6";
 }
 #news:before {
 	content: "\1f56b";
@@ -335,7 +332,7 @@ a:hover, a:focus {
 	text-align: center;
 	padding: 0.750em;
 }
-/* Advantages-box */
+/* Advantages Box */
 #advantages {
 	background: rgba(0,0,0,.3);
 	display: table-row;
@@ -433,12 +430,10 @@ a:hover, a:focus {
 	background: rgba(0,0,0,.6);
 	display: table-row;
 	line-height: 0;
-	border: 1px solid #ffffff;
 }
 #footer a {
 	color: #fff;
 	display: inline-block;
-	margin: 0 0 0.001em 0;
 }
 #footer-links {
 	float: left;
@@ -455,7 +450,6 @@ a:hover, a:focus {
 #social a {
 	font-size: 1.188em;
 	padding: 1.313em;
-	vertical-align: middle;
 }
 #social a#google {
 	font-size: 1.563em;
@@ -497,10 +491,6 @@ input {
 	-webkit-border-radius: 0.125em;
 	-o-border-radius: 0.125em;
 	border-radius: 0.125em;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-o-box-sizing: border-box;
-	box-sizing: border-box;
 }
 input:focus {
 	background: #fff;
@@ -534,7 +524,7 @@ input:focus {
 	html { font-size: 92%; }
 }
 @media (max-width: 800px) {
-	/* Advantages */
+	/* Advantages Box */
 	#leftcolumn, #centercolumn, #rightcolumn {
 		display: block;
 		width: 100%;
