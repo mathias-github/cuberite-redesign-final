@@ -120,11 +120,11 @@ a:hover, a:focus {
 	font-family: 'icons';
 }
 #navigation a:hover, #navigation a:focus, #footer a:hover, #footer a:focus, #active {
-	background: rgba(0,0,0,.4);
+	background: rgba(0,0,0,.35);
 }
 /* Navigation Bar */
 #navigation {
-	background: rgba(0,0,0,.3);
+	background: rgba(0,0,0,.25);
 	display: table-row;
 	line-height: 0;
 }
