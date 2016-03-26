@@ -120,11 +120,11 @@ a:hover, a:focus {
 	font-family: 'icons';
 }
 #navigation a:hover, #navigation a:focus, #footer a:hover, #footer a:focus, #active {
-	background: rgba(0,0,0,.3);
+	background: rgba(0,0,0,.4);
 }
 /* Navigation Bar */
 #navigation {
-	background: rgba(0,0,0,.2);
+	background: rgba(0,0,0,.3);
 	display: table-row;
 	line-height: 0;
 }
@@ -287,7 +287,7 @@ a:hover, a:focus {
 }
 /* Advantages Box */
 #advantages {
-	background: rgba(0,0,0,.2);
+	background: rgba(0,0,0,.3);
 	display: table-row;
 	text-shadow: 0 0.125em 0 rgba(0,0,0,.1);
 }
@@ -377,7 +377,7 @@ a:hover, a:focus {
 }
 /* Footer */
 #footer {
-	background: rgba(0,0,0,.4);
+	background: rgba(0,0,0,.5);
 	display: table-row;
 	line-height: 0;
 }
