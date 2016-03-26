@@ -40,15 +40,7 @@
 	font-style: normal;
 }
 /* Animation */
-@-moz-keyframes fadein{
-	from { opacity: 0; }
-	to { opacity: 1; }
-}
 @-webkit-keyframes fadein {
-	from { opacity: 0; }
-	to { opacity: 1; }
-}
-@-o-keyframes fadein {
 	from { opacity: 0; }
 	to { opacity: 1; }
 }
@@ -141,9 +133,7 @@ a:hover, a:focus {
 	display: none;
 }
 #intro-body, #main-body, #advantages-body, #banner-body {
-	-moz-animation: fadein 1.5s;
 	-webkit-animation: fadein 1.5s;
-	-o-animation: fadein 1.5s;
 	animation: fadein 1.5s;
 }
 #logo a:before, #navigation-links label:before, .downloadbutton:before, #advantages span, h2:before, #previous:before, #next:before, #footer-links label:before, #social a:before {
@@ -240,6 +230,8 @@ a:hover, a:focus {
 /* Download Buttons */
 .downloadbutton {
 	background: #fff;
+	border-radius: 0.313em;
+	box-shadow: 0 0.125em 0.063em rgba(0,0,0,.15);
 	color: #101010;
 	font-size: 1.125em;
 	cursor: pointer;
@@ -250,20 +242,9 @@ a:hover, a:focus {
 	position: relative;
 	line-height: 30px;
 	text-shadow: none;
-	-moz-box-shadow: 0 0.125em 0.063em rgba(0,0,0,.15);
-	-webkit-box-shadow: 0 0.125em 0.063em rgba(0,0,0,.15);
-	-o-box-shadow: 0 0.125em 0.063em rgba(0,0,0,.15);
-	box-shadow: 0 0.125em 0.063em rgba(0,0,0,.15);
-	-moz-border-radius: 0.313em;
-	-webkit-border-radius: 0.313em;
-	-o-border-radius: 0.313em;
-	border-radius: 0.313em;
 }
 .downloadbutton:hover, .downloadbutton:focus {
 	background: #C3C3C3;
-	-moz-border-radius: 0.313em 0.313em 0 0;
-	-webkit-border-radius: 0.313em 0.313em 0 0;
-	-o-border-radius: 0.313em 0.313em 0 0;
 	border-radius: 0.313em 0.313em 0 0;
 }
 .downloadbutton:before {
@@ -284,14 +265,11 @@ a:hover, a:focus {
 }
 .downloadmenu {
 	background: #C3C3C3;
+	border-radius: 0 0 0.313em 0.313em;
 	display: none;
 	position: absolute;
 	width: 100%;
 	margin: 0.750em 0 0 -0.750em;
-	-moz-border-radius: 0 0 0.313em 0.313em;
-	-webkit-border-radius: 0 0 0.313em 0.313em;
-	-o-border-radius: 0 0 0.313em 0.313em;
-	border-radius: 0 0 0.313em 0.313em;
 }
 .downloadmenu a {
 	color: #101010;
@@ -302,9 +280,6 @@ a:hover, a:focus {
 	background: #fff;
 }
 .downloadmenu a:last-child:hover, .downloadmenu a:last-child:focus {
-	-moz-border-radius: 0 0 0.313em 0.313em;
-	-webkit-border-radius: 0 0 0.313em 0.313em;
-	-o-border-radius: 0 0 0.313em 0.313em;
 	border-radius: 0 0 0.313em 0.313em;
 }
 #downloadbutton-linux:hover #downloadmenu-linux, #downloadbutton-windows:hover #downloadmenu-windows, #downloadbutton-freebsd:hover #downloadmenu-freebsd, #downloadbutton-osx:hover #downloadmenu-osx {
@@ -394,12 +369,9 @@ a:hover, a:focus {
 }
 #pagination a, #pagination span {
 	background: rgba(0,0,0,0.6);
+	border-radius: 0.188em;
 	display: inline-block;
 	padding: 0.875em 0.875em 0.813em 0.875em;
-	-moz-border-radius: 0.188em;
-	-webkit-border-radius: 0.188em;
-	-o-border-radius: 0.188em;
-	border-radius: 0.188em;
 }
 #pagination a {
 	color: #fff;
@@ -469,15 +441,12 @@ a:hover, a:focus {
 }
 /* Inputs */
 button, input {
+	border-radius: 0.188em;
 	font-size: 0.875em;
 	height: 2.500em;
 	line-height: 2.500em;
 	padding: 0 0.750em 0 0.750em;
 	vertical-align: top;
-	-moz-border-radius: 0.188em;
-	-webkit-border-radius: 0.188em;
-	-o-border-radius: 0.188em;
-	border-radius: 0.188em;
 }
 input::-moz-focus-inner, button::-moz-focus-inner { 
 	border: 0;
@@ -611,9 +580,6 @@ button:hover, button:focus {
 		width: auto;
 	}
 	.downloadbutton:hover, .downloadbutton:focus {
-		-moz-border-radius: 0.313em;
-		-webkit-border-radius: 0.313em;
-		-o-border-radius: 0.313em;
 		border-radius: 0.313em;
 	}
 	.downloadmenu {
