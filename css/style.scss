@@ -81,10 +81,6 @@ body {
 ::-webkit-input-placeholder {
 	color: rgba(0,0,0,.55);
 }
-:-moz-placeholder {
-	color: rgba(0,0,0,.55);
-	opacity: 1;
-}
 ::-moz-placeholder {
 	color: rgba(0,0,0,.55);
 	opacity: 1;
@@ -554,9 +550,7 @@ button:hover, button:focus {
 	}
 	#navigation-links-toggle:checked + #navigation-links #navigation-links-body, #footer-links-toggle:checked + #footer-links #footer-links-body, #downloadbutton-linux-mobile:checked + #downloadbutton-linux .downloadmenu, #downloadbutton-windows-mobile:checked + #downloadbutton-windows .downloadmenu, #downloadbutton-freebsd-mobile:checked + #downloadbutton-freebsd .downloadmenu, #downloadbutton-osx-mobile:checked + #downloadbutton-osx .downloadmenu {
 		display: block;
-		-moz-animation: fadein .2s;
 		-webkit-animation: fadein .2s;
-		-o-animation: fadein .2s;
 		animation: fadein .2s;
 	}
 	#navigation-links-body a, #footer-links-body a {
