@@ -116,11 +116,39 @@ a:hover, a:focus {
 	-webkit-animation: fadein 1.5s;
 	animation: fadein 1.5s;
 }
-#logo a:before, #navigation-links label:before, .downloadbutton:before, #advantages span, h2:before, #previous:before, #next:before, #footer-links label:before, #social a:before {
+#navigation a:before, #navigation-links label:before, .downloadbutton:before, #advantages span, h2:before, #previous:before, #next:before, #footer-links label:before, #social a:before {
 	font-family: 'icons';
 }
 #navigation a:hover, #navigation a:focus, #footer a:hover, #footer a:focus, #active {
 	background: rgba(0,0,0,.35);
+}
+/* Icons */
+.contribute:before {
+	content: "\26d8";
+}
+.forum:before {
+	content: "\1F4AC";
+}
+.license:before {
+	content: "\1f528";
+}
+.manual:before {
+	content: "\1F4D6";
+}
+.news:before {
+	content: "\1f56b";
+}
+.not-found:before {
+	content: "\26a0";
+}
+.plugins:before {
+	content: '\1f50c';
+}
+.privacy:before {
+	content: '\1f441';
+}
+.support:before {
+	content: "\3f";
 }
 /* Navigation Bar */
 #navigation {
@@ -146,11 +174,16 @@ a:hover, a:focus {
 	float: right;
 	margin: 0 0.750em 0 0;
 }
+#navigation-links a:before {
+	font-size: 1.250em;
+	margin: 0 0.625em 0 0;
+	vertical-align: top;
+}
 #navigation-links a {
 	color: #fff;
 	float: left;
 	font-size: 0.875em;
-	padding: 2.250em 2.000em 2.250em 2.000em;
+	padding: 2.250em 1.750em 2.250em 1.750em;
 	margin: 0 0.188em 0 0.188em;
 }
 /* Intro and Main */
@@ -171,27 +204,6 @@ a:hover, a:focus {
 }
 #intro h2 {
 	margin: 0 0 1.175em 0;
-}
-#contribute:before {
-	content: "\26d8";
-}
-#license:before {
-	content: "\1f528";
-}
-#news:before {
-	content: "\1f56b";
-}
-#not-found:before {
-	content: "\26a0";
-}
-#plugins:before {
-	content: '\1f50c';
-}
-#privacy:before {
-	content: '\1f441';
-}
-#support:before {
-	content: "\3f";
 }
 #main-footer {
 	color: rgba(255,255,255,.7);
@@ -536,6 +548,10 @@ button:hover, button:focus {
 		display: block;
 		-webkit-animation: fadein .2s;
 		animation: fadein .2s;
+	}
+	#navigation-links-body a:before {
+		font-size: 1.375em;
+		margin: 0 0.875em 0 0;
 	}
 	#navigation-links-body a, #footer-links-body a {
 		display: block;
