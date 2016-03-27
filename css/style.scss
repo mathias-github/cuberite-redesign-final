@@ -185,7 +185,6 @@ a:hover, a:focus {
 	font-size: 0.875em;
 	padding: 2.250em 1.750em 2.250em 1.750em;
 	margin: 0 0.188em 0 0.188em;
-	text-transform: uppercase;
 }
 /* Intro and Main */
 #intro, #main {
@@ -502,7 +501,7 @@ button:hover, button:focus {
 @media (min-width: 900px) {
 	html { font-size: 94%; }
 }
-@media (max-width: 950px) {
+@media (max-width: 910px) {
 	/* Mobile Menus */
 	#logo a {
 		margin: 0;
