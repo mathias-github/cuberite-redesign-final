@@ -175,7 +175,7 @@ a:hover, a:focus {
 	margin: 0 0.750em 0 0;
 }
 #navigation-links a:before {
-	font-size: 1.313em;
+	font-size: 1.250em;
 	margin: 0 0.625em 0 0;
 	vertical-align: top;
 }
@@ -501,7 +501,7 @@ button:hover, button:focus {
 @media (min-width: 900px) {
 	html { font-size: 94%; }
 }
-@media (max-width: 910px) {
+@media (max-width: 900px) {
 	/* Mobile Menus */
 	#logo a {
 		margin: 0;
