@@ -502,7 +502,7 @@ button:hover, button:focus {
 @media (min-width: 900px) {
 	html { font-size: 94%; }
 }
-@media (max-width: 900px) {
+@media (max-width: 950px) {
 	/* Mobile Menus */
 	#logo a {
 		margin: 0;
@@ -549,6 +549,9 @@ button:hover, button:focus {
 		display: block;
 		-webkit-animation: fadein .2s;
 		animation: fadein .2s;
+	}
+	#navigation-links-body a:before {
+		margin: 0 0.750em 0 0;
 	}
 	#navigation-links-body a, #footer-links-body a {
 		display: block;
