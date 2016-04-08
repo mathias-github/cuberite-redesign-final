@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{% capture content %}<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -55,4 +55,4 @@
 </div>
 <script type="text/javascript">var _paq = _paq || [];_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);(function() {var u="https://analytics.cuberite.org/";_paq.push(['setTrackerUrl', u+'piwik.php']);_paq.push(['setSiteId', 1]);var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';g.defer=true; g.async=true; g.src='/js/analytics.js'; s.parentNode.insertBefore(g,s);})();</script>
 </body>
-</html>
+</html>{% endcapture %}{{ content | strip_newlines | replace:' ','' }}
