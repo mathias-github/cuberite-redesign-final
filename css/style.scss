@@ -415,20 +415,20 @@ a:hover, a:focus {
 	padding: 1.250em 1.188em 1.313em 1.188em;
 	margin: 0 0.188em 0 0.188em;
 }
-#media-links a#gl {
+#media-links a#google {
 	font-size: 1.688em;
 	padding: 0.938em 0.750em 0.938em 0.750em;
 }
-#gl:before {
+#google:before {
 	content: '\47';
 }
-#tw:before {
+#twitter:before {
 	content: '\1f426';
 }
 #twitch:before {
 	content: '\1f5e9';
 }
-#yt:before {
+#youtube:before {
 	content: '\25b6';
 }
 /* Inputs */
