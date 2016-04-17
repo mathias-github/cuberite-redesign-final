@@ -83,7 +83,7 @@ h1 {
 	margin: 0 0 0.938em 0;
 	text-shadow: 0 0.063em 0.063em rgba(0,0,0,.15);
 }
-h2:before {
+h2:before, h3:before {
 	cursor: default;
 	margin: 0 0.563em 0 0;
 	vertical-align: top;
@@ -116,7 +116,7 @@ a:hover, a:focus {
 	-webkit-animation: fadein 1.5s;
 	animation: fadein 1.5s;
 }
-#navigation a:before, #navigation-links label:before, .downloadbutton:before, #advantages span, h2:before, #previous:before, #next:before, #footer-links label:before, #media-links a:before {
+#navigation a:before, #navigation-links label:before, .downloadbutton:before, h2:before, h3:before, #previous:before, #next:before, #footer-links label:before, #media-links a:before {
 	font-family: 'icons';
 }
 #navigation a:hover, #navigation a:focus, #footer a:hover, #footer a:focus, #active {
@@ -309,10 +309,6 @@ a:hover, a:focus {
 }
 #advantages h3 {
 	margin: 1.250em 0 0.938em 0;
-}
-#advantages span:before {
-	cursor: default;
-	font-size: 4.688em;
 }
 #speed:before {
 	content: '\1f680';
