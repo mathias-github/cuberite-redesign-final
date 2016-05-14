@@ -115,7 +115,7 @@ a:hover, a:focus {
 #navigation input, #intro input, #footer input, #footer img {
 	display: none;
 }
-#intro-body, #main-body, #advantages-body, #banner-body {
+#intro-body, #main-body, #advantages-body, #notice-body, #banner-body {
 	-webkit-animation: fadein 1.5s;
 	animation: fadein 1.5s;
 }
@@ -124,6 +124,13 @@ a:hover, a:focus {
 }
 #navigation a:hover, #navigation a:focus, #footer a:hover, #footer a:focus, #active {
 	background: rgba(0,0,0,.35);
+}
+#notice, #banner {
+	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 0.938em;
+	line-height: 1.6;
+	text-align: center;
+	padding: 0.750em;
 }
 /* Icons */
 .contribute:before {
@@ -222,12 +229,6 @@ a:hover, a:focus {
 #main-footer span, #download-footer span {
 	margin: 0 0.750em 0 0.750em;
 }
-#notice {
-	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 0.875em;
-	line-height: 1.4;
-	padding: 1.875em 0 0 0;
-}
 /* Download Buttons */
 .downloadbutton {
 	background: #fff;
@@ -296,15 +297,15 @@ a:hover, a:focus {
 #download-footer a:hover, #download-footer a:focus {
 	color: #fff;
 }
+/* Notice */
+#notice {
+	background: rgba(0,0,0,.20);
+	color: rgba(255,255,255,.75);
+}
 /* Information Banner */
 #banner {
 	background: rgba(49,162,0,.15);
 	color: rgba(255,255,255,.75);
-	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 0.938em;
-	line-height: 1.6;
-	text-align: center;
-	padding: 0.750em;
 }
 /* Advantages Box */
 #advantages {
