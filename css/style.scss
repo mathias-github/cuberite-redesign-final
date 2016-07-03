@@ -390,8 +390,13 @@ p, #banner, .post span, input {
 	font-size: 2em;
 	margin: 0 auto 0.750em auto;
 }
+#mobile-links a {
+    display: table-cell;
+}
+#footer-links label {
+    display: block;
+}
 #mobile-links a, #footer-links label {
-	display: table-cell;
 	font-size: 0.750em;
 	padding: 1.563em 0 1.250em 0;
 	text-align: center;
