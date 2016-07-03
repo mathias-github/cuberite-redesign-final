@@ -383,6 +383,11 @@ p, #banner, .post span, input {
 	display: none;
 	float: left;
 }
+#mobile-links a:before {
+	display: table;
+	font-size: 2em;
+	margin: 0 auto 20px auto;
+}
 #mobile-links a {
 	display: inline-block;
 	padding: 20px;
