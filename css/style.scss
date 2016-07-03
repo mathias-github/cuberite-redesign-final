@@ -477,7 +477,7 @@ button:hover, button:focus {
     border-radius: 0.313em;
     box-shadow: 0 0.125em 0.063em rgba(0, 0, 0, 0.15);
     color: #101010;
-    margin: 0 0.375em 0.938em 0.375em;
+    margin: 0.938em 0.375em 0 0.375em;
     padding: 0.875em;
     display: inline-block;
     text-shadow: none;
@@ -516,7 +516,7 @@ button:hover, button:focus {
 }
 @media (max-width: 800px) {
 	/* Advantages Box */
-	#leftcolumn, #centercolumn, #rightcolumn {
+	#leftcolumn, #centercolumn, #rightcolumn, #leftplugins, #rightplugins {
 		display: block;
 		width: 100%;
 	}
