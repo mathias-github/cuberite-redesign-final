@@ -469,8 +469,7 @@ button:hover, button:focus {
 	border-radius: 0.313em;
 	box-shadow: 0 0.125em 0.063em rgba(0,0,0,.15);
 	color: #101010;
-	font-size: 1.125em;
-	width: 8.125em;
+	font-size: 1.000em;
 	margin: 0 0.375em 0 0.375em;
 	padding: 0.750em;
 	display: inline-block;
@@ -480,6 +479,7 @@ button:hover, button:focus {
 }
 .button:hover, .button:focus {
 	background: #C3C3C3;
+	color: #101010;
 }
 /* Responsive Design */
 @media (min-width: 0px) {
