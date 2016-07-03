@@ -385,12 +385,12 @@ p, #banner, .post span, input {
 	table-layout: fixed;
 	width: 100%;
 }
-#mobile-links a:before {
+#mobile-links a:before, #footer-links label:before {
 	display: table;
 	font-size: 2em;
 	margin: 0 auto 0.750em auto;
 }
-#mobile-links a {
+#mobile-links a, #footer-links label {
 	display: table-cell;
 	font-size: 0.750em;
 	padding: 1.563em 0 1.250em 0;
@@ -540,12 +540,7 @@ button:hover, button:focus {
 		margin: 0;
 	}
 	#navigation-links label, #footer-links label {
-		font-size: 1.313em;
 		cursor: pointer;
-	}
-	#footer-links label {
-		display: table-cell;
-		padding: 1.563em 0 1.250em 0;
 	}
 	#footer-links label:before {
 		content: '\2026';
