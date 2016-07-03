@@ -4,13 +4,13 @@ url: http://cuberite.org
 author: Cuberite Team
 exclude:
   - CNAME
+  - LICENSE
   - README.md
 sass:
   style: :compressed
 gems:
-  - jekyll-sitemap
   - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-sitemap
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /news/:num/
