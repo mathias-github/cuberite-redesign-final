@@ -342,6 +342,14 @@ p, #banner, .post span, input {
 #leftcolumn, #centercolumn {
 	margin: 0 2.500em 0 0;
 }
+#leftplugins, #rightplugins {
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+}
+#leftplugins {
+	margin: 0 2.500em 0 0;
+}
 /* News */
 .post {
 	margin: 1.375em 0 1.938em 0;
