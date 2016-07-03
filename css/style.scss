@@ -316,19 +316,20 @@ p, #banner, .post span, input {
 	text-align: center;
 }
 .advantages-container {
-	display: table;
 	text-align: left;
 }
 #advantages h3 {
 	margin: 0 0 0.625em 0;
 }
+.icon-wrapper {
+	display: inline-block;
+	vertical-align: middle;
+}
 #advantages span:before {
 	cursor: default;
-	display: table-cell;
 	float: left;
 	font-size: 5.313em;
 	margin: 0 0.250em 0 0;
-	vertical-align: middle;
 }
 #speed:before {
 	content: '\1f680';
