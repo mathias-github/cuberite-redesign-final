@@ -379,32 +379,8 @@ p, #banner, .post span, input {
 #footer a {
 	color: #fff;
 }
-#mobile-links {
-	float: left;
-	table-layout: fixed;
-	width: 100%;
-}
 #mobile-links-hide {
 	display: none;
-}
-#mobile-links a:before, #footer-links label:before {
-	display: table;
-	font-size: 2em;
-	margin: 0 auto 0.750em auto;
-}
-#mobile-links a {
-    display: table-cell;
-}
-#footer-links label {
-    display: block;
-}
-#mobile-links a, #footer-links label {
-	font-size: 0.750em;
-	padding: 1.563em 0 1.250em 0;
-	text-align: center;
-}
-#mobile-links a.active {
-	color: #C3C3C3;
 }
 #footer-links {
 	margin: 0 0 0 0.813em;
@@ -592,6 +568,31 @@ button:hover, button:focus {
 	}
 	#mobile-links {
 		display: table;
+		float: left;
+		table-layout: fixed;
+		width: 100%;
+	}
+	#mobile-links-hide {
+		display: block;
+	}
+	#mobile-links a:before, #footer-links label:before {
+		display: table;
+		font-size: 2em;
+		margin: 0 auto 0.750em auto;
+	}
+	#mobile-links a {
+	    display: table-cell;
+	}
+	#footer-links label {
+		display: block;
+	}
+	#mobile-links a, #footer-links label {
+		font-size: 0.750em;
+		padding: 1.563em 0 1.250em 0;
+		text-align: center;
+	}
+	#mobile-links a.active {
+		color: #C3C3C3;
 	}
 	#media-links {
         display: none;
