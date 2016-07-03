@@ -122,7 +122,7 @@ p, #banner, .post span, input {
 	font-family: 'icons';
 }
 #navigation a:hover, #navigation a:focus, #footer a:hover, #footer a:focus, #footer-links label:hover, #footer-links label:focus, #active {
-	background: rgba(0,0,0,.35);
+	background: rgba(10,10,10,.35);
 }
 #banner-blue, #banner-green {
 	color: rgba(255,255,255,.75);
@@ -162,7 +162,7 @@ p, #banner, .post span, input {
 }
 /* Navigation Bar */
 #navigation {
-	background: rgba(0,0,0,.25);
+	background: rgba(10,10,10, 0.4);
 	display: table-row;
 	line-height: 0;
 }
@@ -343,7 +343,7 @@ p, #banner, .post span, input {
 	margin: 2.188em 0 0 0;
 }
 #pagination a, #pagination span {
-	background: rgba(0,0,0,0.6);
+	background: rgba(10,10,10,0.6);
 	border-radius: 0.188em;
 	display: inline-block;
 	padding: 0.875em 0.875em 0.813em 0.875em;
@@ -372,7 +372,7 @@ p, #banner, .post span, input {
 }
 /* Footer */
 #footer {
-	background: rgba(0,0,0,.25);
+	background: rgba(10,10,10, 0.4);
 	display: table-row;
 	line-height: 0;
 }
@@ -438,7 +438,7 @@ input:focus {
 	background: #eaeaea;
 }
 button {
-	background: rgba(0,0,0,.6);
+	background: rgba(10,10,10,.6);
 	color: #fff;
 	cursor: pointer;
 	margin: 0 0 0 0.438em;
@@ -523,7 +523,7 @@ button:hover, button:focus {
 		margin: 0;
 	}
 	#navigation-links-body, #footer-links-body {
-		background: rgba(0,0,0,.9);
+		background: rgba(10,10,10,.9);
 		display: none;
 		position: absolute;
 		width: 100%;
@@ -545,7 +545,7 @@ button:hover, button:focus {
 		background: #000;
 	}
 	#footer {
-		background: rgba(0, 0, 0, 0.85);
+		background: rgba(10,10,10, 0.7);
 		position: fixed;
         right: 0;
         bottom: 0;
