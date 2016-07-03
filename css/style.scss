@@ -517,19 +517,10 @@ button:hover, button:focus {
 	#navigation-links {
 		display: none;
 	}
-	#navigation-links, #footer-links {
+	#footer-links {
 		float: none;
 		position: relative;
 		margin: 0;
-	}
-	#navigation-links label, #footer-links label {
-		cursor: pointer;
-	}
-	#footer-links label:before {
-		content: '\2026';
-	}
-	#navigation-links label:hover, #navigation-links label:focus, #footer-links label:hover, #footer-links label:focus {
-		background: rgba(0,0,0,.9);
 	}
 	#navigation-links-body, #footer-links-body {
 		background: rgba(0,0,0,.9);
@@ -537,27 +528,20 @@ button:hover, button:focus {
 		position: absolute;
 		width: 100%;
 	}
-	#navigation-links-body {
-		top: 3.938em;
-	}
 	#footer-links-body {
-		bottom: 0;
+		bottom: 3.938em;
 	}
 	#navigation-links-toggle:checked + #navigation-links #navigation-links-body, #footer-links-toggle:checked + #footer-links #footer-links-body, #downloadbutton-linux-mobile:checked + #downloadbutton-linux .downloadmenu, #downloadbutton-windows-mobile:checked + #downloadbutton-windows .downloadmenu, #downloadbutton-freebsd-mobile:checked + #downloadbutton-freebsd .downloadmenu, #downloadbutton-osx-mobile:checked + #downloadbutton-osx .downloadmenu {
 		display: block;
 		-webkit-animation: fadein .2s;
 		animation: fadein .2s;
 	}
-	#navigation-links-body a:before {
-		font-size: 1.375em;
-		margin: 0 0.875em 0 0;
-	}
-	#navigation-links-body a, #footer-links-body a {
+	#footer-links-body a {
 		display: block;
 		float: none;
 		padding: 2.000em 1.625em 2.000em 1.625em;
 	}
-	#navigation-links-body a:hover, #navigation-links-body a:focus, #footer-links-body a:hover, #footer-links-body a:focus {
+	#footer-links-body a:hover, #footer-links-body a:focus {
 		background: #000;
 	}
 	#footer {
@@ -568,12 +552,11 @@ button:hover, button:focus {
 	}
 	#mobile-links {
 		display: table;
-		float: left;
 		table-layout: fixed;
 		width: 100%;
 	}
 	#mobile-links-hide {
-		display: block;
+		display: initial;
 	}
 	#mobile-links a:before, #footer-links label:before {
 		display: table;
@@ -583,7 +566,11 @@ button:hover, button:focus {
 	#mobile-links a {
 	    display: table-cell;
 	}
+	#footer-links label:before {
+		content: '\2026';
+	}
 	#footer-links label {
+		cursor: pointer;
 		display: block;
 	}
 	#mobile-links a, #footer-links label {

@@ -36,12 +36,10 @@
 	{{ content }}
 	<div id="footer">
         <div id="mobile-links">
-			<div id="mobile-links-hide">
-            	<a href="/cuberite-redesign-final/" class="contribute">Home</a>
-				<a href="https://book.cuberite.org/" class="manual">Manual</a>
-				<a href="/cuberite-redesign-final/support/" class="support"{% if page.url == "/cuberite-redesign-final/support/" %} id="active"{% endif %}>Support</a>
-				<a href="/cuberite-redesign-final/plugins/" class="plugins"{% if page.url == "/cuberite-redesign-final/plugins/" %} id="active"{% endif %}>Plugins</a>
-			</div>
+            <a href="/cuberite-redesign-final/" class="contribute mobile-links-hide">Home</a>
+			<a href="https://book.cuberite.org/" class="manual mobile-links-hide">Manual</a>
+			<a href="/cuberite-redesign-final/support/" class="support mobile-links-hide"{% if page.url == "/cuberite-redesign-final/support/" %} id="active"{% endif %}>Support</a>
+			<a href="/cuberite-redesign-final/plugins/" class="plugins mobile-links-hide"{% if page.url == "/cuberite-redesign-final/plugins/" %} id="active"{% endif %}>Plugins</a>
 			<input type="checkbox" id="footer-links-toggle"/>
 			<div id="footer-links">
 				<label for="footer-links-toggle">More</label>
