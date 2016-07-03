@@ -388,7 +388,7 @@ p, #banner, .post span, input {
 #mobile-links a:before {
 	display: table;
 	font-size: 2em;
-	margin: 0 auto 20px auto;
+	margin: 0 auto 0.750em auto;
 }
 #mobile-links a {
 	display: table-cell;
@@ -519,6 +519,9 @@ button:hover, button:focus {
 	html { font-size: 94%; }
 }
 @media (max-width: 900px) {
+	body {
+		padding: 0 0 3.750em 0;
+	}
 	/* Mobile Menus */
 	#navigation {
 		text-align: center;
