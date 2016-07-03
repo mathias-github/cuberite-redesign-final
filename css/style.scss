@@ -30,13 +30,11 @@
 	from { opacity: 0; }
 	to { opacity: 1; }
 }
-
-@-webkit-keyframes slide {
-    100% { left: 0; }
+@-webkit-keyframes scaleUp {
+	from { opacity: 0; transform: scale(.8); }
 }
-
-@keyframes slide {
-    100% { left: 0; }
+@keyframes scaleUp {
+	from { opacity: 0; transform: scale(.8); }
 }
 /* Main */
 * {
@@ -123,10 +121,8 @@ p, #banner, .post span, input {
 	display: none;
 }
 #intro-body, #main-body, #advantages-body, #banner-blue-body, #banner-green-body {
-    -webkit-animation: slide 0.5s forwards;
-    -webkit-animation-delay: 2s;
-    animation: slide 0.5s forwards;
-    animation-delay: 2s;
+	-webkit-animation: scaleUp .7s ease both;
+	animation: scaleUp .7s ease both;
 }
 #navigation a:before, #navigation-links label:before, .downloadbutton:before, #advantages span, h2:before, #previous:before, #next:before, #footer-links label:before, #media-links a:before {
 	font-family: 'icons';
