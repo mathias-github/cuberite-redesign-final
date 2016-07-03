@@ -576,7 +576,6 @@ button:hover, button:focus {
 	}
 	#footer {
 		position: fixed;
-        top: 0;
         right: 0;
         bottom: 0;
         left: 0;
@@ -585,6 +584,7 @@ button:hover, button:focus {
 		display: block;
 	}
 	#media-links {
+        display: none;
 		float: left;
 	}
 	#media-links a:first-child {
