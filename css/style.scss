@@ -382,6 +382,8 @@ p, #banner, .post span, input {
 #mobile-links {
 	display: none;
 	float: left;
+	table-layout: fixed;
+	width: 100%;
 }
 #mobile-links a:before {
 	display: table;
@@ -389,9 +391,10 @@ p, #banner, .post span, input {
 	margin: 0 auto 20px auto;
 }
 #mobile-links a {
-	display: inline-block;
+	display: table-cell;
 	font-size: 0.750em;
-	padding: 20px 10px 20px 10px;
+	padding: 20px 0 20px 0;
+	text-align: center;
 }
 #footer-links {
 	margin: 0 0 0 0.813em;
@@ -587,7 +590,7 @@ button:hover, button:focus {
         left: 0;
 	}
 	#mobile-links {
-		display: block;
+		display: table;
 	}
 	#media-links {
         display: none;
