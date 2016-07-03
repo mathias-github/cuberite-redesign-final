@@ -381,6 +381,11 @@ p, #banner, .post span, input {
 }
 #mobile-links {
 	display: none;
+	float: left;
+}
+#mobile-links a {
+	display: inline-block;
+	padding: 20px;
 }
 #footer-links {
 	margin: 0 0 0 0.813em;
@@ -571,6 +576,10 @@ button:hover, button:focus {
 	}
 	#footer {
 		position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
 	}
 	#mobile-links {
 		display: block;
