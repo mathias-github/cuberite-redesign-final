@@ -36,22 +36,24 @@
 	{{ content }}
 	<div id="footer">
         <div id="mobile-links">
-            <a href="/cuberite-redesign-final/" class="contribute">Home</a>
-			<a href="https://book.cuberite.org/" class="manual">Manual</a>
-			<a href="/cuberite-redesign-final/support/" class="support"{% if page.url == "/cuberite-redesign-final/support/" %} id="active"{% endif %}>Support</a>
-			<a href="/cuberite-redesign-final/plugins/" class="plugins"{% if page.url == "/cuberite-redesign-final/plugins/" %} id="active"{% endif %}>Plugins</a>
+			<div id="mobile-links-hide">
+            	<a href="/cuberite-redesign-final/" class="contribute">Home</a>
+				<a href="https://book.cuberite.org/" class="manual">Manual</a>
+				<a href="/cuberite-redesign-final/support/" class="support"{% if page.url == "/cuberite-redesign-final/support/" %} id="active"{% endif %}>Support</a>
+				<a href="/cuberite-redesign-final/plugins/" class="plugins"{% if page.url == "/cuberite-redesign-final/plugins/" %} id="active"{% endif %}>Plugins</a>
+			</div>
 			<input type="checkbox" id="footer-links-toggle"/>
 			<div id="footer-links">
-			<label for="footer-links-toggle">More</label>
-			<div id="footer-links-body">
-				<a href="/cuberite-redesign-final/about/">About</a>
-				<a href="/cuberite-redesign-final/news/">News</a>
-				<a href="https://salt.bountysource.com/teams/cuberite">Donate</a>
-				<a href="https://kiwiirc.com/client/irc.freenode.net/#cuberite">IRC</a>
-				<a href="http://api-docs.cuberite.org/">API Docs</a>
-				<a href="/cuberite-redesign-final/privacy/">Privacy</a>
+				<label for="footer-links-toggle">More</label>
+				<div id="footer-links-body">
+					<a href="/cuberite-redesign-final/about/">About</a>
+					<a href="/cuberite-redesign-final/news/">News</a>
+					<a href="https://salt.bountysource.com/teams/cuberite">Donate</a>
+					<a href="https://kiwiirc.com/client/irc.freenode.net/#cuberite">IRC</a>
+					<a href="http://api-docs.cuberite.org/">API Docs</a>
+					<a href="/cuberite-redesign-final/privacy/">Privacy</a>
+				</div>
 			</div>
-		</div>
 		</div>
 		<div id="media-links">
 			<a href="https://plus.google.com/+cuberiteorg" id="google"></a>

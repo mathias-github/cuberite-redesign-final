@@ -380,10 +380,12 @@ p, #banner, .post span, input {
 	color: #fff;
 }
 #mobile-links {
-	display: none;
 	float: left;
 	table-layout: fixed;
 	width: 100%;
+}
+#mobile-links-hide {
+	display: none;
 }
 #mobile-links a:before, #footer-links label:before {
 	display: table;
