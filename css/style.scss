@@ -321,8 +321,13 @@ p, #banner, .post span, input {
 #advantages h3 {
 	margin: 0 0 0.625em 0;
 }
+.icon-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
 .text-wrapper {
-    float: right;
+    display: table-cell;
+    vertical-align: top;
 }
 #advantages span:before {
 	cursor: default;
