@@ -35,15 +35,14 @@
 	</div>
 	{{ content }}
 	<div id="footer">
+		<input type="checkbox" id="footer-links-toggle"/>
         <div id="mobile-links">
 			<a href="https://book.cuberite.org/" class="manual">Manual</a>
 			<a href="/cuberite-redesign-final/support/" class="support"{% if page.url == "/cuberite-redesign-final/support/" %} id="active"{% endif %}>Support</a>
 			<a href="/cuberite-redesign-final/plugins/" class="plugins"{% if page.url == "/cuberite-redesign-final/plugins/" %} id="active"{% endif %}>Plugins</a>
-			<a href="/cuberite-redesign-final/contribute/" class="contribute"{% if page.url == "/cuberite-redesign-final/contribute/" %} id="active"{% endif %}>Contribute</a>
+			<a><label for="footer-links-toggle"></label></a>
 		</div>
-		<input type="checkbox" id="footer-links-toggle"/>
 		<div id="footer-links">
-			<label for="footer-links-toggle"></label>
 			<div id="footer-links-body">
 				<a href="/cuberite-redesign-final/about/">About</a>
 				<a href="/cuberite-redesign-final/news/">News</a>
