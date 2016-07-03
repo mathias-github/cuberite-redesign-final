@@ -379,6 +379,9 @@ p, #banner, .post span, input {
 #footer a {
 	color: #fff;
 }
+#mobile-links {
+	display: none;
+}
 #footer-links {
 	margin: 0 0 0 0.813em;
 }
@@ -565,6 +568,12 @@ button:hover, button:focus {
 	}
 	#navigation-links-body a:hover, #navigation-links-body a:focus, #footer-links-body a:hover, #footer-links-body a:focus {
 		background: #000;
+	}
+	#footer {
+		position: fixed;
+	}
+	#mobile-links {
+		display: block;
 	}
 	#media-links {
 		float: left;
