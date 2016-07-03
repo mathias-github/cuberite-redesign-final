@@ -305,57 +305,6 @@ p, #banner, .post span, input {
 #banner-green {
 	background: rgba(49,162,0,.15);
 }
-/* Advantages Box */
-#advantages {
-	background: rgba(0,0,0,.25);
-	display: table-row;
-	text-shadow: 0 0.125em 0 rgba(0,0,0,.1);
-}
-#advantages-body {
-	padding: 1.875em 3.125em 1.875em 3.125em;
-	text-align: center;
-}
-.advantages-container {
-	text-align: left;
-}
-#advantages h3 {
-	margin: 0 0 0.625em 0;
-}
-#advantages p {
-	margin: 0;
-}
-.icon-wrapper {
-    display: table-cell;
-    vertical-align: middle;
-}
-.text-wrapper {
-    display: table-cell;
-	padding: 0 0 0 1.875em;
-}
-#advantages span:before {
-	cursor: default;
-	font-size: 5.313em;
-}
-#speed:before {
-	content: '\1f680';
-	color: #A3983B;
-}
-#foss:before {
-	content: '\26d8';
-	color: #9E3A3A;
-}
-#plugin:before {
-	content: '\1f50c';
-	color: #51A838;
-}
-#leftcolumn, #centercolumn, #rightcolumn {
-	display: inline-block;
-	width: 29%;
-	vertical-align: top;
-}
-#leftcolumn, #centercolumn {
-	margin: 0 2.500em 0 0;
-}
 #leftcontribute, #centercontribute, #rightcontribute {
 	display: inline-block;
 	width: 30%;
@@ -538,11 +487,11 @@ button:hover, button:focus {
 }
 @media (max-width: 800px) {
 	/* Advantages Box */
-	#leftcolumn, #centercolumn, #rightcolumn, #leftplugins, #rightplugins {
+	#leftplugins, #rightplugins {
 		display: block;
 		width: 100%;
 	}
-	#leftcolumn, #centercolumn {
+	#leftplugins {
 		margin: 0 0 4.063em 0;
 	}
 }
@@ -555,6 +504,8 @@ button:hover, button:focus {
 		text-align: center;
 	}
 	#logo a {
+		display: inline-block;
+		float: none;
 		margin: 0;
 	}
 	#navigation-links {
