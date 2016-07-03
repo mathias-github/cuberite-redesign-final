@@ -315,12 +315,18 @@ p, #banner, .post span, input {
 	padding: 3.125em 3.125em 1.875em 3.125em;
 	text-align: center;
 }
+.advantages-container {
+	display: table;
+}
 #advantages h3 {
-	margin: 1.250em 0 0.938em 0;
+	margin: 0 0 0.938em 0;
 }
 #advantages span:before {
 	cursor: default;
+	display: table-cell;
+	float: left;
 	font-size: 5.000em;
+	vertical-align: middle;
 }
 #speed:before {
 	content: '\1f680';
