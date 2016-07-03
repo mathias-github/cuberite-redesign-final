@@ -543,16 +543,9 @@ button:hover, button:focus {
 		font-size: 1.313em;
 		cursor: pointer;
 	}
-	#navigation-links label {
-		float: right;
-		padding: 1.500em 1.000em 1.438em 1.000em;
-	}
-	#navigation-links label:before {
-		content: '\2261';
-	}
 	#footer-links label {
-		float: right;
-		padding: 1.188em 1.000em 1.250em 1.000em;
+		display: table-cell;
+		padding: 1.563em 0 1.250em 0;
 	}
 	#footer-links label:before {
 		content: '\2026';
