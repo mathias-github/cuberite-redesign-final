@@ -30,19 +30,11 @@
 	from { opacity: 0; }
 	to { opacity: 1; }
 }
-@-webkit-keyframes scaleUp {
-	from { opacity: 0; transform: scale(.9); }
+@-webkit-keyframes scalein {
+	from { transform: scale(.9); }
 }
-@keyframes scaleUp {
-	from { opacity: 0; transform: scale(.9); }
-}
-@keyframes slideUp {
-	0% { transform: translateY(90%); }
-	100% { transform: translateY(0%); }	
-}
-@-webkit-keyframes slideUp {
-	0% { -webkit-transform: translateY(100%); }
-	100% { -webkit-transform: translateY(0%); }	
+@keyframes scalein {
+	from { transform: scale(.9); }
 }
 /* Main */
 * {
@@ -129,8 +121,8 @@ p, #banner, .post span, input {
 	display: none;
 }
 #intro-body, #main-body, #advantages-body, #banner-blue-body, #banner-green-body {
-	-webkit-animation: scaleUp .7s ease both;
-	animation: scaleUp .6s ease both;
+	-webkit-animation: scalein .6s ease both;
+	animation: scalein .6s ease both;
 }
 #navigation a:before, #navigation-links label:before, .downloadbutton:before, h2:before, #previous:before, #next:before, #mobile-links a:before, #footer-links label:before, #media-links a:before {
 	font-family: 'icons';
@@ -553,13 +545,11 @@ button:hover, button:focus {
 		height: 15em;
 		bottom: 3.750em;
 		left: 0;
-		-webkit-animation: slideUp .4s;
-		animation: slideUp .4s;
 	}
 	#footer-links-toggle:checked + #footer-links #footer-links-body, #downloadbutton-linux-mobile:checked + #downloadbutton-linux .downloadmenu, #downloadbutton-windows-mobile:checked + #downloadbutton-windows .downloadmenu, #downloadbutton-freebsd-mobile:checked + #downloadbutton-freebsd .downloadmenu, #downloadbutton-osx-mobile:checked + #downloadbutton-osx .downloadmenu {
 		display: block;
-		-webkit-animation: slideUp .4s;
-		animation: slideUp .4s;
+		-webkit-animation: fadein .4s;
+		animation: fadein .4s;
 	}
 	#footer-links a {
 		display: block;
