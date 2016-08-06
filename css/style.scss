@@ -136,6 +136,18 @@ p, #banner, .post span, input {
 	text-align: center;
 	padding: 0.750em;
 }
+.button, #pagination a, #pagination span {
+	background: #eaeaea;
+	border-radius: 0.313em;
+	box-shadow: 0 0.125em 0.063em rgba(0, 0, 0, 0.15);
+ 	color: #1e1e1e;
+	display: inline-block;
+	text-shadow: none;
+}
+.button:hover, .button:focus, #pagination a:hover, #pagination a:focus {
+	background: #C3C3C3;
+	color: #1e1e1e;
+}
 /* Icons */
 .contribute:before {
 	content: "\26d8";
@@ -348,17 +360,7 @@ p, #banner, .post span, input {
 	margin: 2.188em 0 3.375em 0;
 }
 #pagination a, #pagination span {
-	background: #eaeaea;
-	border-radius: 0.313em;
-	box-shadow: 0 0.125em 0.063em rgba(0, 0, 0, 0.15);
-	display: inline-block;
 	padding: 0.875em 0.875em 0.813em 0.875em;
-}
-#pagination a {
-	color: #1e1e1e;
-}
-#pagination a:hover, #pagination a:focus {
-	background: #000;
 }
 #pagination span {
 	color: rgba(255,255,255,0.6);
@@ -451,18 +453,8 @@ button:hover, button:focus {
 	background: #000;
 }
 .button {
-	background: #eaeaea;
-	border-radius: 0.313em;
-	box-shadow: 0 0.125em 0.063em rgba(0, 0, 0, 0.15);
- 	color: #1e1e1e;
  	margin: 0.938em 0.375em 0 0.375em;
  	padding: 0.875em;
-	display: inline-block;
-	text-shadow: none;
-}
-.button:hover, .button:focus {
-	background: #C3C3C3;
-	color: #1e1e1e;
 }
 /* Responsive Design */
 @media (min-width: 0px) {
