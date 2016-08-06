@@ -117,7 +117,7 @@ a:hover, a:focus {
 p, #banner, .post span, input {
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-#navigation input, #intro input, #footer input, #footer img, #footer label, .mobile-links-hide {
+#navigation input, #intro input, #footer input, #footer img, #footer label, .mobile-links-, .show-mobile {
 	display: none;
 }
 #intro-body, #main-body, #advantages-body, #banner-blue-body, #banner-green-body {
@@ -385,9 +385,6 @@ p, #banner, .post span, input {
 #footer a {
 	color: #eaeaea;
 }
-.mobile-links-hide {
-	display: none;
-}
 #footer-links {
 	margin: 0 0 0 0.813em;
 }
@@ -547,6 +544,9 @@ button:hover, button:focus {
 	}
 	#footer-links a:hover, #footer-links a:focus {
 		background: #000;
+	}
+	.show-mobile {
+		display: initial;
 	}
 	#footer {
 		background: rgba(10,10,10, 0.7);
