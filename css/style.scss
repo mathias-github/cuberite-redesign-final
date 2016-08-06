@@ -572,7 +572,7 @@ button:hover, button:focus {
 		margin: 0.063em auto 0.750em auto;
 	}
 	#mobile-links a.show-mobile, #media-links a {
-		display: block;
+		display: table-cell;
 	}
 	#footer-links label:before {
 		content: '\2026';
