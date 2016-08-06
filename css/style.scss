@@ -565,7 +565,7 @@ button:hover, button:focus {
 		table-layout: fixed;
 		width: 100%;
 	}
-	#mobile-links a.show-mobile:before, #footer-links label:before {
+	#mobile-links a:before, #footer-links label:before {
 		display: table;
 		font-size: 1.750em;
 		margin: 0.063em auto 0.750em auto;
