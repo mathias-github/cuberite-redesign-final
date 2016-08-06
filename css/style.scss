@@ -581,7 +581,7 @@ button:hover, button:focus {
 		cursor: pointer;
 		display: block;
 	}
-	#mobile-links a, #footer-links label {
+	#mobile-links a.mobile-links-hide, #footer-links label {
 		font-size: 0.750em;
 		padding: 1.563em 0 1.250em 0;
 		text-align: center;
@@ -590,7 +590,7 @@ button:hover, button:focus {
 		color: #C3C3C3;
 	}
 	#media-links {
-        display: none;
+		display: none;
 		float: left;
 	}
 	#media-links a:first-child {
