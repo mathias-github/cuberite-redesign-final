@@ -5,12 +5,12 @@ Compiling yourself takes longer and is more involved, but on modern processors c
 
 The automatic compilation script is recommended for *nix users. Windows users should see the [Other Systems](#other-systems) subsection for instructions. The automatic compilation script takes care of the compilation process for you. You only need to copy this command to your terminal:
 
-    sh -c "$(wget -O - https://raw.githubusercontent.com/cuberite/cuberite/master/compile.sh)"
+    sh -c "$(wget -O - https://compile.cuberite.org)"
 
 The rest of this section is for those who prefer to manually compile.
 
 <aside class="warnbox">
-	This process requires use of the command line. If you are not familiar with it, it is recommended that you use the [pre-compiled builds](#1.1) instead.
+	This process requires use of the command line. If you are not familiar with it, it is recommended that you use the [pre-compiled builds](#pre-com) instead.
 </aside>
 
 #### Linux/Mac/BSD
@@ -26,7 +26,7 @@ Once the tools are installed, you should clone the Git repo:
 You should then run the CMake process and compile:
 
     cmake . -DCMAKE_BUILD_TYPE=RELEASE
-    make . -j 2
+    make -j 2
 
 <aside class="warnbox">
 	This step may take a while on slow hardware like Raspberry Pis, up to several hours in some cases. However, subsequent compiles will be faster.
