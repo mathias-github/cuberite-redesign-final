@@ -124,7 +124,7 @@ p, #banner, .post span, input {
 	-webkit-animation: scaleUp .7s ease both;
 	animation: scaleUp .6s ease both;
 }
-#navigation a:before, #navigation-links label:before, .downloadbutton:before, h2:before, #previous:before, #next:before, #mobile-links a.hide-mobile:before, #footer-links label:before, #media-links a:before {
+#navigation a:before, #navigation-links label:before, .downloadbutton:before, h2:before, #previous:before, #next:before, #mobile-links a.show-mobile:before, #footer-links label:before, #media-links a:before {
 	font-family: 'icons';
 }
 #navigation a:hover, #navigation a:focus, #footer a:hover, #footer a:focus, #footer-links label:hover, #footer-links label:focus, #active {
