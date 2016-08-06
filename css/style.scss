@@ -528,13 +528,11 @@ button:hover, button:focus {
 		position: relative;
 		margin: 0;
 	}
-	#navigation-links-body, #footer-links-body {
+	#footer-links-body {
 		background: rgba(10,10,10,.9);
 		display: none;
 		position: absolute;
 		width: 100%;
-	}
-	#footer-links-body {
 		bottom: 3.938em;
 	}
 	#navigation-links-toggle:checked + #navigation-links #navigation-links-body, #footer-links-toggle:checked + #footer-links #footer-links-body, #downloadbutton-linux-mobile:checked + #downloadbutton-linux .downloadmenu, #downloadbutton-windows-mobile:checked + #downloadbutton-windows .downloadmenu, #downloadbutton-freebsd-mobile:checked + #downloadbutton-freebsd .downloadmenu, #downloadbutton-osx-mobile:checked + #downloadbutton-osx .downloadmenu {
@@ -542,20 +540,20 @@ button:hover, button:focus {
 		-webkit-animation: fadein .2s;
 		animation: fadein .2s;
 	}
-	#footer-links-body a {
+	#footer-links a {
 		display: block;
 		float: none;
 		padding: 2.000em 1.625em 2.000em 1.625em;
 	}
-	#footer-links-body a:hover, #footer-links-body a:focus {
+	#footer-links a:hover, #footer-links a:focus {
 		background: #000;
 	}
 	#footer {
 		background: rgba(10,10,10, 0.7);
 		position: fixed;
-        right: 0;
-        bottom: 0;
-        left: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
 	}
 	#mobile-links {
 		display: table;
@@ -571,7 +569,7 @@ button:hover, button:focus {
 		margin: 0 auto 0.750em auto;
 	}
 	#mobile-links a {
-	    display: table-cell;
+		display: table-cell;
 	}
 	#footer-links label:before {
 		content: '\2026';
