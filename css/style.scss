@@ -553,6 +553,8 @@ button:hover, button:focus {
 		height: 15em;
 		bottom: 3.750em;
 		left: 0;
+		-webkit-animation: slideUp .4s;
+		animation: slideUp .4s;
 	}
 	#footer-links-toggle:checked + #footer-links #footer-links-body, #downloadbutton-linux-mobile:checked + #downloadbutton-linux .downloadmenu, #downloadbutton-windows-mobile:checked + #downloadbutton-windows .downloadmenu, #downloadbutton-freebsd-mobile:checked + #downloadbutton-freebsd .downloadmenu, #downloadbutton-osx-mobile:checked + #downloadbutton-osx .downloadmenu {
 		display: block;
