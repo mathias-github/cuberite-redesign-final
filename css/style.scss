@@ -427,7 +427,6 @@ button, input {
 	font-size: 0.875em;
 	height: 2.500em;
 	line-height: 2.500em;
-	margin: 0.313em 0 0 0;
 	padding: 0 0.750em 0 0.750em;
 	vertical-align: top;
 }
@@ -437,6 +436,7 @@ input::-moz-focus-inner, button::-moz-focus-inner {
 }
 input {
 	background: rgba(255,255,255,.6);
+	margin: 0.313em 0 0 0;
 	width: 14.375em;
 }
 input:focus {
@@ -446,20 +446,20 @@ button {
 	background: rgba(10,10,10,.6);
 	color: #fff;
 	cursor: pointer;
-	margin: 0 0 0 0.438em;
+	margin: 0.313em 0 0 0.438em;
 }
 button:hover, button:focus {
 	background: #000;
 }
 .button {
-    background: #eaeaea;
-    border-radius: 0.313em;
-    box-shadow: 0 0.125em 0.063em rgba(0, 0, 0, 0.15);
-    color: #1e1e1e;
-    margin: 0.938em 0.375em 0 0.375em;
-    padding: 0.875em;
-    display: inline-block;
-    text-shadow: none;
+	background: #eaeaea;
+	border-radius: 0.313em;
+	box-shadow: 0 0.125em 0.063em rgba(0, 0, 0, 0.15);
+ 	color: #1e1e1e;
+ 	margin: 0.938em 0.375em 0 0.375em;
+ 	padding: 0.875em;
+	display: inline-block;
+	text-shadow: none;
 }
 .button:hover, .button:focus {
 	background: #C3C3C3;
