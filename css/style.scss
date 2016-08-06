@@ -348,13 +348,14 @@ p, #banner, .post span, input {
 	margin: 2.188em 0 3.375em 0;
 }
 #pagination a, #pagination span {
-	background: rgba(10,10,10,0.6);
-	border-radius: 0.188em;
+	background: #eaeaea;
+	border-radius: 0.313em;
+	box-shadow: 0 0.125em 0.063em rgba(0, 0, 0, 0.15);
 	display: inline-block;
 	padding: 0.875em 0.875em 0.813em 0.875em;
 }
 #pagination a {
-	color: #eaeaea;
+	color: #1e1e1e;
 }
 #pagination a:hover, #pagination a:focus {
 	background: #000;
