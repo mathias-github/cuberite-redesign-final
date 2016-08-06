@@ -551,13 +551,13 @@ button:hover, button:focus {
 		-webkit-animation: fadein .4s;
 		animation: fadein .4s;
 	}
-	#footer-links a {
+	#footer-links a.normal {
 		display: block;
 		float: none;
 		padding: 2.000em 1.625em 2.000em 1.625em;
 		margin: 0;
 	}
-	#footer-links a:hover, #footer-links a:focus {
+	#footer-links a.normal:hover, #footer-links a.normal:focus {
 		background: #000;
 	}
 	.show-mobile, .show-mobile-block {
