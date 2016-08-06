@@ -5,7 +5,7 @@ For Windows, Linux, Raspberry Pi or Mac builds, the main download location is th
 
 On Linux or Raspberry Pi, you can simply paste this command into your terminal to install Cuberite:
 
-    sh -c "$(wget -O - https://raw.githubusercontent.com/cuberite/cuberite/master/easyinstall.sh)"
+    sh -c "$(wget -O - https://download.cuberite.org)"
 
 Once you have downloaded Cuberite, you can skip straight to [Running Cuberite](#running-cuberite).
 
