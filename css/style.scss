@@ -563,12 +563,15 @@ button:hover, button:focus {
 	.mobile-links-hide {
 		display: initial;
 	}
-	#mobile-links a:before, #footer-links label:before {
+	#mobile-links-body {
+		display: inline-block;
+	}
+	#mobile-links-body a:before, #footer-links label:before {
 		display: table;
 		font-size: 2em;
 		margin: 0 auto 0.750em auto;
 	}
-	#mobile-links a {
+	#mobile-links-body a {
 		display: table-cell;
 	}
 	#footer-links label:before {
