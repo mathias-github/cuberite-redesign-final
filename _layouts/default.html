@@ -24,7 +24,7 @@
 		</div>
 		<div id="navigation-links">
 			<a href="https://forum.cuberite.org/" class="forum">Forum</a>
-			<a href="/cuberite-redesign-final/manual/" class="manual">Manual</a>
+			<a href="/cuberite-redesign-final/manual/" class="manual"{% if page.url == "/plugins/" %} id="active"{% endif %}>Manual</a>
 			<a href="/cuberite-redesign-final/support/" class="support"{% if page.url == "/support/" %} id="active"{% endif %}>Support</a>
 			<a href="/cuberite-redesign-final/plugins/" class="plugins"{% if page.url == "/plugins/" %} id="active"{% endif %}>Plugins</a>
 			<a href="/cuberite-redesign-final/contribute/" class="contribute"{% if page.url == "/contribute/" %} id="active"{% endif %}>Contribute</a>
