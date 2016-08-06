@@ -149,11 +149,20 @@ p, #banner, .post span, input {
 	color: #1e1e1e;
 }
 /* Icons */
+.about:before {
+	content: "\24d8";
+}
 .contribute:before {
 	content: "\26d8";
 }
 .forum:before {
 	content: "\1F4AC";
+}
+.getting-started:before {
+	content: "\1f680";
+}
+.home:before {
+	content: "\2302";
 }
 .license:before {
 	content: "\1f528";
