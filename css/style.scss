@@ -117,7 +117,7 @@ a:hover, a:focus {
 p, #banner, .post span, input {
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-#navigation input, #intro input, #footer input, #footer img, #footer label, .mobile-links-hide, .show-mobile {
+#navigation input, #intro input, #footer input, #footer img, #footer label, .hide-mobile, .show-mobile {
 	display: none;
 }
 #intro-body, #main-body, #advantages-body, #banner-blue-body, #banner-green-body {
@@ -520,6 +520,13 @@ button:hover, button:focus {
 	#navigation-links {
 		display: none;
 	}
+	#footer {
+		background: rgba(10,10,10, 0.7);
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
 	#footer-links {
 		float: none;
 		position: relative;
@@ -547,33 +554,20 @@ button:hover, button:focus {
 	#footer-links a:hover, #footer-links a:focus {
 		background: #000;
 	}
-	.show-mobile {
+	.hide-mobile, .show-mobile {
 		display: initial;
-	}
-	#footer {
-		background: rgba(10,10,10, 0.7);
-		position: fixed;
-		right: 0;
-		bottom: 0;
-		left: 0;
 	}
 	#mobile-links {
 		display: table;
 		table-layout: fixed;
 		width: 100%;
 	}
-	.mobile-links-hide {
-		display: initial;
-	}
-	#mobile-links-body {
-		display: inline-block;
-	}
-	#mobile-links a.mobile-links-hide:before, #footer-links label:before {
+	#mobile-links a.hide-mobile:before, #footer-links label:before {
 		display: table;
-		font-size: 2em;
-		margin: 0 auto 0.750em auto;
+		font-size: 1.750em;
+		margin: 0.063em auto 0.750em auto;
 	}
-	#mobile-links a.mobile-links-hide {
+	#mobile-links a.hide-mobile {
 		display: table-cell;
 	}
 	#footer-links label:before {
@@ -583,7 +577,7 @@ button:hover, button:focus {
 		cursor: pointer;
 		display: block;
 	}
-	#mobile-links a.mobile-links-hide, #footer-links label {
+	#mobile-links a.hide-mobile, #footer-links label {
 		font-size: 0.750em;
 		padding: 1.563em 0 1.250em 0;
 		text-align: center;
