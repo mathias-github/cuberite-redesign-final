@@ -1,4 +1,5 @@
 ---
+sitemap: false
 ---
 Cuberite can be configured by editing various configuration files. Below is a list of all configuration files:
 
