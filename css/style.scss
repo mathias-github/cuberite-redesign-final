@@ -492,16 +492,12 @@ button:hover, button:focus {
 	html { font-size: 92%; }
 }
 @media (max-width: 800px) {
-	/* Advantages Box */
-	#left-three, #center-three, #right-three, #left-two, #right-two {
+	#left-two, #right-two {
 		display: block;
 		width: 100%;
 	}
-	#left-three, #left-two {
+	#left-two {
 		margin: 1.875em 0 2.500em 0
-	}
-	#center-three {
-		margin: 0 0 2.500em 0;
 	}
 }
 @media (min-width: 900px) {
@@ -623,6 +619,18 @@ button:hover, button:focus {
 }
 @media (min-width: 1000px) {
 	html { font-size: 96%; }
+}
+@media (max-width: 1000px) {
+	#left-three, #center-three, #right-three {
+		display: block;
+		width: 100%;
+	}
+	#left-three {
+		margin: 1.875em 0 2.500em 0
+	}
+	#center-three {
+		margin: 0 0 2.500em 0;
+	}
 }
 @media (min-width: 1100px) {
 	html { font-size: 98%; }
