@@ -166,6 +166,23 @@ p, #banner, .post span, input {
 .support:before {
 	content: "\3f";
 }
+/* Columns */
+#left-three, #center-three, #right-three {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+}
+#left-three, #center-three {
+	margin: 0 2.500em 0 0;
+}
+#left-two, #right-two {
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+}
+#left-two {
+	margin: 0 2.500em 0 0;
+}
 /* Navigation Bar */
 #navigation {
 	background: rgba(10,10,10, 0.4);
@@ -310,22 +327,6 @@ p, #banner, .post span, input {
 /* Green Banner */
 #banner-green {
 	background: rgba(49,162,0,.15);
-}
-#leftcontribute, #centercontribute, #rightcontribute {
-	display: inline-block;
-	width: 30%;
-	vertical-align: top;
-}
-#leftcontribute, #centercontribute {
-	margin: 0 2.500em 0 0;
-}
-#leftplugins, #rightplugins {
-	display: inline-block;
-	width: 45%;
-	vertical-align: top;
-}
-#leftplugins {
-	margin: 0 2.500em 0 0;
 }
 /* News */
 .post {
@@ -493,7 +494,7 @@ button:hover, button:focus {
 }
 @media (max-width: 800px) {
 	/* Advantages Box */
-	#leftplugins, #rightplugins {
+	#left-three, #center-three, #right-three, #left-two, #right-two {
 		display: block;
 		width: 100%;
 	}
