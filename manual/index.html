@@ -3,7 +3,7 @@ layout: manual
 title: Manual
 ---
 	{% for page in site.pages %}
-		{% assign title = page.url | remove: '/about/' %}
+		{% assign title = page.url | remove: '/about/' | remove: '/news/' | remove: '/support/' | remove: '/manual/' | remove: '/feed.xml/' %}
 		<h2>{{ title }}</h2>
 	{% endfor %}
 
