@@ -411,20 +411,17 @@ p, #banner, .post span, input {
 #manual-body {
 	padding: 6% 14% 6% 14%;
 }
-#toc ul {
-	text-align: center;
-}
-#manual-body p {
+.manual-content {
 	text-align: justify;
 }
-#manual-body h4, #manual-body h5, #manual-body pre {
-	text-align: left;
+.manual-content h2 {
+	margin: 0;
 }
-#manual-body ul {
+.manual-content ul {
 	margin: 0 0 1.7em 0;
 	text-align: left;
 }
-#manual-body li {
+.manual-content li {
 	margin: 0 0 0 2em;
 }
 #manual-body pre {
@@ -445,7 +442,6 @@ p, #banner, .post span, input {
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 0.938em;
 	line-height: 1.6;
-	text-align: left;
 }
 .info-box {
 	background: rgba(43,149,255,.05);
