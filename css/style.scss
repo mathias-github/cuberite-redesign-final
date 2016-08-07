@@ -430,13 +430,14 @@ td code, #intro input, #footer input, #footer img, #footer label, .show-mobile, 
 #manual-content li {
 	margin: 0 0 0 2em;
 }
-.code-box {
+pre {
 	background: rgba(0,0,0,.3);
 	display: block;
 	font-family: monospace;
 	line-height: 1.6;
 	padding: 0.6em;
 	margin: 0 1em 1.7em 1em;
+	text-align: left;
 }
 #manual-content blockquote {
 	margin: 0 0 0 2em;
