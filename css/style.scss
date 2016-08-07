@@ -394,8 +394,10 @@ p, #banner, .post span, input {
 	width: 20em;
 }
 .manual-content code {
+	background: rgba(0,0,0,.3);
+	display: block;
+	padding: 0.6em;
 	margin: 0 1em 1.7em 1em;
-	background: rgba(0,0,0,.5);
 	text-align: left;
 }
 /* Footer */
