@@ -388,6 +388,10 @@ p, #banner, .post span, input {
 .manual-content p {
 	text-align: justify;
 }
+.manual-content ul {
+	width: 10em;
+	text-align: left;
+}
 /* Footer */
 #footer {
 	background: rgba(10,10,10, 0.4);
