@@ -9,22 +9,22 @@ Cuberite can be configured by editing various configuration files. Below is a li
 ##### webadmin.ini
 > Allows you to tweak the web admin interface, which is available at ***http://localhost:8080*** or ***http://<Server IP address>:8080*** by default.
 
-#### <World name>/world.ini
+##### <World name>/world.ini
 > This file configures world-specific aspects. This is where you choose your game mode. See [GameMode](#gamemode). Note that each world has its own ***world.ini*** file, each stored in ***<World name>/world.ini***.
 
-#### monsters.ini
+##### monsters.ini
 > Allows you to tweak monster behaviour.
 
-#### motd.txt
+##### motd.txt
 > The Message of the Day, which is shown to players upon joining your server.
 
-#### crafting.txt, brewing.txt, furnace.txt
+##### crafting.txt, brewing.txt, furnace.txt
 > These three files allow you to tweak crafting, brewing, and furnace recipes.
 
-#### plugins/...
+##### plugins/...
 > Many plugins have their own configuration files. For instance, the WorldEdit config is ***plugins/WorldEdit/config.cfg***
 
-#### items.ini
+##### items.ini
 > Edit item IDs. You probably shouldn't edit this file unless you know what you're doing.
 
 <aside class="infobox">
