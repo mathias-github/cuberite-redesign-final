@@ -591,29 +591,25 @@ button:hover, button:focus {
 	body {
 		padding: 0 0 3.750em 0;
 	}
-	table thead {
+	thead {
 		display: none;
 	}
-	table tr {
-		display:block;
-		margin: 0 0 2em 0;
-	}
-	table tr:last-child {
+	tr:last-child, td:last-child {
 		border-bottom: 0;
 	}
-	table td {
+	tr {
+		display: block;
+		margin: 0 0 2.000em 0;
+	}
+	td {
 		display: block;
 		text-align: right;
-		margin: 0 0 0.2em 0;
+		margin: 0 0 0.125em 0;
 	}
-	table td:last-child {
-		border-bottom: 0;
-	}
-	table code {
+	td code {
 		display: initial;
 		float: left;
 		text-transform: uppercase;
-		font-weight: bold;
 	}
 	/* Mobile Menus */
 	#navigation {
