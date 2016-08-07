@@ -70,7 +70,7 @@ body {
 :-ms-input-placeholder {
 	color: rgba(0,0,0,.55);
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-style: normal;
 	font-weight: normal;
 	text-transform: uppercase;
@@ -92,6 +92,9 @@ h2 {
 }
 h3 {
 	font-size: 1.125em;
+	margin: 1.125em 0 0.625em 0;
+}
+h4 {
 	margin: 1.125em 0 0.625em 0;
 }
 p, ul {
