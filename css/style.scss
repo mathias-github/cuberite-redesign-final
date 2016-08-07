@@ -393,6 +393,11 @@ p, #banner, .post span, input {
 	text-align: left;
 	width: 20em;
 }
+.manual-content code {
+	margin: 0 1em 1.7em 1em;
+	background: rgba(0,0,0,.5);
+	text-align: left;
+}
 /* Footer */
 #footer {
 	background: rgba(10,10,10, 0.4);
