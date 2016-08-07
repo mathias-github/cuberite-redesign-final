@@ -381,6 +381,10 @@ p, #banner, .post span, input {
 #next:before {
 	content: '\bb';
 }
+/* Manual */
+.manual-content {
+	text-align: justify;
+}
 /* Footer */
 #footer {
 	background: rgba(10,10,10, 0.4);
