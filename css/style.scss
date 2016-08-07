@@ -421,6 +421,12 @@ p, #banner, .post span, input {
 	font-size: 0.938em;
 	line-height: 1.6;
 }
+.info-box-body:before {
+	content: "\2139";
+	font-family: 'icons';
+	font-size: 2em;
+	margin-right: 1em;
+}
 /* Footer */
 #footer {
 	background: rgba(10,10,10, 0.4);
