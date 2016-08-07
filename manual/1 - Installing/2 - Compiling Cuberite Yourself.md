@@ -5,7 +5,7 @@ Compiling yourself takes longer and is more involved, but on modern processors c
 
 The automatic compilation script is recommended for *nix users. Windows users should see the [Other Systems](#other-systems) subsection for instructions. The automatic compilation script takes care of the compilation process for you. You only need to copy this command to your terminal:
 
-    sh -c "$(wget -O - https://compile.cuberite.org)"
+<pre>sh -c "$(wget -O - https://compile.cuberite.org)"</pre>
 
 The rest of this section is for those who prefer to manually compile.
 
@@ -18,17 +18,21 @@ The rest of this section is for those who prefer to manually compile.
 #### Linux/Mac/BSD
 Compiling on Linux and related operating systems is easy and simple, although it does require some tools before you can get started. You need a C++ compiler (Clang++ or G++), a C compiler (Clang or GCC), Git, CMake and Make. A simple command to make sure these tools are installed (Ubuntu/Debian) is:
 
-    sudo apt-get install clang git cmake make
+<pre>sudo apt-get install clang git cmake make</pre>
 
 Once the tools are installed, you should clone the Git repo:
 
-      git clone --recursive https://github.com/cuberite/cuberite.git  
-      cd cuberite
+<pre>
+git clone --recursive https://github.com/cuberite/cuberite.git<br/>
+cd cuberite
+</pre>
 
 You should then run the CMake process and compile:
 
-    cmake . -DCMAKE_BUILD_TYPE=RELEASE  
-    make -j 2
+<pre>
+cmake . -DCMAKE_BUILD_TYPE=RELEASE<br/>
+make -j 2
+</pre>
 
 <div class="warning-box">
 	<div class="warning-box-body">
