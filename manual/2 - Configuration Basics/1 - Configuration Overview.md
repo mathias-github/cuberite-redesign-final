@@ -27,9 +27,9 @@ Cuberite can be configured by editing various configuration files. Below is a li
 ##### items.ini
 > Edit item IDs. You probably shouldn't edit this file unless you know what you're doing.
 
-<aside class="infobox">
-	In all ***.ini*** files, lines starting with ***;*** are comments, and in all ***.txt*** files, lines starting with ***#*** are comments.
-</aside>
+<div class="info-box">
+	In all <strong><em>.ini</em></strong> files, lines starting with <strong><em>;</em></strong> are comments, and in all <strong><em>.txt</em></strong> files, lines starting with <strong><em>#</em></strong> are comments.
+</div>
 
 #### Permissions
 Permissions allow different players to access different commands and features. Each plugin has its own permissions. Setting up player permissions is most easily done via the web admin. You can also use the ***rank \<playername\>*** command from the server console. To see the command and permissions list for the default commands, which are provided by the Core plugin, see the [Core Plugin readme](https://github.com/cuberite/Core/blob/master/README.md).
