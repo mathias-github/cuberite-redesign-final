@@ -259,11 +259,11 @@ p, #banner, .post span, input {
 	margin: 0 0.188em 0 0.188em;
 }
 /* Intro and Main */
-#intro, #main {
+#intro, #main, #manual {
 	display: table-row;
 	height: 100%;
 }
-#intro-body, #main-body {
+#intro-body, #main-body, #manual-body {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
@@ -408,6 +408,9 @@ p, #banner, .post span, input {
 	content: '\bb';
 }
 /* Manual */
+#manual-body {
+	padding: 6% 14% 6% 14%;
+}
 .manual-content {
 	text-align: justify;
 }
