@@ -12,5 +12,5 @@ To run Cuberite on Linux, Mac or FreeBSD, just run the executable in your shell:
     ./Cuberite
 
 #### Joining Cuberite
-Just like Vanilla, once you've started Cuberite, you can join the server on <code>localhost:25565</code>, or just <code>localhost</code> in your minecraft client.
+Just like Vanilla, once you've started Cuberite, you can join the server on ***localhost:25565***, or just ***localhost*** in your minecraft client.
 
