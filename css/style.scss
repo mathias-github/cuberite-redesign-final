@@ -385,20 +385,20 @@ p, #banner, .post span, input {
 	content: '\bb';
 }
 /* Manual */
-.manual-content p {
+.manual-content {
 	text-align: justify;
 }
 .manual-content ul {
-  	margin: 0 auto 1.7em auto;
-	text-align: left;
-	width: 20em;
+	margin: 0 0 1.7em 0;
+}
+.manual-content li {
+	margin: 0 0 0 2em;
 }
 .manual-content code {
 	background: rgba(0,0,0,.3);
 	display: block;
 	padding: 0.6em;
 	margin: 0 1em 1.7em 1em;
-	text-align: left;
 }
 /* Footer */
 #footer {
