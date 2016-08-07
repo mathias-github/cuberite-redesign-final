@@ -136,7 +136,7 @@ a:hover, a:focus {
 p, #banner, .post span, input {
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-#intro input, #footer input, #footer img, #footer label, .show-mobile, .show-mobile-block {
+td code, #intro input, #footer input, #footer img, #footer label, .show-mobile, .show-mobile-block {
 	display: none;
 }
 #intro-body, #main-body, #advantages-body, #banner-blue-body, #banner-green-body {
@@ -609,7 +609,8 @@ button:hover, button:focus {
 	table td:last-child {
 		border-bottom: 0;
 	}
-	table .show-mobile {
+	table code {
+		display: initial;
 		float: left;
 		text-transform: uppercase;
 		font-weight: bold;
