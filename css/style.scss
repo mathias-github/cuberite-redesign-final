@@ -561,6 +561,9 @@ button:hover, button:focus {
 }
 @media (min-width: 800px) {
 	html { font-size: 92%; }
+	#manual-body {
+		padding: 6% 8% 6% 8%;
+	}
 }
 @media (max-width: 800px) {
 	#left-two, #right-two {
