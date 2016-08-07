@@ -1,7 +1,6 @@
 ---
 layout: manual
 ---
-<div id="toc">
 <h3 id="table-of-contents">0 - Introduction</h3>
 <ul>
 	{% for page in site.pages %}
@@ -47,13 +46,13 @@ layout: manual
 		{% endif %}
 	{% endfor %}
 </ul>
-</div>
+<div id="manual-content">
 <h2 id="introduction">0 - Introduction</h2>
 	{% for page in site.pages %}
 		{% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '0 - Introduction', '' | replace: '.md', '' %}
 		{% if page.path contains '0 - Introduction' %}
 			<h3 id="{{ title | remove: '1 - ' | remove: '2 - ' | remove: '3 - ' | remove: '4 - ' | remove: '5 - ' | remove: '6 - ' | remove: '7 - ' | remove: '8 - ' | remove: '9 - ' | remove: '10 - ' | replace: ' ', '-' | downcase }}">{{ title }}</h3>
-			<div class="manual-content">{{ page.content }}</div>
+			{{ page.content }}
 		{% endif %}
 	{% endfor %}
 <h2 id="installing">1 - Installing</h2>
@@ -61,7 +60,7 @@ layout: manual
 		{% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '1 - Installing', '' | replace: '.md', '' %}
 		{% if page.path contains '1 - Installing' %}
 			<h3 id="{{ title | remove: '1 - ' | remove: '2 - ' | remove: '3 - ' | remove: '4 - ' | remove: '5 - ' | remove: '6 - ' | remove: '7 - ' | remove: '8 - ' | remove: '9 - ' | remove: '10 - ' | replace: ' ', '-' | downcase }}">{{ title }}</h3>
-			<div class="manual-content">{{ page.content }}</div>
+			{{ page.content }}
 		{% endif %}
 	{% endfor %}
 <h2 id="configuration-basics">2 - Configuration Basics</h2>
@@ -69,7 +68,7 @@ layout: manual
 		{% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '2 - Configuration Basics', '' | replace: '.md', '' %}
 		{% if page.path contains '2 - Configuration Basics' %}
 			<h3 id="{{ title | remove: '1 - ' | remove: '2 - ' | remove: '3 - ' | remove: '4 - ' | remove: '5 - ' | remove: '6 - ' | remove: '7 - ' | remove: '8 - ' | remove: '9 - ' | remove: '10 - ' | replace: ' ', '-' | downcase }}">{{ title }}</h3>
-			<div class="manual-content">{{ page.content }}</div>
+			{{ page.content }}
 		{% endif %}
 	{% endfor %}
 <h2 id="configuring-world-ini">3 - Configuring world.ini</h2>
@@ -77,7 +76,7 @@ layout: manual
 		{% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '3 - Configuring world.ini', '' | replace: '.md', '' %}
 		{% if page.path contains '3 - Configuring world.ini' %}
 			<h3 id="{{ title | remove: '1 - ' | remove: '2 - ' | remove: '3 - ' | remove: '4 - ' | remove: '5 - ' | remove: '6 - ' | remove: '7 - ' | remove: '8 - ' | remove: '9 - ' | remove: '10 - ' | replace: ' ', '-' | downcase }}">{{ title }}</h3>
-			<div class="manual-content">{{ page.content }}</div>
+			{{ page.content }}
 		{% endif %}
 	{% endfor %}
 <h2 id="multiworlds">4 - MultiWorlds</h2>
@@ -85,6 +84,7 @@ layout: manual
 		{% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '4 - MultiWorlds', '' | replace: '.md', '' %}
 		{% if page.path contains '4 - MultiWorlds' %}
 			<h3 id="{{ title | remove: '1 - ' | remove: '2 - ' | remove: '3 - ' | remove: '4 - ' | remove: '5 - ' | remove: '6 - ' | remove: '7 - ' | remove: '8 - ' | remove: '9 - ' | remove: '10 - ' | replace: ' ', '-' | downcase }}">{{ title }}</h3>
-			<div class="manual-content">{{ page.content }}</div>
+			{{ page.content }}
 		{% endif %}
 	{% endfor %}
+</div>
