@@ -578,6 +578,29 @@ button:hover, button:focus {
 @media (min-width: 700px) {
 	html { font-size: 90%; }
 }
+@media (max-width: 700px) {
+	thead {
+		display: none;
+	}
+	tr:last-child, td:last-child {
+		border-bottom: 0;
+	}
+	tr {
+		display: block;
+		margin: 0 0 2.000em 0;
+	}
+	td {
+		display: block;
+		text-align: right;
+		margin: 0 0 0.125em 0;
+	}
+	td code {
+		display: initial;
+		float: left;
+		font-family: montserratregular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		text-transform: uppercase;
+	}
+}
 @media (min-width: 800px) {
 	html { font-size: 92%; }
 }
@@ -599,27 +622,6 @@ button:hover, button:focus {
 @media (max-width: 900px) {
 	body {
 		padding: 0 0 3.750em 0;
-	}
-	thead {
-		display: none;
-	}
-	tr:last-child, td:last-child {
-		border-bottom: 0;
-	}
-	tr {
-		display: block;
-		margin: 0 0 2.000em 0;
-	}
-	td {
-		display: block;
-		text-align: right;
-		margin: 0 0 0.125em 0;
-	}
-	td code {
-		display: initial;
-		float: left;
-		font-family: montserratregular,"Helvetica Neue",Helvetica,Arial,sans-serif;
-		text-transform: uppercase;
 	}
 	/* Mobile Menus */
 	#navigation {
@@ -886,8 +888,9 @@ button:hover, button:focus {
 	}
 	a {
 		color: #252525;
+		text-decoration: underline;
 	}
-	a:after{
+	a:after {
 		content: " (" attr(href) ")";
 		font-size: 80%;
 	}
