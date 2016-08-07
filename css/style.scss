@@ -808,6 +808,12 @@ button:hover, button:focus {
 	html { font-size: 178%; }
 }
 @media print {
+	@page {
+		margin: 2.75cm;
+		@bottom-right {
+			content: counter(page) "/" counter(pages);
+		}
+	}
 	body {
 		color: #000;
 		text-shadow: none;
