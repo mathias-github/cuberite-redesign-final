@@ -110,6 +110,17 @@ em {
 strong {
 	font-weight: bold;
 }
+th {
+	background: rgba(0,0,0,.4);
+	padding: 1em;
+	text-transform: uppercase;
+}
+td {
+	background: rgba(0,0,0,.2);
+	font-family:montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding: 1em;
+	line-height: 1.6;
+}
 a {
 	color: rgba(255,255,255,.4);
 	text-decoration: none;
