@@ -1,18 +1,11 @@
 ---
 layout: manual
 title: Manual
-categories: [blogging]
 ---
-    <div>
-    {% assign categories = site.categories | sort %}
-    {% for category in categories %}
-     <span class="site-tag">
-        <a href="#{{ category | first | slugify }}">
-                {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})
-        </a>
-    </span>
-    {% endfor %}
-    </div>
+	{% for page in site.pages %}
+		{% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '1 - Installing', '' | replace: '.md', '' %}
+		<h2>{{ title }}</h2>
+	{% endfor %}
 
 
 
