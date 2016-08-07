@@ -9,9 +9,11 @@ The automatic compilation script is recommended for *nix users. Windows users sh
 
 The rest of this section is for those who prefer to manually compile.
 
-<aside class="warnbox">
-	This process requires use of the command line. If you are not familiar with it, it is recommended that you use the [pre-compiled builds](#pre-com) instead.
-</aside>
+<div class="warning-box">
+	<div class="warning-box-body">
+		This process requires use of the command line. If you are not familiar with it, it is recommended that you use the <a href="#pre-com">pre-compiled builds</a> instead.
+	</div>
+</div>
 
 #### Linux/Mac/BSD
 Compiling on Linux and related operating systems is easy and simple, although it does require some tools before you can get started. You need a C++ compiler (Clang++ or G++), a C compiler (Clang or GCC), Git, CMake and Make. A simple command to make sure these tools are installed (Ubuntu/Debian) is:
@@ -28,13 +30,17 @@ You should then run the CMake process and compile:
     cmake . -DCMAKE_BUILD_TYPE=RELEASE  
     make -j 2
 
-<aside class="warnbox">
-	This step may take a while on slow hardware like Raspberry Pis, up to several hours in some cases. However, subsequent compiles will be faster.
-</aside>
+<div class="warning-box">
+	<div class="warning-box-body">
+		This step may take a while on slow hardware like Raspberry Pis, up to several hours in some cases. However, subsequent compiles will be faster.
+	</div>
+</div>
 
-<aside class="infobox">
-	For a more detailed look at Build Flags and their utility (especially if you are compiling a build on a different machine than the one your are running it on), see [below](#build-flags).
-</aside>
+<div class="info-box">
+	<div class="info-box-body">
+		For a more detailed look at Build Flags and their utility (especially if you are compiling a build on a different machine than the one your are running it on), see <a href="#build-flags">below</a>.
+	</div>
+</div>
 
 Once the compilation process is finished, the Cuberite executable will be placed inside the ***Server*** inside the repository that you downloaded. You can copy this folder anywhere you like, just make sure to copy the supporting files otherwise the server will not work properly.
 
