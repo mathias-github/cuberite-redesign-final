@@ -7,8 +7,8 @@ This section specifies if Cuberite should save world chunks or not, as well as t
 
 | Variable          | Meaning                                                                                                                                                                                                                                                     | Default |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
-| Schema            | <dv class="show-mobile">Meaning: </div>Specifies if world chunks should be saved or not. May be one of "Default", "Anvil" and "Forgetful". See table below for their description.                                                                                                                  | Default |
-| CompressionFactor | <dv class="show-mobile">Meaning: </div>How much the world files should be compressed. Lower values mean much larger file sizes, but slighly increased performance, and higher values mean slightly smaller file sizes and much lower performance. It is recommended just to keep with the default. | <dv class="show-mobile">Default: </div>6       |
+| Schema            | <div class="show-mobile">Meaning: </div>Specifies if world chunks should be saved or not. May be one of "Default", "Anvil" and "Forgetful". See table below for their description.                                                                                                                  | <div class="show-mobile">Default Value: </div>Default |
+| CompressionFactor | <div class="show-mobile">Meaning: </div>How much the world files should be compressed. Lower values mean much larger file sizes, but slighly increased performance, and higher values mean slightly smaller file sizes and much lower performance. It is recommended just to keep with the default. | <div class="show-mobile">Default Value: </div>6       |
 
 #### Schema Options
 
