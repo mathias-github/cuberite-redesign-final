@@ -389,8 +389,9 @@ p, #banner, .post span, input {
 	text-align: justify;
 }
 .manual-content ul {
-	width: 10em;
+  	margin: 0 auto 1.7em auto;
 	text-align: left;
+	width: 20em;
 }
 /* Footer */
 #footer {
