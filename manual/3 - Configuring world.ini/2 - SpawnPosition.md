@@ -10,11 +10,11 @@ Specifies the spawn point for new players. The coordinates are absolute, in bloc
 
 #### Default Configuration
 
-<pre>
-[SpawnPosition]
-MaxViewDistance=12
-X=32.000000
-Y=62.600000
-Z=32.000000
+<div class="code-box">
+[SpawnPosition]<br/>
+MaxViewDistance=12<br/>
+X=32.000000<br/>
+Y=62.600000<br/>
+Z=32.000000<br/>
 PregenerateDistance=20
-</pre>
+</div>
