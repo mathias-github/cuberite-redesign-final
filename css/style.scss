@@ -881,7 +881,7 @@ button:hover, button:focus {
 		text-shadow: none;
 	}
 	table, th, td {
-		border: 1px solid #000;
+		border: 0.063em solid #000;
 		border-collapse: collapse;
 	}
 	a {
@@ -899,10 +899,10 @@ button:hover, button:focus {
 		padding: 0;
 	}
 	.info-box, .warning-box {
-		border: 1px solid #404040;
+		border: 0.063em solid #404040;
 	}
 	.button {
-		border: 1px solid #000;
+		border: 0.063em solid #000;
 		box-shadow: none;
 	}
 }
