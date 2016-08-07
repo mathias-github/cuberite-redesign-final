@@ -414,12 +414,11 @@ p, #banner, .post span, input {
 #manual-body p {
 	text-align: justify;
 }
-#manual-body h4, #manual-body h5 {
+#manual-body h4, #manual-body h5, #manual-body p ul, #manual-body pre {
 	text-align: left;
 }
 #manual-body ul {
 	margin: 0 0 1.7em 0;
-	text-align: left;
 }
 #manual-body li {
 	margin: 0 0 0 2em;
@@ -431,7 +430,6 @@ p, #banner, .post span, input {
 	line-height: 1.6;
 	padding: 0.6em;
 	margin: 0 1em 1.7em 1em;
-	text-align: left;
 }
 #manual-body blockquote {
 	margin: 0 0 0 2em;
