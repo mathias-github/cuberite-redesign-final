@@ -52,7 +52,7 @@ title: Manual
 		{% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '0 - Introduction', '' | replace: '.md', '' %}
 		{% if page.path contains '0 - Introduction' %}
 			<h3 id="{{ title | replace: ' - ', '-' | replace: ' ', '-' | downcase }}">{{ title }}</h3>
-			{{ page.content }}
+			<div class="manual-content">{{ page.content }}</div>
 		{% endif %}
 	{% endfor %}
 <h2>1 - Installing</h2>
@@ -60,7 +60,7 @@ title: Manual
 		{% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '1 - Installing', '' | replace: '.md', '' %}
 		{% if page.path contains '1 - Installing' %}
 			<h3 id="{{ title | replace: ' - ', '-' | replace: ' ', '-' | downcase }}">{{ title }}</h3>
-			{{ page.content }}
+			<div class="manual-content">{{ page.content }}</div>
 		{% endif %}
 	{% endfor %}
 <h2>2 - Configuration Basics</h2>
@@ -68,7 +68,7 @@ title: Manual
 		{% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '2 - Configuration Basics', '' | replace: '.md', '' %}
 		{% if page.path contains '2 - Configuration Basics' %}
 			<h3 id="{{ title | replace: ' - ', '-' | replace: ' ', '-' | downcase }}">{{ title }}</h3>
-			{{ page.content }}
+			<div class="manual-content">{{ page.content }}</div>
 		{% endif %}
 	{% endfor %}
 <h2>3 - Configuring world.ini</h2>
@@ -84,6 +84,6 @@ title: Manual
 		{% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '4 - MultiWorlds', '' | replace: '.md', '' %}
 		{% if page.path contains '4 - MultiWorlds' %}
 			<h3 id="{{ title | replace: ' - ', '-' | replace: ' ', '-' | downcase }}">{{ title }}</h3>
-			{{ page.content }}
+			<div class="manual-content">{{ page.content }}</div>
 		{% endif %}
 	{% endfor %}
