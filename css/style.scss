@@ -898,6 +898,9 @@ button:hover, button:focus {
 		display: block;
 		padding: 0;
 	}
+	.info-box, .warning-box {
+		border: 1px solid #404040;
+	}
 	.button {
 		border: 1px solid #000;
 		box-shadow: none;
