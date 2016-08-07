@@ -411,20 +411,20 @@ p, #banner, .post span, input {
 #manual-body {
 	padding: 6% 14% 6% 14%;
 }
-.manual-content {
+#manual-content {
 	text-align: justify;
 }
-.manual-content h2 {
+#manual-content h2 {
 	margin: 0;
 }
-.manual-content ul {
+#manual-content ul {
 	margin: 0 0 1.7em 0;
 	text-align: left;
 }
-.manual-content li {
+#manual-content li {
 	margin: 0 0 0 2em;
 }
-#manual-body pre {
+#manual-content pre {
 	background: rgba(0,0,0,.3);
 	display: block;
 	font-family: monospace;
@@ -432,7 +432,7 @@ p, #banner, .post span, input {
 	padding: 0.6em;
 	margin: 0 1em 1.7em 1em;
 }
-#manual-body blockquote {
+#manual-content blockquote {
 	margin: 0 0 0 2em;
 }
 .info-box, .warning-box {
