@@ -7,16 +7,16 @@ This section specifies if Cuberite should save world chunks or not, as well as t
 
 | Variable          | Meaning                                                                                                                                                                                                                                                     | Default |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
-| Schema            | `Meaning: `Specifies if world chunks should be saved or not. May be one of "Default", "Anvil" and "Forgetful". See table below for their description.                                                                                                                  | __Default Value: __Default |
-| CompressionFactor | __Meaning: __How much the world files should be compressed. Lower values mean much larger file sizes, but slighly increased performance, and higher values mean slightly smaller file sizes and much lower performance. It is recommended just to keep with the default. | __Default Value: __6       |
+| Schema            | `Meaning: `Specifies if world chunks should be saved or not. May be one of "Default", "Anvil" and "Forgetful". See table below for their description.                                                                                                                  | `Default Value: `Default |
+| CompressionFactor | `Meaning: `How much the world files should be compressed. Lower values mean much larger file sizes, but slighly increased performance, and higher values mean slightly smaller file sizes and much lower performance. It is recommended just to keep with the default. | `Default Value: `6       |
 
 #### Schema Options
 
 | Schema    | File Type | Description                                                                                                                                                                                                           |
 |-----------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Default   | .mca      | This is just an alias for Anvil at the moment.                                                                                                                                                                        |
-| Anvil     | .mca      | Saves chunks. Storage is compatible with other Minecraft-related tools and programs. MCA files are stored in the "region" subfolder of the world folder, and a "level.dat" file is generated inside the world folder. |
-| Forgetful | N/A       | Doesn't save chunks. Changes to the world are lost as soon as the chunks are unloaded, making this useful for read-only public servers. Please note that Cuberite will still load chunks using other schemas.         |
+| `Schema: `Default   | `File Type: `.mca      | `Description: `This is just an alias for Anvil at the moment.                                                                                                                                                                        |
+| `Schema: `Anvil     | `File Type: `.mca      | `Description: `Saves chunks. Storage is compatible with other Minecraft-related tools and programs. MCA files are stored in the "region" subfolder of the world folder, and a "level.dat" file is generated inside the world folder. |
+| `Schema: `Forgetful | `File Type: `N/A       | `Description: `Doesn't save chunks. Changes to the world are lost as soon as the chunks are unloaded, making this useful for read-only public servers. Please note that Cuberite will still load chunks using other schemas.         |
 
 #### Default Configuration
 
