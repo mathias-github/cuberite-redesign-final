@@ -20,8 +20,8 @@ This section specifies if Cuberite should save world chunks or not, as well as t
 
 #### Default Configuration
 
-<pre>
-[Storage]
-Schema=Default
+<div class="code-box">
+[Storage]<br/>
+Schema=Default<br/>
 CompressionFactor=6
-</pre>
+</div>
