@@ -7,7 +7,9 @@ title: Manual
 <ul>
 	{% for page in site.pages %}
 		{% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '0 - Introduction', '' | replace: '.md', '' %}
+		{% if page.path contains 'manual' %}
 			<li><a href="#{{ title | remove: '1 - ' | remove: '2 - ' | remove: '3 - ' | remove: '4 - ' | remove: '5 - ' | remove: '6 - ' | remove: '7 - ' | remove: '8 - ' | remove: '9 - ' | remove: '10 - ' | replace: ' ', '-' | downcase }}">0.{{ title }}</a></li>
+		{% endif %}
 	{% endfor %}
 </ul>
 <h3>1 - Installing</h3>
