@@ -5,9 +5,9 @@ This section specifies if the world is a Survival, Creative, Adventure or Specta
 
 #### Available Options
 
-| Variable | Meaning                                                                                      | Default |
-|----------|----------------------------------------------------------------------------------------------|---------|
-| GameMode | 0 means Survival mode, 1 means Creative mode, 2 means Adventure mode, 3 means Spectator mode | 1       |
+| Variable             | Meaning                                                                                                 | Default      |
+|----------------------|---------------------------------------------------------------------------------------------------------|--------------|
+| `Variable: `GameMode | `Meaning: `0 means Survival mode, 1 means Creative mode, 2 means Adventure mode, 3 means Spectator mode | `Default: `1 |
 
 #### Default Configuration
 
