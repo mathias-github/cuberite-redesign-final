@@ -814,7 +814,7 @@ button:hover, button:focus {
 			content: counter(page) "/" counter(pages);
 		}
 	}
-	body {
+	body, h1 {
 		color: #000;
 		text-shadow: none;
 	}
@@ -830,5 +830,9 @@ button:hover, button:focus {
 	}
 	#intro-body, #main-body {
 		padding: 0;
+	}
+	.button {
+		border: 1px solid #000;
+		box-shadow: none;
 	}
 }
