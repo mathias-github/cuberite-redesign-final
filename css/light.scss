@@ -1,0 +1,30 @@
+---
+---
+body {
+	background: #EAEAEA;
+	color: #292929;
+}
+::-moz-selection {
+	background: #7b7b7b;
+	background: rgba(255,255,255,0.04)
+}
+::selection {
+	background: #7b7b7b;
+	background: rgba(255,255,255,0.04)
+}
+a {
+	color: rgba(0,0,0,0.5);
+	text-decoration: none;
+}
+a:hover,a:focus {
+	color: rgba(255,255,255,0.6)
+}
+#navigation a:hover,#navigation a:focus,#footer a:hover,#footer a:focus,#footer-links label:hover,#footer-links label:focus,#active {
+	background: rgba(0,0,0,0.05)
+}
+#navigation {
+	background: rgba(0,0,0,0.1);
+}
+#logo a, #navigation-links a, #footer a {
+	color: #4A4A4A;
+}
