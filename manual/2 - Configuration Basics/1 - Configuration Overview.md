@@ -21,8 +21,8 @@ Cuberite can be configured by editing various configuration files. Below is a li
 ##### crafting.txt, brewing.txt, furnace.txt
 > These three files allow you to tweak crafting, brewing, and furnace recipes.
 
-##### plugins/...
-> Many plugins have their own configuration files. For instance, the WorldEdit config is ***plugins/WorldEdit/config.cfg***
+<h5>Plugins/...</h5>
+> Many plugins have their own configuration files. For instance, the WorldEdit config is ***Plugins/WorldEdit/config.cfg***
 
 ##### items.ini
 > Edit item IDs. You probably shouldn't edit this file unless you know what you're doing.
