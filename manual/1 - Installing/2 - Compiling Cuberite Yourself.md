@@ -41,7 +41,7 @@ Once the compilation process is finished, the Cuberite executable will be placed
 #### Other Systems
 For compiling on Windows or other systems, please see [COMPILING.md](https://github.com/cuberite/cuberite/blob/master/COMPILING.md) in the main repository.
 
-##### Build Flags
+#### Build Flags
 Cuberite's build process supports a large number of flags for customising the builds. Use these flags by adding ***-DFlag_name=Value*** to the cmake configuration command. For example to enable test generation using the ***SELF_TEST*** flag add: ***-DSELF_TEST=ON***
 
 ##### BUILD_TOOLS
