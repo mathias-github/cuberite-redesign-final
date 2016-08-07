@@ -6,25 +6,28 @@ body {
 	text-shadow: none;
 }
 ::-moz-selection {
-	background: #7b7b7b;
-	background: rgba(255,255,255,0.04)
+	background: #CCCCCC;
 }
 ::selection {
-	background: #7b7b7b;
-	background: rgba(255,255,255,0.04)
+	background: #CCCCCC;
+}
+th {
+	background: rgba(0,0,0,.2);
+}
+td {
+	background: rgba(0,0,0,.1);
 }
 a {
-	color: rgba(0,0,0,0.5);
-	text-decoration: none;
+	color: #858585;
 }
 a:hover,a:focus {
-	color: rgba(255,255,255,0.6)
+	color: #575757;
 }
 #navigation a:hover, #navigation a:focus, #footer a:hover, #footer a:focus, #footer-links label:hover, #footer-links label:focus, #active {
-	background: rgba(0,0,0,0.05)
+	background: #C6C6C6;
 }
 #navigation {
-	background: rgba(0,0,0,0.1);
+	background: #D2D2D2;
 }
 #logo a, #navigation-links a, #footer a {
 	color: #4A4A4A;
