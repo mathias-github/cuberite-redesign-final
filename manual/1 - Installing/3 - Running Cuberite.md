@@ -9,7 +9,7 @@ To run Cuberite on Windows, just double click on the executable. A command windo
 #### Linux/Mac/BSD
 To run Cuberite on Linux, Mac or FreeBSD, just run the executable in your shell:
 
-    ./Cuberite
+<div class="code-box">./Cuberite</div>
 
 #### Joining Cuberite
 Just like Vanilla, once you've started Cuberite, you can join the server on ***localhost:25565***, or just ***localhost*** in your minecraft client.
