@@ -416,27 +416,20 @@ td code, #intro input, #footer input, #footer img, #footer label, .show-mobile, 
 /* Manual */
 #manual-body {
 	padding: 6% 14% 6% 14%;
-}
-#table-of-contents li {
-	list-style: none;
-}
-#manual-content {
 	text-align: justify;
 }
-#manual-content h2 {
-	margin: 1.875em 0 -0.625em 0;
-	text-align: center;
-}
-#manual-content h3 {
-	margin: 1.875em 0 0.938em 0;
-	text-align: center;
-}
-#manual-content ul {
+#manual-body ul {
 	margin: 0 0 1.563em 0;
 	text-align: left;
 }
-#manual-content li {
+#manual-body li {
 	margin: 0 0 0 2.000em;
+}
+#manual-content h2 {
+	margin: 1.875em 0 -0.625em 0;
+}
+#manual-content h3 {
+	margin: 1.875em 0 0.938em 0;
 }
 .code-box {
 	background: rgba(0,0,0,.3);
