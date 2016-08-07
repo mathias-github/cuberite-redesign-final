@@ -2,26 +2,12 @@
 layout: manual
 title: Manual
 ---
-	{% for page in site.pages %}
-		{% assign title = page.url | remove: '/about/' | remove: '/news/' | remove: '/support/' | remove: '/manual/' | remove: '/feed.xml/' %}
-		<h2>{{ title }}</h2>
-	{% endfor %}
-
-
-
-
-
-
-
-
-
-
 <div id="table-of-contents">
 <h3>0 - Introduction</h3>
 <ul>
 	{% for page in site.pages %}
 		{% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '0 - Introduction', '' | replace: '.md', '' %}
-		{% if page.path contains 'manual' %}
+		{% if page.path contains '0 - Introduction' %}
 			<li><a href="#{{ title | remove: '1 - ' | remove: '2 - ' | remove: '3 - ' | remove: '4 - ' | remove: '5 - ' | remove: '6 - ' | remove: '7 - ' | remove: '8 - ' | remove: '9 - ' | remove: '10 - ' | replace: ' ', '-' | downcase }}">0.{{ title }}</a></li>
 		{% endif %}
 	{% endfor %}
