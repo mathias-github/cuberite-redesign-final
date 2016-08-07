@@ -28,7 +28,9 @@ Cuberite can be configured by editing various configuration files. Below is a li
 > Edit item IDs. You probably shouldn't edit this file unless you know what you're doing.
 
 <div class="info-box">
-	In all <strong><em>.ini</em></strong> files, lines starting with <strong><em>;</em></strong> are comments, and in all <strong><em>.txt</em></strong> files, lines starting with <strong><em>#</em></strong> are comments.
+	<div class="info-box-body">
+		In all <strong><em>.ini</em></strong> files, lines starting with <strong><em>;</em></strong> are comments, and in all <strong><em>.txt</em></strong> files, lines starting with <strong><em>#</em></strong> are comments.
+	</div>
 </div>
 
 #### Permissions
