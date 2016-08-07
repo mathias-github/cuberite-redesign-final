@@ -12,6 +12,5 @@ As of late 2014, MCServer had a team of more than 10 regular developers, and the
 - New Water and Lava Simulators
 - New Generators (and improved speed)
 
-In 2015, many new developers joined the project, and the community decided to adopt the current name of Cuberite.
-As of late 2015, Cuberite has over 1000 stars on GitHub.
+In 2015, many new developers joined the project, and the community decided to adopt the current name of Cuberite. As of late 2015, Cuberite has over 1000 stars on GitHub.
 
