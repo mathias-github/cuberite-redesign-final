@@ -411,10 +411,13 @@ p, #banner, .post span, input {
 #manual-body {
 	padding: 6% 14% 6% 14%;
 }
+#toc ul {
+	text-align: center;
+}
 #manual-body p {
 	text-align: justify;
 }
-#manual-body h4, #manual-body h5, #manual-body p ul, #manual-body pre {
+#manual-body h4, #manual-body h5, #manual-body pre {
 	text-align: left;
 }
 #manual-body ul {
