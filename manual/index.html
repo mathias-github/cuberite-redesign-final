@@ -2,7 +2,8 @@
 layout: manual
 title: Manual
 ---
-<h3 id="table-of-contents">0 - Introduction</h3>
+<div id="table-of-contents">
+<h3>0 - Introduction</h3>
 <ul>
 	{% for page in site.pages %}
 		{% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '0 - Introduction', '' | replace: '.md', '' %}
@@ -47,6 +48,7 @@ title: Manual
 		{% endif %}
 	{% endfor %}
 </ul>
+</div>
 <div id="manual-content">
 <h2 id="introduction">0 - Introduction</h2>
 	{% for page in site.pages %}
