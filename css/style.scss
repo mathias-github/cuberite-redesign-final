@@ -141,7 +141,7 @@ a:hover, a:focus {
 p, #banner, .post span, input {
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-#intro input, #footer input, #footer img, #footer label, .show-mobile, .show-mobile-block {
+td code, #intro input, #footer input, #footer img, #footer label, .show-mobile, .show-mobile-block {
 	display: none;
 }
 #intro-body, #main-body, #advantages-body, #banner-blue-body, #banner-green-body {
@@ -595,9 +595,10 @@ button:hover, button:focus {
 		text-align: right;
 		margin: 0 0 0.125em 0;
 	}
-	td .highlighter-rouge {
-		display: initial;
+	td code {
+		display: block;
 		float: left;
+		margin: 0 1.000em 0 0;
 		font-family: montserratregular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 		text-transform: uppercase;
 	}
