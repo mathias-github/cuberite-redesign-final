@@ -410,8 +410,6 @@ p, #banner, .post span, input {
 /* Manual */
 #manual-body {
 	padding: 6% 14% 6% 14%;
-}
-.manual-content {
 	text-align: justify;
 }
 .manual-content ul {
@@ -561,9 +559,6 @@ button:hover, button:focus {
 }
 @media (min-width: 800px) {
 	html { font-size: 92%; }
-	#manual-body {
-		padding: 6% 8% 6% 8%;
-	}
 }
 @media (max-width: 800px) {
 	#left-two, #right-two {
@@ -572,6 +567,9 @@ button:hover, button:focus {
 	}
 	#left-two {
 		margin: 1.875em 0 2.500em 0
+	}
+	#manual-body {
+		padding: 6% 8% 6% 8%;
 	}
 }
 @media (min-width: 900px) {
