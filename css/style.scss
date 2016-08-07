@@ -609,8 +609,7 @@ button:hover, button:focus {
 	table td:last-child {
 		border-bottom: 0;
 	}
-	table td:before {
-		content: attr(data-label);
+	table .show-mobile {
 		float: left;
 		text-transform: uppercase;
 		font-weight: bold;
