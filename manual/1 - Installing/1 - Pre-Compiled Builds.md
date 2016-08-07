@@ -9,5 +9,5 @@ On Linux or Raspberry Pi, you can simply paste this command into your terminal t
 
 Once you have downloaded Cuberite, you can skip straight to [Running Cuberite](#running-cuberite).
 
-Pre-compiled builds are faster to install and easier to use than compiling the source yourself, and are recommended for beginners. However, for some unusual hardware for which no pre-compiled build exists it may be necessary to compile the code yourself. Compiling yourself also has a significant performance advantage on modern machines. If you know how to use the command line or want extra speed you should [compile Cuberite yourself](#compile-cuberite-yourself).
+Pre-compiled builds are faster to install and easier to use than compiling the source yourself, and are recommended for beginners. However, for some unusual hardware for which no pre-compiled build exists it may be necessary to compile the code yourself. Compiling yourself also has a significant performance advantage on modern machines. If you know how to use the command line or want extra speed you should [compile Cuberite yourself](#compiling-cuberite-yourself).
 
