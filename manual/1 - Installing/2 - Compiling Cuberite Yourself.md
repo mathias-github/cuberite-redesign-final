@@ -11,7 +11,7 @@ The rest of this section is for those who prefer to manually compile.
 
 <div class="warning-box">
 	<div class="warning-box-body">
-		This process requires use of the command line. If you are not familiar with it, it is recommended that you use the <a href="#pre-com">pre-compiled builds</a> instead.
+		This process requires use of the command line. If you are not familiar with it, it is recommended that you use the <a href="#pre-compiled-builds">pre-compiled builds</a> instead.
 	</div>
 </div>
 
