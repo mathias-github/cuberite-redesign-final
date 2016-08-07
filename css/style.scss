@@ -412,8 +412,7 @@ p, #banner, .post span, input {
 .manual-content blockquote {
 	margin: 0 0 0 2em;
 }
-.info-box {
-	background: rgba(43,149,255,.05);
+.info-box, .warning-box {
 	padding: 1em;
 	margin: 0 1em 1.7em 1em;
 	color: rgba(255,255,255,.75);
@@ -421,11 +420,24 @@ p, #banner, .post span, input {
 	font-size: 0.938em;
 	line-height: 1.6;
 }
-.info-box-body:before {
+.info-box {
+	background: rgba(43,149,255,.05);
+}
+.warning-box {
+	background: rgba(43,149,255,.05);
+}
+.info-box-body:before, .warning-box-body:before {
 	content: "\2139";
 	font-family: 'icons';
 	font-size: 2em;
-	margin-right: 1em;
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+.info-box-body:before {
+	content: "\2139";
+}
+.warning-box-body:before {
+	content: "\26a0";
 }
 /* Footer */
 #footer {
