@@ -1,3 +1,6 @@
+---
+sitemap: false
+---
 This section specifies if the world is a Survival, Creative, Adventure or Spectator mode world. An administrative in-game command may override this setting temporarily.
 
 #### Available Options

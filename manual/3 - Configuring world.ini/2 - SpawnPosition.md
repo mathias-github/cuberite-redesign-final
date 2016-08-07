@@ -1,3 +1,6 @@
+---
+sitemap: false
+---
 Specifies the spawn point for new players. The coordinates are absolute, in blocks, and may be fractional. If any of the values are missing, Cuberite provides a default.
 
 #### Available Options
