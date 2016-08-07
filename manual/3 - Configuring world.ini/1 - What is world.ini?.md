@@ -91,8 +91,8 @@ MaxSunnyTicks=180000<br/>
 MinSunnyTicks=12000<br/>
 MaxRainTicks=24000<br/>
 MinRainTicks=12000<br/>
-MaxThunderStormTicks=15600
-MinThunderStormTicks=3600
+MaxThunderStormTicks=15600<br/>
+MinThunderStormTicks=3600<br/>
 <br/>
 [LinkedWorlds]<br/>
 NetherWorldName=world_nether<br/>
