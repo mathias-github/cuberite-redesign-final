@@ -76,7 +76,7 @@ title: Manual
 		{% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '3 - Configuring world.ini', '' | replace: '.md', '' %}
 		{% if page.path contains '3 - Configuring world.ini' %}
 			<h3 id="{{ title | remove: '1 - ' | remove: '2 - ' | remove: '3 - ' | remove: '4 - ' | remove: '5 - ' | remove: '6 - ' | remove: '7 - ' | remove: '8 - ' | remove: '9 - ' | remove: '10 - ' | replace: ' ', '-' | downcase }}">{{ title }}</h3>
-			{{ page.content }}
+			<div class="manual-content">{{ page.content }}</div>
 		{% endif %}
 	{% endfor %}
 <h2 id="multiworlds">4 - MultiWorlds</h2>
