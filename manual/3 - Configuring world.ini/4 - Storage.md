@@ -7,7 +7,7 @@ This section specifies if Cuberite should save world chunks or not, as well as t
 
 | Variable          | Meaning                                                                                                                                                                                                                                                     | Default |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
-| Schema            | #Meaning: #Specifies if world chunks should be saved or not. May be one of "Default", "Anvil" and "Forgetful". See table below for their description.                                                                                                                  | __Default Value: __Default |
+| Schema            | `Meaning: `Specifies if world chunks should be saved or not. May be one of "Default", "Anvil" and "Forgetful". See table below for their description.                                                                                                                  | __Default Value: __Default |
 | CompressionFactor | __Meaning: __How much the world files should be compressed. Lower values mean much larger file sizes, but slighly increased performance, and higher values mean slightly smaller file sizes and much lower performance. It is recommended just to keep with the default. | __Default Value: __6       |
 
 #### Schema Options
