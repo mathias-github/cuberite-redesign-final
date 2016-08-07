@@ -3,7 +3,7 @@ layout: manual
 title: Manual
 ---
 	{% for page in site.pages %}
-		{% assign title = page.url | replace: '%20', ' ' | replace: '%3F', '?' | replace: 'manual', '' | replace: '/', '' | replace: '1 - Installing', '' | replace: '.md', '' %}
+		{% assign title = page.url %}
 		<h2>{{ title }}</h2>
 	{% endfor %}
 
