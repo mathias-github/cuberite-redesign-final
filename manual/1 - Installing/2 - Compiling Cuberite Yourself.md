@@ -41,20 +41,20 @@ Once the compilation process is finished, the Cuberite executable will be placed
 #### Other Systems
 For compiling on Windows or other systems, please see [COMPILING.md](https://github.com/cuberite/cuberite/blob/master/COMPILING.md) in the main repository.
 
-#### Build Flags
+##### Build Flags
 Cuberite's build process supports a large number of flags for customising the builds. Use these flags by adding ***-DFlag_name=Value*** to the cmake configuration command. For example to enable test generation using the ***SELF_TEST*** flag add: ***-DSELF_TEST=ON***
 
-#### BUILD_TOOLS
+##### BUILD_TOOLS
 > Adds the Cuberite tools to the build. At the moment only MCADefrag and ProtoProxy are added. Define as ***ON*** to enable. Define as ***OFF*** to disable.
 
-#### BUILD_UNSTABLE_TOOLS
+##### BUILD_UNSTABLE_TOOLS
 > Adds tools that are not working yet to the build. Currently this is only the Generator Performance Test. Used for developing these tools. Define as ***ON*** to enable. Define as ***OFF*** to disable.
 
-#### SELF_TEST
+##### SELF_TEST
 > Enables generation of tests and self-test startup code. Tests can be run with ***ctest*** and with makefiles ***make test***. Define as ***ON*** to enable. Define as ***OFF*** to disable.
 		
-#### FORCE_32
+##### FORCE_32
 > Forces the build to use 32 bit builds on *nix systems. Define as ***ON*** to enable. Define as ***OFF*** to disable.
 
-#### CROSSCOMPILE
+##### CROSSCOMPILE
 > Disables optimizations for the build host. This is important when building on a different machine from the one you will run Cuberite on as the build machine may support instructions the final machine does not. This flag only has any effect on Linux. Define as ***ON*** to enable. Define as ***OFF*** to disable.
