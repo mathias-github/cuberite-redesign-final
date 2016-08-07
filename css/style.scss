@@ -70,7 +70,7 @@ body {
 :-ms-input-placeholder {
 	color: rgba(0,0,0,.55);
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
 	font-style: normal;
 	font-weight: normal;
 	text-transform: uppercase;
@@ -96,6 +96,9 @@ h3 {
 }
 h4 {
 	margin: 1.125em 0 0.625em 0;
+}
+h5 {
+	margin: 1.125em 0 0.625em 1.125em;
 }
 p, ul {
 	line-height: 1.6em;
@@ -405,6 +408,9 @@ p, #banner, .post span, input {
 	display: block;
 	padding: 0.6em;
 	margin: 0 1em 1.7em 1em;
+}
+.manual-content blockquote {
+	margin: 0 0 0 2em;
 }
 /* Footer */
 #footer {
