@@ -591,6 +591,17 @@ button:hover, button:focus {
 	body {
 		padding: 0 0 3.750em 0;
 	}
+	thead {
+		display: none;
+	}
+	td:first-child {
+		background: rgba(0,0,0,.4);
+		font-family: montserratregular,"Helvetica Neue",Helvetica,Arial,sans-serif;	
+	}
+	td {
+		display: block;
+		text-align: center;
+	}
 	/* Mobile Menus */
 	#navigation {
 		text-align: center;
