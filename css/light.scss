@@ -3,6 +3,7 @@
 body {
 	background: #EAEAEA;
 	color: #292929;
+	text-shadow: none;
 }
 ::-moz-selection {
 	background: #7b7b7b;
@@ -19,7 +20,7 @@ a {
 a:hover,a:focus {
 	color: rgba(255,255,255,0.6)
 }
-#navigation a:hover,#navigation a:focus,#footer a:hover,#footer a:focus,#footer-links label:hover,#footer-links label:focus,#active {
+#navigation a:hover, #navigation a:focus, #footer a:hover, #footer a:focus, #footer-links label:hover, #footer-links label:focus, #active {
 	background: rgba(0,0,0,0.05)
 }
 #navigation {
