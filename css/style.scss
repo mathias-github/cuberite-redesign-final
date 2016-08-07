@@ -591,17 +591,33 @@ button:hover, button:focus {
 	body {
 		padding: 0 0 3.750em 0;
 	}
-	thead {
-		display: none;
-	}
-	td:first-child {
-		background: rgba(0,0,0,.4);
-		font-family: montserratregular,"Helvetica Neue",Helvetica,Arial,sans-serif;	
-	}
-	td {
-		display: block;
-		text-align: center;
-	}
+    table thead {
+      display: none;
+    }
+
+    table tr {
+
+      display: block;
+      border-bottom: 2px solid #ddd;
+    }
+
+    table td {
+      display: block;
+      text-align: right;
+      font-size: 13px;
+      border-bottom: 1px dotted #ccc;
+    }
+
+    table td:last-child {
+      border-bottom: 0;
+    }
+
+    table td:before {
+      content: attr(data-label);
+      float: left;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
 	/* Mobile Menus */
 	#navigation {
 		text-align: center;
