@@ -6,16 +6,9 @@
 		content: counter(page) "/" counter(pages);
 	}
 }
-
 body {
-	font-family: "Open Sans", sans-serif;
-	font-size: 10pt;
 	-webkit-print-color-adjust: exact;
 	color: #000;
-}
-
-h1, h2, h3, h4 {
-	font-family: "Ubuntu", serif;
 }
 
 p {
