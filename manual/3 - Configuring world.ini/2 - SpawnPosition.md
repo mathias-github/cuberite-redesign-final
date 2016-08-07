@@ -5,11 +5,11 @@ Specifies the spawn point for new players. The coordinates are absolute, in bloc
 
 #### Available Options
 
-| Variable | Meaning                         | Default                                       |
-|----------|---------------------------------|-----------------------------------------------|
-| X        | X coordinate of the spawn point | 32                                            |
-| Y        | Y coordinate of the spawn point | The height of the terrain at the point (X, Z) |
-| Z        | Z coordinate of the spawn point | 32                                            |
+| Variable             | Meaning                                    | Default                                                  |
+|----------------------|--------------------------------------------|----------------------------------------------------------|
+| `Variable: `X        | `Meaning: `X coordinate of the spawn point | `Default: `32                                            |
+| `Variable: `Y        | `Meaning: `Y coordinate of the spawn point | `Default: `The height of the terrain at the point (X, Z) |
+| `Variable: `Z        | `Meaning: `Z coordinate of the spawn point | `Default: `32                                            |
 
 #### Default Configuration
 
