@@ -12,11 +12,11 @@ Cuberite has a [plugin repository](https://forum.cuberite.org/forum-2.html) wher
 After downloading a plugin, you need to put it in the ***Plugins/*** directory. You should then edit the ***[Plugins]*** sections of the ***settings.ini*** file and add a plugin entry there. Below is an example of adding a plugin called ***MyNewPlugin***.
 
 <pre>
-[Plugins]
-Plugin=Core
-Plugin=TransApi
-Plugin=MyNewPlugi
-;Plugin=MyDisabledPlugin
+[Plugins]<br/>
+Plugin=Core<br/>
+Plugin=TransApi<br/>
+Plugin=MyNewPlugi<br/>
+;Plugin=MyDisabledPlugin<br/>
 </pre>
 
 #### Writing a plugin
