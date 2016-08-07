@@ -8,7 +8,7 @@ This section specifies if the world is a Survival, Creative, Adventure or Specta
 
 #### Default Configuration
 
-<pre>
+<div class="code-box">
 [GameMode]
 GameMode=1
-</pre>
+</div>
