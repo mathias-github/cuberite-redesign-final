@@ -66,5 +66,5 @@ Cuberite's build process supports a large number of flags for customising the bu
 ##### FORCE_32
 > Forces the build to use 32 bit builds on *nix systems. Define as ***ON*** to enable. Define as ***OFF*** to disable.
 
-##### CROSSCOMPILE
+##### NO_NATIVE_OPTIMIZATION
 > Disables optimizations for the build host. This is important when building on a different machine from the one you will run Cuberite on as the build machine may support instructions the final machine does not. This flag only has any effect on Linux. Define as ***ON*** to enable. Define as ***OFF*** to disable.
