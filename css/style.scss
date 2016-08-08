@@ -415,8 +415,11 @@ td code, #intro input, #footer input, #footer img, #footer label, .show-mobile, 
 }
 /* Manual */
 #manual-body {
-	padding: 6% 20% 6% 20%;
+	padding: 6% 22% 6% 22%;
 	text-align: justify;
+}
+h2.manual {
+	font-size: 1.8em;
 }
 #manual-body h2, #manual-body h3 {
 	text-align: left;
