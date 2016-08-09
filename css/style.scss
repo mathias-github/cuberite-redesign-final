@@ -859,6 +859,7 @@ button:hover, button:focus {
 }
 @media print {
 	body, h1 {
+		background: none;
 		color: #000;
 		text-shadow: none;
 	}
