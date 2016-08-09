@@ -22,10 +22,6 @@
 	font-style: normal;
 }
 /* Animation */
-@-webkit-keyframes fadein {
-	from { opacity: 0; }
-	to { opacity: 1; }
-}
 @keyframes fadein {
 	from { opacity: 0; }
 	to { opacity: 1; }
@@ -139,7 +135,6 @@ td code, #intro input, #footer input, #footer img, #footer label, .show-mobile, 
 	display: none;
 }
 #intro-body, #main-body, #manual-body, #banner-blue-body, #banner-green-body {
-	-webkit-animation: fadein .7s;
 	animation: fadein .7s;
 }
 #navigation a:before, .downloadbutton:before, h2:before, #previous:before, #next:before, .info-box-body:before, .warning-box-body:before, #mobile-links a:before, #footer-links label:before, #media-links a:before {
@@ -647,7 +642,6 @@ button:hover, button:focus {
 	}
 	#footer-links-toggle:checked + #footer-links #footer-links-body, #downloadbutton-linux-mobile:checked + #downloadbutton-linux .downloadmenu, #downloadbutton-windows-mobile:checked + #downloadbutton-windows .downloadmenu, #downloadbutton-freebsd-mobile:checked + #downloadbutton-freebsd .downloadmenu, #downloadbutton-osx-mobile:checked + #downloadbutton-osx .downloadmenu {
 		display: block;
-		-webkit-animation: fadein .4s;
 		animation: fadein .4s;
 	}
 	#footer-links a {
@@ -735,6 +729,13 @@ button:hover, button:focus {
 	}
 	#center-three {
 		margin: 0 0 2.500em 0;
+	}
+		#left-two, #right-two {
+		display: block;
+		width: 100%;
+	}
+	#left-two {
+		margin: 1.875em 0 2.500em 0
 	}
 	#manual-body {
 		padding: 6% 12% 6% 12%;
@@ -871,12 +872,15 @@ button:hover, button:focus {
 		color: #000;
 		text-shadow: none;
 	}
+	body, th, td, .code-box, .info-box, .warning-box, #pagination a, #pagination span, .button {
+		background: none;
+	}
 	table, th, td {
 		border: 0.063em solid #000;
 		border-collapse: collapse;
 	}
-	a {
-		color: #252525;
+	a, #main-footer a, #download-footer a, .post a {
+		color: #5098CE;
 		text-decoration: underline;
 	}
 	a:after {
@@ -886,6 +890,16 @@ button:hover, button:focus {
 	#navigation, #footer {
 		display: none;
 	}
+	#left-two, #right-two, #left-three, #center-three, #right-three {
+		display: block;
+		width: 100%;
+	}
+	#left-two, #left-three {
+		margin: 1.875em 0 2.500em 0
+	}
+	#center-three {
+		margin: 0 0 2.500em 0;
+	}
 	#intro-body, #main-body, #manual-body {
 		display: block;
 		padding: 0;
@@ -893,8 +907,11 @@ button:hover, button:focus {
 	.info-box, .warning-box {
 		border: 0.063em solid #404040;
 	}
-	.button {
+	#pagination a, #pagination span, .button {
 		border: 0.063em solid #000;
 		box-shadow: none;
+	}
+	#pagination a, #pagination span, .button a {
+		color: #000;
 	}
 }
