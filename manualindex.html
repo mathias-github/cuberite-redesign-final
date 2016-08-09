@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Manual - Cuberite</title>
+	<meta name="description" content="A custom Minecraft compatible game server written in C++. It's a fast, lightweight, and awesome replacement for Vanilla.">
+	<link rel="canonical" href="https://book.cuberite.org/">
+	<link rel="stylesheet" href="https://cuberite.org/css/style.css">
+	<link rel="stylesheet" href="https://cuberite.org/css/light.css">
+	<link rel="alternate" type="application/atom+xml" href="https://cuberite.org/feed.xml">
+	<link rel="icon" type="image/png" href="https://cuberite.org/icons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://cuberite.org/icons/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="https://cuberite.org/icons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="https://cuberite.org/icons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://cuberite.org/icons/manifest.json">
+	<link rel="mask-icon" href="https://cuberite.org/icons/safari-pinned-tab.svg">
+	<meta name="theme-color" content="#101010">
+</head>
+<body>
+	<div id="navigation">
+		<div id="logo">
+			<a href="https://cuberite.org/">Cuberite</a>
+		</div>
+		<div id="navigation-links">
+			<a href="https://forum.cuberite.org/" class="forum">Forum</a>
+			<a href="https://book.cuberite.org/" class="manual" id="active">Manual</a>
+			<a href="https://cuberite.org/support/" class="support">Support</a>
+			<a href="https://cuberite.org/plugins/" class="plugins">Plugins</a>
+			<a href="https://cuberite.org/contribute/" class="contribute">Contribute</a>
+		</div>
+	</div>
+	<div id="manual">
+		<div id="manual-body">
+			<h2 class="manual">Cuberite User's Manual</h2>
+			<div id="toc">
+<h3 id="0">0 - Introduction</h3>
+<ul>
+<li><a href="#0.1">0.1 - Introduction</a></li>
+<li><a href="#0.2">0.2 - What is Cuberite</a></li>
+<li><a href="#0.3">0.3 - History</a></li>
+</ul>
+<h3 id="1">1 - Installing</h3>
+<ul>
+<li><a href="#1.1">1.1 - Pre-Compiled Builds</a></li>
+<li><a href="#1.2">1.2 - Compiling Cuberite Yourself</a></li>
+<li><a href="#1.3">1.3 - Running Cuberite</a></li>
+</ul>
+<h3 id="2">2 - Configuration Basics</h3>
+<ul>
+<li><a href="#2.1">2.1 - Configuration Overview</a></li>
+<li><a href="#2.2">2.2 - Permissions</a></li>
+<li><a href="#2.3">2.3 - WebAdmin</a></li>
+<li><a href="#2.4">2.4 - Worlds</a></li>
+<li><a href="#2.5">2.5 - Plugins</a></li>
+</ul>
+<h3 id="3">3 - Configuring world.ini</h3>
+<ul>
+<li><a href="#3.1">3.1 - What is world.ini</a></li>
+<li><a href="#3.2">3.2 - SpawnPosition</a></li>
+<li><a href="#3.3">3.3 - GameMode</a></li>
+<li><a href="#3.4">3.4 - Storage</a></li>
+</ul>
+<h3 id="4">4 - MultiWorlds</h3>
+<ul>
+<li><a href="#4.1">4.1 - Multiworlds Overview</a></li>
+<li><a href="#4.2">4.2 - Traveling by Command</a></li>
+<li><a href="#4.3">4.3 - Linking Worlds Without Plugins</a></li>
+<li><a href="#4.4">4.4 - Linking Worlds with a Plugin</a></li>
+<li><a href="#4.5">4.5 - Bungeecord</a></li>
+</ul>
+</div>
+<div id="manual-content">
+<h2 id="0">0 - Introduction</h2>
+<h3 id="0.1">1 - Introduction</h3>
+<p>
+	This is the Cuberite User's Manual. It is intended as a guide on how to
+	operate the basics of Cuberite, as well as an introduction to some advanced
+	features. It is organised into major sections as well as more detailed
+	subsections and these are laid out in the <a href="#toc">Table of Contents</a>.
+	The first section deals with downloading, installing, and running Cuberite.
+	The second section is an overview of configuring Cuberite. Reading those two
+	sections is enough to get you started. The remaining sections cover more
+	advanced features and further configuration options in greater depth.
+</p>
+
+<p>
+	As with Cuberite itself, this manual is in active development, and you can
+	contribute yourself or file an issue if you find an error or ommission on the
+	<a href="https://github.com/cuberite/users-manual">GitHub Repository</a>.
+	If you're using a printed version, note that the latest version of this
+	manual is always available <a href="https://book.cuberite.org/">online</a>.
+</p>
+
+<h4>Resources</h4>
+
+<ul>
+	<li><a href="http://cuberite.org/">Cuberite Homepage</a></li>
+	<li><a href="https://forum.cuberite.org/">Forum</a></li>
+	<li><a href="https://forum.cuberite.org/forum-2.html">Plugin Repository</a></li>
+	<li><a href="https://forum.cuberite.org/thread-1435.html">Server List</a></li>
+	<li><a href="https://forum.cuberite.org/thread-2146.html">Development Progress</a></li>
+	<li><a href="mailto:support@cuberite.org">Support E-mail Address</a></li>
+</ul>
+
+<h4>Developer Resources</h4>
+
+<ul>
+	<li><a href="http://api-docs.cuberite.org/Writing-a-Cuberite-plugin.html">Writing your First Plugin</a></li>
+	<li><a href="http://api-docs.cuberite.org/">Plugin API Documentation</a></li>
+	<li><a href="https://github.com/cuberite/cuberite">GitHub Repository</a></li>
+</ul>
+
+<h3 id="0.2">2 - What is Cuberite</h3>
+<p>
+	Cuberite is a Free and Open Source (FOSS) Minecraft-compatible Game Server. Cuberite is designed with performance, configurability, and extensibility in mind, and also aims to accurately recreate most vanilla features.  Cuberite is written in C++, and there is an extensive plugin system that allows for the user to write their own plugins with Lua. In fact, many of the built in commands are implemented by the Core plugin, which has its own <a href="https://github.com/cuberite/Core">GitHub repository</a> and developer community. For more information on the plugin system and how to use it, as well as how to develop for it, please see <a href="#2.4">Plugins</a>.
+</p>
+
+<p>
+	Cuberite today is maintained by a large team of <a href="https://github.com/cuberite/cuberite/blob/master/CONTRIBUTORS">contributors</a> and plugin developers. If you want to reward the developers for their work, you should set up a donation on <a href="https://salt.bountysource.com/teams/cuberite">Bountysource</a> with a credit card, bitcoin or other currency.
+</p>
+
+<h3 id="0.3">3 - History</h3>
+<p>
+	Cuberite was created in late 2010 by <a href="https://github.com/faketruth">FakeTruth</a> with its original name "MCServer", as a replacement for the vanilla server, designed to be better performing and more configurable. It was soon open-sourced and developers started working.
+</p>
+
+<p>
+	In the summer of 2013, the main MCServer repository was moved from Google Code to GitHub, and a new build system was introduced. Several new developers also joined the project around that time, and the project began to increase in members and popularity.
+</p>
+
+<p>
+	As of late 2014, MCServer had a team of more than 10 regular developers, and the codebase had grown to over 125,000 lines (excluding comments, blank lines and external libraries). Many new features were also introduced in 2014:
+</p>
+
+<ul>
+	<li>Chunk Sparsing (ram usage reduction)</li>
+	<li>New Redstone Simulator</li>
+	<li>New Water and Lava Simulators</li>
+	<li>New Generators (and improved speed)</li>
+</ul>
+
+<p>
+	In 2015, many new developers joined the project, and the community decided to adopt the current name of Cuberite.
+	As of late 2015, Cuberite has over 1000 stars on GitHub.
+</p>
+
+<h2 id="1">1 - Installing</h2>
+<h3 id="1.1">1 - Pre-Compiled Builds</h3>
+<p id="buildsurl">
+	For Windows, Linux, Raspberry Pi or Mac builds, the main download location
+	is the <a href="http://cuberite.org">official homepage</a>, with the latest
+	builds available. For developers who want more control over the builds they
+	download, visit the <a href="https://builds.cuberite.org">buildserver</a>.
+</p>
+
+<p>
+	On Linux or Raspberry Pi, you can simply paste this command into your
+	terminal to install Cuberite:
+</p>
+
+<figure class="codebox">
+<pre><code>sh -c "$(wget -O - https://download.cuberite.org)"</code></pre>
+</figure>
+
+<p>
+	Once you have downloaded Cuberite, you can skip straight to
+	<a href="#1.3">Running Cuberite</a>.
+</p>
+
+<p>
+	Pre-compiled builds are faster to install and easier to use than compiling
+	the source yourself, and are recommended for beginners. However, for some
+	unusual hardware for which no pre-compiled build exists it may be necessary
+	to compile the code yourself. Compiling yourself also has a significant
+	performance advantage on modern machines. If you know how to use the command
+	line or want extra speed you should <a href="#1.2">compile Cuberite yourself</a>.
+</p>
+
+<h3 id="1.2">2 - Compiling Cuberite Yourself</h3>
+<p>
+	Compiling yourself takes longer and is more involved, but on modern processors can lead to a speed increase of up to 1.5 to 3x.
+	If your operating system or hardware is not officially supported, compiling may be the only way to run Cuberite.
+</p>
+
+<p>
+	The automatic compilation script is recommended for *nix users. Windows users should see the <a href="#compilingother">Other Systems</a> subsection for instructions.
+	The automatic compilation script takes care of the compilation process for you. You only need to copy this command to your terminal:
+</p>
+
+<figure class="codebox"><pre><code>sh -c "$(wget -O - https://compile.cuberite.org)"</code></pre></figure>
+
+<p>
+	The rest of this section is for those who prefer to manually compile.
+</p>
+
+<aside class="warnbox">
+	This process requires use of the command line. If you are not familiar with it, it is recommended that you use the <a href="#1.1">pre-compiled builds</a> instead.
+</aside>
+
+<h4 id="compilinglinux">Linux/Mac/BSD</h4>
+
+<p>
+	Compiling on Linux and related operating systems is easy and simple, although it does require some tools before you can get started. You need a C++ compiler (Clang++ or G++), a C compiler (Clang or GCC), Git, CMake and Make. A simple command to make sure these tools are installed (Ubuntu/Debian) is:
+</p>
+
+<figure class="codebox"><pre><code>sudo apt-get install clang git cmake make</code></pre></figure>
+
+<p>
+	Once the tools are installed, you should clone the Git repo:
+</p>
+
+<figure class="codebox"><pre><code>git clone --recursive https://github.com/cuberite/cuberite.git
+cd cuberite
+</code></pre></figure>
+
+<p>
+	You should then run the CMake process and compile:
+</p>
+
+<figure class="codebox"><pre><code>cmake . -DCMAKE_BUILD_TYPE=RELEASE
+make -j 2
+</code></pre></figure>
+
+<aside class="warnbox">
+	This step may take a while on slow hardware like Raspberry Pis, up to several hours in some cases. However, subsequent compiles will be faster.
+</aside>
+
+<aside class="infobox">
+	For a more detailed look at Build Flags and their utility (especially if you are compiling a build on a different machine than the one your are running it on), see <a href="#buildflags">below</a>.
+</aside>
+
+<p>
+	Once the compilation process is finished, the Cuberite executable will be placed inside the <code>Server</code> inside the repository that you downloaded. You can copy this folder anywhere you like, just make sure to copy the supporting files otherwise the server will not work properly.
+</p>
+
+<h4 id="compilingother">Other Systems</h4>
+
+<p>
+	For compiling on Windows or other systems, please see <a href="https://github.com/cuberite/cuberite/blob/master/COMPILING.md">COMPILING.md</a> in the main repository.
+</p>
+
+<h4 id="buildflags">Build Flags</h4>
+
+<p>
+	Cuberite's build process supports a large number of flags for customising the builds.
+	Use these flags by adding <code>-DFlag_name=Value</code> to the cmake configuration command. For example to enable test
+	generation using the <code>SELF_TEST</code> flag add: <code>-DSELF_TEST=ON</code>
+<p>
+
+<dl>
+	<dt>BUILD_TOOLS</dt>
+	<dd>
+		Adds the Cuberite tools to the build. At the moment only MCADefrag and ProtoProxy are added. Define as <code>ON</code> to
+		enable. Define as <code>OFF</code> to disable.
+	</dd>
+	<dt>BUILD_UNSTABLE_TOOLS</dt>
+	<dd>
+		Adds tools that are not working yet to the build. Currently this is only the Generator Performance Test. Used for developing these
+		tools. Define as <code>ON</code> to enable. Define as <code>OFF</code> to disable.
+	</dd>
+	<dt>SELF_TEST</dt>
+	<dd>
+		Enables generation of tests and self-test startup code. Tests can be run with <code>ctest</code> and with makefiles
+		<code>make test</code>. Define as <code>ON</code> to enable. Define as <code>OFF</code> to disable.
+	</dd>
+	<dt>FORCE_32</dt>
+	<dd>
+		Forces the build to use 32 bit builds on *nix systems. Define as <code>ON</code> to enable. Define as <code>OFF</code> to
+		disable.
+	</dd>
+	<dt>NO_NATIVE_OPTIMIZATION</dt>
+	<dd>
+		Disables optimizations for the build host. This is important when building on a different machine from the one you will
+		run Cuberite on as the build machine may support instructions the final machine does not. This flag only has any effect
+		on linux. Define as <code>ON</code> to enable. Define as <code>OFF</code> to disable.
+	</dd>
+</dl>
+
+<h3 id="1.3">3 - Running Cuberite</h3>
+<p>
+	Once you have a compiled copy of Cuberite, with the supporting files (in most cases these are distributed with the executable, in a directory called Server), you can run the server and generate yourself a world. It's easy to run the server, although the method varies depending on the operating system you are using.
+</p>
+
+<h4 id="runningwindows">Windows</h4>
+
+<p>
+	To run Cuberite on Windows, just double click on the executable. A command window will come up, and the world will generate.
+</p>
+
+<h4 id="runninglinux">Linux/Mac/BSD</h4>
+
+<p>
+	To run Cuberite on Linux, Mac or FreeBSD, just run the executable in your shell:
+</p>
+
+<pre><code>./Cuberite</code></pre>
+
+<h4 id="joining">Joining Cuberite</h4>
+
+<p>
+	Just like Vanilla, once you've started Cuberite, you can join the server on <code>localhost:25565</code>, or just <code>localhost</code> in your minecraft client.
+</p>
+
+<h2 id="2">2 - Configuration Basics</h2>
+<h3 id="2.1">1 - Configuration Overview</h3>
+<p>
+	Cuberite can be configured by editing various files. Below is a list of all such files:
+</p>
+
+<dl>
+	<dt>settings.ini</dt>
+	<dd>
+		The main configuration file, which contains server-wide configuration variables.
+	</dd>
+	<dt>webadmin.ini</dt>
+	<dd>
+		Allows you to tweak the web admin interface, which is available at <code>http://localhost:8080</code> or <code>http://&lt;Server IP address&gt;:8080</code> by default.
+	</dd>
+	<dt>&lt;World name&gt;/world.ini</dt>
+	<dd>
+		This file configures world-specific aspects. This is where you choose your game mode. See <a href="#3.3">GameMode</a>.
+		Note that each world has its own <code>world.ini</code> file, each stored in <code>&lt;World name&gt;/world.ini</code>.
+	</dd>
+	<dt>monsters.ini</dt>
+	<dd>
+		Allows you to tweak monster behaviour.
+	</dd>
+	<dt>motd.txt</dt>
+	<dd>
+		The Message of the Day, which is shown to players upon joining your server.
+	</dd>
+	<dt>crafting.txt, brewing.txt, furnace.txt</dt>
+	<dd>
+		These three files allow you to tweak crafting, brewing, and furnace recipes.
+	</dd>
+	<dt>plugins/...</dt>
+	<dd>
+		Many plugins have their own configuration files. For instance, the WorldEdit config is <code>plugins/WorldEdit/config.cfg</code>
+	</dd>
+	<dt>favicon.png</dt>
+	<dd>
+		This is the icon that will appear in the Minecraft server list. You may replace it with your own.
+	</dd>
+	<dt>items.ini</dt>
+	<dd>
+		Edit item IDs. You probably shouldn't edit this file unless you know what you're doing.
+	</dd>
+</dl>
+
+<aside class="infobox">
+	In all <code>.ini</code> files, lines starting with <code>;</code> are comments, and in all <code>.txt</code> files, lines starting with <code>#</code> are comments.
+</aside>
+
+<h3 id="2.2">2 - Permissions</h3>
+<p>
+	Permissions allow different players to access different commands and features.
+	Each plugin has its own permissions. Setting up player permissions is most easily done via the web admin.
+	You can also use the <code>rank &lt;playername&gt;</code> command from the server console.
+	Note that there is no leading slash. The console command is not <code>/rank</code>.
+	To see the command and permissions list for the default commands, which are provided by the Core plugin,
+	see the <a href="https://github.com/cuberite/Core/blob/master/README.md">Core Plugin readme</a>.
+</p>
+
+<h3 id="2.3">3 - WebAdmin</h3>
+<p>
+	The WebAdmin allows you to control various aspects of Cuberite, including player permissions.
+	A typical <code>webadmin.ini</code> configuration looks like this:
+</p>
+
+<figure class="codebox">
+<pre><code>[User:john]
+Password=cuberiteRocks
+
+[WebAdmin]
+Ports=8080
+Enabled=1
+</code></pre>
+</figure>
+
+
+<p>
+	In the example above, you can login to the web admin using the username <code>john</code> and the password <code>cuberiteRocks</code> by pointing your browser to <code>http://&lt;Server IP address&gt;:8080</code>. If you're running your server locally, point your browser to <code>http://localhost:8080</code>
+</p>
+
+<h3 id="2.4">4 - Worlds</h3>
+<p>
+	By default, there are three worlds: <code>world</code>, <code>world_nether</code>, <code>world_end</code>.
+	Each world can be tweaked by editing <code>&lt;World Name&gt;/world.ini</code>.
+	You can use this file to edit things like the spawn point location, the game mode, and the diffculty level.
+	See <a href="#3">Configuring world.ini</a> for details.
+</p>
+
+<h3 id="2.5">5 - Plugins</h3>
+<p>
+	Plugins are an important method of customisation for Cuberite. There are many different first and third-party plugins available.
+</p>
+
+<p>
+	Cubrite plugins are written in Lua, and interact with the server through an
+	 <a href="http://api-docs.cuberite.org/">extensive API</a>. They are
+	designed to be easy to write for anyone with basic programming experience,
+	so if existing plugins don't fill your need you can easily write your own plugins.
+	If you want to learn how to write your own plugins, check out
+	<a href="http://api-docs.cuberite.org/Writing-a-Cuberite-plugin.html">the guide</a>.
+</p>
+
+<p>
+	Cuberite has a <a href="https://forum.cuberite.org/forum-2.html">plugin repository</a>
+	where you can upload your plugins publicly and download plugins others have
+	released.
+</p>
+
+<h4>Activating a plugin</h4>
+
+<p>
+	After downloading a plugin, you need to put it in the <code>plugins/</code> directory.
+	You should then edit the <code>[Plugins]</code> sections of the <code>settings.ini</code> file and add a plugin entry there.
+	Below is an example of adding a plugin called <code>MyNewPlugin</code>.
+</p>
+
+<figure class="codebox">
+<pre><code>[Plugins]
+Plugin=Core
+Plugin=TransApi
+Plugin=MyNewPlugin
+;Plugin=MyDisabledPlugin
+</code></pre>
+</figure>
+
+<h4>Writing a plugin</h4>
+
+<p>
+	To get started with writing Cuberite plugins, read this <a href="http://api-docs.cuberite.org/Writing-a-Cuberite-plugin.html">article</a>. Cuberite Plugins are written with the Lua programming language. Cuberite has a well-documented <a href="http://api-docs.cuberite.org/">API</a>.
+</p>
+
+<h4>You're good to go!</h4>
+
+<p>
+	If you have read this far, you should now have enough knowledge to operate a Cuberite server. The rest of this book covers more features and further configuration options in greater depth. 
+</p>
+
+<h2 id="3">3 - Configuring world.ini</h2>
+<h3 id="3.1">1 - What is world.ini</h3>
+<p>
+	It is possible to configure many different aspects of individual worlds with Cuberite. Configuration options include:
+</p>
+
+<ul>
+	<li>Changing the spawn point of a world.</li>
+	<li>Changing the game mode of a world.</li>
+	<li>Changing the world generator, so as to change the terrain generated.</li>
+	<li>Changing the types of plants that generate in the world.</li>
+	<li>Changing which types of animals are allowed to spawn.</li>
+	<li>There are many more things that can be done, and these are just examples.</li>
+</ul>
+
+<p>
+	All this configuration can be done through one file. It is called <code>world.ini</code> and can be found in each world's individual folder. When a world is first created by Cuberite, the file is filled out with default values that are fairly close to vanilla minecraft.
+</p>
+
+<p>
+	The <code>world.ini</code> file is split into many different sections, each with a name surrounded in square brackets. For example <a href="#3.2"><code>[SpawnPosition]</code></a> is a section. Each section contains configuration options related to a specific feature of Cuberite.
+</p>
+
+<h4>Default Settings</h4>
+
+<figure class="codebox">
+<pre><code>[SpawnProtect]
+ProtectRadius=10
+
+[WorldLimit]
+LimitRadius=0
+
+[Difficulty]
+WorldDifficulty=1
+
+[General]
+Dimension=Overworld
+IsDaylightCycleEnabled=1
+Gamemode=1
+Weather=0
+TimeInTicks=188
+
+[Broadcasting]
+BroadcastDeathMessages=1
+BroadcastAchievementMessages=1
+
+[SpawnPosition]
+MaxViewDistance=12
+X=0.500000
+Y=66.000000
+Z=8.500000
+PregenerateDistance=9
+
+[Storage]
+Schema=Default
+CompressionFactor=6
+
+[Plants]
+MaxCactusHeight=3
+MaxSugarcaneHeight=3
+IsCactusBonemealable=0
+IsCarrotsBonemealable=1
+IsCropsBonemealable=1
+IsGrassBonemealable=1
+IsMelonStemBonemealable=1
+IsMelonBonemealable=0
+IsPotatoesBonemealable=1
+IsPumpkinStemBonemealable=1
+IsPumpkinBonemealable=0
+IsSaplingBonemealable=1
+IsSugarcaneBonemealable=0
+
+[Physics]
+DeepSnow=1
+ShouldLavaSpawnFire=1
+TNTShrapnelLevel=2
+WaterSimulator=Vanilla
+LavaSimulator=Vanilla
+SandInstantFall=0
+RedstoneSimulator=Incremental
+
+[Mechanics]
+CommandBlocksEnabled=0
+PVPEnabled=1
+UseChatPrefixes=1
+MinNetherPortalWidth=2
+MaxNetherPortalWidth=21
+MinNetherPortalHeight=3
+MaxNetherPortalHeight=21
+
+[Monsters]
+VillagersShouldHarvestCrops=1
+AnimalsOn=1
+Types=bat, cavespider, chicken, cow, creeper, enderman, guardian, horse, mooshroom, ocelot, pig, rabbit, sheep, silverfish, skeleton, slime, spider, squid, wolf, zombie
+
+[Weather]
+MaxSunnyTicks=180000
+MinSunnyTicks=12000
+MaxRainTicks=24000
+MinRainTicks=12000
+MaxThunderStormTicks=15600
+MinThunderStormTicks=3600
+
+[LinkedWorlds]
+NetherWorldName=world_nether
+EndWorldName=world_end
+
+[Generator]
+Generator=Composable
+BiomeGen=Grown
+ShapeGen=BiomalNoise3D
+CompositionGen=Biomal
+Finishers=RoughRavines, WormNestCaves, WaterLakes, WaterSprings, LavaLakes, LavaSprings, OreNests, Mineshafts, Trees, Villages, TallGrass, SprinkleFoliage, Ice, Snow, Lilypads, BottomLava, DeadBushes, NaturalPatches, PreSimulator, Animals
+BiomeGenCacheSize=16
+BiomeGenMultiCacheLength=128
+SeaLevel=62
+BiomalNoise3DFrequencyX=40.000000
+BiomalNoise3DFrequencyY=40.000000
+BiomalNoise3DFrequencyZ=40.000000
+BiomalNoise3DBaseFrequencyX=40.000000
+BiomalNoise3DBaseFrequencyZ=40.000000
+BiomalNoise3DChoiceFrequencyX=40.000000
+BiomalNoise3DChoiceFrequencyY=80.000000
+BiomalNoise3DChoiceFrequencyZ=40.000000
+BiomalNoise3DAirThreshold=0.000000
+BiomalNoise3DNumChoiceOctaves=4
+BiomalNoise3DNumDensityOctaves=6
+BiomalNoise3DNumBaseOctaves=6
+BiomalNoise3DBaseAmplitude=1.000000
+CompositionGenCacheSize=64
+RoughRavinesGridSize=256
+RoughRavinesMaxOffset=128
+RoughRavinesMaxSize=128
+RoughRavinesMinSize=64
+RoughRavinesMaxCenterWidth=8.000000
+RoughRavinesMinCenterWidth=2.000000
+RoughRavinesMaxRoughness=0.200000
+RoughRavinesMinRoughness=0.050000
+RoughRavinesMaxFloorHeightEdge=8.000000
+RoughRavinesMinFloorHeightEdge=30.000000
+RoughRavinesMaxFloorHeightCenter=20.000000
+RoughRavinesMinFloorHeightCenter=6.000000
+RoughRavinesMaxCeilingHeightEdge=56.000000
+RoughRavinesMinCeilingHeightEdge=38.000000
+RoughRavinesMaxCeilingHeightCenter=58.000000
+RoughRavinesMinCeilingHeightCenter=36.000000
+WormNestCavesSize=64
+WormNestCavesGrid=96
+WormNestMaxOffset=32
+WaterLakesProbability=25
+LavaLakesProbability=10
+MineShaftsGridSize=512
+MineShaftsMaxOffset=256
+MineShaftsMaxSystemSize=160
+MineShaftsChanceCorridor=600
+MineShaftsChanceCrossing=200
+MineShaftsChanceStaircase=200
+VillageGridSize=384
+VillageMaxOffset=128
+VillageMaxDepth=2
+VillageMaxSize=128
+VillageMinDensity=50
+VillageMaxDensity=80
+VillagePrefabs=PlainsVillage, SandVillage
+BottomLavaLevel=10
+PreSimulatorFallingBlocks=1
+PreSimulatorWater=1
+PreSimulatorLava=1
+
+[WaterSimulator]
+Falloff=1
+TickDelay=5
+NumNeighborsForSource=2
+
+[LavaSimulator]
+Falloff=2
+TickDelay=30
+NumNeighborsForSource=-1
+
+[FireSimulator]
+BurnStepTimeFuel=500
+BurnStepTimeNonfuel=100
+Flammability=50
+ReplaceFuelChance=50000
+
+[Seed]
+Seed=586392587
+
+[WaterSprings]
+HeightDistribution=0, 0; 10, 10; 11, 75; 16, 83; 20, 83; 24, 78; 32, 62; 40, 40; 44, 15; 48, 7; 56, 2; 64, 1; 255, 0
+Chance=24
+
+[LavaSprings]
+HeightDistribution=0, 0; 10, 5; 11, 45; 48, 2; 64, 1; 255, 0
+Chance=9
+
+[Animals]
+AnimalSpawnChunkPercentage=10
+</code></pre>
+</figure>
+
+<h3 id="3.2">2 - SpawnPosition</h3>
+<p>
+	Specifies the spawn point for new players. The coordinates are absolute, in blocks, and may be fractional. If any of the values are missing, Cuberite provides a default.
+</p>
+
+<h4>Available Options</h4>
+
+<figure>
+<table>
+  <thead>
+    <tr>
+      <th>Variable</th>
+      <th>Meaning</th>
+      <th>Default</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Variable">X</td>
+      <td data-label="Meaning">X coordinate of the spawn point</td>
+      <td data-label="Default">32</td>
+    </tr>
+    <tr>
+      <td data-label="Variable">Y</td>
+      <td data-label="Meaning">Y coordinate of the spawn point</td>
+      <td data-label="Default">The height of the terrain at the point (X, Z)</td>
+    </tr>
+    <tr>
+      <td data-label="Variable">Z</td>
+      <td data-label="Meaning">Z coordinate of the spawn point</td>
+      <td data-label="Default">32</td>
+    </tr>
+  </tbody>
+</table>
+</figure>
+
+<h4>Default Configuration</h4>
+
+<figure class="codebox">
+<pre><code>[SpawnPosition]
+MaxViewDistance=12
+X=32.000000
+Y=62.600000
+Z=32.000000
+PregenerateDistance=20
+</code></pre>
+</figure>
+
+<h3 id="3.3">3 - GameMode</h3>
+<p>
+	This section specifies if the world is a Survival, Creative, Adventure or Spectator mode world. An administrative in-game command may override this setting temporarily.
+</p>
+
+<h4>Available Options</h4>
+
+<figure>
+<table>
+	<thead>
+		<tr>
+			<th>Variable</th>
+			<th>Meaning</th>
+			<th>Default</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td data-label="Variable">GameMode</td>
+			<td data-label="Meaning">0 means Survival mode, 1 means Creative mode, 2 means Adventure mode, 3 means Spectator mode</td>
+			<td data-label="Default">1</td>
+		</tr>
+	</tbody>
+</table>
+</figure>
+
+<h4>Default Configuration</h4>
+
+<figure class="codebox">
+<pre><code>[GameMode]
+GameMode=1
+</code></pre>
+</figure>
+
+<h3 id="3.4">4 - Storage</h3>
+<p>
+	This section specifies if Cuberite should save world chunks or not, as well as the compression level for world files.
+</p>
+
+<h4>Available Options</h4>
+
+<figure>
+<table>
+	<thead>
+		<tr>
+			<th>Variable</th>
+			<th>Meaning</th>
+			<th>Default</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td data-label="Variable">Schema</td>
+			<td data-label="Meaning">Specifies if world chunks should be saved or not. May be one of "Default", "Anvil" and "Forgetful". See table below for their description.</td>
+			<td data-label="Default">Default</td>
+		</tr>
+		<tr>
+			<td data-label="Variable">CompressionFactor</td>
+			<td data-label="Meaning">How much the world files should be compressed. Lower values mean much larger file sizes, but slighly increased performance, and higher values mean slightly smaller file sizes and much lower performance. It is recommended just to keep with the default.</td>
+			<td data-label="Default">6</td>
+		</tr>
+	</tbody>
+</table>
+</figure>
+
+<h4>Schema Options</h4>
+
+<figure>
+<table>
+	<thead>
+		<tr>
+			<th>Schema</th>
+			<th>File Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td data-label="Schema">Default</td>
+			<td data-label="File Type">.mca</td>
+			<td data-label="Description">This is just an alias for Anvil at the moment.</td>
+		</tr>
+		<tr>
+			<td data-label="Schema">Anvil</td>
+			<td data-label="File Type">.mca</td>
+			<td data-label="Description">Saves chunks. Storage is compatible with other Minecraft-related tools and programs. MCA files are stored in the "region" subfolder of the world folder, and a "level.dat" file is generated inside the world folder.</td>
+		</tr>
+		<tr>
+			<td data-label="Schema">Forgetful</td>
+			<td data-label="File Type">N/A</td>
+			<td data-label="Description">Doesn't save chunks. Changes to the world are lost as soon as the chunks are unloaded, making this useful for read-only public servers. Please note that Cuberite will still load chunks using other schemas.</td>
+		</tr>
+	</tbody>
+</table>
+</figure>
+
+<h4>Default Configuration</h4>
+
+<figure class="codebox">
+<pre><code>[Storage]
+Schema=Default
+CompressionFactor=6
+</code></pre>
+</figure>
+
+<h2 id="4">4 - MultiWorlds</h2>
+<h3 id="4.1">1 - Multiworlds Overview</h3>
+<p>
+	Cuberite supports multiple worlds. Each world has its own <code>world.ini</code> file.
+	Additional Worlds can be added by editing <code>settings.ini</code>.
+	This is explained in the example below.
+</p>
+
+<h4>Adding Worlds</h4>
+
+<figure class="codebox">
+<pre><code>[Worlds]
+DefaultWorld=world
+World=world_nether
+World=world_end
+World=myNewWorld
+World=HappyLand
+</code></pre>
+</figure>
+
+<p>
+	In the example above, 2 extra worlds are added to the server.
+	Note that this automatically creates 2 additional configuration files, namely <code>myNewWorld/world.ini</code>
+	and <code>HappyLand/world.ini</code>.
+</p>
+
+<h4>Dimensions (World types)</h4>
+
+<p>
+	To create a nether type world, you should append the <code>_nether</code> suffix to your world name,
+	e.g. <code>World=myHellishWorld_nether</code>. This creates a <code>world.ini</code> preconfigured as a nether.
+	For end worlds, the same rules apply, append the <code>_end</code> suffix to your world name.
+	Once a default <code>world.ini</code> is created, you are free to tweak it to your liking.
+</p>
+
+<p>
+	The <code>_nether</code> and <code>_end</code> suffixes are only used when no <code>world.ini</code> exists,
+	and guide the server in choosing the contents of the default world.ini it's about to create.
+	When a world.ini is present, the suffixes do not matter any more and the dimension is dictated
+	by the <code>Dimension</code> option inside each <code>world.ini</code>.
+</p>
+
+<p>
+	The rest of this section deals with linking worlds and travelling between them.
+</p>
+
+<h3 id="4.2">2 - Traveling by Command</h3>
+<p>
+	If you have the <code>core.portal</code> permission, you may use the following command to travel between worlds:
+	<code>/portal Worldname</code>. To list all available worlds, use <code>/worlds</code>.
+</p>
+
+<h3 id="4.3">3 - Linking Worlds Without Plugins</h3>
+<p>
+	You can easily link worlds without resorting to plugins by modifying <code>world.ini</code> files.
+	However, this method is limited: Each world can only be linked to 2 different worlds.
+</p>
+
+<p>
+	By default, the overworld is linked to two worlds: The Nether and The End.
+	Stepping through any Nether Portal leads to the Nether, and stepping through any End Portal leads to the End.
+	The behavior of Nether and End portals can be tweaked, and you can make each portal type teleport to a world of your choice.
+	This is done by editing the <code>[LinkedWorlds]</code> section of each world's <code>world.ini</code> file.
+	Note that with this method, you can't make two different portals of the same type teleport you to two different worlds.
+	If you want such behavior, you should use a plugin. See the next subsection.
+</p>
+
+<h3 id="4.4">4 - Linking Worlds with a Plugin</h3>
+<p>
+	The most configurable way to link worlds together is using a dedicated plugin, such as <a href="https://forum.cuberite.org/thread-2157.html">Portal V2</a>. More plugins can be found at the <a href="https://forum.cuberite.org/forum-2.html">respository</a>.
+</p>
+
+<h3 id="4.5">5 - Bungeecord</h3>
+<p>
+	Cuberite has experimental Bungeecord support.
+</p>
+
+</div>
+			<div id="main-footer">Generated on 09 August 2016</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="mobile-links">
+			<a href="https://cuberite.org/" class="home show-mobile">Home</a>
+			<a href="https://book.cuberite.org/" class="manual show-mobile" id="active">Manual</a>
+			<a href="https://cuberite.org/support/" class="support show-mobile">Support</a>
+			<a href="https://cuberite.org/plugins/" class="plugins show-mobile">Plugins</a>
+			<input type="checkbox" id="footer-links-toggle"/>
+			<div id="footer-links">
+				<label for="footer-links-toggle">More</label>
+				<div id="footer-links-body">
+					<a href="https://cuberite.org/about/">About</a>
+					<a href="https://forum.cuberite.org/" class="show-mobile-block">Forum</a>
+					<a href="https://cuberite.org/contribute/" class="show-mobile-block">Contribute</a>
+					<a href="https://cuberite.org/news/">News</a>
+					<a href="https://salt.bountysource.com/teams/cuberite">Donate</a>
+					<a href="https://webchat.freenode.net/?channels=cuberite">IRC</a>
+					<a href="http://api-docs.cuberite.org/">API Docs</a>
+					<a href="https://cuberite.org/privacy/">Privacy</a>
+					<div id="media-links">
+						<a href="https://plus.google.com/+cuberiteorg" id="google"></a>
+						<a href="https://twitter.com/cuberiteproject" id="twitter"></a>
+						<a href="https://www.youtube.com/c/cuberiteorg" id="youtube"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<noscript>
+			<img src="https://analytics.cuberite.org/piwik.php?idsite=1&amp;rec=1" alt=""/>
+		</noscript>
+	</div>
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="https://analytics.cuberite.org/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript';g.defer=true; g.async=true; g.src='https://cuberite.org/js/analytics.js'; s.parentNode.insertBefore(g,s);
+		})();
+	</script>
+</body>
+</html>
