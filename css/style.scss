@@ -859,9 +859,11 @@ button:hover, button:focus {
 }
 @media print {
 	body, h1 {
-		background: none;
 		color: #000;
 		text-shadow: none;
+	}
+	body, th, td, .code-box, .info-box, .warning-box {
+		background: none;
 	}
 	table, th, td {
 		border: 0.063em solid #000;
