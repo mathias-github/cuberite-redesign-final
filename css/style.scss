@@ -86,7 +86,6 @@ h1 {
 h2:before {
 	cursor: default;
 	margin: 0 0.563em 0 0;
-	vertical-align: top;
 }
 h2 {
 	font-size: 1.500em;
@@ -120,15 +119,13 @@ table {
 }
 th {
 	background: rgba(0,0,0,.4);
-	padding: 1em;
+	padding: 1.000em;
 	text-transform: uppercase;
 	white-space: nowrap;
 }
 td {
 	background: rgba(0,0,0,.2);
-	font-family:montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	padding: 1em;
-	line-height: 1.6;
+	padding: 1.000em;
 }
 a {
 	color: rgba(255,255,255,.4);
@@ -138,9 +135,6 @@ a:hover, a:focus {
 	color: rgba(255,255,255,.6);
 }
 /* Combined Rules */
-p, #banner, .post span, input {
-	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
 td code, #intro input, #footer input, #footer img, #footer label, .show-mobile, .show-mobile-block {
 	display: none;
 }
@@ -154,13 +148,12 @@ td code, #intro input, #footer input, #footer img, #footer label, .show-mobile, 
 #navigation a:hover, #navigation a:focus, #footer a:hover, #footer a:focus, #footer-links label:hover, #footer-links label:focus, #active {
 	background: rgba(10,10,10,.35);
 }
-#banner-blue, #banner-green {
-	color: rgba(255,255,255,.75);
+p, td, #banner-blue, #banner-green, .post span, .info-box, .warning-box, input {
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 0.938em;
 	line-height: 1.6;
-	text-align: center;
-	padding: 0.750em;
+}
+h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left-two, #right-two, button, input {
+	vertical-align: top;
 }
 .button, #pagination a, #pagination span {
 	background: #eaeaea;
@@ -215,7 +208,6 @@ td code, #intro input, #footer input, #footer img, #footer label, .show-mobile, 
 #left-three, #center-three, #right-three {
 	display: inline-block;
 	width: 30%;
-	vertical-align: top;
 }
 #left-three, #center-three {
 	margin: 0 2.500em 0 0;
@@ -223,7 +215,6 @@ td code, #intro input, #footer input, #footer img, #footer label, .show-mobile, 
 #left-two, #right-two {
 	display: inline-block;
 	width: 45%;
-	vertical-align: top;
 }
 #left-two {
 	margin: 0 2.500em 0 0;
@@ -246,7 +237,6 @@ td code, #intro input, #footer input, #footer img, #footer label, .show-mobile, 
 	content: '\25a0';
 	font-size: 1.125em;
 	margin: 0 0.500em 0 0;
-	vertical-align: top;
 }
 #navigation-links {
 	float: right;
@@ -255,7 +245,6 @@ td code, #intro input, #footer input, #footer img, #footer label, .show-mobile, 
 #navigation-links a:before {
 	font-size: 1.250em;
 	margin: 0 0.625em 0 0;
-	vertical-align: top;
 }
 #navigation-links a {
 	color: #eaeaea;
@@ -365,11 +354,18 @@ td code, #intro input, #footer input, #footer img, #footer label, .show-mobile, 
 #download-footer a:hover, #download-footer a:focus {
 	color: #fff;
 }
-/* Blue Banner */
+/* Banners */
+#banner-blue, #banner-green {
+	color: rgba(255,255,255,.75);
+	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 0.938em;
+	line-height: 1.6;
+	text-align: center;
+	padding: 0.750em;
+}
 #banner-blue {
 	background: rgba(43,149,255,.05);
 }
-/* Green Banner */
 #banner-green {
 	background: rgba(49,162,0,.15);
 }
@@ -418,15 +414,14 @@ td code, #intro input, #footer input, #footer img, #footer label, .show-mobile, 
 	padding: 6% 22% 6% 22%;
 	text-align: justify;
 }
+#manual-body h2, #manual-body h3, #manual-body ul, .code-box {
+	text-align: left;
+}
 h2.manual {
 	font-size: 1.8em;
 }
-#manual-body h2, #manual-body h3 {
-	text-align: left;
-}
 #manual-body ul {
 	margin: 0 0 1.563em 0;
-	text-align: left;
 }
 #manual-body li {
 	margin: 0 0 0 2.000em;
@@ -443,9 +438,9 @@ h2.manual {
 	font-family: monospace;
 	line-height: 1.6;
 	max-height: 15.000em;
+	overflow: auto;
 	padding: 0.625em;
 	margin: 0 1.000em 1.688em 1.000em;
-	text-align: left;
 	word-break: break-all;
 }
 #manual-content blockquote {
@@ -523,7 +518,6 @@ button, input {
 	height: 2.500em;
 	line-height: 2.500em;
 	padding: 0 0.750em 0 0.750em;
-	vertical-align: top;
 }
 input::-moz-focus-inner, button::-moz-focus-inner { 
 	border: 0;
@@ -588,14 +582,14 @@ button:hover, button:focus {
 	}
 	td {
 		display: block;
-		text-align: right;
 		margin: 0 0 0.125em 0;
+		text-align: right;
 	}
 	td code {
 		display: block;
 		float: left;
-		margin: 0 1.000em 0 0;
 		font-family: montserratregular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		margin: 0 1.000em 0 0;
 		text-transform: uppercase;
 	}
 }
