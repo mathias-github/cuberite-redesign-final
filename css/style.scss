@@ -872,7 +872,7 @@ button:hover, button:focus {
 		border: 0.063em solid #000;
 		border-collapse: collapse;
 	}
-	a {
+	a, #main-footer a, #download-footer a, .post a {
 		color: #5098CE;
 		text-decoration: underline;
 	}
