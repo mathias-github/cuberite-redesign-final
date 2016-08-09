@@ -730,6 +730,13 @@ button:hover, button:focus {
 	#center-three {
 		margin: 0 0 2.500em 0;
 	}
+		#left-two, #right-two {
+		display: block;
+		width: 100%;
+	}
+	#left-two {
+		margin: 1.875em 0 2.500em 0
+	}
 	#manual-body {
 		padding: 6% 12% 6% 12%;
 	}
@@ -882,6 +889,16 @@ button:hover, button:focus {
 	}
 	#navigation, #footer {
 		display: none;
+	}
+	#left-two, #right-two, #left-three, #center-three, #right-three {
+		display: block;
+		width: 100%;
+	}
+	#left-two, #left-three {
+		margin: 1.875em 0 2.500em 0
+	}
+	#center-three {
+		margin: 0 0 2.500em 0;
 	}
 	#intro-body, #main-body, #manual-body {
 		display: block;
