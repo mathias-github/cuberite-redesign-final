@@ -911,4 +911,7 @@ button:hover, button:focus {
 		border: 0.063em solid #000;
 		box-shadow: none;
 	}
+	#pagination a, #pagination span, .button a {
+		color: #000;
+	}
 }
