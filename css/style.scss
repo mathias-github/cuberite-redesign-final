@@ -858,6 +858,9 @@ button:hover, button:focus {
 	html { font-size: 178%; }
 }
 @media print {
+	@page {
+		margin: 2.75cm;
+	}
 	body, h1 {
 		color: #000;
 		text-shadow: none;
