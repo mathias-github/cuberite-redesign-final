@@ -39,6 +39,9 @@ a:hover, a:focus {
 	background: #BBBBBB;
 }
 @media print {
+	body {
+		color: #000;
+	}
 	body, th, td, .code-box, .info-box, .warning-box {
 		background: none;
 	}
