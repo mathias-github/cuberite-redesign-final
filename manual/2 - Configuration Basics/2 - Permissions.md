@@ -1,4 +1,0 @@
----
-sitemap: false
----
-Permissions allow different players to access different commands and features. Each plugin has its own permissions. Setting up player permissions is most easily done via the web admin. You can also use the ***rank \<playername\>*** command from the server console. Note that there is no leading slash. The console command is not ***/rank***. To see the command and permissions list for the default commands, which are provided by the Core plugin, see the [Core Plugin readme](https://github.com/cuberite/Core/blob/master/README.md).
