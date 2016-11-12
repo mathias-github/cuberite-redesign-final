@@ -168,7 +168,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Spacing */
 .spacing-first {
-	margin: 3.000em 0 3.000em 0;
+	margin: 2.250em 0 3.000em 0;
 }
 .spacing-main {
 	margin: 0 0 3.000em 0;
@@ -472,7 +472,7 @@ button:hover, button:focus {
 		width: 100%;
 	}
 	#left-two {
-		margin: 3.125em 0 4.000em 0;
+		margin: 2.500em 0 4.000em 0;
 	}
 }
 @media (min-width: 900px) {
