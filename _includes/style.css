@@ -152,19 +152,22 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	content: "\3f";
 }
 /* Columns */
+#right-two, #right-three {
+	margin: 0.313em 0 0 0;
+}
 #left-three, #center-three, #right-three {
 	display: inline-block;
 	width: 30%;
 }
 #left-three, #center-three {
-	margin: 0 2.500em 0 0;
+	margin: 0.313em 2.500em 0 0;
 }
 #left-two, #right-two {
 	display: inline-block;
 	width: 45%;
 }
 #left-two {
-	margin: 0 2.500em 0 0;
+	margin: 0.313em 2.500em 0 0;
 }
 /* Spacing */
 .spacing-first {
