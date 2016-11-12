@@ -596,17 +596,17 @@ button:hover, button:focus {
 		width: 100%;
 	}
 	#left-three {
-		margin: 1.875em 0 2.500em 0
+		margin: 2.188em 0 3.000em 0;
 	}
 	#center-three {
-		margin: 0 0 2.500em 0;
+		margin: 0 0 3.000em 0;
 	}
 		#left-two, #right-two {
 		display: block;
 		width: 100%;
 	}
 	#left-two {
-		margin: 1.875em 0 2.500em 0
+		margin: 2.188em 0 3.000em 0;
 	}
 }
 @media (min-width: 1100px) {
