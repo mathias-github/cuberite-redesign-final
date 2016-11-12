@@ -27,6 +27,12 @@ body {
 	text-shadow: 0 0.125em 0 rgba(0,0,0,.1);
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+::-moz-selection {
+	background: #4f4f4f;
+}
+::selection {
+	background: #4f4f4f;
+}
 ::-webkit-input-placeholder {
 	color: rgba(0,0,0,.55);
 }
