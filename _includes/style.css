@@ -64,8 +64,8 @@ h2 {
 	font-size: 1.500em;
 	margin: 0 0 0.625em 0;
 }
-h3:first-child {
-	margin: 1.125em 0 0.625em 0;
+h2.privacy {
+	margin: 0;
 }
 h3 {
 	font-size: 1.125em;
