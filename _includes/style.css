@@ -763,10 +763,10 @@ button:hover, button:focus {
 		width: 100%;
 	}
 	#left-two, #left-three {
-		margin: 1.875em 0 2.500em 0
+		margin: 3.125em 0 4.000em 0;
 	}
 	#center-three {
-		margin: 0 0 2.500em 0;
+		margin: 0 0 4.000em 0;
 	}
 	#intro-body, #main-body {
 		display: block;
