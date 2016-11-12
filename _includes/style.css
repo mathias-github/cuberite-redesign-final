@@ -168,13 +168,10 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Spacing */
 .spacing-first {
-	margin: 2.500em 0 3.000em 0;
+	margin: 3.000em 0 3.000em 0;
 }
 .spacing-main {
 	margin: 0 0 3.000em 0;
-}
-.spacing-last {
-	margin: 0 0 2.000em 0;
 }
 /* Navigation Bar */
 #navigation {
