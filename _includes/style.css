@@ -222,6 +222,9 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 #intro h2 {
 	margin: 0 0 1.175em 0;
 }
+.spacing {
+	margin: 0 0 4.000em 0;
+}
 #main-footer {
 	color: rgba(255,255,255,.7);
 	font-size: 0.875em;
