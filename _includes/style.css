@@ -173,7 +173,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Navigation Bar */
 #navigation {
-	background: #00AE5A;
+	background: #008D4A;
 	display: table-row;
 	line-height: 0;
 }
@@ -207,7 +207,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Intro and Main */
 #intro {
-	background: #00793F;
+	background: #006C39;
 }
 #intro, #main {
 	display: table-row;
@@ -366,7 +366,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Footer */
 #footer {
-	background: #00AE5A;
+	background: #008D4A;
 	display: table-row;
 	line-height: 0;
 }
