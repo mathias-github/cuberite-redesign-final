@@ -1,4 +1,4 @@
-#navigation {
+/*#navigation {
 	background: #f1eaee;
 }
 #navigation a {
@@ -6,13 +6,13 @@
 }
 #navigation a:hover, #navigation a:focus {
 	color: #84576f;
-}
-#footer {
+}*/
+#navigation, #footer {
 	background: #eaf1f1;
 }
-#footer a {
+#navigation a, #footer a {
 	color: #406161;
 }
-#footer a:hover, #footer a:focus {
+#navigation a:hover, #navigation a:focus, #footer a:hover, #footer a:focus {
 	color: #578484;
 }
