@@ -10,6 +10,6 @@ sass:
 gems:
   - jekyll-feed
   - jekyll-sitemap
-permalink: /cuberite-website-changes/:categories/:title/
+permalink: :categories/:title/
 paginate: 5
-paginate_path: /cuberite-website-changes/news/:num/
+paginate_path: :num/
