@@ -5,8 +5,10 @@
 	color: #f1eaee;
 }
 #navigation a:hover,#navigation a:focus,.active {
+	color: #c2a3b3;
+}
+.active {
 	background: #553847;
-	color: #f1eaed;
 }
 #footer {
 	background: #406161;
