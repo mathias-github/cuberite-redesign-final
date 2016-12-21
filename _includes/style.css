@@ -86,7 +86,7 @@ a:hover, a:focus {
 #intro-body, #main-body, #banner-blue-body, #banner-green-body {
 	animation: fadein .7s;
 }
-#navigation a:before, .downloadbutton:before, h2:before, #previous:before, #next:before, #mobile-links a:before, #footer-links label:before, #media-links a:before {
+#navigation a:before, .downloadbutton:before, h2:before, #previous:before, #next:before, #mobile-links a:before, #footer-links label:before, #media-links a:before, #banner-blue:before {
 	font-family: 'icons';
 }
 #navigation a:hover, #navigation a:focus, #footer a:hover, #footer a:focus, #footer-links label:hover, #footer-links label:focus, .active {
@@ -317,6 +317,9 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	line-height: 1.6;
 	text-align: center;
 	padding: 0.750em;
+}
+#banner-blue:before {
+	content: "\2139";
 }
 #banner-blue {
 	background: #4388CC;
