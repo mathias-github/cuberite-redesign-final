@@ -18,7 +18,7 @@ html, body {
 }
 body {
 	background: #EAEAEA;
-	color: #464646;
+	color: #606060;
 	font-family: montserratregular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	display: table;
 	line-height: 1;
@@ -213,7 +213,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	text-align: center;
 }
 #intro-body {
-	color: #eed9db;
+	color: #f4e7e8;
 	padding: 4% 10% 4% 10%;
 }
 #main-body {
