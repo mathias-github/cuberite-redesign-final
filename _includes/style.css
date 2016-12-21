@@ -365,13 +365,11 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Footer */
 #footer {
-	background: #29526D;
 	display: table-row;
 	line-height: 0;
-	text-shadow:0 0.125em 0 rgba(0,0,0,0.05);
 }
 #footer a {
-	color: #9DBED3;
+	color: #779884;
 }
 #footer-links {
 	margin: 0 0 0 0.813em;
