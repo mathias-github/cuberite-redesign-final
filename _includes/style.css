@@ -232,6 +232,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	padding: 6% 10% 6% 10%;
 }
 #intro h2 {
+	color: #eed9db;
 	margin: 0 0 1.175em 0;
 }
 #main-footer {
