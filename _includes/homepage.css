@@ -1,0 +1,7 @@
+#navigation a {
+	color: #eed9db
+}
+#navigation a:hover,#navigation a:focus,.active {
+	background: #3f6a89;
+	color: #e7eef4
+}
