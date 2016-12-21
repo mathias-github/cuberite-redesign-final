@@ -200,7 +200,9 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Intro and Main */
 #intro {
-	background: #614051;
+	background: linear-gradient(135deg, #553847 25%, transparent 25%) -50px 0, linear-gradient(225deg, #553847 25%, transparent 25%) -50px 0, linear-gradient(315deg, #553847 25%, transparent 25%), linear-gradient(45deg, #553847 25%, transparent 25%);
+	background-color: #614051;
+	background-size: 75px 80px;
 }
 #intro, #main {
 	display: table-row;
