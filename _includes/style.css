@@ -75,11 +75,11 @@ strong {
 	font-weight: bold;
 }
 a {
-	color: #9b6882;
+	color: #689b9b;
 	text-decoration: none;
 }
 a:hover, a:focus {
-	color: #84576f;
+	color: #578484;
 }
 /* Combined Rules */
 #intro input, #footer input, #footer img, #footer label, .show-mobile, .show-mobile-block {
@@ -99,15 +99,15 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	vertical-align: top;
 }
 .button, #pagination a, #pagination span {
-	background: #416140;
+	background: #406161;
 	border-radius: 0.313em;
- 	color: #eaf1ea;
+ 	color: #eaf1f1;
 	display: inline-block;
 	text-shadow: none;
 }
 .button:hover, .button:focus, #pagination a:hover, #pagination a:focus {
-	background: #395538;
-	color: #eaf1ea;
+	background: #507979;
+	color: #eaf1f1;
 }
 /* Icons */
 .about:before {
