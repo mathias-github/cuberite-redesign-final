@@ -1,18 +1,3 @@
-/*#navigation {
-	background: #614051;
-}
-#navigation a {
-	color: #f1eaee;
-}
-#navigation a:hover,#navigation a:focus,.active {
-	color: #c2a3b3;
-}
-.active {
-	background: #553847;
-}
-.active:hover, .active:focus {
-	color: #f1eaee;
-}*/
 #navigation, #footer {
 	background: #406161;
 }
