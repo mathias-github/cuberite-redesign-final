@@ -273,7 +273,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	content: '\1f34e';
 }
 .downloadmenu {
-	background: rgba(255,255,255,0.9);
+	background: #eaf1f1;
 	border-radius: 0 0 0.313em 0.313em;
 	display: none;
 	margin: 0.688em 0 0 -0.750em;
@@ -281,12 +281,12 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	width: 100%;
 }
 .downloadmenu a {
-	color: rgba(255,255,255,0.7);
+	color: #614051;
 	display: block;
 	padding: 0.5em;
 }
 .downloadmenu a:hover, .downloadmenu a:focus {
-	background: rgba(255,255,255,0.7);
+	color: #84576f;
 }
 .downloadmenu a:last-child:hover, .downloadmenu a:last-child:focus {
 	border-radius: 0 0 0.313em 0.313em;
