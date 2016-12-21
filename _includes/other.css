@@ -2,11 +2,11 @@
 	background: #893f45;
 }
 #navigation a {
-	color: #eed9db
+	color: #f4e7e8;
 }
 #navigation a:hover,#navigation a:focus,.active {
-	background: #3f6a89;
-	color: #e7eef4
+	background: #f4e7e8;
+	color: #893f45;
 }
 #footer {
 	background: #3f6a89;
