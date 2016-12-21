@@ -18,7 +18,7 @@ html, body {
 }
 body {
 	background: #EAEAEA;
-	color: #eaeaea;
+	color: #383838;
 	font-family: montserratregular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	display: table;
 	line-height: 1;
@@ -50,7 +50,6 @@ h1 {
 	font-size: 2.875em;
 	line-height: 1.4em;
 	margin: 0 0 1.250em 0;
-	text-shadow: 0 0.063em 0.063em rgba(0,0,0,.15);
 }
 h2:before {
 	cursor: default;
@@ -207,9 +206,6 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	margin: 0 0.188em 0 0.188em;
 }
 /* Intro and Main */
-#intro {
-	background: #3C9369;
-}
 #intro, #main {
 	display: table-row;
 	height: 100%;
@@ -367,7 +363,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Footer */
 #footer {
-	background: #00A5FF;
+	background: #00AE5A;
 	display: table-row;
 	line-height: 0;
 }
