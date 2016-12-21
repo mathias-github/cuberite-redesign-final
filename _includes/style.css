@@ -107,7 +107,6 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 .button:hover, .button:focus, #pagination a:hover, #pagination a:focus {
 	background: #395538;
-	color: #eaf1ea;
 }
 /* Icons */
 .about:before {
@@ -411,7 +410,7 @@ input::-moz-focus-inner, button::-moz-focus-inner {
 	padding: 0;
 }
 input {
-	background: rgba(255,255,255,.6);
+	background: #fff;
 	margin: 0.313em 0 0 0;
 	width: 13.750em;
 }
@@ -419,13 +418,13 @@ input:focus {
 	background: #eaeaea;
 }
 button {
-	background: rgba(10,10,10,.6);
-	color: #fff;
+	background: #416140;
+ 	color: #eaf1ea;
 	cursor: pointer;
 	margin: 0.313em 0 0 0.438em;
 }
 button:hover, button:focus {
-	background: #000;
+	background: #395538;
 }
 .button {
  	margin: 0.938em 0.375em 0 0.375em;
