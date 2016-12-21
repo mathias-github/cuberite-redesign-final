@@ -90,7 +90,7 @@ a:hover, a:focus {
 	font-family: 'icons';
 }
 #navigation a:hover, #navigation a:focus, #footer a:hover, #footer a:focus, #footer-links label:hover, #footer-links label:focus, .active {
-	background: #006C39;
+	background: #123852;
 }
 p, td, #banner-blue, #banner-green, .post span, input {
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -172,13 +172,13 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Navigation Bar */
 #navigation {
-	background: #038748;
+	background: #29526D;
 	display: table-row;
 	line-height: 0;
 	text-shadow:0 0.125em 0 rgba(0,0,0,0.05);
 }
 #logo a {
-	color: #eaeaea;
+	color: #123852;
 	float: left;
 	font-size: 1.500em;
 	text-transform: uppercase;
@@ -199,7 +199,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	margin: 0 0.625em 0 0;
 }
 #navigation-links a {
-	color: #eaeaea;
+	color: #9DBED3;
 	float: left;
 	font-size: 0.875em;
 	padding: 2.250em 1.750em 2.250em 1.750em;
@@ -367,13 +367,13 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Footer */
 #footer {
-	background: #038748;
+	background: #29526D;
 	display: table-row;
 	line-height: 0;
 	text-shadow:0 0.125em 0 rgba(0,0,0,0.05);
 }
 #footer a {
-	color: #eaeaea;
+	color: #9DBED3;
 }
 #footer-links {
 	margin: 0 0 0 0.813em;
