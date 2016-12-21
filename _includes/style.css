@@ -498,7 +498,6 @@ button:hover, button:focus {
 		display: none;
 	}
 	#footer {
-		background: rgba(10,10,10, 0.7);
 		position: fixed;
 		right: 0;
 		bottom: 0;
@@ -509,7 +508,7 @@ button:hover, button:focus {
 		margin: 0;
 	}
 	#footer-links-body {
-		background: rgba(10,10,10,.9);
+		background: #006C39;
 		display: none;
 		overflow-y: scroll;
 		position: fixed;
