@@ -174,7 +174,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Navigation Bar */
 #navigation {
-	background: #00A5FF;
+	background: #00AE5A;
 	display: table-row;
 	line-height: 0;
 }
@@ -207,6 +207,9 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	margin: 0 0.188em 0 0.188em;
 }
 /* Intro and Main */
+#intro {
+	background: #3C9369;
+}
 #intro, #main {
 	display: table-row;
 	height: 100%;
