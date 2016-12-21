@@ -224,15 +224,15 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	margin: 0 0 1.175em 0;
 }
 #main-footer {
-	color: rgba(255,255,255,.7);
+	color: #f1eaee;
 	font-size: 0.875em;
 	padding: 0.375em 0 0 0;
 }
 #main-footer a {
-	color: rgba(255,255,255,.5);
+	color: #f1eaee;
 }
 #main-footer a:hover, #main-footer a:focus {
-	color: rgba(255,255,255,.7);
+	color: #e1d2da;
 }
 #main-footer span, #download-footer span {
 	margin: 0 0.750em 0 0.750em;
