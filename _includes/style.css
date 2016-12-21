@@ -91,10 +91,6 @@ a:hover, a:focus {
 #navigation a:before, .downloadbutton:before, h2:before, #previous:before, #next:before, #mobile-links a:before, #footer-links label:before, #media-links a:before, #banner-blue-body:before {
 	font-family: 'icons';
 }
-#footer a:hover, #footer a:focus, #footer-links label:hover, #footer-links label:focus {
-	background: #123852;
-	color: #E6C8CA;
-}
 p, td, #banner-blue, #banner-green, .post span, input {
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	line-height: 1.6;
@@ -369,9 +365,6 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 #footer {
 	display: table-row;
 	line-height: 0;
-}
-#footer a {
-	color: #3f6a89;
 }
 #footer-links {
 	margin: 0 0 0 0.813em;
