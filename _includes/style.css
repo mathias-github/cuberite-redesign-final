@@ -99,10 +99,9 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	vertical-align: top;
 }
 .button, #pagination a, #pagination span {
-	background: #eaeaea;
+	background: #3f895e;
 	border-radius: 0.313em;
-	box-shadow: 0 0.125em 0.063em rgba(0, 0, 0, 0.15);
- 	color: #1e1e1e;
+ 	color: #e7f4ec;
 	display: inline-block;
 	text-shadow: none;
 }
