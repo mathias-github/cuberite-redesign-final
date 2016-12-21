@@ -10,6 +10,9 @@
 .active {
 	background: #553847;
 }
+.active:hover, .active:focus {
+	color: #f1eaee;
+}
 #footer {
 	background: #406161;
 }
