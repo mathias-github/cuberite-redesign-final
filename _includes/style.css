@@ -205,7 +205,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Intro and Main */
 #intro {
-	background: #123852;
+	background: #6ca9fc;
 }
 #intro, #main {
 	display: table-row;
