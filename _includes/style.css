@@ -500,6 +500,7 @@ button:hover, button:focus {
 	}
 	#footer-links-body {
 		background: #385555;
+		color: #eaf1f1;
 		display: none;
 		overflow-y: scroll;
 		position: fixed;
