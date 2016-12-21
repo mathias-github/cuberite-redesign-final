@@ -242,7 +242,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Download Buttons */
 .downloadbutton {
-	background: #3f6a89;
+	background: #E2D6D7;
 	color: #1F4736;
 	border-radius: 0.313em;
 	font-size: 1.125em;
@@ -369,7 +369,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	line-height: 0;
 }
 #footer a {
-	color: #779884;
+	color: #3f6a89;
 }
 #footer-links {
 	margin: 0 0 0 0.813em;
