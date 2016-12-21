@@ -410,12 +410,12 @@ input::-moz-focus-inner, button::-moz-focus-inner {
 	padding: 0;
 }
 input {
-	background: #fff;
+	background: #C0C0C0;
 	margin: 0.313em 0 0 0;
 	width: 13.750em;
 }
 input:focus {
-	background: #eaeaea;
+	background: #C9C9C9;
 }
 button {
 	background: #416140;
