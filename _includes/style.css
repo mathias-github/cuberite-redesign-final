@@ -178,7 +178,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	text-shadow:0 0.125em 0 rgba(0,0,0,0.05);
 }
 #logo a {
-	color: #123852;
+	color: #9DBED3;
 	float: left;
 	font-size: 1.500em;
 	text-transform: uppercase;
@@ -207,7 +207,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Intro and Main */
 #intro {
-	background: #006C39;
+	background: #123852;
 }
 #intro, #main {
 	display: table-row;
