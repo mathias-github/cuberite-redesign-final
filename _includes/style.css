@@ -202,7 +202,6 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 /* Intro and Main */
 #intro {
 	background-color: #406161;
-	background-size: 75px 80px;
 }
 #intro, #main {
 	display: table-row;
@@ -326,7 +325,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	margin: 1.375em 0 1.938em 0;
 }
 .post a {
-	color: rgba(255,255,255,.6);
+	color: #406161;
 	font-size: 1.125em;
 	text-transform: uppercase;
 }
