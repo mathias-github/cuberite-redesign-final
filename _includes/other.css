@@ -2,19 +2,19 @@
 	background: #614051;
 }
 #navigation a {
-	color: #f4e7e8;
+	color: #f1eaee;
 }
 #navigation a:hover,#navigation a:focus,.active {
-	background: #f4e7e8;
-	color: #893f45;
+	background: #553847;
+	color: #f1eaed;
 }
 #footer {
-	background: #3f6a89;
+	background: #406161;
 }
 #footer a {
-	color: #e7eef4;
+	color: #eaf1f1;
 }
 #footer a:hover, #footer a:focus, #footer-links label:hover, #footer-links label:focus {
-	background: #123852;
-	color: #E6C8CA;
+	background: #385555;
+	color: #eaf1f1;
 }
