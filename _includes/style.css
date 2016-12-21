@@ -73,11 +73,11 @@ strong {
 	font-weight: bold;
 }
 a {
-	color: rgba(255,255,255,.4);
+	color: #038748;
 	text-decoration: none;
 }
 a:hover, a:focus {
-	color: rgba(255,255,255,.6);
+	color: #00BA62;
 }
 /* Combined Rules */
 #intro input, #footer input, #footer img, #footer label, .show-mobile, .show-mobile-block {
