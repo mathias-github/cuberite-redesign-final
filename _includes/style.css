@@ -175,16 +175,8 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Navigation Bar */
 #navigation {
-	background: #893f45;
 	display: table-row;
 	line-height: 0;
-}
-#navigation a {
-	color: #eed9db
-}
-#navigation a:hover,#navigation a:focus,.active {
-	background: #3f6a89;
-	color: #e7eef4
 }
 #logo a {
 	float: left;
