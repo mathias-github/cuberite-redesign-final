@@ -175,6 +175,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Navigation Bar */
 #navigation {
+	background: #893f45;
 	display: table-row;
 	line-height: 0;
 }
