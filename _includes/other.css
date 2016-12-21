@@ -16,7 +16,7 @@
 #navigation, #footer {
 	background: #406161;
 }
-#navigation a, #footer a {
+#navigation a, #footer a, #footer-links label {
 	color: #eaf1f1;
 }
 #navigation a:hover, #navigation a:focus, #footer a:hover, #footer a:focus, #footer-links label:hover, #footer-links label:focus {
