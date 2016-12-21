@@ -22,7 +22,6 @@ body {
 	font-family: montserratregular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	display: table;
 	line-height: 1;
-	text-shadow: 0 0.125em 0 rgba(0,0,0,.1);
 	-webkit-tap-highlight-color: rgba(255,255,255,.1);
 }
 ::-moz-selection {
@@ -176,6 +175,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	background: #008D4A;
 	display: table-row;
 	line-height: 0;
+	text-shadow:0 0.125em 0 rgba(0,0,0,0.05);
 }
 #logo a {
 	color: #eaeaea;
@@ -370,6 +370,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	background: #008D4A;
 	display: table-row;
 	line-height: 0;
+	text-shadow:0 0.125em 0 rgba(0,0,0,0.1);
 }
 #footer a {
 	color: #eaeaea;
