@@ -498,7 +498,7 @@ button:hover, button:focus {
 		margin: 0;
 	}
 	#footer-links-body {
-		background: #006C39;
+		background: #385555;
 		display: none;
 		overflow-y: scroll;
 		position: fixed;
@@ -518,7 +518,7 @@ button:hover, button:focus {
 		margin: 0;
 	}
 	#footer-links a:hover, #footer-links a:focus {
-		background: #000;
+		background: #406161;
 	}
 	.show-mobile, .show-mobile-block {
 		display: initial;
