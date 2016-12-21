@@ -206,6 +206,9 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	margin: 0 0.188em 0 0.188em;
 }
 /* Intro and Main */
+#intro {
+	background: #00793F;
+}
 #intro, #main {
 	display: table-row;
 	height: 100%;
