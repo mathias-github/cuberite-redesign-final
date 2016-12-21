@@ -19,7 +19,7 @@
 	</style>
 </head>
 <body>
-	<nav>
+	<div id="navigation">
 		<div id="logo">
 			<a href="/cuberite-redesign-final/">Cuberite</a>
 		</div>
@@ -30,9 +30,9 @@
 			<a href="/cuberite-redesign-final/plugins/" class="plugins"{% if page.url == "/plugins/" %} id="active"{% endif %}>Plugins</a>
 			<a href="/cuberite-redesign-final/contribute/" class="contribute"{% if page.url == "/contribute/" %} id="active"{% endif %}>Contribute</a>
 		</div>
-	</nav>
+	</div>
 	{{ content }}
-	<footer>
+	<div id="footer">
 		<div id="mobile-links">
 			<a href="/cuberite-redesign-final/" class="home show-mobile">Home</a>
 			<a href="/cuberite-redesign-final/manual/" class="manual show-mobile"{% if page.url == "/manual/" %} id="active"{% endif %}>Manual</a>
@@ -61,7 +61,7 @@
 		<noscript>
 			<img src="https://analytics.cuberite.org/piwik.php?idsite=1&amp;rec=1" alt=""/>
 		</noscript>
-	</footer>
+	</div>
 	<script type="text/javascript">
 		var _paq = _paq || [];
 		_paq.push(['trackPageView']);
