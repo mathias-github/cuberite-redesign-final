@@ -99,7 +99,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	vertical-align: top;
 }
 .button, #pagination a, #pagination span {
-	background: #3f895e;
+	background: #f1eaee;
 	border-radius: 0.313em;
  	color: #e7f4ec;
 	display: inline-block;
@@ -213,7 +213,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	text-align: center;
 }
 #intro-body {
-	color: #f4e7e8;
+	color: #f1eaee;
 	padding: 4% 10% 4% 10%;
 }
 #main-body {
