@@ -7,6 +7,9 @@
 #navigation a:hover, #navigation a:focus {
 	color: #84576f;
 }
+#footer {
+	background: #eaf1f1;
+}
 #footer a {
 	color: #406161;
 }
