@@ -241,7 +241,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 /* Download Buttons */
 .downloadbutton {
 	background: #f1eaee;
-	color: #614051;
+	color: #406161;
 	border-radius: 0.313em;
 	font-size: 1.125em;
 	cursor: pointer;
@@ -282,12 +282,12 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	width: 100%;
 }
 .downloadmenu a {
-	color: #614051;
+	color: #406161;
 	display: block;
 	padding: 0.5em;
 }
 .downloadmenu a:hover, .downloadmenu a:focus {
-	color: #84576f;
+	color: #a3c2c2;
 }
 .downloadmenu a:last-child:hover, .downloadmenu a:last-child:focus {
 	border-radius: 0 0 0.313em 0.313em;
