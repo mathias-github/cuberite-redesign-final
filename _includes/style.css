@@ -172,7 +172,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Navigation Bar */
 #navigation {
-	background: #008D4A;
+	background: #038748;
 	display: table-row;
 	line-height: 0;
 	text-shadow:0 0.125em 0 rgba(0,0,0,0.05);
@@ -367,7 +367,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Footer */
 #footer {
-	background: #008D4A;
+	background: #038748;
 	display: table-row;
 	line-height: 0;
 	text-shadow:0 0.125em 0 rgba(0,0,0,0.1);
