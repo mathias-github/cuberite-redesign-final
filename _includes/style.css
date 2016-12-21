@@ -201,8 +201,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Intro and Main */
 #intro {
-	background: linear-gradient(135deg, #5d3c4d 25%, transparent 25%) -50px 0, linear-gradient(225deg, #5d3c4d 25%, transparent 25%) -50px 0, linear-gradient(315deg, #5d3c4d 25%, transparent 25%), linear-gradient(45deg, #5d3c4d 25%, transparent 25%);
-	background-color: #614051;
+	background-color: #406161;
 	background-size: 75px 80px;
 }
 #intro, #main {
@@ -316,7 +315,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	padding: 0.750em;
 }
 #banner-blue {
-	background: #406161;
+	background: #416140;
 }
 #banner-blue-body:before {
 	content: "\2139";
