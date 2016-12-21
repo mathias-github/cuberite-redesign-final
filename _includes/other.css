@@ -8,3 +8,7 @@
 	background: #3f6a89;
 	color: #e7eef4
 }
+#footer a:hover, #footer a:focus, #footer-links label:hover, #footer-links label:focus {
+	background: #123852;
+	color: #E6C8CA;
+}
