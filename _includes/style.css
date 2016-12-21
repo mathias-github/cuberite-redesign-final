@@ -244,10 +244,8 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Download Buttons */
 .downloadbutton {
-	background: #eaeaea;
+	background: #038748;
 	border-radius: 0.313em;
-	box-shadow: 0 0.125em 0.063em rgba(0,0,0,.15);
-	color: #1e1e1e;
 	font-size: 1.125em;
 	cursor: pointer;
 	width: 8.125em;
