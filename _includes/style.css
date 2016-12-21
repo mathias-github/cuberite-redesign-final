@@ -107,6 +107,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 .button:hover, .button:focus, #pagination a:hover, #pagination a:focus {
 	background: #395538;
+	color: #eaf1ea;
 }
 /* Icons */
 .about:before {
