@@ -25,10 +25,10 @@ body {
 	-webkit-tap-highlight-color: rgba(255,255,255,.1);
 }
 ::-moz-selection {
-	background: #9b6882;
+	background: #5f9090;
 }
 ::selection {
-	background: #9b6882;
+	background: #5f9090;
 }
 ::-webkit-input-placeholder {
 	color: rgba(0,0,0,.55);
