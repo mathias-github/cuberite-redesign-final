@@ -18,7 +18,7 @@ html, body {
 }
 body {
 	background: #EAEAEA;
-	color: #606060;
+	color: #565656;
 	font-family: montserratregular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	display: table;
 	line-height: 1;
@@ -106,8 +106,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	text-shadow: none;
 }
 .button:hover, .button:focus, #pagination a:hover, #pagination a:focus {
-	background: #C3C3C3;
-	color: #1e1e1e;
+	background: #395538;
 }
 /* Icons */
 .about:before {
