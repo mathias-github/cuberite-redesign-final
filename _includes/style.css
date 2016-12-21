@@ -22,7 +22,7 @@ body {
 	font-family: montserratregular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	display: table;
 	line-height: 1;
-	-webkit-tap-highlight-color: rgba(255,255,255,.1);
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 ::-moz-selection {
 	background: #5f9090;
