@@ -255,7 +255,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 .downloadbutton:hover, .downloadbutton:focus {
 	border-radius: 0.313em 0.313em 0 0;
-	color: #a3c2c2;
+	color: #578484;
 }
 .downloadbutton:before {
 	font-size: 1.563em;
@@ -287,7 +287,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	padding: 0.5em;
 }
 .downloadmenu a:hover, .downloadmenu a:focus {
-	color: #a3c2c2;
+	color: #578484;
 }
 .downloadmenu a:last-child:hover, .downloadmenu a:last-child:focus {
 	border-radius: 0 0 0.313em 0.313em;
