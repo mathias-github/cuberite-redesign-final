@@ -1,7 +1,10 @@
-#navigation a {
-	color: #eed9db
+#navigation {
+	background: transparent;
 }
-#navigation a:hover,#navigation a:focus,.active {
+#navigation a {
+	color: #893f45;
+}
+#navigation a:hover, #navigation a:focus, .active {
 	background: #3f6a89;
-	color: #e7eef4
+	color: #e7eef4;
 }
