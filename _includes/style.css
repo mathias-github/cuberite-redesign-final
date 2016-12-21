@@ -89,8 +89,9 @@ a:hover, a:focus {
 #navigation a:before, .downloadbutton:before, h2:before, #previous:before, #next:before, #mobile-links a:before, #footer-links label:before, #media-links a:before, #banner-blue-body:before {
 	font-family: 'icons';
 }
-#navigation a:hover, #navigation a:focus, #footer a:hover, #footer a:focus, #footer-links label:hover, #footer-links label:focus, .active {
+#footer a:hover, #footer a:focus, #footer-links label:hover, #footer-links label:focus {
 	background: #123852;
+	color: #E6C8CA;
 }
 p, td, #banner-blue, #banner-green, .post span, input {
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -175,6 +176,10 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	display: table-row;
 	line-height: 0;
 }
+#navigation a:hover, #navigation a:focus, .active {
+	background: #893f45;
+	color: #E6C8CA;
+}
 #logo a {
 	color: #893f45;
 	float: left;
@@ -217,7 +222,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	text-align: center;
 }
 #intro-body {
-	color: #E2D6D7;
+	color: #E6C8CA;
 	padding: 4% 10% 4% 10%;
 }
 #main-body {
@@ -242,7 +247,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Download Buttons */
 .downloadbutton {
-	background: #E2D6D7;
+	background: #E6C8CA;
 	color: #893f45;
 	border-radius: 0.313em;
 	font-size: 1.125em;
