@@ -55,12 +55,12 @@ h2:before {
 	margin: 0 0.563em 0 0;
 }
 h2 {
-	color: #893f45;
+	color: #614051;
 	font-size: 1.500em;
 	margin: 0 0 0.625em 0;
 }
 h3 {
-	color: #3f6a89;
+	color: #406161;
 	font-size: 1.125em;
 	margin: 1.125em 0 0.625em 0;
 }
@@ -99,9 +99,9 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	vertical-align: top;
 }
 .button, #pagination a, #pagination span {
-	background: #f1eaee;
+	background: #416140;
 	border-radius: 0.313em;
- 	color: #e7f4ec;
+ 	color: #eaf1ea;
 	display: inline-block;
 	text-shadow: none;
 }
@@ -239,8 +239,8 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Download Buttons */
 .downloadbutton {
-	background: #eed9db;
-	color: #893f45;
+	background: #f1eaee;
+	color: #614051;
 	border-radius: 0.313em;
 	font-size: 1.125em;
 	cursor: pointer;
