@@ -178,12 +178,14 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	display: table-row;
 	line-height: 0;
 }
+#navigation a {
+	color: #893f45;
+}
 #navigation a:hover, #navigation a:focus, .active {
-	background: #893f45;
-	color: #E6C8CA;
+	background: #3f6a89;
+	color: #e7eef4;
 }
 #logo a {
-	color: #893f45;
 	float: left;
 	font-size: 1.500em;
 	text-transform: uppercase;
@@ -204,7 +206,6 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	margin: 0 0.625em 0 0;
 }
 #navigation-links a {
-	color: #893f45;
 	float: left;
 	font-size: 0.875em;
 	padding: 2.250em 1.750em 2.250em 1.750em;
@@ -224,7 +225,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	text-align: center;
 }
 #intro-body {
-	color: #E6C8CA;
+	color: #eed9db;
 	padding: 4% 10% 4% 10%;
 }
 #main-body {
@@ -249,7 +250,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Download Buttons */
 .downloadbutton {
-	background: #E6C8CA;
+	background: #eed9db;
 	color: #893f45;
 	border-radius: 0.313em;
 	font-size: 1.125em;
