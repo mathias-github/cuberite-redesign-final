@@ -306,7 +306,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 }
 /* Banners */
 #banner-blue {
-	color: rgba(255,255,255,.75);
+	color: #eaf1f1;
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 0.938em;
 	line-height: 1.6;
@@ -314,7 +314,7 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	padding: 0.750em;
 }
 #banner-blue {
-	background: #3f6a89;
+	background: #406161;
 }
 #banner-blue-body:before {
 	content: "\2139";
