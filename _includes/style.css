@@ -88,7 +88,7 @@ a:hover, a:focus {
 #intro-body, #main-body, #banner-blue-body, #banner-green-body {
 	animation: fadein .7s;
 }
-#navigation a:before, .downloadbutton:before, h2:before, #previous:before, #next:before, #mobile-links a:before, #footer-links label:before, #media-links a:before, #banner-blue-body:before {
+.downloadbutton:before, #previous:before, #next:before, #mobile-links a:before, #footer-links label:before, #media-links a:before, #banner-blue-body:before {
 	font-family: 'icons';
 }
 p, td, #banner-blue, #banner-green, .post span, input {
@@ -108,40 +108,6 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 .button:hover, .button:focus, #pagination a:hover, #pagination a:focus {
 	background: #507979;
 	color: #eaf1f1;
-}
-/* Icons */
-.about:before {
-	content: "\2139";
-}
-.contribute:before {
-	content: "\26d8";
-}
-.forum:before {
-	content: "\1F4AC";
-}
-.getting-started:before {
-	content: "\1f680";
-}
-.home:before {
-	content: "\2302";
-}
-.manual:before {
-	content: "\1F4D6";
-}
-.news:before {
-	content: "\1f56b";
-}
-.not-found:before {
-	content: "\26a0";
-}
-.plugins:before {
-	content: '\1f50c';
-}
-.privacy:before {
-	content: '\1f441';
-}
-.support:before {
-	content: "\3f";
 }
 /* Columns */
 #right-two, #right-three {
@@ -180,18 +146,9 @@ h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left
 	padding: 1.313em 1em 1.313em 1em;
 	margin: 0 0 0 0.625em;
 }
-#logo a:before {
-	content: '\25a0';
-	font-size: 1.125em;
-	margin: 0 0.500em 0 0;
-}
 #navigation-links {
 	float: right;
 	margin: 0 0.750em 0 0;
-}
-#navigation-links a:before {
-	font-size: 1.250em;
-	margin: 0 0.625em 0 0;
 }
 #navigation-links a {
 	float: left;
