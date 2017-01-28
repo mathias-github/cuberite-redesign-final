@@ -150,7 +150,7 @@ p, td, #banner-blue, #banner-green, .post span, input {
 	float: left;
 	font-size: 1.500em;
 	text-transform: uppercase;
-	padding: 0.813em;
+	padding: 0.688em;
 	margin: 0 0 0 0.625em;
 }
 #logo svg {
@@ -163,7 +163,7 @@ p, td, #banner-blue, #banner-green, .post span, input {
 #navigation-links a {
 	float: left;
 	font-size: 0.875em;
-	padding: 1.750em;
+	padding: 1.625em;
 	margin: 0 0.188em 0 0.188em;
 }
 #navigation-links svg {
