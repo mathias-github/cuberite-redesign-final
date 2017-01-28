@@ -3,7 +3,10 @@ layout: default
 ---
 <div id="main">
 	<div id="main-body">
-		<h2><svg aria-hidden="true" height="24" width="24"><path d="{% include _icons/{{page.title | downcase | replace:' ','-'}} %}"/></svg>{{ page.title }}</h2>
+		<svg aria-hidden="true" height="24" width="24">
+			<path d="{% include _icons/{{page.title | downcase | replace:' ','-'}} %}" />
+		</svg>
+		<h2>{{ page.title }}</h2>
 		{{ content }}
 	</div>
 </div>
