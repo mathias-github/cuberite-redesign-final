@@ -74,6 +74,9 @@ em {
 strong {
 	font-weight: bold;
 }
+svg {
+	vertical-align: middle;
+}
 a {
 	color: #689b9b;
 	text-decoration: none;
@@ -95,8 +98,11 @@ p, td, #banner-blue, #banner-green, .post span, input {
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	line-height: 1.6;
 }
-h2:before, #navigation a:before, #left-three, #center-three, #right-three, #left-two, #right-two, button, input {
+#left-three, #center-three, #right-three, #left-two, #right-two, button, input {
 	vertical-align: top;
+}
+#navigation svg, #main svg {
+	margin: 0 0.563em 0 0;
 }
 .button, #pagination a, #pagination span {
 	background: #406161;
