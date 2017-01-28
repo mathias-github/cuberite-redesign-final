@@ -10,14 +10,30 @@ title: News
 {% endfor %}
 <div id="pagination">
 	{% if paginator.previous_page %}
-		<a href="{{ paginator.previous_page_path }}" id="previous" title="Previous"></a>
+		<a href="{{ paginator.previous_page_path }}" id="previous" title="Previous">
+			<svg aria-hidden="true" height="29" viewBox="0 0 24 24" width="29">
+				<path d="{% include _icons/previous %}" />
+			</svg>
+		</a>
 	{% else %}
-		<span id="previous"></span>
+		<span id="previous">
+			<svg aria-hidden="true" height="29" viewBox="0 0 24 24" width="29">
+				<path d="{% include _icons/previous %}" />
+			</svg>
+		</span>
 	{% endif %}
 	{% if paginator.next_page %}
-		<a href="{{ paginator.next_page_path }}" id="next" title="Next"></a>
+		<a href="{{ paginator.next_page_path }}" id="next" title="Next">
+			<svg aria-hidden="true" height="29" viewBox="0 0 24 24" width="29">
+				<path d="{% include _icons/next %}" />
+			</svg>
+		</a>
 	{% else %}
-		<span id="next"></span>
+		<span id="next">
+			<svg aria-hidden="true" height="29" viewBox="0 0 24 24" width="29">
+				<path d="{% include _icons/next %}" />
+			</svg>
+		</span>
 	{% endif %}
 </div>
 <h3 id="subscribe">Subscribe</h3>
