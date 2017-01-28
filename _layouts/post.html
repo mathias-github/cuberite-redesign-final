@@ -3,10 +3,12 @@ layout: default
 ---
 <div id="main">
 	<div id="main-body">
-		<svg aria-hidden="true" height="24" width="24">
-			<path d="{% include _icons/news %}" />
-		</svg>
-		<h2>{{ page.title }}</h2>
+		<h2>
+			<svg aria-hidden="true" height="24" width="24">
+				<path d="{% include _icons/news %}" />
+			</svg>
+			{{ page.title }}
+		</h2>
 		{{ content }}
 		<div id="main-footer">
 			{{ page.date | date: "%B %e, %Y" }}
