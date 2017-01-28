@@ -61,6 +61,9 @@ h2 {
 	font-size: 1.500em;
 	margin: 0 0 0.625em 0;
 }
+h2 svg {
+	margin: 0 0.563em 0 0;
+}
 h3 {
 	color: #406161;
 	font-size: 1.125em;
@@ -102,9 +105,6 @@ p, td, #banner-blue, #banner-green, .post span, input {
 }
 #left-three, #center-three, #right-three, #left-two, #right-two, button, input {
 	vertical-align: top;
-}
-#navigation svg, #main svg {
-	margin: 0 0.563em 0 0;
 }
 .button, #pagination a, #pagination span {
 	background: #406161;
@@ -153,6 +153,9 @@ p, td, #banner-blue, #banner-green, .post span, input {
 	padding: 0.813em;
 	margin: 0 0 0 0.625em;
 }
+#logo svg {
+	margin: 0 0.500em 0 0;
+}
 #navigation-links {
 	float: right;
 	margin: 0 0.750em 0 0;
@@ -162,6 +165,9 @@ p, td, #banner-blue, #banner-green, .post span, input {
 	font-size: 0.875em;
 	padding: 1.750em;
 	margin: 0 0.188em 0 0.188em;
+}
+#navigation-links svg {
+	margin: 0 0.625em 0 0;
 }
 /* Intro and Main */
 #intro {
