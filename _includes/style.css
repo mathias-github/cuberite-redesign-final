@@ -59,7 +59,7 @@ h2 {
 	color: #406161;
 	fill: #406161;
 	font-size: 1.500em;
-	margin: 0 0 0.625em 0;
+	line-height: 1.375em;
 }
 h2 svg {
 	margin: 0 0.563em 0 0;
@@ -191,7 +191,7 @@ p, td, #banner-blue, #banner-green, .post span, input {
 }
 #intro h2 {
 	color: #eaf1f1;
-	margin: 0 0 1.175em 0;
+	margin: 0 0 1.000em 0;
 }
 #main-footer {
 	color: #eaf1f1;
