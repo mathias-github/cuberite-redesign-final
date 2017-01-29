@@ -3,7 +3,9 @@
 }
 #navigation a, #footer a, #footer-links label {
 	color: #406161;
+	fill: #406161;
 }
 #navigation a:hover, #navigation a:focus, #footer a:hover, #footer a:focus, #footer-links label:hover, #footer-links label:focus {
 	color: #578484;
+	fill: #578484;
 }
