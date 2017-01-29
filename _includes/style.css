@@ -79,7 +79,8 @@ strong {
 	font-weight: bold;
 }
 svg {
-	vertical-align: middle;
+	position: relative;
+	top: 0.25em
 }
 a {
 	color: #689b9b;
