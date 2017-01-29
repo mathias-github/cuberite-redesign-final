@@ -231,18 +231,6 @@ p, td, #banner-blue, #banner-green, .post span, input {
 .downloadbutton svg {
 	float: left;
 }
-#downloadbutton-linux:before {
-	content: '\1f427';
-}
-#downloadbutton-windows:before {
-	content: '\1f5d4';
-}
-#downloadbutton-freebsd:before {
-	content: '\1f608';
-}
-#downloadbutton-osx:before {
-	content: '\1f34e';
-}
 .downloadmenu {
 	background: #eaf1f1;
 	border-radius: 0 0 0.313em 0.313em;
