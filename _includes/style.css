@@ -67,10 +67,9 @@ h2 svg {
 h3 {
 	color: #406161;
 	font-size: 1.125em;
-	margin: 1.125em 0 0.625em 0;
+	margin: 2.125em 0 0.750em 0;
 }
 p, ul {
-	line-height: 1.563em;
 	margin: 0 0 0.938em 0;
 }
 em {
