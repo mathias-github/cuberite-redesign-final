@@ -93,11 +93,8 @@ a:hover, a:focus {
 #intro input, #footer input, #footer img, #footer label, .show-mobile, .show-mobile-block {
 	display: none;
 }
-#intro-body, #main-body, #banner-blue-body, #banner-green-body {
+#intro-body, #main-body, #banner-blue-body {
 	animation: fadein .7s;
-}
-.downloadbutton:before, #previous:before, #next:before, #mobile-links a:before, #footer-links label:before, #media-links a:before, #banner-blue-body:before {
-	font-family: 'icons';
 }
 p, td, #banner-blue, #banner-green, .post span, input {
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -266,6 +263,7 @@ p, td, #banner-blue, #banner-green, .post span, input {
 /* Banners */
 #banner-blue {
 	color: #eaf1f1;
+	fill: #eaf1f1;
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 0.938em;
 	line-height: 1.6;
@@ -275,9 +273,8 @@ p, td, #banner-blue, #banner-green, .post span, input {
 #banner-blue {
 	background: #507979;
 }
-#banner-blue-body:before {
-	content: "\2139";
-	padding: 0 10px 0 0;
+#banner-blue-body svg {
+	padding: 0 0.625em 0 0;
 }
 /* News */
 .post {
