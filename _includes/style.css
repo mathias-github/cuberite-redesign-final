@@ -472,13 +472,13 @@ button:hover, button:focus {
 	#mobile-links,
 	#media-links {
 		display: table;
-		line-height: 2.1em;
+		line-height: 1.875em;
 		table-layout: fixed;
 		width: 100%;
 	}
 	#mobile-links svg {
 		display: table;
-		padding: 0.9em 0 0 0;
+		padding: 0.750em 0 0 0;
 		margin: 0 auto;
 	}
 	#mobile-links a.show-mobile,
@@ -495,7 +495,7 @@ button:hover, button:focus {
 		text-align: center;
 	}
 	#footer-links a:hover,#footer-links a:focus {
-		color:#a3c2c2
+		color: #a3c2c2;
 	}
 	#media-links {
 		float: none;
