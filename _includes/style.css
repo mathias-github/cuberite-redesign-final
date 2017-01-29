@@ -80,7 +80,7 @@ strong {
 	font-weight: bold;
 }
 svg {
-	vertical-align: middle;
+	vertical-align: bottom;
 }
 a {
 	color: #689b9b;
@@ -142,6 +142,9 @@ p, td, #banner-blue, #banner-green, .post span, input {
 /* Navigation Bar */
 #navigation {
 	display: table-row;
+}
+#logo {
+	line-height: 1.875em;
 }
 #logo a {
 	float: left;
