@@ -63,6 +63,7 @@ h2 {
 }
 h2 svg {
 	margin: 0 0.563em 0 0;
+	top: 0.188em;
 }
 h3 {
 	color: #406161;
@@ -80,7 +81,6 @@ strong {
 }
 svg {
 	position: relative;
-	top: 0.25em
 }
 a {
 	color: #689b9b;
@@ -153,6 +153,7 @@ p, td, #banner-blue, #banner-green, .post span, input {
 }
 #logo svg {
 	margin: 0 0.625em 0 0;
+	top: 0.250em;
 }
 #navigation-links {
 	float: right;
@@ -166,6 +167,7 @@ p, td, #banner-blue, #banner-green, .post span, input {
 }
 #navigation-links svg {
 	margin: 0 0.875em 0 0;
+	top: 0.313em;
 }
 /* Intro and Main */
 #intro {
@@ -335,6 +337,9 @@ p, td, #banner-blue, #banner-green, .post span, input {
 }
 #media-links a {
 	padding: 0 1.625em;
+}
+#media-links svg {
+	top: 0.313em;
 }
 /* Inputs */
 button, input {
