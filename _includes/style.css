@@ -425,6 +425,7 @@ button:hover, button:focus {
 		display: none;
 	}
 	#footer {
+		line-height: 0;
 		position: fixed;
 		right: 0;
 		bottom: 0;
@@ -441,7 +442,7 @@ button:hover, button:focus {
 		overflow-y: scroll;
 		position: fixed;
 		width: 100%;
-		height: 15em;
+		height: 15.000em;
 		bottom: 3.750em;
 		left: 0;
 	}
@@ -467,16 +468,12 @@ button:hover, button:focus {
 		table-layout: fixed;
 		width: 100%;
 	}
-	#mobile-links a:before, #footer-links label:before {
+	#mobile-links svg {
 		display: table;
-		font-size: 1.750em;
 		margin: 0.063em auto 0.750em auto;
 	}
 	#mobile-links a.show-mobile, #media-links a {
 		display: table-cell;
-	}
-	#footer-links label:before {
-		content: '\2026';
 	}
 	#footer-links label {
 		cursor: pointer;
