@@ -432,19 +432,21 @@ button:hover, button:focus {
 		left: 0;
 	}
 	#footer-links {
-		float: none;
 		margin: 0;
 	}
 	#footer-links-body {
 		background: rgba(10, 10, 10, .9);
 		display: none;
 		overflow-y: scroll;
-		line-height: 3.375em;
 		position: fixed;
 		width: 100%;
 		height: 15.000em;
 		bottom: 3.750em;
 		left: 0;
+	}
+	#footer-links-body,
+	#media-links {
+		line-height: 3.375em;
 	}
 	#footer-links-toggle:checked + #footer-links #footer-links-body,
 	#downloadbutton-linux-mobile:checked + #downloadbutton-linux .downloadmenu,
@@ -477,7 +479,7 @@ button:hover, button:focus {
 	}
 	#mobile-links a.show-mobile svg,
 	#footer-links label svg {
-		display: table;
+		display: block;
 		padding: 0.750em 0 0 0;
 		margin: 0 auto;
 	}
