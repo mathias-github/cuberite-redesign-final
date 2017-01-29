@@ -484,9 +484,6 @@ button:hover, button:focus {
 	#media-links a {
 		display: table-cell;
 	}
-	#footer-links label:before {
-		content: '\2026';
-	}
 	#footer-links label {
 		cursor: pointer;
 		display: block;
