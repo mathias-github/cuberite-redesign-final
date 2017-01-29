@@ -228,6 +228,7 @@ p, td, #banner-blue, #banner-green, .post span, input {
 }
 .downloadbutton svg {
 	float: left;
+	margin: 0.750em 0 0 0;
 }
 .downloadmenu {
 	background: #eaf1f1;
