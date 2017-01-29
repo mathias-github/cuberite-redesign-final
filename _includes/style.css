@@ -343,6 +343,9 @@ p, td, #banner-blue, #banner-green, .post span, input {
 	float: right;
 	margin: 0 0.813em 0 0;
 }
+#media-links a:first-child {
+	padding: 0.813em 0.875em;
+}
 #media-links a {
 	font-size: 1.250em;
 	padding: 0.813em 1.188em;
@@ -510,10 +513,6 @@ button:hover, button:focus {
 	}
 	#media-links a:before {
 		margin: 0.875em auto 0.625em auto;
-	}
-	#media-links a#google {
-		font-size: 1.125em;
-		padding: 0;
 	}
 	/* Download Buttons */
 	.downloadbutton {
