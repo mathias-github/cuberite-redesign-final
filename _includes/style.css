@@ -220,7 +220,7 @@ p, td, #banner-blue, #banner-green, .post span, input {
 	padding: 0.750em;
 	display: inline-block;
 	position: relative;
-	line-height: 30px;
+	line-height: 1.750em;
 	text-shadow: none;
 }
 .downloadbutton:hover, .downloadbutton:focus {
