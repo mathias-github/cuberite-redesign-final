@@ -12,4 +12,4 @@ gems:
   - jekyll-sitemap
 permalink: /cuberite-website-changes/:categories/:title/
 paginate: 5
-paginate_path: /cuberite-website-changes/:categories/:num/
+paginate_path: /:categories/:num/
