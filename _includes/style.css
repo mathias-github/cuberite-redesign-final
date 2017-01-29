@@ -425,7 +425,7 @@ button:hover, button:focus {
 		display: none;
 	}
 	#footer {
-		line-height: 0;
+		background: rgba(10, 10, 10, 0.7);
 		position: fixed;
 		right: 0;
 		bottom: 0;
@@ -436,8 +436,7 @@ button:hover, button:focus {
 		margin: 0;
 	}
 	#footer-links-body {
-		background: #385555;
-		color: #eaf1f1;
+		background: rgba(10, 10, 10, .9);
 		display: none;
 		overflow-y: scroll;
 		position: fixed;
@@ -446,43 +445,59 @@ button:hover, button:focus {
 		bottom: 3.750em;
 		left: 0;
 	}
-	#footer-links-toggle:checked + #footer-links #footer-links-body, #downloadbutton-linux-mobile:checked + #downloadbutton-linux .downloadmenu, #downloadbutton-windows-mobile:checked + #downloadbutton-windows .downloadmenu, #downloadbutton-freebsd-mobile:checked + #downloadbutton-freebsd .downloadmenu, #downloadbutton-osx-mobile:checked + #downloadbutton-osx .downloadmenu {
+	#footer-links-toggle:checked + #footer-links #footer-links-body,
+	#downloadbutton-linux-mobile:checked + #downloadbutton-linux .downloadmenu,
+	#downloadbutton-windows-mobile:checked + #downloadbutton-windows .downloadmenu,
+	#downloadbutton-freebsd-mobile:checked + #downloadbutton-freebsd .downloadmenu,
+	#downloadbutton-macos-mobile:checked + #downloadbutton-macos .downloadmenu,
+	#downloadbutton-android-mobile:checked + #downloadbutton-android .downloadmenu {
 		display: block;
 		animation: fadein .4s;
 	}
 	#footer-links a {
-		color: #eaf1f1;
 		display: block;
 		float: none;
-		padding: 2.000em 1.625em 2.000em 1.625em;
+		padding: 0 1.625em 0 1.625em;
 		margin: 0;
 	}
-	#footer-links a:hover, #footer-links a:focus {
-		color: #a3c2c2;
+	#footer-links a:hover,
+	#footer-links a:focus {
+		background: #000;
 	}
-	.show-mobile, .show-mobile-block {
+	.show-mobile,
+	.show-mobile-block {
 		display: initial;
 	}
-	#mobile-links, #media-links {
+	#mobile-links,
+	#media-links {
 		display: table;
+		line-height: 2.3em;
 		table-layout: fixed;
 		width: 100%;
 	}
 	#mobile-links svg {
 		display: table;
-		margin: 0.063em auto 0.750em auto;
+		padding: 1em 0 0 0;
+		margin: 0 auto;
 	}
-	#mobile-links a.show-mobile, #media-links a {
+	#mobile-links a.show-mobile,
+	#media-links a {
 		display: table-cell;
+	}
+	#footer-links label:before {
+		content: '\2026';
 	}
 	#footer-links label {
 		cursor: pointer;
 		display: block;
 	}
-	#mobile-links a.show-mobile, #footer-links label {
+	#mobile-links a.show-mobile,
+	#footer-links label {
 		font-size: 0.750em;
-		padding: 1.563em 0 1.250em 0;
 		text-align: center;
+	}
+	#footer-links a:hover,#footer-links a:focus {
+		color:#a3c2c2
 	}
 	#media-links {
 		float: none;
@@ -508,7 +523,7 @@ button:hover, button:focus {
 	.downloadmenu {
 		position: static;
 		background: none;
-		margin: 0.750em -0.750em -0.750em -0.750em;
+		margin: 0 -0.750em 0 -0.750em;
 		width: auto;
 	}
 	#downloadbutton-linux:hover #downloadmenu-linux, #downloadbutton-windows:hover #downloadmenu-windows, #downloadbutton-freebsd:hover #downloadmenu-freebsd, #downloadbutton-osx:hover #downloadmenu-osx {
