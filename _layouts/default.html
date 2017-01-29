@@ -15,7 +15,6 @@
 		{% endif %}</title>
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}">
 	<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'/index.html','/' }}">
-	{% seo %}
 	<link rel="stylesheet" href="/cuberite-website-changes/css/fonts.css">
 	<link rel="alternate" type="application/atom+xml" href="feed.xml">
 	<link rel="icon" type="image/png" href="/cuberite-website-changes/icons/favicon-32x32.png" sizes="32x32">
