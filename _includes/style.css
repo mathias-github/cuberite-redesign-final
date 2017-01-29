@@ -22,7 +22,7 @@ body {
 	fill: #565656;
 	font-family: montserratregular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	display: table;
-	line-height: 1;
+	line-height: 1.000em;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 ::-moz-selection {
@@ -48,7 +48,7 @@ h1, h2, h3 {
 }
 h1 {
 	font-size: 2.875em;
-	line-height: 1.4em;
+	line-height: 1.375em;
 	margin: 0 0 1.250em 0;
 }
 h2:before {
@@ -70,7 +70,7 @@ h3 {
 	margin: 1.125em 0 0.625em 0;
 }
 p, ul {
-	line-height: 1.6;
+	line-height: 1.563em;
 	margin: 0 0 0.938em 0;
 }
 em {
@@ -98,7 +98,7 @@ a:hover, a:focus {
 }
 p, td, #banner-blue, #banner-green, .post span, input {
 	font-family: montserratlight,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	line-height: 1.6;
+	line-height: 1.563em;
 }
 #left-three, #center-three, #right-three, #left-two, #right-two, button, input {
 	vertical-align: top;
@@ -304,7 +304,6 @@ p, td, #banner-blue, #banner-green, .post span, input {
 }
 #pagination span {
 	color: #bbd2d2;
-	cursor: default;
 	fill: #bbd2d2;
 }
 #previous {
