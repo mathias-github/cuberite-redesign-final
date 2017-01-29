@@ -233,7 +233,7 @@ p, td, #banner-blue, #banner-green, .post span, input {
 	background: #eaf1f1;
 	border-radius: 0 0 0.313em 0.313em;
 	display: none;
-	margin: 0.688em 0 0 -0.750em;
+	margin: 0 0 0 -0.750em;
 	position: absolute;
 	width: 100%;
 }
