@@ -316,7 +316,7 @@ p, td, #banner-blue, #banner-green, .post span, input {
 /* Footer */
 #footer {
 	display: table-row;
-	line-height: 0;
+	line-height: 3.375em;
 }
 #footer-links {
 	margin: 0 0 0 0.813em;
@@ -324,19 +324,18 @@ p, td, #banner-blue, #banner-green, .post span, input {
 #footer-links a {
 	float: left;
 	font-size: 0.875em;
-	padding: 1.875em;
-	margin: 0 0.188em 0 0.188em;
+	padding: 0 1.875em;
+	margin: 0 0.188em;
 }
 #media-links {
 	float: right;
 	margin: 0 0.813em 0 0;
 }
 #media-links a:first-child {
-	padding: 0.813em 0.875em;
+	padding: 0 0.875em;
 }
 #media-links a {
-	font-size: 1.250em;
-	padding: 0.813em 1.188em;
+	padding: 0 1.188em;
 }
 /* Inputs */
 button, input {
