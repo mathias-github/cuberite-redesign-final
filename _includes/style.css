@@ -211,6 +211,7 @@ p, td, #banner-blue, #banner-green, .post span, input {
 .downloadbutton {
 	background: #eaf1f1;
 	color: #406161;
+	fill: #406161;
 	border-radius: 0.313em;
 	font-size: 1.125em;
 	cursor: pointer;
@@ -225,6 +226,7 @@ p, td, #banner-blue, #banner-green, .post span, input {
 .downloadbutton:hover, .downloadbutton:focus {
 	border-radius: 0.313em 0.313em 0 0;
 	color: #578484;
+	fill: #578484;
 }
 .downloadbutton svg {
 	float: left;
