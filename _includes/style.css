@@ -345,23 +345,7 @@ p, td, #banner-blue, #banner-green, .post span, input {
 }
 #media-links a {
 	font-size: 1.250em;
-	padding: 1.250em 1.188em 1.313em 1.188em;
-}
-#media-links a#google {
-	font-size: 1.688em;
-	padding: 0.938em 0.750em 0.938em 0.750em;
-}
-#google:before {
-	content: '\47';
-}
-#twitter:before {
-	content: '\1f426';
-}
-#twitch:before {
-	content: '\1f5e9';
-}
-#youtube:before {
-	content: '\25b6';
+	padding: 0.813em 1.188em;
 }
 /* Inputs */
 button, input {
