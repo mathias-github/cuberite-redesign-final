@@ -142,15 +142,13 @@ p, td, #banner-blue, #banner-green, .post span, input {
 /* Navigation Bar */
 #navigation {
 	display: table-row;
-}
-#logo {
-	line-height: 1.875em;
+	line-height: 3.875em;
 }
 #logo a {
 	float: left;
 	font-size: 1.500em;
 	text-transform: uppercase;
-	padding: 0.688em 0.750em;
+	padding: 0 0.750em;
 	margin: 0 0 0 0.625em;
 }
 #logo svg {
@@ -163,8 +161,8 @@ p, td, #banner-blue, #banner-green, .post span, input {
 #navigation-links a {
 	float: left;
 	font-size: 0.875em;
-	padding: 1.625em;
-	margin: 0 0.188em 0 0.188em;
+	padding: 0 1.625em;
+	margin: 0 0.188em;
 }
 #navigation-links svg {
 	margin: 0 0.875em 0 0;
