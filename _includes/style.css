@@ -332,10 +332,10 @@ p, td, #banner-blue, #banner-green, .post span, input {
 	margin: 0 0.813em 0 0;
 }
 #media-links a:first-child {
-	padding: 0 0.875em;
+	padding: 0 1.375em;
 }
 #media-links a {
-	padding: 0 1.188em;
+	padding: 0 1.625em;
 }
 /* Inputs */
 button, input {
