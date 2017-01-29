@@ -9,6 +9,7 @@ sass:
   style: :compressed
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-sitemap
 permalink: :categories/:title/
 paginate: 5
