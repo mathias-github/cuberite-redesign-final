@@ -226,8 +226,7 @@ p, td, #banner-blue, #banner-green, .post span, input {
 	border-radius: 0.313em 0.313em 0 0;
 	color: #578484;
 }
-.downloadbutton:before, #downloadbutton svg {
-	font-size: 1.563em;
+.downloadbutton svg {
 	float: left;
 }
 #downloadbutton-linux:before {
