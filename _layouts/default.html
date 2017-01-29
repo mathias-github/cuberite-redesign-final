@@ -13,7 +13,7 @@
 		{% if page.url == "/" %}
 			 - A lightweight, fast and extensible game server for Minecraft
 		{% endif %}</title>
-	<meta name="description" content="{% if page.description %}{{ page.description }}{% elseif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'/index.html','/' }}">
 	<link rel="stylesheet" href="/cuberite-website-changes/css/fonts.css">
 	<link rel="alternate" type="application/atom+xml" href="feed.xml">
