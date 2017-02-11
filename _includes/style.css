@@ -80,7 +80,7 @@ em {
 strong {
 	font-weight: bold;
 }
-svg {
+.logo-svg, .navigation-svg {
 	position: relative;
 }
 a {
