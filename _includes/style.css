@@ -153,6 +153,7 @@ p, td, #banner-blue, #banner-green, .post span, input {
 	margin: 0 0 0 0.625em;
 }
 .logo-svg {
+	display: inline-block;
 	height: 1.125em;
 	margin: 0 0.625em 0 0;
 	top: 0.250em;
@@ -169,6 +170,7 @@ p, td, #banner-blue, #banner-green, .post span, input {
 	margin: 0 0.188em;
 }
 .navigation-svg {
+	display: inline-block;
 	height: 1.313em;
 	margin: 0 0.875em 0 0;
 	top: 0.313em;
