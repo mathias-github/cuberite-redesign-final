@@ -152,9 +152,11 @@ p, td, #banner-blue, #banner-green, .post span, input {
 	padding: 0 0.750em;
 	margin: 0 0 0 0.625em;
 }
-#logo svg {
+.logo-svg {
+	height: 1.125em;
 	margin: 0 0.625em 0 0;
 	top: 0.250em;
+	width: 1.125em;
 }
 #navigation-links {
 	float: right;
@@ -166,9 +168,11 @@ p, td, #banner-blue, #banner-green, .post span, input {
 	padding: 0 1.625em;
 	margin: 0 0.188em;
 }
-#navigation-links svg {
+.navigation-svg {
+	height: 1.313em;
 	margin: 0 0.875em 0 0;
 	top: 0.313em;
+	width: 1.313em;
 }
 /* Intro and Main */
 #intro {
