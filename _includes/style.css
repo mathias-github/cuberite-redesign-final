@@ -184,12 +184,12 @@ p, td, #banner-blue, #banner-green, .post span, input {
 #intro, #main {
 	display: table-row;
 	height: 100%;
-	table-layout: fixed;
 }
 #intro-body, #main-body {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
+	word-wrap: break-word;
 }
 #intro-body {
 	color: #eaf1f1;
