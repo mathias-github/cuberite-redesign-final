@@ -23,6 +23,7 @@ body {
 	font-family: montserratregular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	display: table;
 	line-height: 1.000em;
+	table-layout: fixed;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 ::-moz-selection {
@@ -193,11 +194,9 @@ p, td, #banner-blue, #banner-green, .post span, input {
 	color: #eaf1f1;
 	padding: 4% 10% 4% 10%;
 }
-#main {
-	max-width: 40em;
-}
 #main-body {
 	padding: 6%;
+	max-width: 40em;
 }
 #intro h2 {
 	color: #eaf1f1;
