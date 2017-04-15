@@ -550,16 +550,6 @@ button:focus {
 }
 /* Responsive Design */
 
-@media (max-width: 800px) {
-	#left-two,
-	#right-two {
-		display: block;
-		width: 100%;
-	}
-	#left-two {
-		margin: 2.500em 0 4.000em 0;
-	}
-}
 @media (max-width: 60em) {
 	body {
 		padding: 0 0 3.750em 0;
@@ -657,11 +647,16 @@ button:focus {
 	#inner-wide {
 		max-width: 50em;
 	}
+	#left-two,
+	#right-two,
 	#left-three,
 	#center-three,
 	#right-three {
 		display: block;
 		width: 100%;
+	}
+	#left-two {
+		margin: 2.500em 0 4.000em 0;
 	}
 	#left-three {
 		margin: 3.125em 0 4.000em 0;
