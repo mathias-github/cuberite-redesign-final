@@ -677,7 +677,10 @@ button:focus {
 		display: none;
 	}
 }
-@media (max-width: 1000px) {
+@media (max-width: 60em) {
+	#inner-wide {
+		max-width: 50em;
+	}
 	#left-three,
 	#center-three,
 	#right-three {
