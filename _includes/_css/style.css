@@ -652,6 +652,23 @@ button:focus {
 		float: none;
 		text-align: center;
 	}
+	/* Columns */
+	
+	#inner-wide {
+		max-width: 50em;
+	}
+	#left-three,
+	#center-three,
+	#right-three {
+		display: block;
+		width: 100%;
+	}
+	#left-three {
+		margin: 3.125em 0 4.000em 0;
+	}
+	#center-three {
+		margin: 0 0 4.000em 0;
+	}
 	/* Download Buttons */
 	
 	.downloadbutton {
@@ -675,23 +692,6 @@ button:focus {
 	#downloadbutton-macos:hover #downloadmenu-macos,
 	#downloadbutton-android:hover #downloadmenu-android {
 		display: none;
-	}
-}
-@media (max-width: 60em) {
-	#inner-wide {
-		max-width: 50em;
-	}
-	#left-three,
-	#center-three,
-	#right-three {
-		display: block;
-		width: 100%;
-	}
-	#left-three {
-		margin: 3.125em 0 4.000em 0;
-	}
-	#center-three {
-		margin: 0 0 4.000em 0;
 	}
 }
 @media print {
