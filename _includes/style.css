@@ -16,6 +16,164 @@ html, body {
 	width: 100%;
 	height: 100%;
 }
+html {
+	@media (min-width: 0px) {
+		font-size: 76%;
+	}
+	@media (min-width: 100px) {
+		font-size: 78%;
+	}
+	@media (min-width: 200px) {
+		font-size: 80%;
+	}
+	@media (min-width: 300px) {
+		font-size: 82%;
+	}
+	@media (min-width: 400px) {
+		font-size: 84%;
+	}
+	@media (min-width: 500px) {
+		font-size: 86%;
+	}
+	@media (min-width: 600px) {
+		font-size: 88%;
+	}
+	@media (min-width: 700px) {
+		font-size: 90%;
+	}
+	@media (min-width: 800px) {
+		font-size: 92%;
+	}
+	@media (min-width: 900px) {
+		font-size: 94%;
+	}
+	@media (min-width: 1000px) {
+		font-size: 96%;
+	}
+	@media (min-width: 1100px) {
+		font-size: 98%;
+	}
+	@media (min-width: 1200px) {
+		font-size: 100%;
+	}
+	@media (min-width: 1300px) {
+		font-size: 102%;
+	}
+	@media (min-width: 1400px) {
+		font-size: 104%;
+	}
+	@media (min-width: 1500px) {
+		font-size: 106%;
+	}
+	@media (min-width: 1600px) {
+		font-size: 108%;
+	}
+	@media (min-width: 1700px) {
+		font-size: 110%;
+	}
+	@media (min-width: 1800px) {
+		font-size: 112%;
+	}
+	@media (min-width: 1900px) {
+		font-size: 114%;
+	}
+	@media (min-width: 2000px) {
+		font-size: 116%;
+	}
+	@media (min-width: 2100px) {
+		font-size: 118%;
+	}
+	@media (min-width: 2200px) {
+		font-size: 120%;
+	}
+	@media (min-width: 2300px) {
+		font-size: 122%;
+	}
+	@media (min-width: 2400px) {
+		font-size: 124%;
+	}
+	@media (min-width: 2500px) {
+		font-size: 126%;
+	}
+	@media (min-width: 2600px) {
+		font-size: 128%;
+	}
+	@media (min-width: 2700px) {
+		font-size: 130%;
+	}
+	@media (min-width: 2800px) {
+		font-size: 132%;
+	}
+	@media (min-width: 2900px) {
+		font-size: 134%;
+	}
+	@media (min-width: 3000px) {
+		font-size: 136%;
+	}
+	@media (min-width: 3100px) {
+		font-size: 138%;
+	}
+	@media (min-width: 3200px) {
+		font-size: 140%;
+	}
+	@media (min-width: 3300px) {
+		font-size: 142%;
+	}
+	@media (min-width: 3400px) {
+		font-size: 144%;
+	}
+	@media (min-width: 3500px) {
+		font-size: 146%;
+	}
+	@media (min-width: 3600px) {
+		font-size: 148%;
+	}
+	@media (min-width: 3700px) {
+		font-size: 150%;
+	}
+	@media (min-width: 3800px) {
+		font-size: 152%;
+	}
+	@media (min-width: 3900px) {
+		font-size: 154%;
+	}
+	@media (min-width: 4000px) {
+		font-size: 156%;
+	}
+	@media (min-width: 4100px) {
+		font-size: 158%;
+	}
+	@media (min-width: 4200px) {
+		font-size: 160%;
+	}
+	@media (min-width: 4300px) {
+		font-size: 162%;
+	}
+	@media (min-width: 4400px) {
+		font-size: 164%;
+	}
+	@media (min-width: 4500px) {
+		font-size: 166%;
+	}
+	@media (min-width: 4600px) {
+		font-size: 168%;
+	}
+	@media (min-width: 4700px) {
+		font-size: 170%;
+	}
+	@media (min-width: 4800px) {
+		font-size: 172%;
+	}
+	@media (min-width: 4900px) {
+		font-size: 174%;
+	}
+	@media (min-width: 5000px) {
+		font-size: 176%;
+	}
+	@media (min-width: 5100px) {
+		font-size: 178%;
+	}
+}
 body {
 	background: #EAEAEA;
 	color: #565656;
@@ -384,33 +542,6 @@ button:hover, button:focus {
  	padding: 0.875em;
 }
 /* Responsive Design */
-@media (min-width: 0px) {
-	html { font-size: 76%; }
-}
-@media (min-width: 100px) {
-	html { font-size: 78%; }
-}
-@media (min-width: 200px) {
-	html { font-size: 80%; }
-}
-@media (min-width: 300px) {
-	html { font-size: 82%; }
-}
-@media (min-width: 400px) {
-	html { font-size: 84%; }
-}
-@media (min-width: 500px) {
-	html { font-size: 86%; }
-}
-@media (min-width: 600px) {
-	html { font-size: 88%; }
-}
-@media (min-width: 700px) {
-	html { font-size: 90%; }
-}
-@media (min-width: 800px) {
-	html { font-size: 92%; }
-}
 @media (max-width: 800px) {
 	#left-two, #right-two {
 		display: block;
@@ -419,9 +550,6 @@ button:hover, button:focus {
 	#left-two {
 		margin: 2.500em 0 4.000em 0;
 	}
-}
-@media (min-width: 900px) {
-	html { font-size: 94%; }
 }
 @media (max-width: 900px) {
 	body {
@@ -538,9 +666,6 @@ button:hover, button:focus {
 		display: none;
 	}
 }
-@media (min-width: 1000px) {
-	html { font-size: 96%; }
-}
 @media (max-width: 1000px) {
 	#left-three, #center-three, #right-three {
 		display: block;
@@ -552,129 +677,6 @@ button:hover, button:focus {
 	#center-three {
 		margin: 0 0 4.000em 0;
 	}
-}
-@media (min-width: 1100px) {
-	html { font-size: 98%; }
-}
-@media (min-width: 1200px) {
-	html { font-size: 100%; }
-}
-@media (min-width: 1300px) {
-	html { font-size: 102%; }
-}
-@media (min-width: 1400px) {
-	html { font-size: 104%; }
-}
-@media (min-width: 1500px) {
-	html { font-size: 106%; }
-}
-@media (min-width: 1600px) {
-	html { font-size: 108%; }
-}
-@media (min-width: 1700px) {
-	html { font-size: 110%; }
-}
-@media (min-width: 1800px) {
-	html { font-size: 112%; }
-}
-@media (min-width: 1900px) {
-	html { font-size: 114%; }
-}
-@media (min-width: 2000px) {
-	html { font-size: 116%; }
-}
-@media (min-width: 2100px) {
-	html { font-size: 118%; }
-}
-@media (min-width: 2200px) {
-	html { font-size: 120%; }
-}
-@media (min-width: 2300px) {
-	html { font-size: 122%; }
-}
-@media (min-width: 2400px) {
-	html { font-size: 124%; }
-}
-@media (min-width: 2500px) {
-	html { font-size: 126%; }
-}
-@media (min-width: 2600px) {
-	html { font-size: 128%; }
-}
-@media (min-width: 2700px) {
-	html { font-size: 130%; }
-}
-@media (min-width: 2800px) {
-	html { font-size: 132%; }
-}
-@media (min-width: 2900px) {
-	html { font-size: 134%; }
-}
-@media (min-width: 3000px) {
-	html { font-size: 136%; }
-}
-@media (min-width: 3100px) {
-	html { font-size: 138%; }
-}
-@media (min-width: 3200px) {
-	html { font-size: 140%; }
-}
-@media (min-width: 3300px) {
-	html { font-size: 142%; }
-}
-@media (min-width: 3400px) {
-	html { font-size: 144%; }
-}
-@media (min-width: 3500px) {
-	html { font-size: 146%; }
-}
-@media (min-width: 3600px) {
-	html { font-size: 148%; }
-}
-@media (min-width: 3700px) {
-	html { font-size: 150%; }
-}
-@media (min-width: 3800px) {
-	html { font-size: 152%; }
-}
-@media (min-width: 3900px) {
-	html { font-size: 154%; }
-}
-@media (min-width: 4000px) {
-	html { font-size: 156%; }
-}
-@media (min-width: 4100px) {
-	html { font-size: 158%; }
-}
-@media (min-width: 4200px) {
-	html { font-size: 160%; }
-}
-@media (min-width: 4300px) {
-	html { font-size: 162%; }
-}
-@media (min-width: 4400px) {
-	html { font-size: 164%; }
-}
-@media (min-width: 4500px) {
-	html { font-size: 166%; }
-}
-@media (min-width: 4600px) {
-	html { font-size: 168%; }
-}
-@media (min-width: 4700px) {
-	html { font-size: 170%; }
-}
-@media (min-width: 4800px) {
-	html { font-size: 172%; }
-}
-@media (min-width: 4900px) {
-	html { font-size: 174%; }
-}
-@media (min-width: 5000px) {
-	html { font-size: 176%; }
-}
-@media (min-width: 5100px) {
-	html { font-size: 178%; }
 }
 @media print {
 	@page {
