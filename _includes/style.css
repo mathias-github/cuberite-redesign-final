@@ -18,37 +18,37 @@ html, body {
 }
 html {
 	@media (min-width: 0em) {
-		font-size: 76%;
-	}
-	@media (min-width: 10em) {
-		font-size: 80%;
-	}
-	@media (min-width: 20em) {
-		font-size: 84%;
-	}
-	@media (min-width: 30em) {
 		font-size: 88%;
 	}
-	@media (min-width: 40em) {
+	@media (min-width: 10em) {
+		font-size: 90%;
+	}
+	@media (min-width: 20em) {
 		font-size: 92%;
 	}
-	@media (min-width: 50em) {
+	@media (min-width: 30em) {
+		font-size: 94%;
+	}
+	@media (min-width: 40em) {
 		font-size: 96%;
+	}
+	@media (min-width: 50em) {
+		font-size: 98%;
 	}
 	@media (min-width: 60em) {
 		font-size: 100%;
 	}
 	@media (min-width: 70em) {
-		font-size: 104%;
+		font-size: 102%;
 	}
 	@media (min-width: 80em) {
-		font-size: 108%;
+		font-size: 104%;
 	}
 	@media (min-width: 90em) {
-		font-size: 112%;
+		font-size: 106%;
 	}
 	@media (min-width: 100em) {
-		font-size: 116%;
+		font-size: 108%;
 	}
 	@media (min-width: 110em) {
 		font-size: 100%;
