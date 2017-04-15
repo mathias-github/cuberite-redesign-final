@@ -102,6 +102,21 @@ html {
 	@media (min-width: 250em) {
 		font-size: 138%;
 	}
+	@media (min-width: 260em) {
+		font-size: 140%;
+	}
+	@media (min-width: 270em) {
+		font-size: 142%;
+	}
+	@media (min-width: 280em) {
+		font-size: 144%;
+	}
+	@media (min-width: 290em) {
+		font-size: 146%;
+	}
+	@media (min-width: 300em) {
+		font-size: 148%;
+	}
 }
 body {
 	background: linear-gradient(135deg, #222222 25%, transparent 25%) -50px 0, linear-gradient(225deg, #222222 25%, transparent 25%) -50px 0, linear-gradient(315deg, #222222 25%, transparent 25%), linear-gradient(45deg, #222222 25%, transparent 25%);
@@ -323,14 +338,9 @@ input {
 #intro-body,
 #main-body {
 	display: table-cell;
+	padding: 4%;
 	vertical-align: middle;
 	text-align: center;
-}
-#intro-body {
-	padding: 4%;
-}
-#main-body {
-	padding: 6%;
 }
 #intro h2 {
 	margin: 0 0 1.000em 0;
