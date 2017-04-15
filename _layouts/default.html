@@ -3,35 +3,21 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{% if page.title %}
-			{{ page.title }} – 
-		{% endif %}
-		{% if page.path contains '_posts' %}
-			News - 
-		{% endif %}
-		Cuberite
-		{% if page.url == "/" %}
-			 - A lightweight, fast and extensible game server for Minecraft
-		{% endif %}</title>
+	<title>{% if page.title %}{{ page.title }} – {% endif %}{% if page.path contains '_posts' %}News - {% endif %}Cuberite{% if page.url == "/" %} - A lightweight, fast and extensible game server for Minecraft{% endif %}</title>
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'/index.html','/' }}">
-	<link rel="stylesheet" href="/cuberite-website-changes/css/fonts.css">
-	<link rel="alternate" type="application/atom+xml" href="feed.xml">
-	<link rel="icon" type="image/png" href="/cuberite-website-changes/icons/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/cuberite-website-changes/icons/android-chrome-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="/cuberite-website-changes/icons/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="/cuberite-website-changes/icons/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="/cuberite-website-changes/icons/manifest.json">
-	<link rel="mask-icon" href="/cuberite-website-changes/icons/safari-pinned-tab.svg">
+	<link rel="stylesheet" href="/css/fonts.css">
+	<link rel="alternate" type="application/atom+xml" href="/feed.xml">
+	<link rel="icon" type="image/png" href="/icons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/icons/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/icons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/icons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/icons/manifest.json">
+	<link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
 	<meta name="theme-color" content="#1e1e1e">
 	<style type="text/css">
 		{% capture style %}
-		{% include style.css %}
-		{% if page.url == "/" %}
-		{% include index.css %}
-		{% else %}
-		{% include other.css %}
-		{% endif %}
+		{% include _css/style.css %}
 		{% endcapture %}
 		{{ style | scssify }}
 	</style>
@@ -39,54 +25,42 @@
 <body>
 	<div id="navigation">
 		<div id="logo">
-			<a href="/cuberite-website-changes/">
-				<span class="logo-svg">
-					<svg aria-hidden="true" height="100%" viewBox="0 0 24 24" width="100%">
-						<path d="{% include _icons/cuberite %}" />
-					</svg>
-				</span>
+			<a href="/">
+				<svg aria-hidden="true" height="1.125em" viewBox="0 0 24 24" width="1.125em">
+					<path d="{% include _icons/cuberite %}" />
+				</svg>
 				Cuberite
 			</a>
 		</div>
 		<div id="navigation-links">
-			<a href="https://forum.cuberite.org/" class="forum">
-				<span class="navigation-svg">
-					<svg aria-hidden="true" height="100%" viewBox="0 0 24 24" width="100%">
-						<path d="{% include _icons/forum %}" />
-					</svg>
-				</span>
+			<a href="https://forum.cuberite.org/">
+				<svg aria-hidden="true" height="1.313em" viewBox="0 0 24 24" width="1.313em">
+					<path d="{% include _icons/forum %}" />
+				</svg>
 				Forum
 			</a>
-			<a href="https://book.cuberite.org/" class="manual">
-				<span class="navigation-svg">
-					<svg aria-hidden="true" height="100%" viewBox="0 0 24 24" width="100%">
-						<path d="{% include _icons/manual %}" />
-					</svg>
-				</span>
+			<a href="https://book.cuberite.org/">
+				<svg aria-hidden="true" height="1.313em" viewBox="0 0 24 24" width="1.313em">
+					<path d="{% include _icons/manual %}" />
+				</svg>
 				Manual
 			</a>
-			<a href="/cuberite-website-changes/support/" class="support{% if page.url == "/support/" %} active{% endif %}">
-				<span class="navigation-svg">
-					<svg aria-hidden="true" height="100%" viewBox="0 0 24 24" width="100%" >
-						<path d="{% include _icons/support %}" />
-					</svg>
-				</span>
+			<a href="/support/"{% if page.url == "/support/" %} class="active"{% endif %}>
+				<svg aria-hidden="true" height="1.313em" viewBox="0 0 24 24" width="1.313em" >
+					<path d="{% include _icons/support %}" />
+				</svg>
 				Support
 			</a>
-			<a href="/cuberite-website-changes/plugins/" class="plugins{% if page.url == "/plugins/" %} active{% endif %}">
-				<span class="navigation-svg">
-					<svg aria-hidden="true" height="100%" viewBox="0 0 24 24" width="100%">
-						<path d="{% include _icons/plugins %}" />
-					</svg>
-				</span>
+			<a href="/plugins/"{% if page.url == "/plugins/" %} class="active"{% endif %}>
+				<svg aria-hidden="true" height="1.313em" viewBox="0 0 24 24" width="1.313em">
+					<path d="{% include _icons/plugins %}" />
+				</svg>
 				Plugins
 			</a>
-			<a href="/cuberite-website-changes/contribute/" class="contribute{% if page.url == "/contribute/" %} active{% endif %}">
-				<span class="navigation-svg">
-					<svg aria-hidden="true" height="100%" viewBox="0 0 24 24" width="100%">
-						<path d="{% include _icons/contribute %}" />
-					</svg>
-				</span>
+			<a href="/contribute/"{% if page.url == "/contribute/" %} class="active"{% endif %}>
+				<svg aria-hidden="true" height="1.313em" viewBox="0 0 24 24" width="1.313em">
+					<path d="{% include _icons/contribute %}" />
+				</svg>
 				Contribute
 			</a>
 		</div>
@@ -94,7 +68,7 @@
 	{{ content }}
 	<div id="footer">
 		<div id="mobile-links">
-			<a href="/cuberite-website-changes/" class="show-mobile">
+			<a href="/" class="show-mobile{% if page.url == "/" %} active{% endif %}">
 				<svg aria-hidden="true" height="1.750em" viewBox="0 0 24 24" width="1.750em">
 					<path d="{% include _icons/home %}" />
 				</svg>
@@ -106,13 +80,13 @@
 				</svg>
 				Manual
 			</a>
-			<a href="/cuberite-website-changes/support/" class="show-mobile{% if page.url == "/support/" %} active{% endif %}">
+			<a href="/support/" class="show-mobile{% if page.url == "/support/" %} active{% endif %}">
 				<svg aria-hidden="true" height="1.750em" viewBox="0 0 24 24" width="1.750em">
 					<path d="{% include _icons/support %}" />
 				</svg>
 				Support
 			</a>
-			<a href="/cuberite-website-changes/plugins/" class="show-mobile{% if page.url == "/plugins/" %} active{% endif %}">
+			<a href="/plugins/" class="show-mobile{% if page.url == "/plugins/" %} active{% endif %}">
 				<svg aria-hidden="true" height="1.750em" viewBox="0 0 24 24" width="1.750em">
 					<path d="{% include _icons/plugins %}" />
 				</svg>
@@ -127,14 +101,13 @@
 					More
 				</label>
 				<div id="footer-links-body">
-					<a href="/cuberite-website-changes/about/">About</a>
+					<a href="/about/">About</a>
 					<a href="https://forum.cuberite.org/" class="show-mobile-block">Forum</a>
-					<a href="/cuberite-website-changes/contribute/" class="show-mobile-block">Contribute</a>
-					<a href="/cuberite-website-changes/news/">News</a>
+					<a href="/contribute/" class="show-mobile-block">Contribute</a>
+					<a href="/news/">News</a>
 					<a href="https://salt.bountysource.com/teams/cuberite">Donate</a>
-					<a href="https://webchat.freenode.net/?channels=cuberite">IRC</a>
-					<a href="https://api.cuberite.org/">API Docs</a>
-					<a href="/cuberite-website-changes/privacy/">Privacy</a>
+					<a href="https://api.cuberite.org/">API</a>
+					<a href="/privacy/">Privacy</a>
 					<div id="media-links">
 						<a href="https://plus.google.com/+cuberiteorg" id="google">
 							<svg aria-hidden="true" height="1.375em" viewBox="7 0 24 24" width="2.188em">
@@ -168,7 +141,7 @@
 			_paq.push(['setTrackerUrl', u+'piwik.php']);
 			_paq.push(['setSiteId', 1]);
 			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-			g.type='text/javascript';g.defer=true; g.async=true; g.src='/js/analytics.js'; s.parentNode.insertBefore(g,s);
+			g.type='text/javascript';g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
 		})();
 	</script>
 </body>
