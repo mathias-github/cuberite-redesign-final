@@ -346,7 +346,9 @@ input {
 	margin: 0 0 1.000em 0;
 }
 #inner {
+	margin: auto;
 	max-width: 60em;
+	text-align: center;
 }
 /* Download Buttons */
 
