@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div id="main">
+	<div id="main-body">
+		<div id="inner-wide">
+			<h2>
+				<svg aria-hidden="true" height="1.000em" viewBox="0 0 24 24" width="1.000em">
+					<path d="{% include _icons/{{ page.title | downcase | replace:' ','-' }} %}" />
+				</svg>
+				{{ page.title }}
+			</h2>
+			{{ content }}
+		</div>
+	</div>
+</div>
