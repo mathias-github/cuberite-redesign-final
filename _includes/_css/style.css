@@ -560,7 +560,7 @@ button:focus {
 		margin: 2.500em 0 4.000em 0;
 	}
 }
-@media (max-width: 950px) {
+@media (max-width: 60em) {
 	body {
 		padding: 0 0 3.750em 0;
 	}
