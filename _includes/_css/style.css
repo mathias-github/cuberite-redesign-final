@@ -345,6 +345,10 @@ input {
 #intro h2 {
 	margin: 0 0 1.000em 0;
 }
+#main-body p {
+	max-width: 60em;
+	margin:auto;
+}
 /* Download Buttons */
 
 .downloadbutton {
