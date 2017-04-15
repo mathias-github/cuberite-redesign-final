@@ -17,46 +17,46 @@ html, body {
 	height: 100%;
 }
 html {
-	@media (min-width: 0px) {
+	@media (min-width: 0em) {
 		font-size: 78%;
 	}
-	@media (min-width: 100px) {
+	@media (min-width: 5em) {
 		font-size: 80%;
 	}
-	@media (min-width: 200px) {
+	@media (min-width: 10em) {
 		font-size: 82%;
 	}
-	@media (min-width: 300px) {
+	@media (min-width: 15em) {
 		font-size: 84%;
 	}
-	@media (min-width: 400px) {
+	@media (min-width: 20em) {
 		font-size: 86%;
 	}
-	@media (min-width: 500px) {
+	@media (min-width: 25em) {
 		font-size: 88%;
 	}
-	@media (min-width: 600px) {
+	@media (min-width: 30em) {
 		font-size: 90%;
 	}
-	@media (min-width: 700px) {
+	@media (min-width: 35em) {
 		font-size: 92%;
 	}
-	@media (min-width: 800px) {
+	@media (min-width: 40em) {
 		font-size: 94%;
 	}
-	@media (min-width: 900px) {
+	@media (min-width: 45em) {
 		font-size: 96%;
 	}
-	@media (min-width: 1000px) {
+	@media (min-width: 50em) {
 		font-size: 98%;
 	}
-	@media (min-width: 1100px) {
+	@media (min-width: 55em) {
 		font-size: 100%;
 	}
-	@media (min-width: 1200px) {
+	@media (min-width: 60em) {
 		font-size: 102%;
 	}
-	@media (min-width: 1300px) {
+	@media (min-width: 65em) {
 		font-size: 104%;
 	}
 	@media (min-width: 1400px) {
