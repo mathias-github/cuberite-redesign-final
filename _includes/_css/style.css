@@ -533,14 +533,6 @@ button:focus {
 	}
 	/* Menus */
 
-	#navigation,
-	#footer,
-	#footer-links {
-		background: rgba(10, 10, 10, 0.95);
-		right: 0;
-		left: 0;
-		z-index: 1;
-	}
 	#navigation a:hover,
 	#navigation a:focus,
 	#footer a:hover,
@@ -551,9 +543,12 @@ button:focus {
 		background: #000;
 	}
 	#navigation {
+		background: rgba(10, 10, 10, 0.95);
 		position: fixed;
 		text-align: center;
 		top: 0;
+		width: 100%;
+		z-index: 1;
 	}
 	#logo a {
 		display: block;
@@ -564,6 +559,7 @@ button:focus {
 		display: none;
 	}
 	#footer {
+		background: rgba(10, 10, 10, 0.95);
 		bottom: -15.000em;
 		position: fixed;
 		transition: all 200ms ease;
