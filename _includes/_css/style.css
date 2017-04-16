@@ -364,7 +364,7 @@ input {
 	max-height: 0;
 	overflow: hidden;
 	position: absolute;
-	transition: max-height 200ms ease;
+	transition: max-height 150ms ease;
 	width: 100%;
 	z-index: 1;
 }
