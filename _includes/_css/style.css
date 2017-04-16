@@ -277,7 +277,7 @@ input {
 #navigation {
 	background: rgba(10, 10, 10, 0.4);
 	display: table-row;
-	line-height: 3.875em;
+	line-height: 3.750em;
 }
 #logo a {
 	float: left;
