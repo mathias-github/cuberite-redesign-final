@@ -358,6 +358,7 @@ input {
 .downloadbutton span {
 	background: #C3C3C3;
 	border-radius: 0 0 0.313em 0.313em;
+	box-shadow: 0 0.125em 0.063em rgba(0, 0, 0, 0.15);
 	display: block;
 	margin: 0 0 0 -0.750em;
 	max-height: 0;
@@ -637,6 +638,7 @@ button:focus {
 		border-radius: 0.313em;
 	}
 	.downloadbutton span {
+		box-shadow: none;
 		position: relative;
 		background: none;
 		margin: 0 -0.750em 0 -0.750em;
