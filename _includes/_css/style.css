@@ -349,7 +349,7 @@ input {
 	transition-delay: 0s;
 }
 .downloadbutton:hover > span {
-	max-height: 10.000em;
+	max-height: 8.000em;
 }
 .downloadbutton svg {
 	float: left;
@@ -637,17 +637,16 @@ button:focus {
 		border-radius: 0.313em;
 	}
 	.downloadbutton span {
-		position: static;
+		position: relative;
 		background: none;
 		margin: 0 -0.750em 0 -0.750em;
 		width: auto;
 	}
 	.downloadbutton:hover > span {
-		display: none;
+		max-height: 0;
 	}
 	.downloadbutton input:checked + span {
-		display: block;
-		animation: fadein .4s;
+		max-height: 8.000em;
 	}
 }
 /* Print Style */
