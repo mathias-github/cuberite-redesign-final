@@ -692,6 +692,14 @@ button:focus {
 	#footer {
 		display: none;
 	}
+	#intro-body,
+	#main-body {
+		display: block;
+		padding: 0;
+	}
+	#main-body {
+		text-align: justify;
+	}
 	#left-two,
 	#right-two,
 	#left-three,
@@ -706,12 +714,6 @@ button:focus {
 	}
 	#center-three {
 		margin: 0 0 4.000em 0;
-	}
-	#intro-body,
-	#main-body {
-		display: block;
-		padding: 0;
-		text-align: justify;
 	}
 	#banner-blue,
 	#banner-green {
