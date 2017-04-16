@@ -191,9 +191,9 @@ a:focus {
 /* Combined Rules */
 
 #intro input,
-#footer input,
 #footer img,
 #footer label,
+#footer-links-toggle,
 .show-mobile,
 .show-mobile-block {
 	display: none;
