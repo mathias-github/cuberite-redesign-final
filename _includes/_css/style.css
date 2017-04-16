@@ -337,11 +337,13 @@ input {
 	padding: 0 0.750em 0 0;
 	position: relative;
 	line-height: 3.125em;
+	transition-delay: .10s
 }
 .downloadbutton:hover,
 .downloadbutton:focus {
 	background: #C3C3C3;
 	border-radius: 0.313em 0.313em 0 0;
+	transition: 0s background;
 }
 .downloadbutton:hover > span {
 	max-height: 8.000em;
