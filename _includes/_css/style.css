@@ -380,7 +380,7 @@ input {
 .downloadmenu a {
 	color: #1e1e1e;
 	display: block;
-	padding: 0 0.500em;
+	line-height: 2.625em;
 }
 .downloadmenu a:hover,
 .downloadmenu a:focus {
@@ -547,14 +547,33 @@ button:focus {
 
 @media (max-width: 60em) {
 	body {
-		padding: 0 0 3.750em 0;
+		padding: 3.750em 0;
 	}
 	/* Menus */
-	
+
+	#navigation,
+	#footer {
+		background: rgba(10, 10, 10, 0.95);
+		position: fixed;
+		right: 0;
+		left: 0;
+		z-index: 1;
+	}
+	#navigation a:hover,
+	#navigation a:focus,
+	#footer a:hover,
+	#footer a:focus,
+	#footer-links label:hover,
+	#footer-links label:focus,
+	.active {
+		background: #000;
+	}
 	#navigation {
 		text-align: center;
+		top: 0;
 	}
 	#logo a {
+		display: block;
 		float: none;
 		margin: 0;
 	}
@@ -562,18 +581,14 @@ button:focus {
 		display: none;
 	}
 	#footer {
-		background: rgba(10, 10, 10, 0.7);
-		position: fixed;
-		right: 0;
 		bottom: 0;
-		left: 0;
-		transition: all 200ms ease;
+		transition: all 150ms ease;
 	}
 	#footer-links {
 		margin: 0;
 	}
 	#footer-links-body {
-		background: rgba(10, 10, 10, .9);
+		background: rgba(10, 10, 10, .95);
 		overflow-y: scroll;
 		position: fixed;
 		width: 100%;
@@ -596,10 +611,6 @@ button:focus {
 		display: block;
 		float: none;
 		margin: 0;
-	}
-	#footer-links a:hover,
-	#footer-links a:focus {
-		background: #000;
 	}
 	.show-mobile,
 	.show-mobile-block {
