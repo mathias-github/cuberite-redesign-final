@@ -332,9 +332,9 @@ input {
 .downloadbutton {
 	font-size: 1.125em;
 	cursor: pointer;
-	width: 7.500em;
+	width: 8.500em;
 	margin: 0 0.500em;
-	padding: 0 0.750em;
+	padding: 0 0.750em 0 0;
 	position: relative;
 	line-height: 3.125em;
 	transition-delay: .19s;
@@ -350,6 +350,7 @@ input {
 }
 .downloadbutton svg {
 	float: left;
+	padding: 0 0 0 0.750em;
 	margin: 0.750em 0;
 }
 .downloadbutton span {
@@ -357,7 +358,6 @@ input {
 	border-radius: 0 0 0.313em 0.313em;
 	box-shadow: 0 0.125em 0.063em rgba(0, 0, 0, 0.15);
 	display: block;
-	margin: 0 0 0 -0.750em;
 	max-height: 0;
 	overflow: hidden;
 	position: absolute;
@@ -615,6 +615,7 @@ button:focus {
 	.downloadbutton {
 		display: block;
 		margin: 0 0 1.125em 0;
+		position: initial;
 		width: auto;
 	}
 	.downloadbutton:hover,
@@ -625,8 +626,6 @@ button:focus {
 		box-shadow: none;
 		position: initial;
 		background: none;
-		margin: 0 -0.750em 0 -0.750em;
-		width: auto;
 	}
 	.downloadbutton:hover > span {
 		max-height: 0;
