@@ -660,8 +660,9 @@ button:focus {
 	}
 }
 @media print {
-	@page {
-		margin: 2.75cm;
+	body {
+		height: auto;
+		padding: 0;
 	}
 	body,
 	h1 {
