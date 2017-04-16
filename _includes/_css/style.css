@@ -678,7 +678,13 @@ button:focus {
 	#pagination span {
 		background: none;
 	}
-	a {
+	a,
+	#download-footer a,
+	#post-footer a,
+	.post a,
+	.button,
+	.downloadbutton,
+	#pagination a {
 		color: #5098CE;
 		fill: #5098CE;
 		text-decoration: underline;
