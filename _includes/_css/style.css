@@ -584,19 +584,17 @@ button:focus {
 		display: none;
 	}
 	#footer {
-		bottom: 0;
+		bottom: -15.000em;
 		position: fixed;
 		transition: all 200ms ease;
 	}
 	#footer-links-toggle:checked + #footer {
-		bottom: 15.000em;
+		bottom: 0;
 	}
 	#footer-links {
-		bottom: -15.000em;
 		height: 15.000em;
 		line-height: 3.375em;
 		overflow-y: scroll;
-		position: absolute;
 	}
 	#footer-links a {
 		display: block;
