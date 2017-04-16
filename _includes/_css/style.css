@@ -193,7 +193,8 @@ a:focus {
 #intro input,
 #footer img,
 #footer-links-toggle,
-#mobile-links {
+#mobile-links
+.show-mobile {
 	display: none;
 }
 #intro-body,
@@ -547,6 +548,9 @@ button:focus {
 	body {
 		padding: 3.750em 0;
 	}
+	.show-mobile {
+		display: initial;
+	}
 	/* Menus */
 
 	#navigation,
@@ -566,21 +570,6 @@ button:focus {
 	.active {
 		background: #000;
 	}
-	#footer-links, #media-links {
-		margin: 0;
-	}
-	#media-links,
-	#mobile-links {
-		display: table;
-		table-layout: fixed;
-		width: 100%;
-	}
-	#media-links a,
-	#mobile-links a,
-	#mobile-links label {
-		display: table-cell;
-		text-align: center;
-	}
 	#navigation {
 		position: fixed;
 		text-align: center;
@@ -599,6 +588,22 @@ button:focus {
 		position: fixed;
 		transition: all 200ms ease;
 	}
+	#footer-links, #media-links {
+		margin: 0;
+	}
+	#media-links,
+	#mobile-links {
+		display: table;
+		table-layout: fixed;
+		width: 100%;
+	}
+	#media-links a,
+	#mobile-links a,
+	#mobile-links label {
+		cursor: pointer;
+		display: table-cell;
+		text-align: center;
+	}
 	#mobile-links {
 		font-size: 0.750em;
 		line-height: 2.500em;
@@ -608,23 +613,20 @@ button:focus {
 		padding: 0.750em 0 0 0;
 		margin: 0 auto;
 	}
-	#mobile-links label {
-		cursor: pointer;
-	}
 	#footer-links-toggle:checked + #footer {
 		bottom: 15.000em;
 	}
-	#footer-links a {
-		display: block;
-		float: none;
-		margin: 0;
-	}
-	#footer-links-body {
+	#footer-links {
 		bottom: -15.000em;
 		height: 15.000em;
 		line-height: 3.375em;
 		overflow-y: scroll;
 		position: absolute;
+	}
+	#footer-links a {
+		display: block;
+		float: none;
+		margin: 0;
 	}
 	/* Columns */
 	
