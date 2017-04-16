@@ -337,7 +337,7 @@ input {
 	padding: 0 0.750em 0 0;
 	position: relative;
 	line-height: 3.125em;
-	transition-delay: .10s
+	transition-delay: .12s
 }
 .downloadbutton:hover,
 .downloadbutton:focus {
