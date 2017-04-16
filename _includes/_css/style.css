@@ -350,7 +350,7 @@ input {
 }
 .downloadbutton svg {
 	float: left;
-	top: 0.750em;
+	margin: 0.750em 0;
 }
 .downloadbutton span {
 	background: #C3C3C3;
@@ -547,7 +547,7 @@ button:focus {
 		z-index: 1;
 	}
 	#logo a {
-		display: block;
+		display: inline-block;
 		float: none;
 		margin: 0;
 	}
