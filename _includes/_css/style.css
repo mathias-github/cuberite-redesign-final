@@ -353,7 +353,7 @@ input {
 	float: left;
 	top: 0.750em;
 }
-.downloadmenu {
+.downloadbutton span {
 	background: #C3C3C3;
 	border-radius: 0 0 0.313em 0.313em;
 	display: none;
@@ -362,17 +362,17 @@ input {
 	width: 100%;
 	z-index: 1;
 }
-.downloadmenu a {
+.downloadbutton span a {
 	color: #1e1e1e;
 	display: block;
 	line-height: 2.625em;
 }
-.downloadmenu a:hover,
-.downloadmenu a:focus {
+.downloadbutton span a:hover,
+.downloadbutton span a:focus {
 	background: #eaeaea;
 }
-.downloadmenu a:last-child:hover,
-.downloadmenu a:last-child:focus {
+.downloadbutton span a:last-child:hover,
+.downloadbutton span a:last-child:focus {
 	border-radius: 0 0 0.313em 0.313em;
 }
 #download-footer {
@@ -631,24 +631,16 @@ button:focus {
 	.downloadbutton:focus {
 		border-radius: 0.313em;
 	}
-	.downloadmenu {
+	.downloadbutton span {
 		position: static;
 		background: none;
 		margin: 0 -0.750em 0 -0.750em;
 		width: auto;
 	}
-	#downloadbutton-linux:hover #downloadmenu-linux,
-	#downloadbutton-windows:hover #downloadmenu-windows,
-	#downloadbutton-freebsd:hover #downloadmenu-freebsd,
-	#downloadbutton-macos:hover #downloadmenu-macos,
-	#downloadbutton-android:hover #downloadmenu-android {
+	.downloadbutton:hover > span {
 		display: none;
 	}
-	#downloadbutton-linux-mobile:checked + #downloadbutton-linux .downloadmenu,
-	#downloadbutton-windows-mobile:checked + #downloadbutton-windows .downloadmenu,
-	#downloadbutton-freebsd-mobile:checked + #downloadbutton-freebsd .downloadmenu,
-	#downloadbutton-macos-mobile:checked + #downloadbutton-macos .downloadmenu,
-	#downloadbutton-android-mobile:checked + #downloadbutton-android .downloadmenu {
+	.downloadbutton input:checked + span {
 		display: block;
 		animation: fadein .4s;
 	}
