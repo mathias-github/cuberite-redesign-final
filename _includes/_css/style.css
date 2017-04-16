@@ -555,7 +555,7 @@ button:focus {
 
 	#navigation,
 	#footer,
-	#footer-links-body {
+	#footer-links {
 		background: rgba(10, 10, 10, 0.95);
 		right: 0;
 		left: 0;
@@ -588,6 +588,30 @@ button:focus {
 		position: fixed;
 		transition: all 200ms ease;
 	}
+	#footer-links-toggle:checked + #footer {
+		bottom: 15.000em;
+	}
+	#footer-links {
+		bottom: -15.000em;
+		height: 15.000em;
+		line-height: 3.375em;
+		overflow-y: scroll;
+		position: absolute;
+	}
+	#footer-links a {
+		display: block;
+		float: none;
+		margin: 0;
+	}
+	#mobile-links {
+		font-size: 0.750em;
+		line-height: 2.500em;
+	}
+	#mobile-links svg {
+		display: block;
+		padding: 0.750em 0 0 0;
+		margin: 0 auto;
+	}
 	#footer-links, #media-links {
 		margin: 0;
 	}
@@ -603,30 +627,6 @@ button:focus {
 		cursor: pointer;
 		display: table-cell;
 		text-align: center;
-	}
-	#mobile-links {
-		font-size: 0.750em;
-		line-height: 2.500em;
-	}
-	#mobile-links svg {
-		display: block;
-		padding: 0.750em 0 0 0;
-		margin: 0 auto;
-	}
-	#footer-links-toggle:checked + #footer {
-		bottom: 15.000em;
-	}
-	#footer-links {
-		bottom: -15.000em;
-		height: 15.000em;
-		line-height: 3.375em;
-		overflow-y: scroll;
-		position: absolute;
-	}
-	#footer-links a {
-		display: block;
-		float: none;
-		margin: 0;
 	}
 	/* Columns */
 	
