@@ -160,9 +160,6 @@ em {
 strong {
 	font-weight: bold;
 }
-svg {
-	position: relative;
-}
 a {
 	color: rgba(255, 255, 255, .4);
 	text-decoration: none;
@@ -199,6 +196,9 @@ a:focus {
 #footer-links label:focus,
 .active {
 	background: rgba(10, 10, 10, .35);
+}
+svg, #navigation span {
+	vertical-align: middle;
 }
 p,
 #banner-blue,
@@ -289,7 +289,6 @@ input {
 }
 #logo svg {
 	margin: 0 0.625em 0 0;
-	top: 0.250em;
 }
 #navigation-links {
 	float: right;
@@ -303,7 +302,6 @@ input {
 }
 #navigation-links svg {
 	margin: 0 0.875em 0 0;
-	top: 0.313em;
 }
 /* Intro and Main */
 
@@ -562,7 +560,8 @@ button:focus {
 		background: rgba(10, 10, 10, 0.95);
 		bottom: -15.000em;
 		position: fixed;
-		transition: all 200ms ease;
+		transition: bottom 200ms ease;
+		z-index: 2;
 	}
 	#footer-links-toggle:checked + #footer {
 		bottom: 0;
@@ -634,7 +633,7 @@ button:focus {
 	}
 	.downloadbutton span {
 		box-shadow: none;
-		position: relative;
+		position: initial;
 		background: none;
 		margin: 0 -0.750em 0 -0.750em;
 		width: auto;
