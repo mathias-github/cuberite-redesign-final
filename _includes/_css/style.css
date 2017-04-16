@@ -144,7 +144,6 @@ h2 {
 }
 h2 svg {
 	margin: 0 0.563em 0 0;
-	top: 0.188em;
 }
 h3 {
 	font-size: 1.125em;
@@ -197,7 +196,7 @@ a:focus {
 .active {
 	background: rgba(10, 10, 10, .35);
 }
-svg, #navigation span {
+h2 span, svg, #navigation span {
 	vertical-align: middle;
 }
 p,
@@ -403,7 +402,6 @@ input {
 #banner-blue svg,
 #banner-green svg {
 	padding: 0 0.750em 0 0;
-	top: 0.188em;
 }
 #banner-blue {
 	background: rgba(43, 149, 255, .05);
