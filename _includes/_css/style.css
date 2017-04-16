@@ -677,10 +677,7 @@ button:focus {
 	#pagination span {
 		background: none;
 	}
-	a,
-	#post-footer a,
-	#download-footer a,
-	.post a {
+	a {
 		color: #5098CE;
 		text-decoration: underline;
 	}
@@ -725,7 +722,7 @@ button:focus {
 	.downloadbutton,
 	#pagination a,
 	#pagination span {
-		border: 0.063em solid #000;
+		border: 0.063em solid #5098CE;
 		box-shadow: none;
 	}
 	.button a,
