@@ -563,10 +563,26 @@ button:focus {
 	#navigation a:focus,
 	#footer a:hover,
 	#footer a:focus,
-	#footer-links label:hover,
-	#footer-links label:focus,
+	#footer label:hover,
+	#footer label:focus,
 	.active {
 		background: #000;
+	}
+	#footer-links, #media-links {
+		margin: 0;
+	}
+	#media-links,
+	#mobile-links {
+		display: table;
+		line-height: 2.500em;
+		table-layout: fixed;
+		width: 100%;
+	}
+	#media-links a,
+	#mobile-links a,
+	#mobile-links label {
+		display: table-cell;
+		text-align: center;
 	}
 	#navigation {
 		position: fixed;
@@ -586,8 +602,16 @@ button:focus {
 		position: fixed;
 		transition: all 200ms ease;
 	}
-	#footer-links, #media-links {
-		margin: 0;
+	#mobile-links {
+		font-size: 0.750em;
+	}
+	#mobile-links svg {
+		display: block;
+		padding: 0.750em 0 0 0;
+		margin: 0 auto;
+	}
+	#mobile-links label {
+		cursor: pointer;
 	}
 	#footer-links a {
 		display: block;
@@ -606,32 +630,6 @@ button:focus {
 	}
 	#footer-links-toggle:checked + #footer {
 		bottom: 15.000em;
-	}
-	#mobile-links,
-	#media-links {
-		display: table;
-		line-height: 1.875em;
-		table-layout: fixed;
-		width: 100%;
-	}
-	#mobile-links a svg,
-	#mobile-links label svg {
-		display: block;
-		padding: 0.750em 0 0 0;
-		margin: 0 auto;
-	}
-	#mobile-links a,
-	#mobile-links label,
-	#media-links a {
-		display: table-cell;
-		text-align: center;
-	}
-	#mobile-links a,
-	#mobile-links label {
-		font-size: 0.750em;
-	}
-	#mobile-links label {
-		cursor: pointer;
 	}
 	/* Columns */
 	
