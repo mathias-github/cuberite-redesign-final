@@ -666,7 +666,9 @@ button:focus {
 	}
 	body,
 	h1,
-	#logo a {
+	#logo a,
+	#pagination span,
+	input {
 		color: #000;
 		fill: #000;
 		text-shadow: none;
@@ -675,7 +677,9 @@ button:focus {
 	.button,
 	.downloadbutton,
 	#pagination a,
-	#pagination span {
+	#pagination span,
+	button,
+	input {
 		background: none;
 	}
 	a,
@@ -684,7 +688,8 @@ button:focus {
 	.post a,
 	.button,
 	.downloadbutton,
-	#pagination a {
+	#pagination a,
+	button {
 		color: #5098CE;
 		fill: #5098CE;
 		text-decoration: underline;
@@ -735,7 +740,8 @@ button:focus {
 		border: 0.063em solid #5098CE;
 		box-shadow: none;
 	}
-	#pagination span {
+	#pagination span,
+	input {
 		border: 0.063em solid #000;
 		box-shadow: none;
 	}
