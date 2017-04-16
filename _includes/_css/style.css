@@ -736,7 +736,8 @@ button:focus {
 	}
 	.button,
 	.downloadbutton,
-	#pagination a {
+	#pagination a,
+	button {
 		border: 0.063em solid #5098CE;
 		box-shadow: none;
 	}
