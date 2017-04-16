@@ -125,23 +125,6 @@ body {
 	font-family: montserratregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	display: table;
 	text-shadow: 0 0.125em 0 rgba(0, 0, 0, .1);
-	-webkit-tap-highlight-color: rgba(255, 255, 255, .1);
-}
-::-moz-selection {
-	background: #4f4f4f;
-}
-::selection {
-	background: #4f4f4f;
-}
-::-webkit-input-placeholder {
-	color: rgba(0, 0, 0, .55);
-}
-::-moz-placeholder {
-	color: rgba(0, 0, 0, .55);
-	opacity: 1;
-}
-:-ms-input-placeholder {
-	color: rgba(0, 0, 0, .55);
 }
 h1,
 h2,
@@ -515,11 +498,6 @@ input {
 	line-height: 2.500em;
 	padding: 0 0.750em;
 }
-input::-moz-focus-inner,
-button::-moz-focus-inner {
-	border: 0;
-	padding: 0;
-}
 input {
 	background: rgba(255, 255, 255, .6);
 	margin: 0.313em 0 0 0;
@@ -732,6 +710,7 @@ button:focus {
 	#main-body {
 		display: block;
 		padding: 0;
+		text-align: justify;
 	}
 	#banner-blue,
 	#banner-green {
