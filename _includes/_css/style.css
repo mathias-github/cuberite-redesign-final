@@ -580,7 +580,7 @@ button:focus {
 		height: 15.000em;
 		bottom: -18.000em;
 		left: 0;
-		transition: all 200ms ease;
+		transition: all 100ms ease;
 	}
 	#footer-links-body,
 	#media-links a {
