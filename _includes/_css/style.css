@@ -584,7 +584,7 @@ button:focus {
 	#footer {
 		bottom: 0;
 		position: fixed;
-		transition: all 150ms ease;
+		transition: all 200ms ease;
 	}
 	#footer-links {
 		margin: 0;
@@ -594,7 +594,6 @@ button:focus {
 		position: absolute;
 		height: 15.000em;
 		bottom: -15.000em;
-		transition: all 100ms ease;
 	}
 	#footer-links-body,
 	#media-links a {
@@ -639,7 +638,7 @@ button:focus {
 		text-align: center;
 	}
 	#media-links {
-		float: none;
+		margin: 0;
 		text-align: center;
 	}
 	/* Columns */
