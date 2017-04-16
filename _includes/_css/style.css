@@ -586,7 +586,12 @@ button:focus {
 		position: fixed;
 		transition: all 200ms ease;
 	}
-	#footer-links {
+	#footer-links, #media-links {
+		margin: 0;
+	}
+	#footer-links a {
+		display: block;
+		float: none;
 		margin: 0;
 	}
 	#footer-links-body {
@@ -602,15 +607,6 @@ button:focus {
 	#footer-links-toggle:checked + #footer {
 		bottom: 15.000em;
 	}
-	#footer-links a {
-		display: block;
-		float: none;
-		margin: 0;
-	}
-	.show-mobile,
-	.show-mobile-block {
-		display: initial;
-	}
 	#mobile-links,
 	#media-links {
 		display: table;
@@ -618,28 +614,24 @@ button:focus {
 		table-layout: fixed;
 		width: 100%;
 	}
-	#mobile-links a.show-mobile svg,
-	#footer-links label svg {
+	#mobile-links a svg,
+	#mobile-links label svg {
 		display: block;
 		padding: 0.750em 0 0 0;
 		margin: 0 auto;
 	}
-	#mobile-links a.show-mobile,
+	#mobile-links a,
+	#mobile-links label,
 	#media-links a {
 		display: table-cell;
+		text-align: center;
 	}
-	#footer-links label {
-		cursor: pointer;
-		display: block;
-	}
-	#mobile-links a.show-mobile,
-	#footer-links label {
+	#mobile-links a,
+	#mobile-links label {
 		font-size: 0.750em;
-		text-align: center;
 	}
-	#media-links {
-		margin: 0;
-		text-align: center;
+	#mobile-links label {
+		cursor: pointer;
 	}
 	/* Columns */
 	
