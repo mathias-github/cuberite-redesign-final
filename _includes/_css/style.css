@@ -577,7 +577,6 @@ button:focus {
 		overflow-y: scroll;
 		position: fixed;
 		width: 100%;
-		height: 15.000em;
 		bottom: -18.000em;
 		left: 0;
 		transition: all 100ms ease;
