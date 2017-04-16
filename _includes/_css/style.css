@@ -665,7 +665,8 @@ button:focus {
 		padding: 0;
 	}
 	body,
-	h1 {
+	h1,
+	#logo a {
 		color: #000;
 		fill: #000;
 		text-shadow: none;
@@ -686,9 +687,12 @@ button:focus {
 		content: " (" attr(href) ")";
 		font-size: 80%;
 	}
-	#navigation,
+	#navigation-links,
 	#footer {
 		display: none;
+	}
+	#navigation {
+		position: relative;
 	}
 	#intro-body,
 	#main-body {
