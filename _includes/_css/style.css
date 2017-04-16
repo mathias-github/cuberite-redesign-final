@@ -574,7 +574,6 @@ button:focus {
 	#media-links,
 	#mobile-links {
 		display: table;
-		line-height: 2.500em;
 		table-layout: fixed;
 		width: 100%;
 	}
@@ -604,6 +603,7 @@ button:focus {
 	}
 	#mobile-links {
 		font-size: 0.750em;
+		line-height: 2.500em;
 	}
 	#mobile-links svg {
 		display: block;
@@ -613,23 +613,20 @@ button:focus {
 	#mobile-links label {
 		cursor: pointer;
 	}
+	#footer-links-toggle:checked + #footer {
+		bottom: 15.000em;
+	}
 	#footer-links a {
 		display: block;
 		float: none;
 		margin: 0;
 	}
 	#footer-links-body {
+		bottom: -15.000em;
+		height: 15.000em;
+		line-height: 3.375em;
 		overflow-y: scroll;
 		position: absolute;
-		height: 15.000em;
-		bottom: -15.000em;
-	}
-	#footer-links-body,
-	#media-links a {
-		line-height: 3.375em;
-	}
-	#footer-links-toggle:checked + #footer {
-		bottom: 15.000em;
 	}
 	/* Columns */
 	

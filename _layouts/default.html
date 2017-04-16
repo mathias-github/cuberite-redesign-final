@@ -69,25 +69,25 @@
 	<input type="checkbox" id="footer-links-toggle"/>
 	<div id="footer">
 		<div id="mobile-links">
-			<a href="/" class="show-mobile{% if page.url == "/" %} active{% endif %}">
+			<a href="/"{% if page.url == "/" %} class="active"{% endif %}">
 				<svg aria-hidden="true" height="1.750em" viewBox="0 0 24 24" width="1.750em">
 					<path d="{% include _icons/home %}" />
 				</svg>
 				Home
 			</a>
-			<a href="https://book.cuberite.org/" class="show-mobile">
+			<a href="https://book.cuberite.org/">
 				<svg aria-hidden="true" height="1.750em" viewBox="0 0 24 24" width="1.750em">
 					<path d="{% include _icons/manual %}" />
 				</svg>
 				Manual
 			</a>
-			<a href="/support/" class="show-mobile{% if page.url == "/support/" %} active{% endif %}">
+			<a href="/support/"{% if page.url == "/support/" %} class="active"{% endif %}">
 				<svg aria-hidden="true" height="1.750em" viewBox="0 0 24 24" width="1.750em">
 					<path d="{% include _icons/support %}" />
 				</svg>
 				Support
 			</a>
-			<a href="/plugins/" class="show-mobile{% if page.url == "/plugins/" %} active{% endif %}">
+			<a href="/plugins/"{% if page.url == "/plugins/" %} class="active"{% endif %}">
 				<svg aria-hidden="true" height="1.750em" viewBox="0 0 24 24" width="1.750em">
 					<path d="{% include _icons/plugins %}" />
 				</svg>
