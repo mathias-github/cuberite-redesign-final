@@ -593,9 +593,7 @@ button:focus {
 		bottom: 15.000em;
 	}
 	#footer-links a {
-		display: block;
-		float: none;
-		margin: 0;
+
 	}
 	#footer-links a:hover,
 	#footer-links a:focus {
