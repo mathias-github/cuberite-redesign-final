@@ -346,6 +346,9 @@ input {
 	background: #C3C3C3;
 	border-radius: 0.313em 0.313em 0 0;
 }
+.downloadbutton:hover > span {
+	display: block;
+}
 .downloadbutton svg {
 	float: left;
 	top: 0.750em;
@@ -371,13 +374,6 @@ input {
 .downloadmenu a:last-child:hover,
 .downloadmenu a:last-child:focus {
 	border-radius: 0 0 0.313em 0.313em;
-}
-#downloadbutton-linux:hover #downloadmenu-linux,
-#downloadbutton-windows:hover #downloadmenu-windows,
-#downloadbutton-freebsd:hover #downloadmenu-freebsd,
-#downloadbutton-macos:hover #downloadmenu-macos,
-#downloadbutton-android:hover #downloadmenu-android {
-	display: block;
 }
 #download-footer {
 	font-size: 0.875em;
