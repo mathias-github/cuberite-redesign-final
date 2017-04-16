@@ -569,7 +569,6 @@ button:focus {
 	}
 	#footer-links {
 		height: 15.000em;
-		line-height: 3.375em;
 		overflow-y: scroll;
 	}
 	#footer-links a {
