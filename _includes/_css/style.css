@@ -11,9 +11,10 @@
 /* Main */
 
 * {
+	border: 0;
+	font: inherit;
 	margin: 0;
 	padding: 0;
-	border: 0;
 }
 html,
 body {
@@ -145,8 +146,6 @@ body {
 h1,
 h2,
 h3 {
-	font-style: normal;
-	font-weight: normal;
 	text-transform: uppercase;
 }
 h1 {
