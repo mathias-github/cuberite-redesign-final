@@ -617,9 +617,7 @@ button:focus {
 		display: block;
 		width: 100%;
 	}
-	#left-two {
-		margin: 2.500em 0 4.000em 0;
-	}
+	#left-two,
 	#left-three {
 		margin: 3.125em 0 4.000em 0;
 	}
@@ -659,6 +657,8 @@ button:focus {
 		animation: fadein .4s;
 	}
 }
+/* Print Style */
+
 @media print {
 	body {
 		height: auto;
@@ -667,6 +667,8 @@ button:focus {
 	body,
 	h1,
 	#logo a,
+	#banner-blue,
+	#banner-green,
 	#pagination span,
 	input {
 		color: #000;
@@ -676,6 +678,8 @@ button:focus {
 	body,
 	.button,
 	.downloadbutton,
+	#banner-blue,
+	#banner-green,
 	#pagination a,
 	#pagination span,
 	button,
@@ -707,7 +711,6 @@ button:focus {
 	}
 	#intro-body,
 	#main-body {
-		display: block;
 		padding: 0;
 	}
 	#main-body {
@@ -727,12 +730,6 @@ button:focus {
 	}
 	#center-three {
 		margin: 0 0 4.000em 0;
-	}
-	#banner-blue,
-	#banner-green {
-		color: #000;
-		background: none;
-		fill: #000;
 	}
 	.button,
 	.downloadbutton,
