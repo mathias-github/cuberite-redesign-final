@@ -363,7 +363,6 @@ input {
 	position: absolute;
 	transition: max-height 150ms ease;
 	width: 100%;
-	z-index: 1;
 }
 .downloadbutton span a {
 	color: #1e1e1e;
@@ -478,13 +477,7 @@ input {
 	margin: 0 0.813em 0 0;
 }
 #media-links a:first-child {
-	padding: 0 1.375em;
-}
-#media-links a {
 	padding: 0 1.625em;
-}
-#media-links svg {
-	top: 0.313em;
 }
 /* Inputs */
 
@@ -544,7 +537,6 @@ button:focus {
 		text-align: center;
 		top: 0;
 		width: 100%;
-		z-index: 1;
 	}
 	#logo a {
 		display: inline-block;
@@ -559,7 +551,7 @@ button:focus {
 		bottom: -15.000em;
 		position: fixed;
 		transition: bottom 200ms ease;
-		z-index: 2;
+		z-index: 1;
 	}
 	#footer-links-toggle:checked + #footer {
 		bottom: 0;
