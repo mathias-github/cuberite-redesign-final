@@ -192,10 +192,8 @@ a:focus {
 
 #intro input,
 #footer img,
-#footer label,
 #footer-links-toggle,
-.show-mobile,
-.show-mobile-block {
+#mobile-links {
 	display: none;
 }
 #intro-body,
