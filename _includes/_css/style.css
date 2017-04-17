@@ -251,6 +251,7 @@ input {
 #pagination a:hover,
 #pagination a:focus {
 	background: #368A6B;
+	color: #F4F7F6;
 }
 /* Columns */
 
