@@ -1,4 +1,5 @@
 body {
+	background: #2E7158;
 	background: linear-gradient(190deg, #2E7540, #2E6D75) fixed;
 	color: #F4F7F6;
 	text-shadow: 0 0.125em 0.063em rgba(0, 0, 0, .1);
@@ -16,12 +17,15 @@ h2 {
 /* Tablet/Mobile Design */
 
 @media (max-width: 60em) {
-	#navigation {
+	#navigation,
+	#footer {
+		background: #2E7158;
 		background: linear-gradient(190deg, #2E7540, #2E6D75);
+	}
+	#navigation {
 		box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, .15);
 	}
 	#footer {
-		background: linear-gradient(190deg, #2E7540, #2E6D75);
 		box-shadow: 0 -0.125em 0.125em rgba(0, 0, 0, .15);
 	}
 }
