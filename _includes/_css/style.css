@@ -117,8 +117,10 @@ html {
 	}
 }
 body {
-	background: linear-gradient(-140deg, #16a085, #f4d03f) fixed;#sunny
-	/*background: linear-gradient(-140deg, #134e5e, #71b280) fixed; moss
+	background:linear-gradient(to right, #171819, #292929) fixed;/*black
+	background:linear-gradient(-150deg, #232526, #414345) fixed;/*dark
+	background: linear-gradient(-140deg, #16a085, #f4d03f) fixed; sunny
+	background: linear-gradient(-140deg, #134e5e, #71b280) fixed; moss
 	background: linear-gradient(-140deg, #4ca2cd, #67b26f) fixed; fresh*/
 	color: #eaeaea;
 	fill: #eaeaea;
