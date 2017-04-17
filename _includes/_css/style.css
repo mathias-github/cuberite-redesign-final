@@ -117,17 +117,17 @@ html {
 	}
 }
 body {
+	background: #F4F7F6;/*
 	background:linear-gradient(-150deg, #2E7540, #2E6D75) fixed; /*new
 	background:linear-gradient(-150deg, #171819, #282828) fixed;/*black
 	background:linear-gradient(-150deg, #232526, #414345) fixed;/*dark
 	background: linear-gradient(-140deg, #16a085, #f4d03f) fixed; sunny
 	background: linear-gradient(-140deg, #134e5e, #71b280) fixed; moss
 	background: linear-gradient(-140deg, #4ca2cd, #67b26f) fixed; fresh*/
-	color: #EAF1EE;
-	fill: #EAF1EE;
+	color: #353535;
+	fill: #353535;
 	font-family: montserratregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	display: table;
-	text-shadow: 0 0.125em 0 rgba(0, 0, 0, .1);
 }
 h1,
 h2,
@@ -192,8 +192,8 @@ a:focus {
 #pagination span,
 #footer a,
 #mobile-links label {
-	color: #2E7253;
-	fill: #2E7253;
+	color: #F4F7F6;
+	fill: #F4F7F6;
 }
 #navigation a:hover,
 #navigation a:focus,
@@ -241,7 +241,7 @@ input {
 .downloadbutton,
 #pagination a,
 #pagination span {
-	background: #EAF1EE;
+	background:linear-gradient(-150deg, #2E7540, #2E6D75);
 	border-radius: 0.313em;
 	box-shadow: 0 0.125em 0.063em rgba(0, 0, 0, 0.15);
 	display: inline-block;
@@ -290,11 +290,11 @@ input {
 /* Navigation Bar */
 
 #navigation {
-	background: #F4F7F6;
+	background:linear-gradient(-150deg, #2E7540, #2E6D75);
 	box-shadow: 0 0.125em 0.063em rgba(0, 0, 0, 0.05);
 	display: table-row;
 	line-height: 3.750em;
-	text-shadow: none;
+	text-shadow: 0 0.125em 0 rgba(0, 0, 0, .1);
 }
 #logo a {
 	float: left;
@@ -471,11 +471,11 @@ input {
 /* Footer */
 
 #footer {
-	background: #F4F7F6;
+	background:linear-gradient(-150deg, #2E7540, #2E6D75);
 	box-shadow:0 -0.125em 0.313em rgba(0, 0, 0, 0.05);
 	display: table-row;
 	line-height: 3.375em;
-	text-shadow: none;
+	text-shadow: 0 0.125em 0 rgba(0, 0, 0, .1);
 }
 #footer-links {
 	margin: 0 0 0 0.813em;
