@@ -193,7 +193,6 @@ a:focus {
 #navigation,
 #footer {
 	background: #2E7158;
-	background: linear-gradient(190deg, #2E7540, #2E6D75);
 }
 #navigation a,
 .button,
@@ -300,6 +299,7 @@ button:focus {
 /* Navigation Bar */
 
 #navigation {
+	background: linear-gradient(200deg, #2E7540, #2E6D75);
 	box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, .15);
 	display: table-row;
 	line-height: 3.750em;
@@ -473,6 +473,7 @@ button:focus {
 /* Footer */
 
 #footer {
+	background: linear-gradient(220deg, #2E7540, #2E6D75);
 	box-shadow: 0 -0.125em 0.125em rgba(0, 0, 0, .15);
 	display: table-row;
 	line-height: 3.375em;
