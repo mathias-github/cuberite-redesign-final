@@ -187,8 +187,8 @@ a:focus {
 }
 #navigation a,
 #footer a {
-	color: #eaeaea;
-	fill: #eaeaea;
+	color: #2E7253;
+	fill: #2E7253;
 }
 #navigation a:hover,
 #navigation a:focus,
@@ -197,7 +197,8 @@ a:focus {
 #footer-links label:hover,
 #footer-links label:focus,
 .active {
-	background: rgba(10, 10, 10, .35);
+	color: #378662;
+	fill: #378662;
 }
 h2 span, svg, #navigation span {
 	vertical-align: middle;
@@ -278,7 +279,8 @@ input {
 /* Navigation Bar */
 
 #navigation {
-	background: rgba(10, 10, 10, 0.4);
+	background: #fff;
+	box-shadow: 0 0.125em 0.063em rgba(0, 0, 0, 0.05);
 	display: table-row;
 	line-height: 3.750em;
 }
@@ -462,7 +464,7 @@ input {
 /* Footer */
 
 #footer {
-	background: rgba(10, 10, 10, 0.4);
+	background: #fff;
 	display: table-row;
 	line-height: 3.375em;
 }
