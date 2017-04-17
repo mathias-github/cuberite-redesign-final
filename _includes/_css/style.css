@@ -123,8 +123,8 @@ body {
 	background: linear-gradient(-140deg, #16a085, #f4d03f) fixed; sunny
 	background: linear-gradient(-140deg, #134e5e, #71b280) fixed; moss
 	background: linear-gradient(-140deg, #4ca2cd, #67b26f) fixed; fresh*/
-	color: #eaeaea;
-	fill: #eaeaea;
+	color: #EAF1EE;
+	fill: #EAF1EE;
 	font-family: montserratregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	display: table;
 	text-shadow: 0 0.125em 0 rgba(0, 0, 0, .1);
@@ -228,7 +228,7 @@ input {
 .downloadbutton,
 #pagination a,
 #pagination span {
-	background: #eaeaea;
+	background: #EAF1EE;
 	border-radius: 0.313em;
 	box-shadow: 0 0.125em 0.063em rgba(0, 0, 0, 0.15);
 	color: #2E7253;
@@ -240,9 +240,9 @@ input {
 .button:focus,
 #pagination a:hover,
 #pagination a:focus {
-	background: #C3C3C3;
-	color: #1e1e1e;
-	fill: #1e1e1e;
+	background: #D5E3DE;
+	color: #2E7253;
+	fill: #2E7253;
 }
 /* Columns */
 
@@ -347,7 +347,7 @@ input {
 }
 .downloadbutton:hover,
 .downloadbutton:focus {
-	background: #C3C3C3;
+	background: #D5E3DF;
 	border-radius: 0.313em 0.313em 0 0;
 	transition: 0s background;
 }
@@ -359,7 +359,7 @@ input {
 	margin: 0.750em 0 0.750em 0.750em;
 }
 .downloadbutton span {
-	background: #C3C3C3;
+	background: #D5E3DF;
 	border-radius: 0 0 0.313em 0.313em;
 	box-shadow: 0 0.125em 0.063em rgba(0, 0, 0, 0.15);
 	display: block;
@@ -371,13 +371,13 @@ input {
 	z-index: 1;
 }
 .downloadbutton span a {
-	color: #1e1e1e;
+	color: #2E7253;
 	display: block;
 	line-height: 2.625em;
 }
 .downloadbutton span a:hover,
 .downloadbutton span a:focus {
-	background: #eaeaea;
+	background: #EAF1EE;
 }
 .downloadbutton span a:last-child:hover,
 .downloadbutton span a:last-child:focus {
@@ -502,7 +502,7 @@ input {
 	width: 13.750em;
 }
 input:focus {
-	background: #eaeaea;
+	background: #EAF1EE;
 }
 button {
 	background: rgba(10, 10, 10, .6);
