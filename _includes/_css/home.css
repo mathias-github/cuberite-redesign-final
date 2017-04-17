@@ -1,7 +1,7 @@
 body {
 	background: linear-gradient(-150deg, #2E7540, #2E6D75) fixed;
 	color: #F4F7F6;
-	text-shadow: 0 0.125em 0 rgba(0, 0, 0, .1);
+	text-shadow: 0 0.125em 0.063em rgba(0, 0, 0, .1);
 }
 h2 {
 	color: #F4F7F6;
