@@ -7,3 +7,14 @@ body {
 	background: none;
 	box-shadow: none;
 }
+/* Tablet/Mobile Design */
+
+@media (max-width: 60em) {
+	#navigation {
+		background: linear-gradient(-150deg, #2E7540, #2E6D75);
+		box-shadow: 0 0.125em 0.313em rgba(0, 0, 0, .05);
+	}
+	#footer {
+		background: linear-gradient(-150deg, #2E7540, #2E6D75);
+		box-shadow: 0 -0.125em 0.313em rgba(0, 0, 0, .05);
+	}
