@@ -197,8 +197,8 @@ a:focus {
 #footer-links label:hover,
 #footer-links label:focus,
 .active {
-	color: #378662;
-	fill: #378662;
+	color: #389B6F;
+	fill: #389B6F;
 }
 h2 span, svg, #navigation span {
 	vertical-align: middle;
@@ -238,11 +238,12 @@ input {
 }
 .button:hover,
 .button:focus,
+.downloadbutton:hover,
+.downloadbutton:focus,
 #pagination a:hover,
 #pagination a:focus {
-	background: #D5E3DE;
-	color: #2E7253;
-	fill: #2E7253;
+	color: #389B6F;
+	fill: #389B6F;
 }
 /* Columns */
 
