@@ -344,8 +344,8 @@ input {
 
 .downloadbutton {
 	background: #F4F7F6;
-	color: #2E7256;	
-	fill: #2E7256;
+	color: #2E7158;	
+	fill: #2E7158;
 	font-size: 1.125em;
 	cursor: pointer;
 	width: 8.500em;
@@ -381,14 +381,13 @@ input {
 	z-index: 1;
 }
 .downloadbutton span a {
-	color: #2E7256;
+	color: #2E7158;
 	display: block;
 	line-height: 2.625em;
 }
 .downloadbutton span a:hover,
 .downloadbutton span a:focus {
-	color: #389B6F;
-	fill: #389B6F;
+	color: #368A6B;
 }
 .downloadbutton span a:last-child:hover,
 .downloadbutton span a:last-child:focus {
