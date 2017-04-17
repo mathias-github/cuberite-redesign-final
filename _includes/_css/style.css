@@ -117,7 +117,8 @@ html {
 	}
 }
 body {
-	background: linear-gradient(-140deg, #485563, #29323c) fixed;
+	background: linear-gradient(-140deg, #16a085, #f4d03f) fixed;#sunny
+	#background: linear-gradient(-140deg, #134e5e, #71b280) fixed;#moss
 	color: #eaeaea;
 	fill: #eaeaea;
 	font-family: montserratregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
