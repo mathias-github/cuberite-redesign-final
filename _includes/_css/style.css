@@ -165,16 +165,16 @@ strong {
 a,
 .downloadbutton span a:hover,
 .downloadbutton span a:focus {
-	color: #368A6B;
-	fill: #368A6B;
+	color: #4f7a6c;
+	fill: #4f7a6c;
 	text-decoration: none;
 }
 a:hover,
 a:focus,
 .downloadbutton,
 .downloadbutton span a {
-	color: #2E7158;
-	fill: #2E7158;
+	color: #245A48;
+	fill: #245A48;
 }
 .show-mobile,
 #intro input,
@@ -256,7 +256,7 @@ input {
 #pagination span,
 #footer,
 button {
-	background: #2E7158;
+	background: #245A48;
 }
 .button:hover,
 .button:focus,
@@ -264,7 +264,7 @@ button {
 #pagination a:focus,
 button:hover,
 button:focus {
-	background: #368A6B;
+	background: #4f7a6c;
 	color: #F4F7F6;
 }
 /* Columns */
@@ -302,7 +302,7 @@ button:focus {
 /* Navigation Bar */
 
 #navigation {
-	background: linear-gradient(200deg, #2E7540, #2E6D75);
+	background: linear-gradient(200deg, #245d33, #24575D);
 	box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, .15);
 	display: table-row;
 	line-height: 3.750em;
@@ -455,7 +455,7 @@ button:focus {
 /* Footer */
 
 #footer {
-	background: linear-gradient(220deg, #2E7540, #2E6D75);
+	background: linear-gradient(220deg, #245d33, #24575D);
 	box-shadow: 0 -0.125em 0.125em rgba(0, 0, 0, .15);
 	display: table-row;
 	line-height: 3.375em;

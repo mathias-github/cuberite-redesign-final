@@ -1,6 +1,6 @@
 body {
 	background: #2E7158;
-	background: linear-gradient(220deg, #2E7540, #2E6D75) fixed;
+	background: linear-gradient(220deg, #245d33, #24575D) fixed;
 	text-shadow: 0 0.063em 0.063em rgba(0, 0, 0, .15);
 }
 body, h2 {
@@ -21,11 +21,11 @@ body, h2 {
 		background: #2E7158;
 	}
 	#navigation {
-		background: linear-gradient(200deg, #2E7540, #2E6D75);
+		background: linear-gradient(200deg, #245d33, #24575D);
 		box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, .15);
 	}
 	#footer {
-		background: linear-gradient(220deg, #2E7540, #2E6D75);
+		background: linear-gradient(220deg, #245d33, #24575D);
 		box-shadow: 0 -0.125em 0.125em rgba(0, 0, 0, .15);
 	}
 }
