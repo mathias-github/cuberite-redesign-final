@@ -360,13 +360,6 @@ input {
 	transition-delay: .12s
 }
 .downloadbutton:hover,
-.downloadbutton:focus,
-.downloadbutton span a:hover,
-.downloadbutton span a:focus {
-	color: #389B6F;
-	fill: #389B6F;
-}
-.downloadbutton:hover,
 .downloadbutton:focus {
 	border-radius: 0.313em 0.313em 0 0;
 	transition: 0s background;
@@ -394,6 +387,11 @@ input {
 	color: #2E7256;
 	display: block;
 	line-height: 2.625em;
+}
+.downloadbutton span a:hover,
+.downloadbutton span a:focus {
+	color: #389B6F;
+	fill: #389B6F;
 }
 .downloadbutton span a:last-child:hover,
 .downloadbutton span a:last-child:focus {
