@@ -247,6 +247,16 @@ input {
 	display: inline-block;
 	text-shadow: none;
 }
+.button:hover,
+.button:focus,
+.downloadbutton:hover,
+.downloadbutton:focus,
+.downloadbutton span a:hover,
+.downloadbutton span a:focus,
+#pagination a:hover,
+#pagination a:focus {
+	background: #fff;
+}
 /* Columns */
 
 #right-two,
