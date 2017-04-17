@@ -3,19 +3,25 @@ body {
 	color: #F4F7F6;
 	text-shadow: 0 0.125em 0 rgba(0, 0, 0, .1);
 }
+h2 {
+	color: #F4F7F6;
+}
 #navigation, #footer {
 	background: none;
 	box-shadow: none;
+}
+.downloadbutton {
+	text-shadow: none;
 }
 /* Tablet/Mobile Design */
 
 @media (max-width: 60em) {
 	#navigation {
 		background: linear-gradient(-150deg, #2E7540, #2E6D75);
-		box-shadow: 0 0.125em 0.313em rgba(0, 0, 0, .05);
+		box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, .15);
 	}
 	#footer {
 		background: linear-gradient(-150deg, #2E7540, #2E6D75);
-		box-shadow: 0 -0.125em 0.313em rgba(0, 0, 0, .05);
+		box-shadow: 0 -0.125em 0.125em rgba(0, 0, 0, .15);
 	}
 }
