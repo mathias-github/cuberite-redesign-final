@@ -639,6 +639,8 @@ button {
 	}
 	body,
 	h1,
+	h2,
+	h3,
 	#logo a,
 	#banner-blue,
 	#banner-green,
@@ -680,7 +682,13 @@ button {
 		display: none;
 	}
 	#navigation {
+		box-shadow: none;
 		position: relative;
+		text-align: center;
+	}
+	#logo a {
+		float: none;
+		margin: 0;
 	}
 	#intro-body,
 	#main-body {
