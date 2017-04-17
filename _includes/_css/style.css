@@ -186,8 +186,7 @@ a:focus {
 }
 #intro-body,
 #main-body,
-#banner-blue-body,
-#banner-green-body {
+#banner-body {
 	animation: fadein .7s;
 }
 #navigation,
@@ -222,8 +221,7 @@ h2 span, svg, #navigation span {
 	vertical-align: middle;
 }
 p,
-#banner-blue,
-#banner-green,
+#banner,
 .post span,
 input {
 	font-family: montserratlight, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -414,23 +412,16 @@ button:focus {
 }
 /* Banners */
 
-#banner-blue,
-#banner-green {
-	color: rgba(255, 255, 255, .75);
-	fill: rgba(255, 255, 255, .75);
+#banner {
+	background: rgba(0, 0, 0, .15);
+	color: #C8D6D1;
+	fill: #C8D6D1;
 	font-size: 0.938em;
 	text-align: center;
 	padding: 0.750em;
 }
-#banner-blue svg,
-#banner-green svg {
+#banner svg {
 	padding: 0 0.750em 0 0;
-}
-#banner-blue {
-	background: rgba(43, 149, 255, .05);
-}
-#banner-green {
-	background: rgba(49, 162, 0, .15);
 }
 /* News */
 
@@ -639,8 +630,7 @@ button {
 	h2,
 	h3,
 	#logo a,
-	#banner-blue,
-	#banner-green,
+	#banner,
 	#pagination span,
 	input {
 		color: #000;
@@ -650,8 +640,7 @@ button {
 	body,
 	.button,
 	.downloadbutton,
-	#banner-blue,
-	#banner-green,
+	#banner,
 	#pagination a,
 	#pagination span,
 	button,
