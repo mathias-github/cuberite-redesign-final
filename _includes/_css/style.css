@@ -117,13 +117,7 @@ html {
 	}
 }
 body {
-	background: #F4F7F6;/*
-	background:linear-gradient(-150deg, #2E7540, #2E6D75) fixed; /*new
-	background:linear-gradient(-150deg, #171819, #282828) fixed;/*black
-	background:linear-gradient(-150deg, #232526, #414345) fixed;/*dark
-	background: linear-gradient(-140deg, #16a085, #f4d03f) fixed; sunny
-	background: linear-gradient(-140deg, #134e5e, #71b280) fixed; moss
-	background: linear-gradient(-140deg, #4ca2cd, #67b26f) fixed; fresh*/
+	background: #F4F7F6;
 	color: #464646;
 	fill: #464646;
 	font-family: montserratregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -143,7 +137,6 @@ h1 {
 	font-size: 2.875em;
 	line-height: 1.375em;
 	margin: 0 0 1.250em 0;
-	text-shadow: 0 0.063em 0.063em rgba(0, 0, 0, .15);
 }
 h2 {
 	font-size: 1.500em;
@@ -167,16 +160,22 @@ em {
 strong {
 	font-weight: bold;
 }
-a {
+/* Combined Rules */
+
+a,
+.downloadbutton span a:hover,
+.downloadbutton span a:focus {
 	color: #368A6B;
+	fill: #368A6B;
 	text-decoration: none;
 }
 a:hover,
-a:focus {
+a:focus,
+.downloadbutton,
+.downloadbutton span a {
 	color: #2E7158;
+	fill: #2E7158;
 }
-/* Combined Rules */
-
 .show-mobile,
 #intro input,
 #footer-links-toggle,
@@ -189,10 +188,7 @@ a:focus {
 #banner-body {
 	animation: fadein .7s;
 }
-#navigation,
-#footer {
-	background: #2E7158;
-}
+h1,
 #navigation a,
 .button,
 #download-footer a:hover,
@@ -204,7 +200,7 @@ a:focus {
 button {
 	color: #F4F7F6;
 	fill: #F4F7F6;
-	text-shadow: 0 0.125em 0.063em rgba(0, 0, 0, .1);
+	text-shadow: 0 0.063em 0.063em rgba(0, 0, 0, .15);
 }
 #navigation a:hover,
 #navigation a:focus,
@@ -250,9 +246,11 @@ input {
 	box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, .15);
 	display: inline-block;
 }
+#navigation,
 .button,
 #pagination a,
 #pagination span,
+#footer,
 button {
 	background: #2E7158;
 }
@@ -357,8 +355,6 @@ button:focus {
 
 .downloadbutton {
 	background: #F4F7F6;
-	color: #2E7158;	
-	fill: #2E7158;
 	font-size: 1.125em;
 	cursor: pointer;
 	width: 8.500em;
@@ -394,13 +390,8 @@ button:focus {
 	z-index: 1;
 }
 .downloadbutton span a {
-	color: #2E7158;
 	display: block;
 	line-height: 2.625em;
-}
-.downloadbutton span a:hover,
-.downloadbutton span a:focus {
-	color: #368A6B;
 }
 .downloadbutton span a:last-child:hover,
 .downloadbutton span a:last-child:focus {
