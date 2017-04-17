@@ -497,8 +497,8 @@ button:focus {
 
 button,
 input {
-	height: 2.875em;
-	line-height: 2.875em;
+	height: 2.625em;
+	line-height: 2.625em;
 	padding: 0 0.875em;
 }
 input {
@@ -508,10 +508,10 @@ input {
 }
 button {
 	cursor: pointer;
-	margin: 0.938em 0 0 0.438em;
+	margin: 0.938em 0 0 0.625em;
 }
 .button {
-	margin: 0.938em 0.375em 0 0.375em;
+	margin: 0.938em 0.500em 0 0.500em;
 	padding: 0.750em 0.875em;
 }
 /* Tablet/Mobile Design */
