@@ -236,6 +236,10 @@ input {
 #download-footer span {
 	margin: 0 0.750em;
 }
+#pagination a span, #media-links span {
+	position: absolute;
+	top: -5em;
+}
 .button,
 .downloadbutton,
 #pagination a,
@@ -471,10 +475,6 @@ button:focus {
 }
 #media-links a:first-child {
 	padding: 0 1.625em;
-}
-#media-links span {
-	position: absolute;
-	top: -5em;
 }
 /* Inputs */
 
