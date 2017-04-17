@@ -163,12 +163,12 @@ strong {
 	font-weight: bold;
 }
 a {
-	color: rgba(255, 255, 255, .4);
+	color: #2E7158;
 	text-decoration: none;
 }
 a:hover,
 a:focus {
-	color: rgba(255, 255, 255, .6);
+	color: #368A6B;
 }
 /* Combined Rules */
 
@@ -200,10 +200,6 @@ a:focus {
 }
 #navigation a:hover,
 #navigation a:focus,
-.button:hover,
-.button:focus,
-#pagination a:hover,
-#pagination a:focus,
 #footer a:hover,
 #footer a:focus,
 #mobile-links label:hover,
