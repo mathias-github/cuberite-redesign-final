@@ -18,6 +18,9 @@
 	<style type="text/css">
 		{% capture style %}
 		{% include _css/style.css %}
+		{% if page.url == "/" %}
+			{% include _css/home.css %}		
+		{% endif %}
 		{% endcapture %}
 		{{ style | scssify }}
 	</style>
