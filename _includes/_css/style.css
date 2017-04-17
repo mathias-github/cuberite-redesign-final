@@ -134,6 +134,11 @@ h2,
 h3 {
 	text-transform: uppercase;
 }
+h2,
+h3 {
+	color: #2E7158;
+	fill: #2E7158;
+}
 h1 {
 	font-size: 2.875em;
 	line-height: 1.375em;
