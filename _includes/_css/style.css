@@ -385,10 +385,6 @@ input {
 	display: block;
 	line-height: 2.625em;
 }
-.downloadbutton span a:hover,
-.downloadbutton span a:focus {
-	background: #EAF1EE;
-}
 .downloadbutton span a:last-child:hover,
 .downloadbutton span a:last-child:focus {
 	border-radius: 0 0 0.313em 0.313em;
