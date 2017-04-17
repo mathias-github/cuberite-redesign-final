@@ -251,8 +251,6 @@ input {
 .button:focus,
 .downloadbutton:hover,
 .downloadbutton:focus,
-.downloadbutton span a:hover,
-.downloadbutton span a:focus,
 #pagination a:hover,
 #pagination a:focus {
 	background: #fff;
@@ -371,7 +369,7 @@ input {
 	margin: 0.750em 0 0.750em 0.750em;
 }
 .downloadbutton span {
-	background: #EAF1EE;
+	background: #fff;
 	border-radius: 0 0 0.313em 0.313em;
 	box-shadow: 0 0.125em 0.063em rgba(0, 0, 0, 0.15);
 	display: block;
@@ -386,6 +384,10 @@ input {
 	color: #2E7253;
 	display: block;
 	line-height: 2.625em;
+}
+.downloadbutton span a:hover,
+.downloadbutton span a:focus {
+	background: #EAF1EE;
 }
 .downloadbutton span a:last-child:hover,
 .downloadbutton span a:last-child:focus {
