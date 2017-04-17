@@ -430,13 +430,8 @@ input {
 	margin: 1.375em 0 1.938em 0;
 }
 .post a {
-	color: rgba(255, 255, 255, .6);
 	font-size: 1.125em;
 	text-transform: uppercase;
-}
-.post a:hover,
-.post a:focus {
-	color: rgba(255, 255, 255, .8);
 }
 .post span {
 	display: block;
@@ -444,16 +439,8 @@ input {
 	margin: 0.688em 0 0 0;
 }
 #post-footer {
-	color: rgba(255, 255, 255, .7);
 	font-size: 0.875em;
 	padding: 0.375em 0 0 0;
-}
-#post-footer a {
-	color: rgba(255, 255, 255, .5);
-}
-#post-footer a:hover,
-#post-footer a:focus {
-	color: rgba(255, 255, 255, .7);
 }
 #pagination {
 	margin: 2.188em 0 3.375em 0;
@@ -463,8 +450,7 @@ input {
 	padding: 0.750em 0.750em 0.625em 0.750em;
 }
 #pagination span {
-	color: #676767;
-	fill: #676767;
+	fill: #C0E1D2;
 }
 #previous {
 	margin: 0 0.313em 0 0;
