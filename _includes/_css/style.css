@@ -198,10 +198,6 @@ a:focus {
 #navigation a:focus,
 .button:hover,
 .button:focus,
-.downloadbutton:hover,
-.downloadbutton:focus,
-.downloadbutton span a:hover,
-.downloadbutton span a:focus,
 #pagination a:hover,
 #pagination a:focus,
 #footer a:hover,
@@ -209,8 +205,8 @@ a:focus {
 #mobile-links label:hover,
 #mobile-links label:focus,
 .active {
-	color: #389B6F;
-	fill: #389B6F;
+	color: #C0E1D2;
+	fill: #C0E1D2;
 }
 h2 span, svg, #navigation span {
 	vertical-align: middle;
@@ -362,6 +358,13 @@ input {
 	position: relative;
 	line-height: 3.125em;
 	transition-delay: .12s
+}
+.downloadbutton:hover,
+.downloadbutton:focus,
+.downloadbutton span a:hover,
+.downloadbutton span a:focus {
+	color: #389B6F;
+	fill: #389B6F;
 }
 .downloadbutton:hover,
 .downloadbutton:focus {
