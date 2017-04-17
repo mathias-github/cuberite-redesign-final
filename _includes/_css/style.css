@@ -198,8 +198,8 @@ h1,
 #footer a,
 #mobile-links label,
 button {
-	color: #dbf1e9;
-	fill: #dbf1e9;
+	color: #F4F7F6;
+	fill: #F4F7F6;
 	text-shadow: 0 0.063em 0.063em rgba(0, 0, 0, .15);
 }
 #navigation a:hover,
@@ -265,7 +265,7 @@ button {
 button:hover,
 button:focus {
 	background: #2a6853;
-	color: #dbf1e9;
+	color: #F4F7F6;
 }
 /* Columns */
 
@@ -358,7 +358,7 @@ button:focus {
 /* Download Buttons */
 
 .downloadbutton {
-	background: #dbf1e9;
+	background: #F4F7F6;
 	font-size: 1.125em;
 	cursor: pointer;
 	width: 8.500em;
