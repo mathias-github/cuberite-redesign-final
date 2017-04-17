@@ -187,7 +187,6 @@ a:focus {
 }
 #navigation a,
 .button,
-.downloadbutton,
 #pagination a,
 #pagination span,
 #footer a,
@@ -241,7 +240,6 @@ input {
 .downloadbutton,
 #pagination a,
 #pagination span {
-	background:linear-gradient(-150deg, #2E7540, #2E6D75);
 	border-radius: 0.313em;
 	box-shadow: 0 0.125em 0.063em rgba(0, 0, 0, 0.15);
 	display: inline-block;
@@ -254,6 +252,13 @@ input {
 #pagination a:hover,
 #pagination a:focus {
 	background: #fff;
+}
+#navigation,
+.button,
+#pagination a,
+#pagination span,
+#footer {
+	background:linear-gradient(-150deg, #2E7540, #2E6D75);
 }
 /* Columns */
 
@@ -290,7 +295,6 @@ input {
 /* Navigation Bar */
 
 #navigation {
-	background:linear-gradient(-150deg, #2E7540, #2E6D75);
 	box-shadow: 0 0.125em 0.063em rgba(0, 0, 0, 0.05);
 	display: table-row;
 	line-height: 3.750em;
@@ -347,6 +351,7 @@ input {
 /* Download Buttons */
 
 .downloadbutton {
+	background: #F4F7F6;
 	font-size: 1.125em;
 	cursor: pointer;
 	width: 8.500em;
