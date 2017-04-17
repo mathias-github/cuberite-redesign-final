@@ -117,7 +117,7 @@ html {
 	}
 }
 body {
-	background: #F4F7F6;
+	background: #E9EEEC;
 	color: #464646;
 	fill: #464646;
 	font-family: montserratregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -198,8 +198,8 @@ h1,
 #footer a,
 #mobile-links label,
 button {
-	color: #F4F7F6;
-	fill: #F4F7F6;
+	color: #E9EEEC;
+	fill: #E9EEEC;
 	text-shadow: 0 0.063em 0.063em rgba(0, 0, 0, .15);
 }
 #navigation a:hover,
@@ -265,7 +265,7 @@ button {
 button:hover,
 button:focus {
 	background: #4f7a6c;
-	color: #F4F7F6;
+	color: #E9EEEC;
 }
 /* Columns */
 
@@ -358,7 +358,7 @@ button:focus {
 /* Download Buttons */
 
 .downloadbutton {
-	background: #F4F7F6;
+	background: #E9EEEC;
 	font-size: 1.125em;
 	cursor: pointer;
 	width: 8.500em;
