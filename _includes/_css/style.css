@@ -117,7 +117,7 @@ html {
 	}
 }
 body {
-	background: #E9EEEC;
+	background: #dbf1e9;
 	color: #464646;
 	fill: #464646;
 	font-family: montserratregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -165,8 +165,8 @@ strong {
 a,
 .downloadbutton span a:hover,
 .downloadbutton span a:focus {
-	color: #4f7a6c;
-	fill: #4f7a6c;
+	color: #2a6853;
+	fill: #2a6853;
 	text-decoration: none;
 }
 a:hover,
@@ -198,8 +198,8 @@ h1,
 #footer a,
 #mobile-links label,
 button {
-	color: #E9EEEC;
-	fill: #E9EEEC;
+	color: #dbf1e9;
+	fill: #dbf1e9;
 	text-shadow: 0 0.063em 0.063em rgba(0, 0, 0, .15);
 }
 #navigation a:hover,
@@ -210,8 +210,8 @@ button {
 #mobile-links label:hover,
 #mobile-links label:focus,
 .active {
-	color: #BDCDC8;
-	fill: #BDCDC8;
+	color: #b1e0d0;
+	fill: #b1e0d0;
 }
 h2 span, svg, #navigation span {
 	vertical-align: middle;
@@ -264,8 +264,8 @@ button {
 #pagination a:focus,
 button:hover,
 button:focus {
-	background: #4f7a6c;
-	color: #E9EEEC;
+	background: #2a6853;
+	color: #dbf1e9;
 }
 /* Columns */
 
@@ -358,7 +358,7 @@ button:focus {
 /* Download Buttons */
 
 .downloadbutton {
-	background: #E9EEEC;
+	background: #dbf1e9;
 	font-size: 1.125em;
 	cursor: pointer;
 	width: 8.500em;
