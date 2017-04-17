@@ -193,6 +193,7 @@ a:focus {
 #navigation,
 #footer {
 	background:linear-gradient(-150deg, #2E7540, #2E6D75);
+	text-shadow: 0 0.125em 0 rgba(0, 0, 0, .1);
 }
 #navigation a,
 .button,
@@ -240,21 +241,25 @@ input {
 .button,
 .downloadbutton,
 #pagination a,
-#pagination span {
+#pagination span,
+button,
+input {
 	border-radius: 0.313em;
 	box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, .15);
 	display: inline-block;
-	text-shadow: none;
+	text-shadow: 0 0.125em 0 rgba(0, 0, 0, .1);
 }
 .button,
 #pagination a,
-#pagination span {
+#pagination span,
+button {
 	background: #2E7158;
 }
 .button:hover,
 .button:focus,
 #pagination a:hover,
-#pagination a:focus {
+#pagination a:focus,
+button {
 	background: #368A6B;
 	color: #F4F7F6;
 }
@@ -296,7 +301,6 @@ input {
 	box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, .15);
 	display: table-row;
 	line-height: 3.750em;
-	text-shadow: 0 0.125em 0 rgba(0, 0, 0, .1);
 }
 #logo a {
 	float: left;
@@ -471,7 +475,6 @@ input {
 	box-shadow: 0 -0.125em 0.125em rgba(0, 0, 0, .15);
 	display: table-row;
 	line-height: 3.375em;
-	text-shadow: 0 0.125em 0 rgba(0, 0, 0, .1);
 }
 #footer-links {
 	margin: 0 0 0 0.813em;
