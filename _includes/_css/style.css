@@ -497,19 +497,18 @@ button:focus {
 
 button,
 input {
-	border-radius: 0.188em;
-	height: 2.500em;
-	line-height: 2.500em;
-	padding: 0 0.750em;
+	height: 2.813em;
+	line-height: 2.813em;
+	padding: 0 0.875em;
 }
 input {
 	background: #fff;
-	margin: 0.313em 0 0 0;
+	margin: 0.938em 0 0 0;
 	width: 13.750em;
 }
 button {
 	cursor: pointer;
-	margin: 0.313em 0 0 0.438em;
+	margin: 0.938em 0 0 0.438em;
 }
 .button {
 	margin: 0.938em 0.375em 0 0.375em;
