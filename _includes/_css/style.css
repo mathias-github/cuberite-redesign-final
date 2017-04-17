@@ -117,6 +117,7 @@ html {
 	}
 }
 body {
+	background:linear-gradient(-150deg, #2E7540, #2E6D75) fixed; /*new
 	background:linear-gradient(-150deg, #171819, #282828) fixed;/*black
 	background:linear-gradient(-150deg, #232526, #414345) fixed;/*dark
 	background: linear-gradient(-140deg, #16a085, #f4d03f) fixed; sunny
