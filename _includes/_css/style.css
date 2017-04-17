@@ -196,6 +196,8 @@ a:focus {
 }
 #navigation a,
 .button,
+#download-footer a:hover,
+#download-footer a:focus,
 #pagination a,
 #pagination span,
 #footer a,
@@ -207,6 +209,7 @@ button {
 }
 #navigation a:hover,
 #navigation a:focus,
+#download-footer a,
 #footer a:hover,
 #footer a:focus,
 #mobile-links label:hover,
@@ -408,13 +411,6 @@ button:focus {
 #download-footer {
 	font-size: 0.875em;
 	margin: 1.375em 0 0 0;
-}
-#download-footer a {
-	color: rgba(255, 255, 255, .7);
-}
-#download-footer a:hover,
-#download-footer a:focus {
-	color: #fff;
 }
 /* Banners */
 
