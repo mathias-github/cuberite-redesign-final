@@ -279,7 +279,7 @@ input {
 /* Navigation Bar */
 
 #navigation {
-	background: #fff;
+	background: #EAF1EE;
 	box-shadow: 0 0.125em 0.063em rgba(0, 0, 0, 0.05);
 	display: table-row;
 	line-height: 3.750em;
@@ -465,7 +465,7 @@ input {
 /* Footer */
 
 #footer {
-	background: #fff;
+	background: #EAF1EE;
 	display: table-row;
 	line-height: 3.375em;
 	text-shadow: none;
@@ -529,17 +529,7 @@ button:focus {
 	}
 	/* Menus */
 
-	#navigation a:hover,
-	#navigation a:focus,
-	#footer a:hover,
-	#footer a:focus,
-	#footer label:hover,
-	#footer label:focus,
-	.active {
-		background: #000;
-	}
 	#navigation {
-		background: rgba(10, 10, 10, 0.95);
 		position: fixed;
 		text-align: center;
 		top: 0;
@@ -554,7 +544,6 @@ button:focus {
 		display: none;
 	}
 	#footer {
-		background: rgba(10, 10, 10, 0.95);
 		bottom: -15.000em;
 		position: fixed;
 		transition: bottom 200ms ease;
