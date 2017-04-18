@@ -598,7 +598,7 @@ button {
 	
 	#downloads {
 		display: table;
-		margin: 1.500em 0 0.500em 0;
+		margin: 1.500em 0 0.625em 0;
 		width: 100%;
 	}
 	#desktop-downloads, #download-footer {
@@ -649,7 +649,7 @@ button {
 		max-height: 40.000em;
 	}
 	#show-desktop-downloads:checked + div #download-footer {
-		margin: 0 0 1.375em 0;
+		margin: 0.313em 0 1.375em 0;
 		max-height: 2.000em;
 	}
 	#show-desktop-downloads-button div:last-child,
