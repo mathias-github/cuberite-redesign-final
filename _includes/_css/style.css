@@ -218,7 +218,7 @@ button {
 	color: #b1e0d0;
 	fill: #b1e0d0;
 }
-h2 span, svg, #navigation span {
+h2 span, svg, #navigation span, #show-desktop-downloads-button span {
 	vertical-align: middle;
 }
 p,
@@ -624,10 +624,10 @@ button {
 		padding: 0 0 0 0.450em;
 	}
 	#show-desktop-downloads-button span:last-child,
-	#show-desktop-downloads:checked + div #show-desktop-downloads-button span:first-child {
+	#show-desktop-downloads:checked + div #show-desktop-downloads-button div:first-child {
 		display: none;
 	}
-	#show-desktop-downloads:checked + div #show-desktop-downloads-button span:last-child {
+	#show-desktop-downloads:checked + div #show-desktop-downloads-button div:last-child {
 		display: initial;
 	}
 	.downloadbutton {
