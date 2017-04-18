@@ -623,17 +623,18 @@ button {
 	#mobile-downloads {
 		display: table-header-group;
 	}
+	#show-desktop-downloads:checked + div #desktop-downloads-body {
+		max-height: 20.000em;
+	}
 	#show-desktop-downloads-button {
 		cursor: pointer;
 		font-size: 1.125em;
 	}
-	#show-desktop-downloads:checked + div {
-		max-height: 20.000em;
-	}
-	#show-desktop-downloads-button span:last-child, #show-desktop-downloads:checked + #show-desktop-downloads-button span:first-child {
+	#show-desktop-downloads-button span:last-child,
+	#show-desktop-downloads:checked + div #show-desktop-downloads-button span:first-child {
 		display: none;
 	}
-	#show-desktop-downloads:checked + #show-desktop-downloads-button span:last-child {
+	#show-desktop-downloads:checked + div #show-desktop-downloads-button span:last-child {
 		display: initial;
 	}
 }
