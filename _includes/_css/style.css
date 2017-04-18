@@ -613,7 +613,7 @@ button {
 		max-height: 40.000em;
 	}
 	#show-desktop-downloads:checked + div #download-footer {
-		max-height: 1.000em;
+		max-height: 2.000em;
 	}
 	#show-desktop-downloads-button {
 		display: initial;
