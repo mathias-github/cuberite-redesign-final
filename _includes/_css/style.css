@@ -603,7 +603,7 @@ button {
 		display: table-header-group;
 	}
 	#show-desktop-downloads:checked + div #desktop-downloads-body {
-		max-height: 20.000em;
+		max-height: 40.000em;
 	}
 	#show-desktop-downloads-button {
 		cursor: pointer;
