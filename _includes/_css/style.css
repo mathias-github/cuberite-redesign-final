@@ -194,6 +194,8 @@ h1,
 .button,
 #download-footer a:hover,
 #download-footer a:focus,
+#show-desktop-downloads-button:hover,
+#show-desktop-downloads-button:focus,
 #pagination a,
 #pagination span,
 #footer a,
@@ -206,6 +208,7 @@ button {
 #navigation a:hover,
 #navigation a:focus,
 #download-footer a,
+#show-desktop-downloads-button,
 #footer a:hover,
 #footer a:focus,
 #mobile-links label:hover,
@@ -615,6 +618,9 @@ button {
 		display: initial;
 		cursor: pointer;
 		font-size: 1.125em;
+	}
+	#show-desktop-downloads-button svg {
+		padding: 0 0 0 0.450em;
 	}
 	#show-desktop-downloads-button span:last-child,
 	#show-desktop-downloads:checked + div #show-desktop-downloads-button span:first-child {
