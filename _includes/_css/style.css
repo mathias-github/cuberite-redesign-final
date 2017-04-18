@@ -412,7 +412,7 @@ button:focus {
 }
 #download-footer {
 	font-size: 0.875em;
-	margin: 0 0 1.375em 0;
+	margin: 1.375em 0 0 0;
 }
 /* Banners */
 
@@ -654,6 +654,10 @@ button {
 	}
 	.downloadbutton input:checked + span {
 		max-height: 8.000em;
+	}
+	#download-footer {
+		font-size: 0.875em;
+		margin: 0 0 1.375em 0;
 	}
 }
 /* Print Style */
