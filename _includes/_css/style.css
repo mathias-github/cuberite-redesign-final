@@ -358,6 +358,10 @@ button:focus {
 }
 /* Download Buttons */
 
+#desktop-downloads,
+#mobile-downloads {
+	display: inline-block;
+}
 .downloadbutton {
 	background: #F4F7F6;
 	font-size: 1.125em;
