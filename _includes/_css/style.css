@@ -616,14 +616,14 @@ button {
 		max-height: 2.000em;
 	}
 	#show-desktop-downloads-button {
-		display: initial;
+		display: inline-block;
 		cursor: pointer;
 		font-size: 1.125em;
 	}
 	#show-desktop-downloads-button svg {
 		padding: 0 0 0 0.450em;
 	}
-	#show-desktop-downloads-button span:last-child,
+	#show-desktop-downloads-button div:last-child,
 	#show-desktop-downloads:checked + div #show-desktop-downloads-button div:first-child {
 		display: none;
 	}
