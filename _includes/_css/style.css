@@ -623,6 +623,10 @@ button {
 	#mobile-downloads {
 		display: table-header-group;
 	}
+	#show-desktop-downloads-button {
+		cursor: pointer;
+		font-size: 1.125em;
+	}
 	#show-desktop-downloads:checked + div {
 		max-height: 20.000em;
 	}
