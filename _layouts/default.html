@@ -7,14 +7,12 @@
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'/index.html','/' }}">
 	<link rel="stylesheet" href="/cuberite-website-changes/css/fonts.css">
-	<link rel="alternate" type="application/atom+xml" href="/feed.xml">
-	<link rel="icon" type="image/png" href="/icons/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/icons/android-chrome-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="/icons/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="/icons/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="/icons/manifest.json">
-	<link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
-	<meta name="theme-color" content="#1e1e1e">
+	<link rel="alternate" type="application/atom+xml" href="/cuberite-website-changes/feed.xml">
+	<link rel="icon" type="image/png" href="/cuberite-website-changes/icons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/cuberite-website-changes/icons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/cuberite-website-changes/icons/manifest.json">
+	<link rel="mask-icon" href="/cuberite-website-changes/icons/safari-pinned-tab.svg">
+	<meta name="theme-color" content="#245A48">
 	<style type="text/css">
 		{% capture style %}
 		{% include _css/style.css %}
