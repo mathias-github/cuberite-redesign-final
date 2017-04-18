@@ -123,11 +123,6 @@ body {
 	font-family: montserratregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	display: table;
 }
-h1,
-h2,
-h3 {
-	text-transform: uppercase;
-}
 h2,
 h3 {
 	color: #245A48;
@@ -162,6 +157,12 @@ strong {
 }
 /* Combined Rules */
 
+h1,
+h2,
+h3,
+#show-desktop-downloads-button {
+	text-transform: uppercase;
+}
 a,
 .downloadbutton span a:hover,
 .downloadbutton span a:focus {
@@ -411,7 +412,7 @@ button:focus {
 }
 #download-footer {
 	font-size: 0.875em;
-	margin: 1.375em 0 0 0;
+	margin: 0 0 1.375em 0;
 }
 /* Banners */
 
