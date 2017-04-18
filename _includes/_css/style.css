@@ -612,6 +612,15 @@ button {
 	.downloadbutton input:checked + span {
 		max-height: 8.000em;
 	}
+	#desktop-downloads {
+		display: none;
+	}
+	#mobile-downloads {
+		display: table-header-group;
+	}
+	#show-desktop-downloads:checked + div {
+		display: table-footer-group;
+	}
 }
 /* Print Style */
 
