@@ -597,9 +597,7 @@ button {
 		width: 100%;
 	}
 	#desktop-downloads {
-		display: table-footer-group;
-	}
-	#desktop-downloads-body {
+		display: block;
 		max-height: 0;
 		overflow: hidden;
 		transition: max-height 150ms ease;
@@ -607,7 +605,7 @@ button {
 	#mobile-downloads {
 		display: table-header-group;
 	}
-	#show-desktop-downloads:checked + div #desktop-downloads-body {
+	#show-desktop-downloads:checked + div #desktop-downloads {
 		max-height: 40.000em;
 	}
 	#show-desktop-downloads-button {
