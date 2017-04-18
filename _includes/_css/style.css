@@ -613,13 +613,18 @@ button {
 		max-height: 8.000em;
 	}
 	#desktop-downloads {
-		display: none;
+		display: table-footer-group;
+	}
+	#desktop-downloads-body {
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 150ms ease;
 	}
 	#mobile-downloads {
 		display: table-header-group;
 	}
 	#show-desktop-downloads:checked + div {
-		display: table-footer-group;
+		max-height: 20.000em;
 	}
 }
 /* Print Style */
