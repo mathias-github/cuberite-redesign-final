@@ -587,30 +587,9 @@ button {
 	}
 	/* Download Buttons */
 	
-	.downloadbutton {
-		display: block;
-		margin: 0 0 1.125em 0;
-		padding: 0;
-		position: initial;
-		width: auto;
-	}
-	.downloadbutton:hover,
-	.downloadbutton:focus {
-		border-radius: 0.313em;
-	}
-	.downloadbutton svg {
-		margin: 0.750em -2.500em 0.750em 0.750em;
-	}
-	.downloadbutton span {
-		box-shadow: none;
-		position: initial;
-		background: none;
-	}
-	.downloadbutton:hover > span {
-		max-height: 0;
-	}
-	.downloadbutton input:checked + span {
-		max-height: 8.000em;
+	#downloads {
+		display: table;
+		width: 100%;
 	}
 	#desktop-downloads {
 		display: table-footer-group;
@@ -636,6 +615,31 @@ button {
 	}
 	#show-desktop-downloads:checked + div #show-desktop-downloads-button span:last-child {
 		display: initial;
+	}
+	.downloadbutton {
+		display: block;
+		margin: 0 0 1.125em 0;
+		padding: 0;
+		position: initial;
+		width: auto;
+	}
+	.downloadbutton:hover,
+	.downloadbutton:focus {
+		border-radius: 0.313em;
+	}
+	.downloadbutton svg {
+		margin: 0.750em -2.500em 0.750em 0.750em;
+	}
+	.downloadbutton span {
+		box-shadow: none;
+		position: initial;
+		background: none;
+	}
+	.downloadbutton:hover > span {
+		max-height: 0;
+	}
+	.downloadbutton input:checked + span {
+		max-height: 8.000em;
 	}
 }
 /* Print Style */
