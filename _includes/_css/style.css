@@ -189,8 +189,11 @@ h2,
 #banner-body {
 	animation: fadein .7s;
 }
+#intro h1,
+#intro h2,
 #navigation a,
 .button,
+#download-footer,
 #download-footer a:hover,
 #download-footer a:focus,
 #show-desktop-downloads-button:hover,
