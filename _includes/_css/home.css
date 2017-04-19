@@ -18,10 +18,10 @@ body, h2 {
 	}
 	#navigation {
 		background: linear-gradient(200deg, #245d33, #24575D);
-		box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, .15);
+		box-shadow: 0 0.188em 0.375em rgba(0, 0, 0, .15);
 	}
 	#footer {
 		background: linear-gradient(220deg, #245d33, #24575D);
-		box-shadow: 0 -0.125em 0.125em rgba(0, 0, 0, .15);
+		box-shadow: 0 -0.188em 0.375em rgba(0, 0, 0, .15);
 	}
 }
