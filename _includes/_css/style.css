@@ -248,7 +248,7 @@ input {
 }
 #pagination a span, #media-links span {
 	position: absolute;
-	left: -5em;
+	left: -20em;
 }
 .button,
 .downloadbutton,
