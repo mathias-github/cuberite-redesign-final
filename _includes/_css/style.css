@@ -217,7 +217,7 @@ button {
 	color: #b1e0d0;
 	fill: #b1e0d0;
 }
-h2 span, svg, #navigation span, #show-desktop-downloads-button span {
+h1 span, svg, #navigation span, #show-desktop-downloads-button span {
 	vertical-align: middle;
 }
 p,
