@@ -647,6 +647,7 @@ button {
 		display: inline-block;
 		cursor: pointer;
 		font-size: 1.125em;
+		text-shadow: 0 0.063em 0.063em rgba(0, 0, 0, .15);
 	}
 	#show-desktop-downloads-button svg {
 		padding: 0 0 0 0.450em;
@@ -682,7 +683,6 @@ button {
 	input {
 		color: #000;
 		fill: #000;
-		text-shadow: none;
 	}
 	body,
 	.button,
