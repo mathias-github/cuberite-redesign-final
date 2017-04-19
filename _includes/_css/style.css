@@ -157,6 +157,7 @@ strong {
 }
 a {
 	color: #4079a4;
+	text-decoration: none;
 }
 a:hover,
 a:focus {
@@ -174,7 +175,6 @@ h3,
 .downloadbutton span a:focus {
 	color: #2a6853;
 	fill: #2a6853;
-	text-decoration: none;
 }
 .downloadbutton,
 .downloadbutton span a {
