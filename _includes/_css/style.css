@@ -123,25 +123,20 @@ body {
 	font-family: montserratregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	display: table;
 }
-h2,
-h3 {
+h1,
+h2 {
 	color: #245A48;
 	fill: #245A48;
 }
-h1 {
-	font-size: 2.875em;
-	line-height: 1.375em;
-	margin: 0 0 1.250em 0;
-}
-h2 {
+h1, #intro h2 {
 	font-size: 1.500em;
 	line-height: 1.375em;
 	margin: 0 0 0.500em 0;
 }
-h2 svg {
+h1 svg {
 	margin: 0 0.563em 0 0;
 }
-h3 {
+h2 {
 	font-size: 1.125em;
 	margin: 2.125em 0 0.750em 0;
 }
@@ -168,7 +163,6 @@ a:focus {
 
 h1,
 h2,
-h3,
 #show-desktop-downloads-button {
 	text-transform: uppercase;
 }
@@ -353,6 +347,11 @@ button:focus {
 	padding: 5%;
 	vertical-align: middle;
 	text-align: center;
+}
+#intro h1 {
+	font-size: 2.875em;
+	line-height: 1.375em;
+	margin: 0 0 1.250em 0;
 }
 #inner {
 	margin: auto;
@@ -675,7 +674,6 @@ button {
 	body,
 	h1,
 	h2,
-	h3,
 	#logo a,
 	#banner,
 	#pagination span,
