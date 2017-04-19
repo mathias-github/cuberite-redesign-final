@@ -309,7 +309,7 @@ button:focus {
 
 #navigation {
 	background: linear-gradient(200deg, #245d33, #24575D);
-	box-shadow: 0 0.188em 0.375em rgba(0, 0, 0, .15);
+	box-shadow: 0 0.188em 0.375em rgba(0, 0, 0, .1);
 	display: table-row;
 	line-height: 3.750em;
 }
@@ -471,7 +471,7 @@ button:focus {
 
 #footer {
 	background: linear-gradient(220deg, #245d33, #24575D);
-	box-shadow: 0 -0.188em 0.375em rgba(0, 0, 0, .15);
+	box-shadow: 0 -0.188em 0.375em rgba(0, 0, 0, .1);
 	display: table-row;
 	line-height: 3.375em;
 }
