@@ -141,7 +141,8 @@ h2 {
 	margin: 2.125em 0 0.750em 0;
 }
 p,
-ul {
+ul,
+li {
 	margin: 0 0 0.938em 0;
 }
 em {
@@ -219,7 +220,12 @@ button {
 	color: #b1e0d0;
 	fill: #b1e0d0;
 }
-h1 span, svg, #navigation span, #show-desktop-downloads-button span {
+h1 span,
+svg,
+#navigation span,
+#show-desktop-downloads-button span,
+.status span,
+.status img {
 	vertical-align: middle;
 }
 p,
@@ -466,6 +472,12 @@ button:focus {
 }
 #next {
 	margin: 0 0 0 0.313em;
+}
+/* Status */
+
+.status span,
+.status img {
+	vertical-align: middle;
 }
 /* Footer */
 
