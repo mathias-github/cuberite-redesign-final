@@ -144,6 +144,9 @@ p,
 ul {
 	margin: 0 0 0.938em 0;
 }
+ul {
+	overflow: hidden;
+}
 li {
 	margin: 0 0 0.625em 0;
 }
