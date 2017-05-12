@@ -480,8 +480,8 @@ button:focus {
 }
 /* Status */
 
-.status span {
-	float: left;
+.status ul {
+	text-align: left;
 }
 .status a {
 	float: right;
