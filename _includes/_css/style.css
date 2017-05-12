@@ -286,6 +286,11 @@ button:focus {
 }
 /* Columns */
 
+#left-two,
+#left-three,
+#center-three {
+	margin: 0.500em 4.375em 0 0;
+}
 #right-two,
 #right-three {
 	margin: 0.500em 0 0 0;
@@ -296,17 +301,10 @@ button:focus {
 	display: inline-block;
 	width: 27%;
 }
-#left-three,
-#center-three {
-	margin: 0.500em 4.375em 0 0;
-}
 #left-two,
 #right-two {
 	display: inline-block;
 	width: 45%;
-}
-#left-two {
-	margin: 0.500em 2.500em 0 0;
 }
 /* Spacing */
 
