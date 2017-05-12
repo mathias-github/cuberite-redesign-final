@@ -144,6 +144,9 @@ p,
 ul {
 	margin: 0 0 0.938em 0;
 }
+ul {
+	list-style-position: inside;
+}
 li {
 	margin: 0 0 0.625em 0;
 }
