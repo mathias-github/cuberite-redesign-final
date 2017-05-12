@@ -141,9 +141,11 @@ h2 {
 	margin: 2.125em 0 0.750em 0;
 }
 p,
-ul,
-li {
+ul {
 	margin: 0 0 0.938em 0;
+}
+li {
+	margin: 0 0 0.625em 0;
 }
 em {
 	font-style: italic;
@@ -475,9 +477,11 @@ button:focus {
 }
 /* Status */
 
-.status span,
-.status img {
-	vertical-align: middle;
+.status span {
+	float: left;
+}
+.status a {
+	float: right;
 }
 /* Footer */
 
