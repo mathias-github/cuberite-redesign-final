@@ -10,7 +10,9 @@ sass:
   style: :compressed
 gems:
   - jekyll-feed
+  - jekyll-github-meta
   - jekyll-sitemap
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /news/:num/
+repository: mathiascode/cuberite-website-changes
