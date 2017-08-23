@@ -1,6 +1,4 @@
-{% for repository in site.github.public_repositories %}
-  * [{{ repository.name }}]({{ repository.html_url }})
-{% endfor %}
+{{ site.github.build_revision }}
 {% capture content %}<!DOCTYPE html>
 <html lang="en">
 <head>
