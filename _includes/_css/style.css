@@ -172,13 +172,7 @@ h2,
 #show-desktop-downloads-button {
 	text-transform: uppercase;
 }
-.downloadbutton span a:hover,
-.downloadbutton span a:focus {
-	color: #2a6853;
-	fill: #2a6853;
-}
-.downloadbutton,
-.downloadbutton span a {
+.downloadbutton {
 	color: #245A48;
 	fill: #245A48;
 }
