@@ -165,7 +165,7 @@ a:hover,
 a:focus {
 	color: #4caccc;
 }
-p a {
+p a:hover {
 	border-bottom: 1px solid transparent;
 	text-decoration: underline;
 }
